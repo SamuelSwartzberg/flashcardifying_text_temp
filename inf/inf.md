@@ -1,328 +1,11 @@
-# *ML
 
-## *ML itself
+# body
 
-### terminology
 
-*ML is sometimes used for any SGML/HTML/XML and any subformat.
 
-SGML stands for Standard Generalized Markup Language.
-XML is a subset of SGML.
-XML|Extensible Markup language
-HTML was originally based on SGML, though the relationship has sometimes been fraught.
-Since XML is a subset of SGML and HTML is based on it, HTML and XML share similarities in syntax.
 
-### general syntax
 
-#### tags
-
-*ML »tags« are delimited by ‹...›
-*ML end tags additionally feature a / to look like ‹.../›
-
-#### elements
-
-##### basics
-
-An *ML »element« is everything from an elements start tag to an elments end tag.
-An *ML element has an »element name«.
-An *ML elements start and end tag feature its name: ‹foo› ... ‹/foo›.
-*ML elements are begun by a »start tag« and ended by an »end tag«, unless they are self-closing.
-*ML element consist of start tag, content, and end tag.
-*ML elements' »content« is either text or other elements ('child elements').
-*ML content goes between the start and the end tag.
-
-##### empty elements ＆ self-closing tags
-
-»Empty elments« are created by (or a synonym to) self-closing tags.
-Self-closing tags in *ML only consist of a start tag.
-Self-closing tags must end /› in XML.
-Self-closing tags may end /› or merely › in HTML.
-Using a closing tag for self-closing tags is usually invalid.
-Empty elements cannot have content, since there is nowhere to put it.
-
-##### optional closing tags
-
-Some HTML elements that are not empty (not self-closing) nevertheless may omit their end tag, said to have »optional closing tags«.
-Elements with optional closing tags are distinct from empty elements (elements with self-closing tags).
-While most people recommend against omitting optional closing tags, google's style guide explixitly recommends them.
-
-##### attributes
-
-*ML attributes are placed in the start tag.
-*ML attributes have the syntax key="value".
-enumerated attriubtes are attributes that take a fixed set of values.
-HTML attribute values may be unquoted if they do not feature whitespace and a few reserved characters.
-HTML but not other *ML languages has boolean attributes.
-boolean attributes are attributes which ＊may not＊ take a value, but whose presence or absence represnets true or false.
-Confusingly, some HTML attributes with boolean semantics are not boolean attributes, but instead enumerated attributes, mostly with the possible values "yes" and "no" or "true" and "false".
-
-##### element names
-
-*ML element names may be in any case.
-in HTML, putting element names in all lower case is common.
-XML element names may contain any unicode with the exception of some metacharacters.
-HTML and SVG built-in element names only contain characters a-z.
-HTML custom elements must start with a character a-z in lowercase, must contain at least a hyphen character, but otherwise may contain any unicode.
-
-##### whitespace
-
-Whitespace within tags is usually ignored, as long as its not within a tag name or attribute
-
-#### root elements
-
-*ML documents contain exactly one root element. All other elements are contained in the root element.
-The *ML root element has the same name as the relevant language (i.e. html for html, xml for xml, svg for svg)
-
-#### document prolog
-
-The document prolog (if you use one) comes at the top of the document, before the root element.
-the document prolog has parts (both optional): an XML declaration and a document type declaration.
-
-#### declaration
-
-the ⟮XML declaration⟯ ⟮contains information about the coming xml document⟯. 
-the ⟮XML declaration⟯ is ⟮optional⟯, ⟮but if it appears⟯, it must appear in ⟮the first line of the document⟯. 
-the ⟮XML declaration⟯ takes ⟮three⟯ possible parameters.
-Of the XML declaration parameters, `⟮version⟯` is ⟮mandatory⟯.
-```
-‹?xml version="1.0" encoding="UTF-8" standalone="no" ?›
-```
-
-##### !XML declaration parameters
-
-table:`⟮version⟯`|⟮The XML version the document is using⟯
-`⟮encoding⟯`|⟮The text encoding this is using, e.g. UTF-8 or Shift_JIS⟯
-`⟮standalone⟯`|⟮Whether the document relies on an external source such as an external DTD⟯
-
-
-#### doctype
-
-A document type declaration,is an instruction that associates a particular *ML document with a document type definition.
-Document type declaration is often shortened doctype.
-Document type definition is typically shortened to DTD.
-A document type declaration must be the first thing in the page if HTML.
-A document type declaration must be the first thing after the XML declaration if XML
-The syntax of a doctype declaration is ‹!DOCTYPE somestuff›
-In HTML 5, the doctype no longer actually references a DTD, but merely prevents the browser from switching into quirks mode.
-
-### XML
-
-#### special element types
-
-##### PI
-
-PI is short for processing instruction.
-A processing instruction is an arbitrary, not further defined instruction to the processor of the XML document.
-Processing instructions are mainly used to associate CSS with XML documents.
-'Tag name' of the ⟮processing instruction⟯ to ⟮link a stylesheet to an xml document⟯ is ⟮xml-stylesheet⟯ 
-
-###### delimiters
-
-⟮Begins a processing instruction⟯|⟮c+;‹?⟯
-⟮Ends a processing instruction⟯|⟮c+;?›⟯
-
-##### CDATA
-
-⟮CDATA⟯ is short for ⟮Character data⟯) 
-⟮CDATA⟯ ⟮tells the parser not to parse the content as XML markup⟯ 
-⟮CDATA⟯ allows us to ⟮use characters with a special meaning in XML⟯ without ⟮confusing the parser⟯, for example, ⟮sb;this would allow us to ⟮include HTML within XML without a problem⟯.⟯ 
-⟮CDATA⟯ syntax: `⟮‹![⟯⟮CDATA⟯⟮[⟯content...⟮]]›⟯` 
-
-### HTML
-
-#### General structure
-
-The root element of a HTML document is defined by the `html` element
-a ‹html› element consists of a ‹head› element and a ‹body› element
-
-#### nesting
-
-some elements must appear as children of other elements - to violate these rules is a violation of good semantics and accessibility, and will hurt your search ranking.
-
-#### head
-
-The ‹head› element contains metadata about the document.
-The ‹head› element can contain ‹base›, ‹meta›, ‹title›, ‹link›, ‹style›, ‹script›, ‹noscript› and ‹template›
-
-##### title
-
-the ‹title› element defines the documents title
-the ‹title› element is mainly shown in the browsers tab name / title bar, as well as search engines.
-the ‹title› element can only contain text, not tags.
-the ‹title› element's content should change in response to major state changes.
-
-##### base
-
-the ‹base› element specifies the base URL for the document with its href attribute.
-The ‹base› element optionally accepts a target argument to choose the browsing context links open in by default.
-
-##### basefont
-
-The ‹basefont› element used to specify the default font (color, fontface etc.) but is now deprecated.
-
-##### meta
-
-The ‹meta› HTML element represents metadata that cannot be represented by other HTML meta-related elements.
-The ‹meta› element has four mutually exclusive modes.
-‹meta› specifies the value in its content attribute, except when using `charset` or `itemprop` keys.
-
-###### http-equiv mode
-
-the `http-equiv` attribute of `‹meta›` is there to specify certain HTTP headers within HTML itself.
-When using `http-equiv`, `http-equiv` contains the header name, and `content` contains the header value.
-
-###### charset mode
-
-`‹meta›` can be used to specify the character encoding of the page by using the `charset` attribute.
-
-###### itemprop mode
-
-`‹meta›` may be used to set HTML microdata via the `itemprop` attribute.
-
-###### name
-
-If the `name` attribute is set, the `‹meta›` element provides basic generic metadata.
-
-####### various meta `name`s
-
-author|document author
-description|short blurb about website, may be used in search results
-
-####### `name="theme-color"`
-
-theme-color|indicates a suggested color that user agents should use to customize the display of the page or of the surrounding user interface. The content attribute contains a valid CSS ‹color›.
-
-####### `name="viewport"`
-
-######## function
-
-The meta tag with name viewport is used to customize/constrain the viewport.
-
-######## background
-
-by defaults, narrow screen devices (e.g. mobiles) render pages in a virtual window or viewport, which is usually wider than the screen, and then shrink the rendered result down so it can all be seen at once, essentially lying about their viewport size, to make non-mobile-optimized pages not look terrible.
-without width=device-width, many media queries will never apply
-
-######## syntax
-
-For the meta tag with name viewport, the content value has the following syntax: ‹key›=‹value›{, ‹key›=‹value›}
-
-######## key=values
-
-width=‹integer›|set size of the viewport to ‹integer› pixels
-width=device-width|prevent browser from lying about their width
-initial-scale=‹integer›|set default zoom level on page
-user-scalable=("yes"|"no")|allow users to zoom or not
-maximum-scale=‹integer›|set maximum zoom level
-
-#### body
-
-##### various inline text
-
-###### abbr
-
-The abbr HTML element represents an acronym or abbreviation.
-There used to be an ‹acronym› element which was obsoleted in favor of ‹abbr›
-The thing an abbr element is short for may either be explained in the text or specified in a `title` attribute.
-
-###### dfn
-
-‹dfn› represents defining instance of a term.
-the definition of a term defined by an ‹dfn› is the ancestor closest that is a ‹p›, ‹dt›/‹dd› pairing, or ‹section›.
-The term ‹dfn› is defining is the value of the `title` attribute if it has one, or its text content otherwise.
-If ‹dfn› has a `title`, its contents may be something else then the name of the term, e.g. an abbr or alternative term.
-
-###### del and ins 
-
-The ‹del› HTML element represents text that has been deleted from a document.
-The ‹ins› HTML element represents text that has been added to the document.
-The ‹del› and ‹ins› elements are often used for purposes such as tracking changes or source code diffs.
-
-##### medialike
-
-###### media
-
-####### elements
-
-‹video› and ‹audio› embed a video/audio media player.
-
-####### interface
-
-Both HTMLVideoElement and HTMLAudioElement inherit from HTMLMediaElement.
-
-####### attributes
-
-⟮muted⟯|⟮audio is muted/mute audio⟯|IDL ＆ Content
-⟮paused⟯|⟮is paused/pause⟯|IDL
-⟮loop⟯|⟮will loop/loop⟯|IDL ＆ Content
-⟮controls⟯|⟮is showing controls/show controls⟯|IDL ＆ Content
-⟮autoplay⟯|⟮will autoplay/enable autoplay⟯|IDL ＆ Content
-⟮ended⟯|⟮Indicates whether it has finished playing⟯|IDL
-⟮playbackRate⟯|⟮Represents the speed at which the thing is playing⟯|IDL
-
-####### events
-
-######## attribute change
-
-paused=false → paused=true|pause
-paused=true → paused=false|play
-
-####### sources
-
-You may define a single source for ‹video› or ‹audio› via a src element.
-You may define multiple sources for ‹video› or ‹audio› via child ‹source› elements.
-‹track› defines text tracks for media elements (‹video› and ‹audio›)
-
-####### poster
-
-the poster attribute for video specifies a URL for an image to be shown while the video is downloading. 
-If the poster attribute for ‹video› isn't specified, nothing is displayed until the first frame is available, then the first frame is shown as the poster frame.
-
-####### track
-
-‹track› provides some kind of text track for a media element.
-‹track› can ba a child of ‹video› or‹audio›
-
-######## attributes
-
-track has a default attribute to indicate that this is a default track
-track has a kind attribute to indicate its purpose
-track kinds: captions, chapters, descriptions, metadata, subtitles
-
-###### images
-
-####### img
-
-‹img› is the HTML element used for including images
-
-####### picture
-
-The ‹picture› element is an element for containing different versions of the same image.
-The picture element contains 0 - ∞ source elements and one ‹img› element.
-The ‹img› child of ‹picture› is there to act as a fallback and to give the picture its dimensions.
-
-####### srcset 
-
-srcset-values ::=  ‹srcset-specifier›{, ‹srcset-specifier›}
-srcset-specifier ::= ‹url› ‹integer›w
-sizes-values ::= ‹sizes-specifier›{, ‹sizes-specifier›}
-sizes-specifier ::= ‹media-query› ‹resolution-length-percentage›
-
-scrset specifies a list of sources and their actual sizes, while sizes declares a set of media condition and what width the slot is presumed to be in that case (width as in resolution, not width of the  box). 
-Using srcset, browser then picks the image whose width is closest to the slot width, but preferring ones that are too large than too small.
-If no sizes is provided, the browser presumes the slot width is 100vw.
-
-###### source
-
-the ‹source› element provides a single source for certain media elements.
-The ‹source› element may be a child of ‹picture›, ‹video› and ‹audio›.
-the type (a MIME type) of a ‹source› element is specified via the type attribute, or else the browser will check the MIME type in the HTTP header.
-A  ‹source› element is associated with one or more conditions.
-The conditions of a  ‹source› element are its `type` plus a media query specified in `media` if present.
-A lists of ‹source›s represents a priority hierarchy - the browser will take the first one that matches all conditions.
-‹source› elements for audio/video take their URL in a src attribute; ‹source› elements for picture take their URL in a srcset attribute
-
-##### Headings
+## Headings
 
 ‹h1› to ‹h6› define headings.
 It is an antipattern to skip heading levels between ‹h1› and ‹h6›
@@ -332,7 +15,7 @@ There may only be one ‹h1› per page, which should describe the overall purpo
 Based on h1 to h6 (and nothing else, sadly), the browser generates a document outline 
 There was a push to generate the document outline dynamically from nested semantic containers, but this was never implemented.
 
-##### progress and meter
+## progress and meter
 
 A progress bar shows the progress of a task via a bar that becomes fuller as the task nears completion.
 In HTML, a progress bar can be indicated by ‹progress›
@@ -343,7 +26,7 @@ The min and max attributes specify the minimum/maximum value and are allowed on 
 The low, high and optimum attributes may only be specified on ‹meter›
 In HTML both progress and meter support a fallback text value within their tags.
 
-##### tables
+## tables
 
 table › tbody/thead/tfoot (optional level, but if used, any tr must be within it)
 tbody/thead/tfoot › tr
@@ -359,7 +42,7 @@ The ‹colgroup› is made up of ‹col› elements
 The ‹col› element takes a span attribute indicating how many columns are being targeted.
 The ‹colgroup› element must be the first child of ‹table› (besides ‹caption›, if it is present)
 
-##### canvas
+## canvas
 
 The ‹canvas› element allows drawing graphics and animations via the canvas scripting API or the WebGL API
 Sizing the canvas using CSS versus HTML
@@ -368,14 +51,14 @@ The displayed size of the canvas can be changed using CSS, but if you do this th
 
 It is better to specify your canvas dimensions by setting the width and height attributes directly on the ‹canvas› elements, either directly in the HTML or by using JavaScript.
 
-##### map
+## map
 
 ‹map› defines an image map, within which ‹area› defines clickable areas.
 ‹map› takes a shape attribute with the possible values circle, poly, rect.
 The shape of a map with a given shape attribute is specified by the coords attribute
 You refer to a map via its name attribute included in an ‹img› usemap attribute prefixed by #
 
-##### links
+## links
 
 The content between the tags should be descriptive of what the link does.
 
@@ -388,7 +71,7 @@ rel=nofollow indicates that the current document's original author or publisher 
 Comment sections may have rel=nofollow by default
 rel=noreferrer: No HTTP Referer header will be included. Additionally, has the same effect as noopener.	 
 
-###### ‹link›
+### ‹link›
 
 rel="icon"|specifies an icon representing the current document
 rel="stylesheet"|indicates a stylesheet for the document
@@ -403,7 +86,7 @@ rel="alternate" indicates that the link is to an alternate version of your site,
 if rel="alternate" is linking to a version in a different language, it should have a hreflang of whatever BCP 47 lang code
 rel="alternate" indicates a canonical URL for a page, useful if you have multiple urls for the same page and want crawlers etc. to use a specific one.
 
-###### hyperlinks
+### hyperlinks
 
 The two elements that create hyperlinks are ‹area› and ‹a›.
 use the attribute href for ‹area› and ‹a› to specify an URL of the links target.
@@ -414,14 +97,14 @@ _parent|parent browsing context
 _top|root node browsing context
 for ‹form›, the target attribute represents where to display the response after submitting the form  
 
-####### a
+#### a
 
 the download attribute of ‹a› Prompts the user to save the linked URL instead of navigating to it. 
 the download attribute of ‹a› Can be used with or without a value.
 the download attribute of ‹a› used without a value will prompt the browser to suggest a file type.
 the download attribute of ‹a› used with a value will prompt the browser to save it with the specfied name as a prefilled suggestion.
 
-##### forms
+## forms
 
 
 Form-associated content is a subset of flow content comprising elements that have a form owner, exposed by a form attribute, and can be used everywhere flow content is expected. A form owner is either the containing ‹form› element or the element whose id is specified in the form attribute.
@@ -454,7 +137,7 @@ Elements that can be used for constructing the form data set when the form is su
 resettable
 Elements that can be affected when a form is reset. Contains ‹input›, ‹keygen›, ‹output›,‹select›, and ‹textarea›.
 
-###### form itself
+### form itself
 
 A ‹form› element represents a form.
 the method attribute of form accepts post|get|dialog.
@@ -463,12 +146,12 @@ post/get|use the POST/GET methods
 The action attribute for form specifies the URL to which the form should be submitted.
 Forms may not be nested.
 
-###### fieldset
+### fieldset
 
 A ‹fieldset› is an HTML element used to group multiple inputs (and their labels)
 The first child of a fieldset may be a ‹legend› (this is the only place it may appear), which captions its parent fieldset
 
-###### button
+### button
 
 The ‹button› HTML element represents a clickable button
 the type attribute for ‹button› represents the default functionality
@@ -478,29 +161,29 @@ button|no default behavior, must manually be implemented
 
 A button should have text content, or if not, it needs to be specified by aria-label
 
-###### textarea
+### textarea
 
 textarea represents a multiline text input field
 textarea is not an empty element, and in fact the content can be used to provide a default value.
 
-###### label
+### label
 
 A ‹label› provides a caption/label for a thing, most commonly an ‹input›
 There are two ways of associating an ‹input› with a label, either nest the input within the label, or set the for attribute of the label to the id of the input.
 Any input should have exactly one ‹label›, or alternatively a non ‹label› referred to by aria-labelledby
 
-###### input
+### input
 
 specifying the value property of an input element in HTML sets its initial value.
 As the state of ‹input›s changes, the value property in JS is updated.
 The validation states of an input are contained in the ValidationState API and corresponding property./
 
-####### types
+#### types
 
 type="color" for colors
 type="hidden" does not show the control, but still submits the data.
 
-######## radio ＆ checkbox
+##### radio ＆ checkbox
 
 A radio button is a graphical control element that allows the user to choose only one of a predefined set of mutually exclusive options. 
 In HTML, a radio button is realized by ‹input type="radio"›
@@ -514,7 +197,7 @@ Bootstrap:
 .form-check-label   define a label for a checkbox/radio button
 .form-check-input   define a checkbox/radio button
 
-######## text
+##### text
 
 ‹input type="text"› is single-line only
 There are a set of input types that act similarly text, but force a certain type of validation and change the soft keyboard/add input helpers, similar to inputmode:
@@ -526,22 +209,22 @@ On any non-time-related, non-number text-like input, you may specify the attribu
 most text-only input fields may have the readonly attribute specfied, which shows the inital value but doesn't allow the user to modify it
 the time-related and number text-like inputs plus range accept a step argument.
 
-######## file
+##### file
 
 inputs of type file accept an attribute accept (lol) which takes a CSL of unique file type specifiers
 an unique file type specfier is either a filename extension starting with a period, or a valid MIME type.
 valid for the file input type only, the capture attribute defines which media—microphone, video, or camera—should be used to capture a new file for upload with file upload control in supporting scenarios.
 input type file return a `FileList`, which is a linear collection of `File`s
 
-######## image
+##### image
 
 Input type image supports the attributes ‹img› supports, in addition to the usual ones of input.
 When clicked, input type="image" behaves like submit, but also sends the coordinates of the area being clicked.
 The coordinates of an input type="image" will be submitted as ‹name›.x=‹coord›＆name.y=‹coord›
 
-######## submit
+##### submit
 
-####### attributes
+#### attributes
 
 the boolean multiple attribute may be set on input type email/file and ‹select› elements.
 When the multiple attribute is set for input type email, emails are separated with the comma.
@@ -556,7 +239,7 @@ If the name of a thing in a form is not specified, the value is not sent.
 autofocus
 A Boolean attribute which, if present, indicates that the input should automatically have focus when the page has finished loading (or when the ‹dialog› containing the element has been displayed).
 
-##### select, option
+## select, option
 
 The ‹select› HTML element represents a control that provides a menu of options:
 The ‹option› HTML element is used to define an item contained in a ‹select›, an ‹optgroup›, or a ‹datalist› element. 
@@ -565,17 +248,17 @@ to set the default option, specify the selected attribute on the option.
 
 By default, ⟮html `‹select›`⟯s will usually ⟮display as as a dropwdown⟯, and only ⟮become a list box⟯ if `⟮multiple⟯` (⟮allowing multiple selection::purpose⟯) or `⟮size⟯` (⟮specifying how many items to show at once::purpose⟯) is specified‹/span›
 
-##### output
+## output
 
 The ‹output› HTML element is a container element into which a site or app can inject the results of a calculation or the outcome of a user action.
 ‹output› are often used within forms, however tehy are not submitted with the form.
 
-##### script
+## script
 
 to include an external script, set the src attribute of the ‹script› element to its URL
 the ‹noscript› tag is for displaying content if the browser does not support JS
 
-##### Ruby 
+## Ruby 
 
 ruby text/characters are small annotative glosses placed on the top or to the right of characters.
 Ruby text/characters is called furigana in japanese.
@@ -584,18 +267,18 @@ In HTML ruby annotation, the syntax is ‹ruby›lowertext‹rt›uppertext‹/r
 In HTML, one may designate fallback delimiters for the upper text. 
 Ruby fallback delimiters are enclosed in ‹rp› tags, and go before and after the ‹rt› delimited uppertext.
 
-##### aside
+## aside
 
 An aside (there is no agreed-upon term, so I'm using the term that HTML uses) is a part of the main content thats only partially related to the main content, and often placed outside of the main flow. 
 A pull quote is an aside that is a quote from the article.
 
-##### figure
+## figure
 
 In general, figures are images/diagrams/similar with a caption.
 In general, figures float (in the general sense).
 In HTML, the ‹figure› element specifies its caption with ‹figcaption›
 
-##### float
+## float
 
 a float is across styling languages a thing that exists outside of the normal flow of text.
 
@@ -637,12 +320,12 @@ If you have ⟮a table (tabular⟯) where you want to make sure it ⟮flows well
 to ⟮\label⟯ a ⟮table/figure⟯, the ⟮\label⟯ must go ⟮directly after \caption⟯ 
 
 
-##### data
+## data
 
 ‹data› represents things that have a machine-readable translation
 ‹time› represents a time/date/duration.
 
-##### Lists
+## Lists
 
 In HTML and Latex, ordered and unordered lists are surrounded with something different, but use the same list items.
 Latex uses the same list items for description lists also, while HTML uses different elements for those.
@@ -659,12 +342,12 @@ In markdown ⟮Lists items⟯ are each ⟮started by⟯ ⟮one or more symbols�
 it does not matter ⟮with which digit you number list items with (e.g. even if you do `21. foo\n2. bar)`⟯ they will ⟮always start one and go from there (or whatever you then change it to via css⟯). 
 ⟮unordered list items⟯ are started by ⟮-⟯, ⟮*⟯ or ⟮+⟯, which can be ⟮mixed and matched⟯. 
 
-##### containers
+## containers
 
 div and span are 'pure' container without any semantics.
 the difference between div and span is that div is by default block-level (display: block flow) and that span is by default inline (display: inline flow)
 
-###### semantic containers
+### semantic containers
 
 Some HTML elements are functionally just containers with extra semantics attached (part of semantic html)
 HTML element|semantic container for
@@ -677,12 +360,12 @@ aside|content only indirectly related to main content
 address|contact information|may not contain heading/sectioning content
 nav|navigation section
 
-##### inline nonhtml
+## inline nonhtml
 
 ‹style› allows including CSS inline, by including it as content
 ‹script› allows including JS or other scripting languages inline, by including it as content
 
-##### deprecated elements
+## deprecated elements
 
 ‹menu› was supposed to be a semantic alternative to ‹ul› for menus, but is now deprecated
 ‹menuitem› was meant to be a child of ‹menu› if ‹menu› was a context menu, but is now deprecated.
@@ -690,7 +373,7 @@ nav|navigation section
 ‹keygen› was an element to facilitate the generation of keys for data transfer, esp. with forms, but is now deprecated.
 ‹font› was an element to style text, but is now deprecated.
 
-#### content categories
+# content categories
 
 Most HTML elements are a member of one or more content categories — these categories group elements that share common characteristics. This is a loose grouping (it doesn't actually create a relationship among elements of these categories), but they help define and describe the categories' shared behavior and their associated rules.
 
@@ -704,7 +387,7 @@ Phrasing content is a subset of flow content that defines the text and the marku
 
 Content is palpable when it's neither empty or hidden; it is content that is rendered and is substantive. Elements whose model is flow content should have at least one node which is palpable.
 
-##### embedded content
+## embedded content
 
 Embedded content is a subset of flow content that imports another resource or inserts content from another mark-up language or namespace into the document, and can be used everywhere flow content is expected.
 
@@ -717,7 +400,7 @@ The ‹embed› HTML element embeds external content at the specified point in t
 
 ‹math› and ‹svg› embed content in HTML from MathML and SVG respectively
 
-#### Common attributes
+# Common attributes
 
 the `datetime` attribute specifies the date and time associated with the element
 `datetime` is an attribute taken by ‹del›, ‹ins›, and ‹time›
@@ -734,7 +417,7 @@ If the value attribute of an element is pre-filled, it generally appears as a de
 
 content within ‹video›/‹audio›/‹canvas› is shown as a fallback for browsers that don't support the element.
 
-##### Global attributes
+## Global attributes
 
 Global attributes are attributes common to all HTML elements; they can be used on all elements, though they may have no effect on some elements.
 Kinds of global attributes:
@@ -764,7 +447,7 @@ dir: enumerated attriubte ltr/rtl/auto
 contenteditable|makes the content editable
 the title attribute is *generally* shown as a tooltip, unless the element implements title differently.
 
-###### text editing only
+### text editing only
 
 spellchek and inputmode attributes that are global attributes, but only can usefully be used where text can be inputed in html.
 there are three places where text can be inputed in HTML: ‹input type="text"›, ‹textarea› and anything w/ contenteditable
@@ -785,421 +468,9 @@ autofocus
 autocapitalize: capitalization of user input
 enterkeyhint: is an enumerated attribute defining what action label (or icon) to present for the enter key on virtual keyboards. 
 
-#### tools
+# environment ≈ Web APIs
 
-##### emmet
-
-Emmet is a syntax mainly using CSS selectors for quickly generating html
-Emmet is or can be integrated into most code editors
-In VSCode, to use emmet with JSX, enable it in the settings
-$   running number indicator  // $
-()   groups element
-*x   create x amount of elements
-@   change the number direction/offsett
-^   go up an element
-{something}   text (within the tag)
-
-### SVG
-
-svg allows nesting `‹svg›` elements
-
-#### attributes
-
-##### CSS
-
-all attributes can be set as, well, attributes.
-some but not all attributes can be set via CSS.
-attributes that can be set via CSS are also known as »properties«.
-
-##### viewBox
-
-A `viewBox` attribute defines a viewport.
-
-##### width ＆ height
-
-it seems that ⟮SVG elements⟯ will have ⟮width⟯ and ⟮height⟯ of ⟮0⟯ and thus ⟮be invisble⟯ if ⟮not otherwise specified⟯ 
-
-##### x ＆ y
-
-In ⟮SVG⟯, you ⟮position things⟯ by ⟮specifying the x and y properties⟯ ⟮on the elements⟯. 
-
-##### stroke ＆ fill
-
-###### stroke
-
-the stroke of a shape is the line drawn around the object
-`stroke-width` defines the width of a stroke.
-
-####### edges of lines
-
-`stroke-linecap` defines how the stroke ends on the line
-
-stroke-linecap="butt"|▯▯¶▮▮¶▯▯
-stroke-linecap="square"|▯▯¶▯▮¶▯▯
-stroke-linecap="round"|◜-¶|▮¶◟-
-
-`stroke-linejoin` defines how a joint between two line segments behaves.
-
-table:|imagining a top left 90° corner
-stroke-linejoin="bevel"|◢
-stroke-linejoin="round"|◜
-stroke-linejoin="miter"|◼
-
-####### dashes
-
-`stroke-dasharray` determines how a stroke is dashed, if at all.
-`stroke-dasharray` takes a comma-separated list of values.
-for stroke-dasharray, values at an odd index indicate the length of the filled part of a dash, values at an even index indicate the unfilled part of the dash.
-`stroke-dasharray` needs at least 2 values, but may take more.
-`stroke-dasharray` takes the supplied pattern as a pattern to repeat.
-
-###### both
-
-the `stroke/fill` attribute sets the color of the stroke/fill.
-You can set the opacity of the stroke and fill by setting a color with transparency, or by using `stroke/fill-opacity`.
-`stroke/fill` both can also apply text.
-
-##### font
-
-Many SVG font-related properties are the same as in HTML/CSS.
-However, `dominant-baseline` and not `vertical-align` is used for vertical alignment, and also for determining the baseline of the box alignment context.
-
-#### elements
-
-##### Basic shapes
-
-You ⟮create basic shapes⟯ in SVG by using ⟮the SVG basic shapes⟯. 
-the ⟮SVG basic shapes⟯ are a grouping of⟮, well, basic shapes⟯ 
-SVG ⟮basic shapes⟯: ⟮‹circle›⟯, ⟮‹ellipse›⟯, ⟮‹line›⟯, ⟮‹polygon›⟯, ⟮‹polyline›⟯, ⟮‹path›⟯ and ⟮‹rect›⟯ 
-
-###### rect
-
-A `‹rect›` is determined by a `x`, `y`, `width` and `height`.
-A `‹rect›` may optionally have a corner radius specified with `rx`, `ry`.
-
-###### circle
-
-A `‹circle›` is determined by `r`, `cx` and `cy` (center x center y)
-
-###### line
-
-A `‹line›` is determined by `x1`, `y1`, `x2`, `y2`.
-
-###### polyline
-
-A polyline/polygon is a set of connected straight lines (e.g. you might draw a star or a parallelogram or sth. with this).
-A polyline/polygon is determined by a single attribute `points`
-poly-points ::= ‹point› {‹point›}
-point ::= ‹x›, ‹y›
-The difference between a `‹polyline›` and a `‹polygon›` is that a `‹polyline›` may be left open (creating a line), while a `‹polygon›` is closed automatically.
-
-###### path
-
-A `‹path›` is determined by a single attribute `d`
-svg-path-specifier ::= ‹command›{ ‹command›}
-command ::= ‹command-letter›{ ‹parameter›}
-All path commands end with the coordinates of the 'current point' or the 'pen' (to follow the analogy of a plotter).
-
-####### commands 
-
-For command letters, an uppercase letter specifies absolute coordinates.
-For command letters, a lowercase letter specifies relative coordinates from the last point.
-
-The command letter `M/m` means 「move to」.
-The command letter `M/m` takes two arguments, x y (for M) or dx dy (for m)
-
-######## straight lines
-
-The command letter `L/l` means 「draw line to」.
-The command letter `L/l` takes two arguments, x y (for M) or dx dy (for m)
-The command letters `H/h` and `V/v` are abbreviated forms of `L/l` for drawing a horizontal/vertical line.
-The command letter `Z/z` means to close the path to the original node.
-For `Z/z`, there is obviously no difference between the uppercase and lowercase form.
-
-######## curves
-
-the curve commands separate multiple coordinates with commas. (so e.g. x y, x2 y2)
-The command letter `C/c` makes it draw a cubic bezier curve. 
-The cubic bezier starts at the last position, and as such it takes three coordinates as parameters, the two handle/control poiints plus the ending point. 
-The command letter `S/s` makes it draw a cubic bezier curve, but with the first control point mirrored from the previous one if there is one. 
-The command letter `Q/q` makes it draw a quadratic bezier curve, with the first parameter describing the one control point, and the second parameter describing the end point.
-The command letter `T/t` infers the control point from a previous `Q/q` or `T/t` command, thus only taking a single point argument.
-
-https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths/shortcut_quadratic_b%C3%A9zier_with_grid.png
-
-```
- C x1 y1, x2 y2, x y
- c dx1 dy1, dx2 dy2, dx dy
- S x2 y2, x y
- s dx2 dy2, dx dy
-```
-
-######## arcs
-
-the arc command letter is `A/a`.
-Essentially, the arc command specifies part of an elllipse.
-The arc command takes seven numbers as arguments.
-Because all commands must end in the end point, the svg arc command syntax is hella complicated.
-For the svg arc command, the first two numbers specify the x and y radius.
-For the svg arc command, the last two parameters describe its endpoint, as must be.
-For the svg arc command, the third parameter descirbes the rotation of the ellipse.
-However, with only these five parameters, the path could still take four possible paths: 
-'above' or 'below' the line (intuitively), or the 'larger'/'smaller' section of the ellipse could be cut out.
-The 4th parameter of the svg arc command selects whether to take the large arc (1) or small arc (0)
-The 5th parameter of the svg arc command selects whether to take the clockwie arc (1) or counterclockwise (0)
-
-https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths/svgarcs_xaxisrotation_with_grid_ellipses.png
-https://cloud.githubusercontent.com/assets/478237/16767397/28df4988-4837-11e6-9f3b-b266d825bec1.png
-
-##### ‹text›
-
-`the ⟮‹text›⟯` element is ⟮the only place⟯ you can ⟮have text in SVG⟯ 
-In ⟮SVG⟯, ⟮text⟯ ⟮outside of a ‹text›⟯ ⟮will not be shown⟯ 
-⟮‹text›⟯ can contain ⟮`‹tspan›`s⟯, which ⟮define subtext (lol) for further targeting⟯. 
-
-###### tspan
-
-for a `‹tspan›`, `x` and `y` attributes set a new absolute position, while `dx` and `dy` specify a relative displacment.
-the `rotate` attribute of tspan allows it to, well`, rotate.
-
-###### textPath
-
-`‹textPath›`s are nested withing `‹text›`
-`‹textPath›`s contain tex that they make follow a path, allowing e.g. for curved text.
-`‹textPath›` refers to the relevant path's id via an href
-
-##### ‹g›
-
-the ⟮svg⟯ ⟮‹g› element⟯ is used to ⟮group ofther elements⟯ 
-
-##### ‹use›
-
-`‹use›` is used to instantiate elements defined elsewhere.
-`‹use›` takes an href attribute, which is the id of the element to be instantiated.
-Using `‹use›` promotes element reuse, thus making your SVG code more DRY.
-On `‹use›`, the `x`, `y`, `width`, `height` attributes will override those of the referenced element, all others will not.
-
-##### defs
-
-`‹defs›` in SVG is an area of your file that contains things that will not display by themselves, but can be used by other elements.
-There are things that can only be defined in `‹defs›`, however you can also place any normal element in `‹defs›`, which will then not be displayed, but can be reused.
-Any child of `‹defs›` must have an id attribute to be referred to from elsewhere.
-`‹symbol›` works similarly to e.g. a `‹defs›` with a single `‹g›` child, in that it defines a resuable element that doesn't immediately display.
-The difference between `‹symbol›` and `‹defs›` with e.g. a `‹g›` child is that `‹symbol›` can define its own viewBox and preserveAspectRatio.
-
-###### whateverUnits
-
-the `gradientUnits/patternUnits/patternContentUnits/...` attribute controls whether the units used are relative to the document or the element.
-the `gradientUnits/patternUnits/patternContentUnits/...` attribute can be `userSpaceOnUse` or `objectBoundingBox`
-
-userSpaceOnUse|document
-objectBoundingBox|element
-
-
-table:attribute|default
-gradientUnits|objectBoundingBox
-patternUnits|objectBoundingBox
-patternContentUnits|userSpaceOnUse (confusingly)
-filterUnitas|objectBoundingBox
-
-##### fill types
-
-Fill types are used to `fill` objects
-Fill types are defined within the `‹defs›` section, but referenced elsewhere.
-The available fill types are gradients, patterns.
-
-###### referencing
-
-Fill types are referenced by referring to their ID within `fill`, e.g. as `url(#id)`
-
-###### gradients
-
-In SVG, there are two types of gradients, linear and radial.
-linear gradients are defined by `‹linearGradient›`, radial gradients by `‹radialGradient›`
-A gradient contains n `‹stop›`s
-
-####### stops
-
-A `‹stop›` tells the gradient what color it should be at a certain point.
-The color a `‹stop›` should be is defined by its `stop-color` attribute
-At what point a `‹stop›` exists is defined by its `offset` attribute.
-
-####### linear and radial
-
-######## linearGradient
-
-A `‹linearGradient›` takes four attributes `x1` `y1` `x2` `y2` to define a line along which the gradient travels (relative to the thing it's being used for)
-
-######## radialGradient
-
-a radial gradient's extent is defined by a point `cx`, `cy` and a radius.
-However, the middle of a SVG radial gradient is actually defined by a different point, the focal point `fx`, `fy`.
-f the focal point isn't given at all, it's assumed to be at the same place as the center point.
-
-####### attributes
-
-######## spreadMethod
-
-any gradient can take the `spreadMethod` attribute
-the `spreadMethod` attribute takes one of `pad`, `reflect`, or `repeat`.
-`spreadMethod` determines what happens when the gradient reaches its end, but the object isn't filled yet.
-
-
-table:spreadMethod|does
-pad|continue on with the end color
-repeat|restart the gradient from 0
-reflect|restart the gradient, but in reverse from 100%/1
-
-###### patterns
-
-Inside the `‹pattern›` element, you can include any of the other basic shapes, styled in whatever manner you like.
-
-##### clipping and masking
-
-In SVG at least, the difference between clipping and masking is that clipping allows only for hard edges, while masking allows for soft edges by using transparency/grey values.
-In SVG, clipping is done by using the `‹clipPath›` element, while masking is done by using the `‹mask›` element.
-`‹clipPath›` and `‹mask›` are defined within `‹defs›`.
-`‹clipPath›` and `‹mask›` take arbitrary child elements to define their shape.
-
-##### filters
-
-Filters are defined by the `‹filter›` element.
-Filters are specified within `‹defs›`.
-
-###### filter primitives
-
-####### general functionality
-
-Any filter element contains a set of filter primitives as its children.
-A filter  primitive performs a single fundamental graphical operation on one or more inputs, producing a graphical result.
-Filter primitives are distinct SVG elements which all start with the `‹fe` prefix. 
-
-######## IO
-
-Filter primitives take their input by specifying the `in` attribute.
-Some filters primitives can take a second input by specifying the `in2` attribute.
-The output of a filter primitive is specified by the `out` attribute.
-The input of a filter primitive may be the output of a previous filter primitive or one of a set of predefined inputs.
-If a filter doesn't have a `in` attribute, it's assumed to be the output of the previous filter primitive.
-
-
-table:predefined inputs|does
-SourceAlpha|the alpha channel of the input
-SourceGraphic|the input (e.g. the image, text, etc. on which the filter is applied)
-
-####### various filter primitives
-
-######## feFlood
-
-The `feFlood` filter primitive creates a rectangle filled with the color and opacity values from properties `flood-color` and `flood-opacity`.
-
-###### filter regions
-
-The filter region is the area of the input that is affected by the filter.
-Interestingly, the filter region does not have to be the same as the region occupied by the element using the filter.
-The filter region is defined by the `‹filter›` element's `x`, `y`, `width`, and `height` attributes.
-The default filter region (if none of the attributes are manually specified) is the bounding box of the input plus 10% on each side.
-any filter primitive themselves establish a filter primitive subregion.
-Filter primitive subregions are altered just as the normal filter region is (by specifying the `x`, `y`, `width`, and `height` attributes).
-
-###### applying filters
-
-To apply a `‹filter›` to an SVG element, you refer to its ID (via url()) within the `filter` attribute of the element.
-You can also apply a SVG filter to a HTML element, by using the normal `filter` property.
-
-##### markers
-
-A marker is a type of symbol that gets attached to one or more vertices of a path, line, polyline, or polygon.
-
-###### defining markers
-
-You create markers with `‹marker›` elements.
-Markers are defined within `‹defs›`.
-Markers can contain other SVG elements.
-The markerWidth and markerHeight attributes define the width and height of the marker’s viewport. 
-The `refX` and `refY` attributes define the reference point (i.e. the point at which its attached) of the marker relative to its viewport.
-The `orient` attribute determines the angle at which the marker is attached.
-The `orient` attribute takes a value of auto or an angle. 
-If you specify something else than auto, the marker is rotated to the specified angle relative to the SVG viewport itself, which is generally not what you want.
-The `markerUnit` attribute is similar to all other `*Unit` attributes, but instead of `objectBoundingBox` it uses `strokeWidth` to indicate it being relative.
-
-###### attaching markers
-
-markers are attached by referring to their ID within the `marker-start`, `marker-mid`, or `marker-end` attributes.
-One would think that `marker-mid` would place the marker at the midpoint of the line, but instead it's for placing markers at vertices that are not the start or end.
-
-##### images
-
-SVG allows the embedding of images via `‹image›`.
-the URL for the `‹image›` is defined by the `href` attribute.
-
-##### foreignObject
-
-SVG allows the embedding of arbitrary other *ML content within `‹foreignObject›`.
-
-##### desc and title
-
-`‹desc›` and `‹title›` are used to add a text description to an element.
-`‹desc›` and `‹title›` are nested within the element they describe.
-If an element can be described by visible text, it is recommended to reference that text with an aria-labelledby attribute rather than using the `‹title›` or `‹defs›` element.
-
-##### switch
-
-`‹switch›` is used to conditionally render an element.
-Conditions for `‹switch›` are defined by certain attributes on its direct children.
-There are two possible conditions currently, the rarely used `requiredExtensions` and `systemLanguage`.
-`systemLanguage` takes a comma-separated list of BCP 47 language tags.
-`‹switch›` renders the first child where its conditions evaluate to true.
-`‹switch›` is basically only used to localize SVG content.
-
-##### metadata
-
-`‹metadata›` is used to store metadata about an SVG document.
-The content of `‹metadata›` should be elements from other XML namespaces such as RDF, FOAF, etc..
-
-### JSX
-
-⟮JSX⟯ is ⟮HTML⟯-like syntax to be used in ⟮JS⟯
-⟮any values⟯ embedded in JSX are ⟮auto-escaped⟯, and thus provide ⟮a degree of safety against XSS attacks⟯
-You can put ⟮any valid JS expression⟯ within ⟮curly braces⟯ in ⟮JSX⟯
-⟮JSX⟯ use ⟮camel case⟯ for ⟮HTML attribute names⟯ (including ⟮events⟯) (which would normally use ⟮kebap-case⟯)
-In JSX, ⟮self-closing tags⟯ must be closed with ⟮c+;/›⟯, however ⟮every react component may⟯ be ⟮self-closing⟯
-⟮JSX⟯ is either said to be short for ⟮JavaScript Syntax Extension⟯ or ⟮JavaScript XML⟯
-Using JSX, you generally assign events via the on‹Event› handlers, but pass a function (instead of calling a function) , and wrap it in curly braces
-
-#### style props
-
-style props is using react props to change the style of a component
-style props are not enabled by default, but are used extensively in various react styling frameworks
-style props mostly are named as the css properties are (subject to the camelcaseification/abbreviation described elsewhere)
-style props also offer some abbreviated values:
-linear/radial-gradient() → linear/radial()
-to top, to top right, ... → to-t, to-tr...
-using style props, we can also define 'states'. (not called that, this is my term)
-style props 'states' could be pseudo-classes, aria states or custom chakra 'states'
-style props 'states' take a leading underscore, and the actual style prop declarations go within an object within the state.
-e.g. _hover={{ fontWeight: 'semibold' }}
-flex-container:✫sm_2021-09-17--19-05-46-screenshot.jpg✫
-
-⟮chakra⟯ provides some ⟮predefined shadows⟯ as style props with ⟮boxShadow⟯⟮="name"⟯
-
-the sx prop is an escape hatch to CSS when style props are not enough.
-the sx prop takes an object whose keys can be CSS or the style prop superset.
-sx={{ filter: 'blur(8px)' }}
-use-cases for the sx prop are css variables, css properties for which there are no style props, nested selectors and custom media queries.
-
-#### (Bootstrap) components via JSX
-
-react-bootstrap implements boostrap components as react/JSX components
-for react-bootstrap, components must be individually imported via react-bootstrap/ComponentName
-ergo, components named via class names become ‹ComponentName›
-parts of components become ‹ComponentName.Part›
-properties that were implemented as key-value classes in Bootstrap become normal key="value" porps
-react-bootstrap specifically, theme-color becomes `variant` (prob inspired by other react libraries)
-
-## environment ≈ Web APIs
-
-### browsing contexts
+## browsing contexts
 
 A browsing context is the environment in which a browser displays a Document. 
 A browsing context may be a tab or a window as well as a frame (iframe/frame)
@@ -1231,22 +502,22 @@ It is possible to create new browsing contexts that are related to a top-level b
 An auxiliary browsing context has an opener browsing context, which is the browsing context from which the auxiliary browsing context was created, and it has a furthest ancestor browsing context, which is the top-level browsing context of the opener browsing context when the auxiliary browsing context was created.
 The opener attribute of Window returns the WindowProxy object of the opener broswing context, if extant/available.
 
-#### secure contexts
+### secure contexts
 
 Things that can only be used in secure contexts: Notifications
 A document is in a secure context if it is the active document of a secure top-level browsing context (i.e.a document within a theoretically secure iframe browsing context is not secure if it's top-level browsing context is not also secure)
 a resource is secure 
 
-### the DOM
+## the DOM
 
-#### the DOM
+### the DOM
 
 DOM|Document Object Model
 The DOM is a tree data structure that acts as an interface for a XML (or XML-derived) or HTML document.
 DOM vertices are `Node`s (often subclasses of `Node`).
 `Node` implements the EventTarget interface, so all things inheriting from Node also do.
 
-#### APIs
+### APIs
 
 Javascript offers a rich DOM parsing API called the DOM API.
 
@@ -1255,7 +526,7 @@ table:span=2;DOM parsing libraries in other languages
 beautiful soup|python
 
 
-#### document
+### document
 
 The Document interface represents any web page loaded in the browser and serves as an entry point into the web page's content, which is the DOM tree.
 the root Node of the DOM tree is of type Document
@@ -1263,21 +534,21 @@ Nodes of type Document are known as documents
 The Document interface describes the common properties and methods for any kind of document. Depending on the document's type (e.g. HTML, XML, SVG, …), a larger API is available: HTML documents, served with the "text/html" content type, also implement the HTMLDocument interface, whereas XML and SVG documents implement the XMLDocument interface.
 Document's browsing context is the browsing context whose session history contains the Document.
 
-#### Node tree
+### Node tree
 
 A node tree is a set of nodes arranged as a tree.
 A document tree is a node tree whose root is a document.
 A shadow tree is a node tree whose root is a shadow root.
 
-#### Node
+### Node
 
 a node has an associated document (essentially an owner), which is known as its 'node document'
 
-##### interface
+#### interface
 
 cloneNode(deep?: boolean)|returns a duplicate of the node
 
-##### NodeLists
+#### NodeLists
 
 A NodeList is similar to an Array, but doesn't have all the methods.
 A NodeList is a linear collection of nodes.
@@ -1287,7 +558,7 @@ A live NodeList (or similar) reflects changes in the DOM
 A static NodeList (or similar) does not reflect changes in the DOM
 `HTMLCollection`s are an interface similar to NodeLists, but may only contain elements, is live, and has a far less rich interface.
 
-##### types of
+#### types of
 
 onion-box:
 ⟮Node⟯
@@ -1306,11 +577,11 @@ onion-box:
     CDATASection
     ProcessingInstruction
 
-##### Elements
+#### Elements
 
 any HTML element has a JS interface that is called HTMLSomeelementnameElement.
 
-###### types of attribute
+##### types of attribute
 
 An IDL (Interface Description Language) is a generic language used to specified objects' interfaces apart from any specific programming language.
 In XMLHTML, most attributes have two faces: the content attribute and the IDL attribute.
@@ -1321,7 +592,7 @@ the IDL attribute may be accessed from js like element.foo.
 
 Any content attribute is also acessiable as an IDL attribute.
 
-###### IDL interface
+##### IDL interface
 
 element.innerHTML|content between the tags
 The Element.classList is a read-only property that returns a live DOMTokenList collection of the class attributes of the element
@@ -1336,15 +607,15 @@ However, Node.appendChild() returns the appended Node.
 document.createElement() takes a tagName and creates an element of that name (however, it does not yet have a place in the document tree)
 document.createElement optionaly takes an options object with a single key `is`, whose value is the tag name of a custom element previously defined via customElements.define().
 
-###### Types of elements (and their interfaces)
+##### Types of elements (and their interfaces)
 
-####### HTMLCanvasElement
+###### HTMLCanvasElement
 
 The HTMLCanvasElement.toDataURL(type) method returns a data URI containing a representation of the image in the format specified by the MIME type in the type parameter.
 
-#### custom elements
+### custom elements
 
-#### DOM traversal
+### DOM traversal
 
 document.querySelector(selector)|get first element that matches selector
 document.querySelectorAll(selector)|get NodeList of elements that matches selector
@@ -1354,19 +625,19 @@ document.getElementBy‹whatever›() returns HTMLCollections.
 document.getElementBy‹whatever› has four variants ById, ByClassName, ByTagName
 Element.closest(selector)|get the closest ancestor element which matches the selector
 
-#### other interfaces ＆ classes
+### other interfaces ＆ classes
 
-##### DOMTokenList
+#### DOMTokenList
 
 The DOMTokenList interface represents a set of space-separated tokens. 
 
-#### visibilityState
+### visibilityState
 
 visibilityState = whether the document is somehow in the background/not in a visible tab/minimized, etc.
 visibilityState = visible|hidden
 change of document.visibilityState fires visibilitychange
 
-### window
+## window
 
 The Window interface represents a window containing a Document (however, the window is not persistent, but changes during navigation as well. the browsing context is the persistent thing)
 A global variable, window, representing the window in which the script is running, is exposed to JavaScript code.
@@ -1375,12 +646,12 @@ You can get the document associated with a window by window.document.
 The `Document` associated with a window only changes during navigation.
 Each Window has an associated `Navigator`.
 
-#### bars
+### bars
 
 the Window object has a few properties representing certain UI elements (all bars), all represented by a BarProp object with the single attribute 'visible'
 BarProps: locationbar, personalbar, menubar, crollbars, statusbar, toolbar
 
-#### Web Storage API
+### Web Storage API
 
 the Web Storage API is made up of sessionStorage and localStorage.
 sessionStorage and localStorage both implement the Storage inteface.
@@ -1392,7 +663,7 @@ clear()
 sessionStorage lasts for a session, localStorage lasts until cleared.
 localStorage is larger than sessionStorage.
 
-#### notifications
+### notifications
 
 Notification.requestPermission() is a promise, which if fulfilled means we have recieved permission to send notifications.
 Browsers increasingly don't even allow us to ask for notification permissione exept in response to user action.
@@ -1402,23 +673,23 @@ the options object for the notification constructor as a bunch of properties tha
 .close()|closes the notification manually
 Notification objects can have the events click, close, error and show (when the notification is shown) triggered on them.
 
-#### Intersection Observer API
+### Intersection Observer API
 
 The Intersection Observer API provides a way to asynchronously observe changes in the intersection of a target element with other elements or the viewport.
 
-#### intervals
+### intervals
 
 ⟮window⟯.​setTimeout(function, delay, args);
 
-#### misc
+### misc
 
 window.getComputedStyle(‹element›) gets a read-only CSSStyleDeclaration.
 
-### navigator
+## navigator
 
 Instances of Navigator represent the identity and state of the user agent (the client).
 
-#### Geolocation API
+### Geolocation API
 
 the Geolocation API is used for location hadnling in the browser.
 you get an object of Geolocation from navigator.geolocation
@@ -1432,13 +703,13 @@ interface GeolocationPosition {
   timestamp: DOMTimeStamp;
 }
 
-### events
+## events
 
-#### EventTarget
+### EventTarget
 
 The EventTarget interface is implemented by objects that can receive events and may have listeners for them.
 
-#### event handler registration
+### event handler registration
 
 event handler registration can be done via the content and IDL attribute on‹event› or EventTarget.addEventListener()
 the on‹event› attribute takes a function to call.
@@ -1449,7 +720,7 @@ event handlers get an `Event` as an argument.
 
 to work, we must pass removeEventListener the event as well as the ⁑exact same function object⁑
 
-#### event capturing
+### event capturing
 
 in the capturing phase, the browser goes from the root element up to the target downwards
 in the target phase, the browser triggers any event handlers on the target itself
@@ -1458,28 +729,28 @@ capturing phase › target phase › bubbling phase
 capturing/bubbling event handlers trigger during the capturing/bubbling phase respectively, and both on the target phase
 Event.bubbles prevents bubbling
 
-#### Event
+### Event
 
 Event.target returns a reference to the thing on which the Event was dispatched.
 Event.currentTarget / this returns a reference to the thing on which the Event is being handled.
 
-##### defaults
+#### defaults
 
 calling Event.preventDefault() or returning false from an on‹event› handler prevents the default
 touchstart, touchmove (FF, Chrome, Edge) have passive: true by default
 tell the browser that you won't call preventDefault()   3rd option of addEventListener {passive: true}
 Event.defaultPrevent|was a default prevented?
 
-#### patterns
+### patterns
 
 ⟮event delegation⟯ is ⟮handling events⟯ (that are ⟮similar somehow⟯) on ⟮a common ancestor⟯
 Event delegation only works due to event bubbling
 
-#### node
+### node
 
 node handles events in the module `event`, where everything that can have events implements `EventEmitter`.
 
-##### EventEmitter methods
+#### EventEmitter methods
 
 on(‹name›, ‹callback›)|add event handler
 off/removeListener|remove an event handler
@@ -1487,19 +758,19 @@ once|add one-time event handler
 emit|trigger an event
 removeAllListeners|remove all listeners from event emitter
 
-### Web Speech API
+## Web Speech API
 
 Web Speech API: text to speech/speech to text
 
-### Web Audio API
+## Web Audio API
 
-### PWA
+## PWA
 
 PWA|Progressive Web App
 PWAs should work to some extent even when ⟮there is no internet✫SpStAtUk8Zp5iwi9yqKP.jpg✫⟯ the ⟮screenshots⟯ property of a web app manifest allows for ⟮previewing images of the web app when installing⟯
 for a PWA to be installable, you need to have the web app manifest (with required fields filled in), and a service worker (chromium only) (also an icon and HTTPS, but these are kinda obviosu)
 
-#### service workers
+### service workers
 
 ⟮Service Workers⟯ are a type of ⟮Web Worker⟯
 The main problem ⟮service workers⟯ are solving is handling ⟮loss of connectivity⟯
@@ -1511,7 +782,7 @@ e.g. /sw.js has the scope of everything in the project, while /example/sw.js has
 The service worker adds event listeners like so: self.addEventListener...
 ⟮Workbox⟯ is a library that ⟮bakes in a set of best practices⟯ and ⟮removes the boilerplate⟯ every developer writes when working with ⟮service workers⟯.
 
-### wasm
+## wasm
 
 wasm = web assembly
 WebAssembly is a low-level assembly-like language with near-native performance.
@@ -1535,7 +806,7 @@ wasm-pack is a tool for helping integrating rust wasm with your webdev workflow.
 AssemblyScript is a TypeScript-based programming language that is compiled to WebAssembly.
 
 
-## CSS
+# CSS
 
 CSS = Cascading Style Sheet
 
@@ -1563,7 +834,7 @@ flex-container:✫sm_tmpyk7c4jes.png✫
 
 style as a HTML attribute takes n declarations
 
-### Selectors
+## Selectors
 
 A selector is a generic term that can refer to simple selector, compound selector, complex selector, or selector list.
 A simple selector is a single condition on an element.
@@ -1582,13 +853,13 @@ complex-selector ::= ‹compound-selector›{[‹combinator›]‹compound-selec
 compound-selector ::= ‹simple-selector›{‹simple-selector›}
 simple-selector ::= ‹type-selector›||‹universal-selector›||‹attribute-selector›||‹class-selector›||‹id-selector›||‹pseudo-class-selector›||‹pseudo-element-selector›
 
-#### Selectors
+### Selectors
 
-##### Simple selectors
+#### Simple selectors
 
 
 
-###### Basic types
+##### Basic types
 
 Syntax of universal selector ::= *
 the universal selector matches everything
@@ -1606,7 +877,7 @@ no operator (and no value) [‹attr›]|just elements with attribute present
 
 Adding an i (or I) before the closing bracket causes the value to be compared case-insensitively (for characters within the ASCII range).
 
-###### Pseudo-classes
+##### Pseudo-classes
 
 A pseudo-class indicates a state of an element
 A pseudo-class is begun by a single colon
@@ -1625,7 +896,7 @@ progress|indeterminate when no value attribute is present.
 :target|element has the same id as the fragment in the url
 :fullscreen|fullscreen element
 
-####### input pseudo-classes
+###### input pseudo-classes
 
 a number of pseudo-classes have to do with input
 :enabled/:disabled|HTML enabled attribute is specified, or specified on the parent fieldset (or not, for disabled)
@@ -1636,7 +907,7 @@ a number of pseudo-classes have to do with input
 :checked|selects a toggled radio button or checkbox
 
 
-####### Tree-structural pseudo-classes
+###### Tree-structural pseudo-classes
 
 Tree-structural pseudo-classes are pseudo-classes that allow selection of elements based on information in the document tree
 
@@ -1657,13 +928,13 @@ Typed child-indexed pseudo-classes are tree-structural pseudo-classes that selec
 nth ::= ‹an-plus-b›|even|odd
 an-plus-b ::= ‹integer›n+‹integer›
 
-####### link-related pseudo-classes
+###### link-related pseudo-classes
 
 :any-link|All links: ‹a› and ‹area› elements
 :link|Selects all unvisited links  
 :visited|Selects all visited links  
 
-####### user action pseudo-classes
+###### user action pseudo-classes
 
 user action pseudo-classes are pseudo-classes that allow you to react to user action
 
@@ -1673,7 +944,7 @@ user action pseudo-classes are pseudo-classes that allow you to react to user ac
 The :focus-within CSS pseudo-class matches an element if the element or any of its descendants are focused. In other words, 
 The :focus-visible pseudo-class applies while an element matches the :focus pseudo-class and the UA (User Agent) determines via heuristics that the focus should be made evident on the element.
 
-###### Pseudo-elements
+##### Pseudo-elements
 
 A pseudo-element indicates a part of a element which isn't a real element.
 A pseudo-element is begun by two colons
@@ -1695,7 +966,7 @@ In HTML/CSS, ‹input› and ‹textarea› can have placeholder text in form of
 ::backdrop is the pseudo-element that is the size of the viewport and is rendered beneath ⟮any element that is in fullscreen⟯
 ::marker|the marker of a list item or a summary item
 
-##### Combinators
+#### Combinators
 
 
 +
@@ -1703,9 +974,9 @@ In HTML/CSS, ‹input› and ‹textarea› can have placeholder text in form of
 ›
 
 
-##### The Grouping selector
+#### The Grouping selector
 
-#### value processing
+### value processing
 
 Once a user agent has parsed a document and constructed a document tree, it must assign, to every element in the flat tree, and correspondingly to every box in the formatting structure, a value to every property that applies to the target media type.
 
@@ -1719,14 +990,14 @@ Resolving value dependencies yields the computed value. Every element has exactl
 Formatting the document yields the used value. An element only has a used value for a given property if that property applies to the element.
 Finally, the used value is transformed to the actual value based on constraints of the display environment. As with the used value, there may or may not be an actual value for a given property on an element.
 
-#### Cascading
+### Cascading
 
 The cascade takes an unordered list of declared values for a given property on a given element, sorts them by their precedence as determined below, and outputs a single cascaded value.
 
 The cascaded value is determined by their precedence, which is specified by the cascade sort order:
 origin ＆ importance › context › specificity › order of appearance in source document.
 
-##### Cascade origin
+#### Cascade origin
 
 The three possible cascade origins are user-agent, user, or author.
 author stylesheet|applied by the website author
@@ -1737,7 +1008,7 @@ the weakest style in an element higher in the cascade origin hierarchy beats the
 normal declarations|author›user›user-agent
 important declarations|user-agent›user›author
 
-##### important
+#### important
 
 A declaration is important if it has a !important annotation as defined by [css-syntax-3], i.e. if the last two (non-whitespace, non-comment) tokens in its value are the delimiter token ! followed by the identifier token important. All other declarations are normal (non-important).
 An important declaration takes precedence over a normal declaration.
@@ -1746,9 +1017,9 @@ Ergo, for cascade origin plus important there is the following hierarchy:
 
 transition declarations › Important user agent declarations › Important user declarations › Important author declarations › Animation declarations › Normal author declarations › Normal user declarations › Normal user agent declarations
 
-##### context
+#### context
 
-##### Specificity
+#### Specificity
 
 Specificity is the means by which browsers decide which CSS property values within a single source type are the most relevant to an element, based on selectors.
 Specificity is tiered, with lower tiers not being able to beat higher tiers.
@@ -1759,11 +1030,11 @@ Each specifier on a tier gains you one point on the specificity scale.
 lowest|element selectors|pseudo-element selectors
 no effect on specificity|:not(), universal selector
 
-### Declarations
+## Declarations
 
-#### Properites and Values
+### Properites and Values
 
-##### inherited, initial, etc.
+#### inherited, initial, etc.
 
 any property is inherited or not in its behavior when no value is assigned
 inherited properties default to inheriting
@@ -1780,12 +1051,12 @@ The revert keyword is mainly useful to revert to the user agents default style i
 
 The all property takes one of initial|inherit|unset|revert to reset everything but direction and unicode-bidi
 
-##### css variables
+#### css variables
 
 Declaration: --var-name: value;
 Accessing: var(--var-name)
 
-##### vendor prefixes
+#### vendor prefixes
 
 vendor prefixes have the syntax -‹vendorname›-‹propertyname›
 webkit|any webkit-based (and thus also blink-based) browser besides edge
@@ -1797,14 +1068,14 @@ vendor prefixes were designed to allow experimenting with experimental CSS featu
 The problem with vendor prefixes is that in fact, vendor-prefixed properties just got used in productio as well.
 As of ~2020, the trend is away from using vendor prefixes, and instead using user-controlled experimental flags.
 
-##### Props
+#### Props
 
 A shorthand property is a css property that allows setting multiple other properties at once.
 shorthand properties in css try to not force a specific order, where semantically possible.
 If a value is not set within a shorthand property, it is set to its initial value, overriding subvalues.
 Using inherit as a value of many within a shorthand property is invalid.
 
-###### position
+##### position
 
 position-values ::= static|relative|absolute|fixed|sticky.
 position: static is the default.
@@ -1825,7 +1096,7 @@ between left and right, the inline base direction wins.
 position: fixed will always be visible at the same position
 position: sticky will be in the flow of the document until scrolled to its offset specified by top, right, bottom, left, and then act like position: fixed
 
-###### Cursor
+##### Cursor
 
 `cursor` sets how the cursor looks when mousing over (generally irrelevant for touchscreens).
 `cursor` value syntax {‹url› ‹x› ‹y›,} ‹keyword›
@@ -1834,11 +1105,11 @@ When specifying an url() for cursor, the x and y values specify the offset in px
 `cursor: default` shows the platform-default cursor.
 Other ‹keyword›s for `cursor` (non-exhaustive, as there are ~40) are wait, crosshair, not-allowed, zoom, copy, grab.
 
-###### Caret
+##### Caret
 
 The caret-color CSS property sets the color of the insertion caret, the visible marker where the next character typed will be inserted. 
 
-###### scroll-snap
+##### scroll-snap
 
 In a basic sense, CSS scroll snap is for snapping to specific scroll points
 For scroll snap to do anything, you have to specify scroll-snap-type and scroll-snap-align.
@@ -1856,9 +1127,9 @@ when two values set first is block, second inline
 
 While scroll-padding is set on the parent, scroll-margin is set on the child, and so allows different values for different children.
 
-###### word-break, overflow-wrap
+##### word-break, overflow-wrap
 
-###### width, height
+##### width, height
 
 width and height each have corresponding min- and max- properties
 power of width and height properties: min- › max- › ø
@@ -1868,7 +1139,7 @@ What width and height size depends on the box-sizing property
 content-box|width and height size content-box
 border-box|width and height size border-box
 
-###### flexbox, grid and columns
+##### flexbox, grid and columns
 
 Flex or grid containers are declared by setting display to flex/inline-flex or grid/inline-grid.
 A grid (as a layout, not just in CSS) is made up of horizontal and vertical (and sometimes angular) »grid lines« that intersect to define n »grid cells« 
@@ -1877,7 +1148,7 @@ In a grid layout, the area between two adjacent grid lines is called a grid trac
 
 The order CSS property sets the order to lay out an item in a flex or grid container. Items in a container are sorted by ascending order value and then by their source code order.
 
-####### box alignment properties
+###### box alignment properties
 
 The box alignment properties in CSS are a set of 6 properties that control alignment of boxes within other boxes. 
 The box alignment properties can be described along two metrics, which axis they apply to, and whose position they control.
@@ -1935,12 +1206,12 @@ space-around|space on every side, space at borders is half size|[  xxx    yy    
 space-evenly|space on every side, every space is the same size|[   xxx   yy   zzzz   ]
 stretch|no space, size is increased equally|[xxxxxxxyyyyyyyzzzzzzz]
 
-####### flexbox axes
+###### flexbox axes
 
 For flexbox, if flex-direction is row or row-reverse, the main axis corresponds to the inline base direction, and the cross axis corresponds to to the block flow direction.
 For flexbox, if flex-direction is column or column-reverse, the main axis corresponds to the block flow direction, and the cross axis corresponds to to the inline base direction.
 
-####### gaps
+###### gaps
 
 the gap, row-gap and column-gap specifiy gutters between items in a flex/multi-column/grid container.
 gap is a shorthand for row-gap and column-gap, if only one value is specified, it sets them to the same value.
@@ -1949,11 +1220,11 @@ For multi-column containers, row-gap currently does nothing.
 for flex containers, column-gap specifies minimum spacing between flex items, and row-gap specifies minimum spacing between flex lines if flex-direction is row or row-reverse, otherwise what column-gap and row-gap do is reversed.
 For the gap, row-gap and column-gap there exist the now archaic grid-* aliases.
 
-####### grid
+###### grid
 
 Fundamentally, the grid consists of two tasks: defining a grid ＆ its sizes, and placing items within that grid.
 
-######## defining and sizing a grid
+####### defining and sizing a grid
 
 In CSS, there are two kinds of ways to define the grid and its sizes, using the explicit or using the implicit grid.
 grid-auto*|implicit grid
@@ -2013,7 +1284,7 @@ specifying grid-areas creates the relevant grid lines with -start/-end automatic
 
 the grid css property is a shorthand for grid-template-* and grid-auto-*, 6/7 properties in total
 
-######## placing items
+####### placing items
 
 grid areas and grid lines
 grid-area allows placing an item at a grid-area created manually or automatically, taking up that space
@@ -2033,7 +1304,7 @@ grid-area basically takes two kind of values, the name of a grid area, or four s
 
 grid items may be placed in the same area, i.e. they may overlap, even completely.
 
-####### flex
+###### flex
 
 flex-flow is a shorthand for flex-direction and flex-wrap
 flex-wrap may take the values nowrap, wrap, wrap-reverse.
@@ -2045,7 +1316,7 @@ flex-basis specifies the initial size of a flex item along its main axis.
 
 By default flex items don't shrink below their minimum content size. To change this, set the item's min-width or min-height.
 
-####### columns
+###### columns
 
 The column-fill CSS property controls how an element's contents are balanced when broken into column fragmentainers (= column boxes)
 auto|fill column boxes sequentially in the inline base direction, until the column box is full
@@ -2058,11 +1329,11 @@ A spanning element spans all columns.
 column-span specifies a maximum amount of columns
 column-width specifies a minimum width of columns
 
-###### Pointer-events
+##### Pointer-events
 
 pointer-events: ⟮none⟯ makes a thing completely ininteractable with a mouse.
 
-###### Text
+##### Text
 
 The text-transform CSS property specifies how to capitalize an element's text. It can be used to make text appear in all-uppercase or all-lowercase, or with each word capitalized. It also can help improve legibility for ruby.
 the color keyword sets the color of the text and text decorations and accpets a ‹color› value.
@@ -2088,7 +1359,7 @@ vertical-align algins elements within line boxes along the block flow direction.
 vertical-align is relative to the line box for some properties, and to the font for others.
 
 
-####### font
+###### font
 
 font-family sets the font family = typeface of the text.
 font-family takes a font stack.
@@ -2104,7 +1375,7 @@ font-variant-caps: small-caps/petite-caps forces small caps/petite caps for non-
 
 It may seem that certain html form elements can't have their font styled ⟮because by default, these elements don't inherit font properties⟯
 
-###### white-space
+##### white-space
 
 The white-space CSS property sets how white space inside an element is handled.
  |New lines|Spaces and tabs|Text wrapping
@@ -2115,7 +1386,7 @@ The white-space CSS property sets how white space inside an element is handled.
 ⟮c+;s1:5;pre-line⟯|⟮c+;s6:20;Preserve⟯|⟮c+;s6:20;Collapse⟯|⟮c+;s6:20;Wrap⟯
 
 
-###### Scrolling
+##### Scrolling
 
 overscrolling is what happens when you scroll further on something than that thing allows.
 on mobile browsers and some desktop browsers, there is a form of overscrolling where the site will rubberband
@@ -2124,7 +1395,7 @@ overscroll-behavior is actually a shorthand for overscroll-behavior-x and oversc
 overscroll-behavior: none prevents all overscrolling.
 overscroll-behavior: contain will prevent scroll chaining only
 
-###### Background
+##### Background
 
 The background: property is a shorthand for ⟮background-clip⟯, ⟮background-color⟯, ⟮background-image⟯, ⟮background-origin⟯, ⟮background-position⟯, ⟮background-repeat⟯, ⟮background-size⟯ and ⟮background-attachment⟯
 background-repeat may take a single value, which will specify both x and y, or two values, which apply to x and y respectively.
@@ -2148,7 +1419,7 @@ All background properties may take a CSL to specify multiple backgrounds.
 background-attachment specifies how the background interacts with scrolling (it has a bunch of keyword values that I can't remember)
 background-position takes a ‹position› value to position the background.
 
-###### edges
+##### edges
 
 Shorthand for edges in CSS use a consistent syntax:
 
@@ -2163,26 +1434,26 @@ Things in css that take the edge shorhand and also have four individual properti
 typically, any edge width is specified as a ‹length-percentage›
 ‹length-percentage-edges› ::= ‹length-percentage› [‹length-percentage›] [‹length-percentage›] [‹length-percentage›]
 
-####### css box model
+###### css box model
 
 [⟮c+;s∞;Margin-box⟯ [⟮c+;s∞;Border-box⟯ [⟮c+;s∞;Padding-box⟯ [⟮c+;s∞;Content-box⟯]]]]
 
 margin: auto can be used to center a thing horizontally, but not vertically
 
-######## logical properties
+####### logical properties
 
 logical properties are a set of properties that respect the block-flow-directrion or inline base direction.
 logical-property ::= [margin|padding|border]-[block|inline]-[start|end]
 the border logical property can be split into width, style and color as per usual.
 
-####### Border ＆ outline
+###### Border ＆ outline
 
 border can also be seen as a shorthand for border-top, border-right...
 border-width, border-style, border-color are all shorthand for edges, and can be set via the 4 properties individually.
 Notably, outline is similar to border in that it is composed of -width, -style, -color, but that in contrast to border, neither it itself nor its three subproperties are shorthands for the sides, nor are there individual properties for the sides - you either set the outline on all sides, or none at all.
 Outlines can be moved away from its box via outline-offset: ‹length›
 
-######## border-image
+####### border-image
 
 `border-image` allows you to use an image instead of an elements regular border
 `border-image` is shorthand for `-source`, `-slice`, `-width`, `-outset` and `-repeat`.
@@ -2225,7 +1496,7 @@ table:|60%|30%|10%|
 50%|class=no;|class=no;|class=no;|
 30%|class=no;|class=no;|class=no;|
 
-###### lines
+##### lines
 
 Line is not really an official css term.
 Lines: border, column-rule, outline
@@ -2249,7 +1520,7 @@ ridge|<div style="width: 10ch; height: 0.5em; border-bottom: 0.2em ridge black;"
 inset|<div style="width: 10ch; height: 0.5em; border-bottom: 0.2em inset black;"> </div>
 outset|<div style="width: 10ch; height: 0.5em; border-bottom: 0.2em outset black;"> </div>
 
-###### Corners
+##### Corners
 
 1 value|specifies all corners|✫sm_1_corner.png✫
 2 values|1st specifies topleft and bottomright, 2nd specifies topright and bottomleft|✫sm_2_corner.png✫
@@ -2264,7 +1535,7 @@ If a thing takes two sets of corner specifiers, the first apply in x direction a
 Data types that specify corners are ‹border-radius›
 border-radius: ‹border-radius›
 
-###### Custom Counting
+##### Custom Counting
 
 counter-reset and counter-increment and the css functions counter() and counters() are used to defined custom counters for counting().
 counter-reset assigns a counter of name to value.
@@ -2329,7 +1600,7 @@ li::before {
 ‹/ol›
 ```
 
-###### transform
+##### transform
 
 Transforms can be applied to both SVG and HTML elements.
 Transforms are changes to the elements geometry.
@@ -2348,7 +1619,7 @@ skewing distorts by a certain angle, as if you grabbed a certain corner and pull
 
 In addition, there is one more transform funtion, `perspective()`
 
-###### animations ＆ transitions
+##### animations ＆ transitions
 
 CSS transitions allow changing between two property values to be gradual.
 CSS animations allow animating between n property values arbitrarily complexly and potentially infinitely.
@@ -2384,7 +1655,7 @@ animation-iteration-count: CSL of (‹integer›|infinite)s to specify how many 
 animation-name: CSL of ‹custom-ident›s which represent the names of @keyframes describing the animations to apply
 animation-play-state: CSL of (running|paused).
 
-####### timimg functions
+###### timimg functions
 
 animation/transition-timing-function: CSL of ‹time›s to specify how long the animation will take
 
@@ -2413,7 +1684,7 @@ jump-end, end|first 'jump' happens at some time after 0; last jump happens at en
 jump-none|first 'jump' happens at some time after 0; last jump happens some time before end|ergo: 0 ＆ 1 state will both be visible
 jump-both|first 'jump' happens at 0; last jump happens at 1|ergo: 0 ＆ 1 state will both not be visible
 
-######## cubic-bezier
+####### cubic-bezier
 
 Bezier curvers are frequently used for curves in computer graphics
 A bezier curve is constructed from two or more points.
@@ -2443,7 +1714,7 @@ ease-in|cubic-bezier(0.42, 0, 1.0, 1.0)|✫sm_Screenshot%202020-06-02%20at%2002.
 ease|cubic-bezier(0.25, 0.1, 0.25, 1.0)|✫sm_Screenshot%202020-06-02%20at%2002.02.03.png✫
 ease-out|cubic-bezier(0, 0, 0.58, 1.0)|✫sm_Screenshot%202020-06-02%20at%2002.03.02.png✫
 
-###### tables
+##### tables
 
 The empty-cells CSS property sets whether borders and backgrounds appear around ‹table› cells that have no visible content.
 The border-collapse CSS property sets whether cells inside a ‹table› have shared or separate borders.
@@ -2458,7 +1729,7 @@ border-spacing is the equivalent of gap, but for tables.
 border-spacing applies only when border-collapse is separate.
 visibility: collapse: For ‹table› rows, columns, column groups, and row groups, the row(s) or column(s) are hidden and the space they would have occupied is removed (as if display: none were applied to the column/row of the table). However, the size of other rows and columns is still calculated as though the cells in the collapsed row(s) or column(s) are present. 
 
-###### misc
+##### misc
 
 The clip-path CSS property creates a clipping region that sets what part of an element should be shown.
 clip-path-values ::= ([‹m-b-p-c-box›] [‹basic-shape›]) | ‹clip-source›
@@ -2490,9 +1761,9 @@ mix-blend-mode and background-blend-mode both take a ‹blend-mode›
 ⟮mix-blend-mode⟯ regulates blending between ⟮the⟯ ⟮element's⟯ ⟮content⟯, ⟮the⟯ ⟮element's⟯ ⟮parents content⟯, and ⟮the⟯ ⟮element's⟯ ⟮background⟯.
 css ‹blend-modes› are the usual blend modes
 
-##### Values
+#### Values
 
-###### Functions
+##### Functions
 
 CSS functional notation is a type of CSS value that can represent more complex data types or invoke special data processing or calculations.
 The syntax of CSS functional notation is: ‹name›\([‹argument› {(,| ) ‹argument›}]\)
@@ -2519,21 +1790,21 @@ clamp ::= clamp(‹list-of-calc-sums›, ‹list-of-calc-sums›, ‹list-of-cal
 The attr() function takes the name of an attribute (of the HTML element) and resolves to its value as a string.
 Currently, attr() can only usefully be used as a value for content.
 
-###### variables
+##### variables
 
 custom properties are properties that start with -- and save their value, which then can be referred to with the var() function.
 custom properties have a scope of the variable they are declared on and all children, since they particpate in the cascade.
 The var() css function can be used instead of any part of a value of another property, and may even contain commas.
 var ::= var\(‹custom-property-name›, ‹fallback-value›\)
 
-###### offsets
+##### offsets
 
 generally from the top left corner.
 Even when not using the ‹offset› syntax, offsets in HTML/SVG are often from the top left corner.
 for ‹offset›, the first value is x and the second is y
 while offset is not a official datatype, I will define it as offset ::= ‹length› ‹length›
 
-####### position
+###### position
 
 ‹position› can take two kinds of values: keywords and values.
 Keywords for ‹position› are center, top, right, bottom and left.
@@ -2547,12 +1818,12 @@ The value described by ‹position› need not be inside the elements box.
 
 flex-container:✫sm_position_value.png✫
 
-###### ‹image›
+##### ‹image›
 
 The ‹image› CSS data type represents a two-dimensional image.
 While there are many kinds of things in the spec that an ‹image› could be, currently it can only be an ‹url› or a ‹gradient›
 
-####### ‹gradient›
+###### ‹gradient›
 
 currently, there are three types of ‹gradient›s, ‹linear-gradient›, ‹radial-gradient›, and ‹conic-gradient›
 ‹linear-gradient› and ‹radial-gradient›s also exist as repeating versions, which repeat as much as necessary to fil a given area: ‹repeating-linear-gradient›, ‹repeating-radial-gradient›.
@@ -2580,7 +1851,7 @@ When specifying color stops, if you don't specify a color it will use the middle
 When specifying color stops, if you don't specify a ‹length-percentage›/‹angle› it will use the middle between the preceeding and succeeding stops.
 Specifying two ‹length-percentage›/‹angle› on a single color stop will make the color stay the same inbetween those two stops.
 
-###### ‹size›
+##### ‹size›
 
 size ::= (‹length-percentage›[ ‹length-percentage›])|size-keyword
 size-keyword ::= closest-side|closest-corner|farthest-side|farthest-corner
@@ -2594,7 +1865,7 @@ farthest-corner|The default value, the gradient's ending shape is sized so that 
 
 For ‹size›, specifying two ‹length-percentages› applies them to horizontal/vertical direction respectively. specifying only one makes it applly two both horizontal and vertical directions. Places that expect a ‹size› for a circle may only recieve one ‹legnth-percentages›
 
-###### ‹basic-shape›
+##### ‹basic-shape›
 
 basic-shape ::= ‹inset›|‹circle›|‹ellipse›|‹polygon›|‹path›
 inset ::= inset\{‹length-percentage-edges›[ round ‹border-radius›]\}
@@ -2602,7 +1873,7 @@ circle ::= circle\(‹size›[at ‹position›]\)
 ellipse ::= ellipse\(‹size› [at ‹position›\)
 path ::= path\(‹svg-path-specifier›\)
 
-###### color
+##### color
 
 All css color keywords are case-insensitive.
 any property ending in -color: takes a ‹color› value
@@ -2618,7 +1889,7 @@ for hsl()/hsla(), the h component is a ‹angle›, or a ‹number› between 0 
 for hsl()/hsla(), s and l are ‹number-or-percentages› (how they work is specified in the general color flashcard)
 in css, the alpha channel takes a ‹number-or-percentage-0-1›
 
-###### simple types
+##### simple types
 
 the ‹url› datatype is a css function
 url ::= url(‹string›) # where string must be a valid url or path or the ID of a SVG shape
@@ -2649,7 +1920,7 @@ b-p-c-box-text ::= border-box|padding-box|content-box|text
 b-p-c-box ::= border-box|padding-box|content-box
 b-c-box ::= border-box|content-box
 
-###### length
+##### length
 
 length ::= ‹number›‹length-unit›
 length-percentage ::= ‹length›|‹percentage›
@@ -2690,7 +1961,7 @@ absolute-length-unit ::= ‹metric-length-unit›|‹imperial-length-unit›|px
 metric-length-unit ::= cm|mm|Q
 imperial-length-unit ::= in|pc|pt
 
-###### filters
+##### filters
 
 backdrop-filter applies a filter to the area behind an element.
 for backdrop-filter to apply, the element or its background must be at least partially transparent.
@@ -2716,7 +1987,7 @@ There are a few different sets of semantics for ‹number-or-percentage›
 ‹number-or-percentage-to-infinity›: 0/0% is the opposite effect (complete lack of x), 1/100% is original, 2/200% is 2x the effect
 ‹number-or-percentage-0-1›: 0/0% is complete lack, 1/100% is complete application
 
-###### shadows
+##### shadows
 
 The box-shadow property creates a rectangular shadow behind an element's entire box, while the drop-shadow() filter function creates a shadow that conforms to the shape (alpha channel) of the image itself.
 
@@ -2729,18 +2000,18 @@ text-shadow and box-shadow also accept a CSL of shadow specifiers for specifying
 
 To make text blurry in CSS, make it's color transparent and set a text-shadow.
 
-###### ‹repeat›
+##### ‹repeat›
 
 repeat|repeat as much as needed to cover the whole painting area, clipping if necessary
 space|The image is repeated as much as possible without clipping. The first and last images are pinned to either side of the element, and whitespace is distributed evenly between the images. 
 round|As the allowed space increases in size, the repeated images will stretch (leaving no gaps) until there is room (space left ›= half of the image width) for another one to be added. When the next image is added, all of the current ones compress to allow room. 
 no-repeat|do not repeat
 
-### at-rules
+## at-rules
 
-#### nested at-rules
+### nested at-rules
 
-##### @font-face
+#### @font-face
 
 @font-face defines a font face for use within the document.
 @font-face takes at least a font-family: foo, which is the name we will use to refer to it, and a src, which provides the file for the font itself.
@@ -2753,7 +2024,7 @@ for @font-face, since you're specifying fonts and not font-families, for differe
 
 unicode-range: some-range will only load the font if the document uses the font for at least one character within the range
 
-##### @keyframes
+#### @keyframes
 
 Keyframes at-rule syntax: @keyframes ‹keyframes-name› \{ ‹keyframe-block-list› \}
 ‹keyframes-name› ::= ‹custom-ident›|‹string›
@@ -2769,7 +2040,7 @@ if you mark something with !important in a keyframe, ⟮That value will be ignor
 if you don't provide a from/0% andor a to/100% it will ⟮Animate to/from the elements existing styles⟯
 If you specify multiple @keyframes with the same name, ⟮The last one encountered will be used⟯
 
-##### @page
+#### @page
 
 @page syntax: @page ‹page-selector-list›\{‹page-body›\}
 page-selector-list ::= ‹page-pseudo-class›{, ‹page-pseudo-class›} #maybe it's not a comma? I couldn't find any documentation this
@@ -2780,19 +2051,19 @@ margin-at-rule = @‹margin-at-rule-name›‹declaration-block›
 
 flex-container:✫page_margin_at_rules.png✫
 
-##### @counter-style
+#### @counter-style
 
 @counter-style produces values of type ‹@counter-style›
 @namespace is an at-rule that defines XML namespaces to be used in a CSS style sheet.
 
-#### non-nested at-rules
+### non-nested at-rules
 
 @charset "‹charset›"; declares the charset, though this is often unnecessary if UTF-8 is desired, as the browser will assume UTF-8 if no charset decaration is present.
 @charset must be the first statement in the document if present.
 
-### elements
+## elements
 
-#### replaced elements
+### replaced elements
 
 In CSS, a replaced element is an element whose representation is outside the scope of CSS; they're external objects whose representation is independent of the CSS formatting model.
 Typical replaced elements are:
@@ -2825,14 +2096,14 @@ fill|stretch|none
 none|preserve|either clipping or framing (not resized at all)
 scale-down|perserve|letterbox or framing (contain or none, whichever is smaller)
 
-##### images
+#### images
 
 image-rendering controls how an image upscales. 
 image-rendering: pixelated - image will seem to be composed of large pixels
 image-rendering: crisp-edges - preserve edges
 image-rendering: auto - browser-defined algorithm
 
-##### frames
+#### frames
 
 A ⟮frame⟯ is ⟮a part of a webpage⟯ which ⟮displays a different webpage (or a part thereof⟯) within. 
 A ⟮frame⟯ has ⟮state⟯ ⟮independent of its parent webpage⟯. 
@@ -2848,7 +2119,7 @@ As of ⟮HTML5⟯, ⟮‹frame› and ‹frameset›⟯ are ⟮deprecated⟯, bu
 ⟮iframe⟯ is short for ⟮inline frame⟯ 
 
 
-### stacking changes
+## stacking changes
 
 Stacking contexts relate to each other in a tree.
 Only certain elements or elements with certain properties. establish a stacking context.
@@ -2860,7 +2131,7 @@ stacking order of child stacking context is namespaced by the stacking order of 
 z-index may only be applied to positioned elements.
 Isolation: isolate creates a new stacking context and prevents that element of being blended with mix-blend-mode.
 
-### flow
+## flow
 
 CSS takes as its input a tree of elements and text nodes, most commonly a pared-down DOM.
 CSS converts the DOM to a flattened element tree, which is the same but has shadow trees merged back in.
@@ -2880,7 +2151,7 @@ Unlike element-generated boxes, whose styles inherit strictly through the elemen
 CSS outputs its output onto a canvas, which may be your screen, a piece of paper, an audio stream or something else.
 Content that extends outside of a boxes edges or would do so is known as overflow
 
-#### display
+### display
 
 The display property controls two distinct-things: the outer and the inner display type.
 The outer display type of an element controls how it will praticipate in normal flow.
@@ -2996,7 +2267,7 @@ none|this element and any of its descendants do not generate boxes or text runs
 
 To hide a box without influencing which boxes it generates (and thus also still taking up the space), use visibility: hidden
 
-##### display-internal
+#### display-internal
 
 behave as ...|‹display-internal› value
 tbody|table-row-group
@@ -3008,7 +2279,7 @@ colgroup|table-column-group
 col|table-column
 caption|table-caption
 
-#### fragmented flow
+### fragmented flow
 
 CSS paged media and containers consist of a fragmentation flow.
 Inline flow is actually also fragemnted flow.
@@ -3022,14 +2293,14 @@ In fragmented flow, a box may consist of one or more box fragments.
 A (box) fragment is the part of a box that is in a given fragmentainer.
 Each box fragment has its own share of the box's padding, border, and margin. 
 
-##### Orphans and Widows
+#### Orphans and Widows
 
 orphans and widows are two twin properties in CSS that apply only to pages or columns.
 Both orphans and widows take an ‹integer›
 orphans says how many lines of a block container must appear at the bottom of a page/column if it is broken over two pages/columns
 widows says how many lines of a block container must appear at the top of a page/column if it is broken over two pages/columns
 
-##### Break
+#### Break
 
 The break-before/break-after/break-inside properties apply to pages and collumns.
 The break-before/after/inside says how to break before/after/within a block-level element
@@ -3040,7 +2311,7 @@ break-before/after but not inside take the keywords left/right to force breaking
 break-before/after/inside default to auto, which means a break is allowed but not mandatory.
 A break created by break-before and break-after is called a forced break.
 
-### media queries
+## media queries
 
 Media queries and feature queries have a fair amount of similarities.
 Media queries are boolean assertions if the current user's environment/device/UA is a certain way.
@@ -3053,7 +2324,7 @@ Media features describe a specific feature of the environment/device/UA, which c
 Media queries are most commonly used by @media at-rules, and less frequently by @import at-rules (specified after the meat and potatoes), the media attribute in HTML, and in JS by Window.matchMedia() and MediaQueryList.addListener().
 A feature query consists of "feature features" (my coinage) and logical operators.
 
-#### media types
+### media types
 
 Media types
 
@@ -3064,7 +2335,7 @@ speech|intended for speech synthesizers/screen readers
 
 Media types are specified as boolean attributes, i.e. the presence of the keyword is enough
 
-#### media features
+### media features
 
 Media features
 orientation describes relationship of width and height of the viewport (not the device/screen!)
@@ -3083,14 +2354,14 @@ Media features that are range features can take a min- and a max- version of tha
 Level 4 media queries support a more intuitive syntax for range features using ‹, ›, = etc.
 Media featurs that are range features: color, resolution, height, width, aspect-ratio
 
-#### logical ops
+### logical ops
 
 The logical operators that are valid within media queries are and and not (which work as expected), and the comma, which acts as an or, but cannot be nested (i.e. can only combine media queries at the top level). 
 as of Level 3 media queries (changes in level 4 media queries), the not keyword can't be used to negate an individual media feature expression, only an entire media query.
 feature queries supports similar logical operators to media queries, but instead of the comma, it has a normal or operator, and not can also invert parts of feature queries.
 The operator only is mainly useful for preventing browsers from matching if part of the media query applies, and there is another part that they don't understand (e.g. older browsers) and thus ignore.
 
-#### atrules
+### atrules
 
 An @media at-rule is a conditional which takes a media query and executes the CSS contained within if the media query is true.
 Multiple @media at-rules may apply at the same time
@@ -3104,32 +2375,32 @@ Syntax @media ‹media-query› ‹block›
 
 A @supports at-rule is a conditional which takes a feature query
 
-#### in HTML
+### in HTML
 
 The media HTML attribute may be applied to ‹link›, ‹source›, or ‹style›.
 The media HTML attribute indicates when to load the specific resource.
 
-#### in JS
+### in JS
 
-##### media queries
+#### media queries
 
 window.matchMedia() takes a media query and returns a MediaQueryList object, whose matches property indicates exactly that.
 To react to changes in media features/types, you can register the change event on the MediaQueryList boject.
 
-##### CSSStyleDeclaration
+#### CSSStyleDeclaration
 
 The CSSStyleDeclaration interface is an object that represents a CSS declaration block.
 
-### related technologies
+## related technologies
 
-#### features
+### features
 
-##### web typography
+#### web typography
 
 In most modern ＿styling frameworks＿ and generally in web design native fonts are now used.
 The rise in using native fonts is in part attributable to the rise of more high-quality system fonts.
 
-##### system UI themes
+#### system UI themes
 
 the ⟮System UI Theme Specification⟯ is a ⟮reasonably widely⟯ adopted spec for ⟮a style object⟯ that stores things for ⟮design systems⟯, especially ⟮scales⟯
 at the heart of the ⟮System UI Theme Specification⟯ are ⟮scales⟯ - 
@@ -3175,7 +2446,7 @@ scales|CSS Properties
 `transitions`|`transition`
 
 
-##### nested rules
+#### nested rules
 
 In SCSS/Sass and other CSS preprocessors, to achieve ⟮nested selectors⟯, you can ⟮nest entire rules⟯. 
 ```
@@ -3233,35 +2504,35 @@ compiles to `⟮.child {}⟯`
 }
 ``` compiles to `⟮.btn-primary {} .btn-secondary {} ⟯`
 
-##### colors
+#### colors
 
-###### theme-color
+##### theme-color
 
 some styling frameworks (e.g. bootstrap) use a system of semantic names for colors such as primary, secondary, success, danger, warning, info, light, dark...
 In bootstrap the system of semantic colors is called theme-colors.
 
-###### color schemes
+##### color schemes
 
 Material design pioneered describing lightness of colors on the same 100 (or sometimes 50) to 900 scale as font weights.
 Describing colors on a 100 to 900 scale has been adopted by other things such as bootstrap, chakra.
 color-on-weight-scale ::= ‹hue›-‹weight›
 
-##### misc scales
+#### misc scales
 
 Many CSS frameworks, e.g. bootstrap have adopted a scale from 1-5 where 3 is a middle value for things that require an arbitrary scale.
 Things that fall on the 1-5 scale in bootstrap are `order`, spacers.
 
-##### components
+#### components
 
 Pretty much any styling framework features pre-existing components and/or allows the creation of custom components.
 
-###### variants
+##### variants
 
 Many style frameworks have lg and sm version of some components.
 
-##### layout
+#### layout
 
-###### bootstrap grid system
+##### bootstrap grid system
 
 Bootstrap pioneered the bootstrap grid system.
 The bootstrap grid system consists of containers, rows, and columns.
@@ -3278,12 +2549,12 @@ Since the bootstrap grid system is built with flexbox, you can change the behavi
 containers are mainly for adding padding.
 Containers are, depending on the exact class, either 100% of the page, or 100% with some spacing left and right
 
-####### implementation
+###### implementation
 
 in bootstrap, columns are specified .col-‹meas-col›
 in bootstrap, a row consisting of columns with n measurement columns width is specified as .row-cols-‹meas-col›
 
-##### breakpoint
+#### breakpoint
 
 Pretty much all styling frameworks have chosent the concept of breakpoints to abstract over width-based media queries.
 A breakpoint corresponds to a range of widths
@@ -3300,7 +2571,7 @@ The reason breakpoints generally select this size and up in most frameworks is t
 Since breakpoints generally select this size and up, you need to overwrite breakpoints for larger sizes if you want it to only apply to one size.
 Since breakpoints select this size and up, one typically writes the style for the smallest size first and then layers  styles for larger form factors on top.
 
-##### z-indices
+#### z-indices
 
 Z-index in bootstrap and perhaps in other frameworks exists on two scales: ⟮within elements, for states (for :hover, :active, :focus) ⟯, to prevent e.g. overlapping borders and ⟮for overlay components (modals, tooltips, etc.)⟯
 
@@ -3308,7 +2579,7 @@ situation|values
 within elements|0-3
 overlay components|1000-1080
 
-##### abbreviation
+#### abbreviation
 
 styling frameworks tend to abbreviate things, especially CSS properties/values where possible.
 However, not every CSS property/value is abbrevaited in each styling framework.
@@ -3318,7 +2589,7 @@ In react/style props based frameworks, CSS properties become camelCased unless a
 e.g. margin-top → marginTop / mt
 
 
-###### things that are pretty much always abbreviated in every system
+##### things that are pretty much always abbreviated in every system
 
 margin|m
 padding|p
@@ -3330,18 +2601,18 @@ top/bottom/left/right/start/end|t/b/l/r/s/e
 top ＆ bottom / left ＆ right|y/x
 no character|all four sides
 
-##### active/disabled
+#### active/disabled
 
 Many styling frameworks, e.g. bootstrap, may take an active/disabled class (or whatever) to indicate that something is currently active/cannot be interfaced with.
 
-##### theming
+#### theming
 
-#### CSS frameworking
+### CSS frameworking
 
 Most CSS frameworks apply most things via CSS classes.
 The most basic style of class most CSS frameworks use is .‹key›-‹value›.
 
-##### conditional classes
+#### conditional classes
 
 There are two philosophies as regards adding conditions to CSS framework classes, colon-based and infixing.
 colon-based|‹condition›:‹key›[-‹value›]|Tailwind
@@ -3350,32 +2621,32 @@ infixing|‹key›-‹condition›-‹value›|Bootstrap
 `‹img class="w-16 md:w-32 lg:w-48" src="..."›`
 Breakpoints might be the most common condition for CSS conditional classes.
 
-##### types of classes
+#### types of classes
 
 
-###### utility classes
+##### utility classes
 
 Utility classes are common feature of css frameworks.
 Utility classes change one specific aspect of a thing (background, font size, padding, etc.)
 Utility classes either apply CSS classes more or less directly (e.g. `bg-white`), or offer light syntactic sugar for CSS to apply somewhat more semantic classes (e.g. `text-xl`, `font-medium`)
 Systems that feature utility classes generally strongly recommend using them instead of custom css.
 
-###### helpers
+##### helpers
 
 Helper classes in CSS frameworks are classes that achieve a single effect, albeit one that doesn't correspond neatly to a CSS property/aspect of an element (ergo not components).s
 
-####### spacer
+###### spacer
 
 Spacers are a special type of utility in some styling frameworks.
 Spacers apply margin or padding to one or more sides.
 In bootstrap, spacers controlled by $spacer.
 
-###### components
+##### components
 
 In CSS frameworks, typically a class .‹component-name› defines a component.
 In CSS frameworks, typically parts of components are indicated by .‹component-name›-‹part›
 
-##### implementation
+#### implementation
 
 Many CSS frameworks, amongst others bootstrap, are implemented by generating them from Sass (or other CSS preprocessors).
 Since they are generated from Sass, to change functionality of Bootstrap or other CSS frameworks, change the Sass code.
@@ -3383,14 +2654,14 @@ For CSS frameworks, to change the Sass, import the code and then override whatev
 Specifically, in bootstrap, utilities are stored in a $utilities assoc arr stored in a _utilities.scss.
 Specifically, in bootstrap, the $utility assoc arr has each utility name as a key, and then a further assoc array with keys property, values.
 
-#### CSS reset
+### CSS reset
 
 A CSS reset is a piece of CSS to reset browser's default styling.
 
 
-#### CSS syntax supersets
+### CSS syntax supersets
 
-##### SCSS/Sass
+#### SCSS/Sass
 
 ⟮Sass⟯ is a ⟮CSS preprocessor⟯ that works with the two syntaxes ⟮Sass (the syntax)⟯ and ⟮SCSS⟯
 ⟮SCSS/Sass⟯'s ⟮scripting language⟯ which ⟮is its syntax superset⟯ is called ⟮SassScript⟯. 
@@ -3399,7 +2670,7 @@ Sass syntax that is a CSS superset   SCSS (Sassy CSS)
 
 While ⟮CSS⟯ will ⟮recover⟯ if ⟮an error is found⟯, ⟮SCSS⟯ will ⟮throw an error and refuse to compile⟯ 
 
-###### @extend and placeholder classes
+##### @extend and placeholder classes
 
 `⟮@extend⟯` is the keyword ⟮for inheriting styles of other selectors⟯. 
 In common language ⟮`@extend foo`⟯ is saying ⟮you want something to have the same declarations as foo⟯. 
@@ -3429,7 +2700,7 @@ An SCSS/sass ⟮placeholder selector⟯ is designed to be ⟮`@extend`ed⟯.
 }
 ```
 
-###### mixins
+##### mixins
 
 ⟮@mixin⟯ at its most simple defines ⟮a set of styles that can be reused⟯. 
 ⟮@include⟯ ⟮copies the styles⟯ defined by ⟮@mixin⟯ ⟮into the current block⟯. 
@@ -3469,7 +2740,7 @@ An SCSS/sass ⟮placeholder selector⟯ is designed to be ⟮`@extend`ed⟯.
 ```
 
 
-#### CSS naming schemes
+### CSS naming schemes
 
 BEM = Block Element Modifier
 BEM is a CSS naming convention
@@ -3489,24 +2760,24 @@ the modifier-value of BEM can be dropped if it's just a boolean value
 BEM names are set in classes
 It is important to keep in mind that a BEM entity is not a part of the name, rather one BEM name always refers to one entity, even if it includes the names of other entitites.
 
-#### types of frameworks
+### types of frameworks
 
 »Styling frameworks« are frameworks for front-end design.
 »CSS frameworks« are styling frameworks that do most of their thing in CSS.
 
-##### bootstrap
+#### bootstrap
 
 Bootstrap has been the most common CSS-first framework in the 2010s and going into the 2020s
 next to its own technologies, bootstrap may require popper
 By default, bootstrap only uses margin-bottom.
 
-##### chakra
+#### chakra
 
 ⟮Chakra⟯ provides a sensible ⟮default⟯ theme inspired by ⟮Tailwind CSS⟯
 
-###### components
+##### components
 
-###### unsorted
+##### unsorted
 
 {{c3::Chakra UI}}&nbsp; converts {{c2::theme tokens (colors, font sizes, stc)}} to {{c1::CSS variables}}.
 
@@ -3537,7 +2808,7 @@ you customize components {{c1::globally}} by editing {{c2::the relevant componen
       // 2. We can add a new button size or extend existing
       sizes:
 
-##### tailwind
+#### tailwind
 
 ⟮Tailwind CSS⟯'s main idea is ⟮using preexisting CSS classes⟯ for styling, instead of ⟮switching to CSS⟯ 
 ⟮Tailwind config⟯ is done in the ⟮tailwind.config.js⟯ file, which works similarly to ⟮the webpack config file⟯ 
@@ -3559,40 +2830,40 @@ Using ⟮Tailwind CSS⟯, code might look like this:
 open data is data available to everyone freely.
 linked data is data that is interlinked usefully.
 
-## data models
+# data models
 
 A data model is a model that provides structure to data, and to their properties, how they relate amongst each other, and how they relate to RL.
 
-### fundamentals
+## fundamentals
 
-#### ＆ databases
+### ＆ databases
 
 A database is an organized collection of data.
 Any database implements a data model.
 
-##### DBMS
+#### DBMS
 
 A DBMS (database management system) is the software used to manage a database.
 
-#### query languages
+### query languages
 
 A (data)(base) query language is a language used to query data in databases/information systems.
 
-#### operations
+### operations
 
 ⟮CRUD⟯ is short for ⟮create⟯, ⟮read⟯, ⟮update⟯, and ⟮delete⟯, the four operations that ⟮persistent storage⟯ pretty much always has.
 
-#### schemata
+### schemata
 
 A schema is a format that describes/constrains/validates data/data structures
 
-### various data models
+## various data models
 
-#### relational data model
+### relational data model
 
-##### fundamentals
+#### fundamentals
 
-###### relational data model itself
+##### relational data model itself
 
 https://upload.wikimedia.org/wikipedia/commons/7/7c/Relational_database_terms.svg
 
@@ -3608,7 +2879,7 @@ tuple making up the body|collection of rows
 n-tuple|row
 attribute|column
 
-###### database
+##### database
 
 a relational database is a database with a relational data model.
 In a relationnship database each n-tuple/row has its own unique key known as the primary key.
@@ -3616,7 +2887,7 @@ A foreign key is a column used in a relational database to link tables/relations
 A child table uses a foreign key to reference a primary key in the parent table. (parent ← child)
 Foreign keys can be used for one-to-one or one-to-many relationships
 
-###### tabular data
+##### tabular data
 
 A table is an accepted visual representation of a relation.
 TODO revise in light of above info
@@ -3644,25 +2915,25 @@ If in csv/tsv ⟮a field is wrapped in double quotes to allow the field separato
 tidy-viewer is a FOSS rust-based csv viewer 
 -s ‹char›|delimiters
 
-##### various relational data models / databases
+#### various relational data models / databases
 
-###### (query) languages
+##### (query) languages
 
 SQL is a language used to manage relational databases.
 SQL, despite its name, consists of a data query language, data definition language, data control langauge, and data manipulation language.
 
-#### non-relational data models
+### non-relational data models
 
 A NoSQL database is really a misnomer, it refers to a non-relational database
 
-##### graph data models
+#### graph data models
 
 A graph data model is one that organizes entities and their relationships as a graph.
 A graph database is a database that uses a graph data model.
 
-##### various non-relational data models / databases
+#### various non-relational data models / databases
 
-###### RDF
+##### RDF
 
 RDF = resource description framework
 RDF is a technology meant to realize the semantic web.
@@ -3679,29 +2950,29 @@ In rdf, a node can be a IRI, literal, or blank node
 
 an RDF semantic triple indicating that art knows bob using the FOAF ontology might look like ex:art foaf:knows ex:bob
 
-####### related technologies
+###### related technologies
 
-######## OWL
+####### OWL
 
 OWL short for web ontology langauge
 OWL, RDFS and SHACL are ontology languages for RDF
 
-####### Query languages 
+###### Query languages 
 
-######## sparql
+####### sparql
 
 SPARQL = SPARQL Protocol and RDF Query Language
 SPARQL is proounced sparkle
 SPARQL is an RDF query language
 
-####### applications
+###### applications
 
-######## FOAF
+####### FOAF
 
 FOAF = friend of a friend
 FOAF is an ontology for people, their properties and their relations using RDF/OWL 
 
-###### open graph
+##### open graph
 
 The Open Graph protocol enables any web page to become a rich object in a social graph.
 open graph is based on RDFa.
@@ -3709,11 +2980,11 @@ Open graph metadata is specified within meta tags.
 There are four required properties for open graph, which are og:image, og:title, og:type and og:url.
 The property of the open graph metadata is specified within the property property, and the value of the open graph metadata is specified within the content property.
 
-###### graphQL
+##### graphQL
 
 GraphQL consists of a query language, a server-side runtime for executing these queries, and a type system for these queries.
 
-####### queries
+###### queries
 
 In GraphQL, a query has the same shape as the result.
 A graphQL query starts at a special root object
@@ -3733,26 +3004,26 @@ In GraphQL, any field can take its own arguments, even if it's nested, removing 
 }
 ```
 
-####### type system
+###### type system
 
 object-type ::= type ‹name› \{{‹field›\}
 field ::= ‹key›[]
 
 
-##### document data model
+#### document data model
 
 a document database implements a document data model.
 
-###### mongo db
+##### mongo db
 
 MongoDB is the most well known document database.
 IndexedDB = Indexed Database API.
 IndexedDB is a document database for client-side storage.
 Most document databases are based on a variant of JSON.
 
-#### related technologies
+### related technologies
 
-##### structured data
+#### structured data
 
 Structured data is a data format used for adding data to web pages.
 Often, structured data is used to encode RDF.
@@ -3760,22 +3031,22 @@ Sometimes, structured data is used in a more abstract sense to contrast with uns
 Structured data is used by search engines to provide more rich results.
 Schema.org is a set of schemas for structured data.
 
-###### implementations
+##### implementations
 
-####### JSON-LD
+###### JSON-LD
 
 JSON-LD is an implementation of structured data.
 JSON-LD is included via a script tag 
 Of the structured data formats, google prefers JSON-LD.
 
-####### Other implementations
+###### Other implementations
 
 RDFa Lite is a minimal subset of RDFa that can be directly included in HTML.
 Microdata is a format to include structured data in HTML.
 
-## semantics
+# semantics
 
-### semantic web
+## semantic web
 
 The semantic web is sometimes known as web 3.0
 The goal of the samntic web is to make internet data machine readable
@@ -3789,7 +3060,7 @@ Hypermedia is media connected by hyperlinks.
 
 A ontology languages is a language that describes an ontology. 
 
-### folksonomy
+## folksonomy
 
 ⟮Folksonomy⟯ is a system where ⟮users⟯ apply ⟮public tags⟯ to items, thus over time generating a sort of ⟮taxonomy⟯. 
 Two types of ⟮folksonomies⟯ are ⟮broad⟯, where ⟮multiple users can apply the same tag⟯, thus ⟮showing which tags are the most popular⟯, and ⟮narrow⟯, where ⟮the same tag can only be applied once⟯ 
@@ -3801,7 +3072,7 @@ Other boorus for anime pictures: danbooru(.donmai.us), zerochan, gelbooru, anime
 
 flex-container:✫sm_2021-10-19--03-12-32-screenshot.jpg✫✫sm_2021-10-19--03-11-46-screenshot.jpg✫✫sm_2021-10-19--03-10-58-screenshot.jpg✫
 
-## extracting information
+# extracting information
 
 ⟮A hash function⟯ ⟮maps⟯ ⟮data of arbitrary size⟯ ⟮to⟯ ⟮fixed size-values⟯ ⟮deterministically⟯. 
 ⟮The result of a hash function⟯ is generally called ⟮a hash⟯. 
@@ -3819,7 +3090,7 @@ The set of ways a human can interact with a computer   Interaction styles
 WYSIWYG   What you see is what you get
 the problem with the term 'intuitive' in HCI is that to a certain extent, everything is learned.
 
-## IO
+# IO
 
 Input devices are devices that move/transform data from  ⟮the world ≈ the user to the computer⟯
 Output devices are devices that move/transform data from ⟮the computer to the world ≈ the user⟯
@@ -3830,9 +3101,9 @@ Examples of pointing devices are mice, trackpads, trackballs, pointing sticks ak
 Pointing devices are governed by fitts law
 Fitts law says that the time required to rapidly move move to a target area, e.g. by a pointing device, is a function of the ratio between the distance to the target and teh widht of the target.
 
-### input
+## input
 
-#### modes
+### modes
 
 A mode is a state which is explictly entered and exited where the same input will produce different results than if it wasn't in that state.
 A quasimode is like a mode, but the state is only maintained as long as an action is performed.
@@ -3842,9 +3113,9 @@ A mode error occurs when a user tries to do an action only appropriate for a dif
 mode errors occur because the user lacks understanding between the difference in modes, has not (yet) recieved the indication of a mode switch, or is confused/has forgotten about the active mode.
 Focus stealing is a mode error that happens when a program unexpectedly has focus, and the user attempts actions for the other program.
 
-#### text
+### text
 
-##### local variants
+#### local variants
 
 Keyboards are often identified based on ⟮their first few keys on the top letter row⟯
 QUERTY|en
@@ -3855,7 +3126,7 @@ Between english and german keyboards, the only difference in actual letters in t
 
 strg   ctrl
 
-##### modes
+#### modes
 
 Lock keys are keys that enter/exit a mode.
 Lock keys: {caps lock, shift lock, num lock, insert}
@@ -3873,9 +3144,9 @@ shift lock|acts as shift was continuously pressed, that is, generates both upper
 On ⟮windows⟯ under ⟮certain keyboard layouts⟯, ⟮h14;e.g. ⟮AZERTY and QWERTZ⟯,⟯ the ⟮caps lock key⟯ ⟮acts as shift lock⟯, ⟮hb;however not on ⟮mac⟯, and ⟮there is no setting to make it so⟯, making ⟮any solution requiring scripting via Hammerspoon or Karabiner⟯.⟯ 
 Many operating systems support ⟮typing 'normal' characters⟯ by ⟮pressing shift⟯ when in ⟮capslock / shiftlock mode⟯⟮hb;, however, not ⟮mac⟯⟯. 
 
-##### types of keys
+#### types of keys
 
-###### modifier keys
+##### modifier keys
 
 modifier keys are keys that maintain a quasimode.
 modifier keys that are found on any hardware keyboard as of 2020 are shift, ctrl, alt/option/altgr, win/cmd/linux equivalent.
@@ -3886,7 +3157,7 @@ Originally, super, meta and hyper keys were all dedicated modifier keys present 
 today, different linux distros treat meta or super as their equivalent to cmd/windows.
 today, since hyper keys are not really present anywhere, hyper key refers to a fictional modifier key created by simulating an insane number of modifier keys at the same time by pressing a different non-modifier key (often e.g. capslock)f
 
-####### alt/option
+###### alt/option
 
 alt gr = alt graph
 alt gr was originally for producing box drawing characters.
@@ -3897,16 +3168,16 @@ European/international keyboards typcially have one alt and one alt gr key.
 The mac option key has functionality of both the alt and alt gr keys: it can be used as a key in key command like alt, but can also produce additional characters like alt gr.
 Due to historical reasons, emacs used to use the meta key as a modifier, but later switched to alt. However, it kept the label 'M' for this modifier key.
 
-###### delete/backspace
+##### delete/backspace
 
 Delete key|Delete characters forwards (to the right)
 Backspace key|Delete characters backwards (to the left)
 
-###### navigation keys 
+##### navigation keys 
 
 navigation keys are keys that move the viewport or the cursor.
 
-####### pgupdown home end
+###### pgupdown home end
 
 The ⟮end, home and pgup/pgdown⟯ keys ⟮move the cursor⟯ when ⟮text-editing⟯, ⟮and the view⟯ when ⟮not⟯.
   span=2;Text-editing context
@@ -3938,7 +3209,7 @@ Key|does
 ⟮cmd + up/down⟯|⟮oves the cursor to the beginning/end of the document⟯
 
 
-####### navigation key combinations
+###### navigation key combinations
 
 Platform specific
 Key|does
@@ -3949,16 +3220,16 @@ Key|does
 ⟮cmd + backspace⟯|⟮delete to beginning of line (mac⟯)
 
 
-##### key combinations ＆ actions
+#### key combinations ＆ actions
 
 A keyboard shortcut some key input that performs an action different from its literal value.
 A key combination is the pressing of a key and one or more modifier keys to perform an action
 A key chord are two or more key combinations or key presses sequentially to perform an action.
 e.g. cmd k then m to select the document language in VSCode
 
-###### keyboard shortcuts
+##### keyboard shortcuts
 
-####### basic OS
+###### basic OS
 
 Action|Shortcut
 ⟮Close tab/window⟯|⟮⟦⌘⟧ ⟦w⟧⟯
@@ -3967,12 +3238,12 @@ Action|Shortcut
 ⟮Restore tab (editor in VS code⟯)|⟮⟦⌘⟧ ⟦⇧⟧ ⟦t⟧⟯
 
 
-####### edit history
+###### edit history
 ⟮undo⟯|⟮⟦⌘⟧ ⟦z⟧⟯
 ⟮redo⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦z⟧⟯
 
 
-####### browser shortcuts
+###### browser shortcuts
 
 Action|Shortcut
 ⟮Switch to tab n⟯|⟮⟦⌘⟧ ⟦n⟧⟯
@@ -3980,7 +3251,7 @@ Action|Shortcut
 ⟮open link in new tab⟯|⟮⟦⌘⟧ ⟦click⟧⟯
 ⟮download link target⟯|⟮⟦⌥⟧ ⟦click⟧⟯
 
-####### search 
+###### search 
 
 Action|Shortcut
 ⟮Find in project/ other larger scope⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦F⟧⟯
@@ -3994,14 +3265,14 @@ On mac, in many apps ⟦⌘⟧ ⟦e⟧ fills a global search buffer, which you t
 Within the same app, the difference between ⟦⌘⟧ ⟦e⟧ and ⟦⌘⟧ ⟦f⟧ on a selection is that ⟦⌘⟧ ⟦e⟧ only adds it to the buffer, while ⟦⌘⟧ ⟦f⟧ also focuses the search field.
 
 
-####### form navigation
+###### form navigation
 
 ⟮⟦tab⟧⟯|⟮field forward⟯
 ⟮⟦⇧⟧ ⟦tab⟧⟯|⟮field back⟯
 
 
 
-####### weird mac
+###### weird mac
 
 Action|Shortcut
 ⟮Get info on item⟯|⟮⟦⌘⟧ ⟦i⟧⟯
@@ -4029,7 +3300,7 @@ Action|Shortcut
 ⟮zoom in⟯|⟮⟦⌘⟧ ⟦⌥⟧ ⟦0⟧⟯
 
 
-####### Anki
+###### Anki
 
 Action|Shortcut
 ⟮Add new card⟯|⟮⟦⌘⟧ ⟦n⟧⟯
@@ -4054,7 +3325,7 @@ Action|Shortcut
 ⟮X⟯|⟮Deck home screen⟯
 
 
-####### file-related
+###### file-related
 ⟮Export⟯|⟮⟦⇧⟧⟦⌘⟧ ⟦E⟧⟯
 ⟮Import⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦i⟧⟯
 ⟮Save as⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦s⟧⟯
@@ -4067,13 +3338,13 @@ Action|Shortcut
 ⟮delete thingy (if file, move to bin⟯)|⟮⟦⌘⟧ ⟦⌫⟧⟯
 
 
-####### view
+###### view
 ⟮Reset zoom level (most often⟯)|⟮⟦⌘⟧ ⟦0⟧⟯
 ⟮Zoom out⟯|⟮⟦⌘⟧ ⟦-⟧⟯
 ⟮Zoom in⟯|⟮⟦⌘⟧ ⟦=⟧⟯
 
 
-####### text editing 
+###### text editing 
 
 Shortcut|Action
 ⟮Paste as plain text⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦v⟧⟯
@@ -4090,7 +3361,7 @@ Shortcut|Action
 
 
 
-######## video
+####### video
 
 Shortcut|Action
 ⟮,⟯|⟮one frame back⟯
@@ -4100,7 +3371,7 @@ Shortcut|Action
 ⟮space⟯|⟮pause⟯
 
 
-######## discord
+####### discord
 
 
         Shortcut
@@ -4117,7 +3388,7 @@ Shortcut|Action
 ⟮⟦⌘⟧ ⟦⇧⟧ ⟦M⟧⟯|⟮toggle mute⟯
 
 
-######## vector editor
+####### vector editor
 
 Keyboard shortcut|action|programs
 ⟮S⟯|⟮Select tool⟯|⟮Inkscape, SVG-Edit⟯
@@ -4132,16 +3403,16 @@ Keyboard shortcut|action|programs
 ⟮F⟯|⟮center canvas in frame⟯|⟮SVG-Edit⟯
 
 
-######## navigatable
+####### navigatable
 
 Force/Hard Reload|⟦⌘⟧ ⟦⇧⟧ ⟦r⟧
 Reload|⟦⌘⟧ ⟦r⟧
 
-######## zoomable
+####### zoomable
 
 Zoom in|⟦⌘⟧ ⟦+⟧
 
-##### caret
+#### caret
 
 cursor can be text or mouse
 mouse cursor = pointer
@@ -4155,14 +3426,14 @@ add text cursor to nex occurrence of selection|⟦⌘⟧ ⟦d⟧
 
 If in VSCode you have ⟮as many text cursors⟯ as ⟮the thing you want to paste has lines⟯, it will auto paste it there.
 
-##### autocomplete
+#### autocomplete
 
 »⟮Autocomplete/word completion⟯« is a feature where ⟮an application predicts the rest of something the user is typing⟯.  
 »⟮Autocomplete/word completion⟯« on ⟮smartphone keyboards⟯ is called »⟮predictive text⟯«, ⟮sb;this used to refer to ⟮the prediction of typing on numeric keypads (e.g. T9⟯⟯) 
 »⟮Autocomplete/word completion⟯« ⟮in a command-line interface⟯ is called »⟮command-line⟯« or »⟮tab⟯ ⟮completion⟯«, ⟮sb;which generally uses ⟮the tab key (whence the name⟯).⟯ 
 »⟮Autocomplete/word completion⟯« in ⟮code editors⟯ is also known as »⟮code completion⟯«. Examples include ⟮sb;⟮c+;VS ＆ VS Code⟯'s ⟮IntelliSense⟯, and ⟮AI (modfied GPT-3⟯)-powered ⟮GitHub Copilot⟯.⟯ 
 
-### Natural Language Processing
+## Natural Language Processing
 
 NLP = Natural Language Processing
 tts = text to speech
@@ -4174,7 +3445,7 @@ TTS
 say|mac
 espeak|nix
 
-## shells
+# shells
 
 flex-container:✫sm_Midnight_Commander_(2005)_en.png✫✫sm_1024px-Vim-(logiciel)-console.jpg✫
 
@@ -4191,12 +3462,12 @@ GUI|graphical user interface
 TUI|Text-based user interface
 CLI|Command-line interface
 
-### CLI
+## CLI
 
 A command-line shell/interface is a type of shell (in the wide sense, it is decidedly not a type of shell in the sense of the interpreter such as bash, csh) where actions are accomplished by entering commands.
 The shell living within the terminal is interacted with via a CLI, but so does e.g. vim, or various cheat consoles in games.
 
-#### syntax
+### syntax
 
 There seem to be roughly two kinds of CLIs, ones that do most of their stuff via --arguments, and ones that do most of their stuff with a sentence-like syntax.
 CLIs that have a sentence-like syntax have (after the command that indicates this is what we're interfacing with, perhaps roughly equivalent to a vocative) a syntax consisting of ‹verb(s)› and ‹object(s)›
@@ -4206,46 +3477,46 @@ gh|github|gh issue view 12
 nmcli|NetworkManager|nmcli con add type ethernet ...
 ⟮c1;⟯
 
-### GUI
+## GUI
 
 A graphical shell/grapical user interface is a type of shell (in the wide sense) that allows accomplishing commands via interaction through visual elements.
 
 WIMP = Windows, icons, menus, pointer
 
-#### core concepts
+### core concepts
 
 ⟮ha;✫sm_220px-Webdesign_Viewport_Window_Screen.svg.png✫⟯
 The viewport is the area (often rectangular) of a given thing that is currenty visible
 
-#### theming
+### theming
 
 flex-container:✫sm_paste-7ba77efd4dacf391cf06da1c6828a7e27ddeb96e.jpg✫
 
 A ⟮c+;s2;theme⟯ or ⟮c+;s1;skin⟯ (some people differentiate, but the differences don't seem consistent) is ⟮a set of visual pattern(s) (colors, icons, fonts, etc.) that determines the look and feel of a GUI⟯. ⟮hb;It may also refer to ⟮the set of files that define a theme/skin.⟯⟯ 
 lxappearace is a gtk theme switcher
 
-#### appearance
+### appearance
 
-##### skeuomorphs and skeuomorphicism
+#### skeuomorphs and skeuomorphicism
 
 A skeuomorph is a design inspired by a original design which retains elements from the original element that are no longer necessary in the new design, e.g. because it is funcionally different or in a new medium.
 Skeuomorphicism is a UI design approach that uses skeuomorphs that imitate real-life objects (though that would no longer be necessary on a digital devices).
 
-#### widgeting toolkits
+### widgeting toolkits
 
-#### elements
+### elements
 
 A UI element that enters a mode that blocks interaction with the main program and only allows interaction with the UI element, while it is visible is called modal, else it is modeless.
 
-##### menu
+#### menu
 
 A menu contains a lists of options or commands, one or more of which can be chosen or executed.
 
-###### text-based 
+##### text-based 
 
 A text-based menu is a type of menu that contains only text entries, most commonly as a list of one or more collumns.
 
-####### searchable 
+###### searchable 
 
 Many text-based menus are searchable by a type of fuzzy search.
 dmenu and its successor rofi as well as choose on mac are shell filters that act as a text-based fuzzily searchable menu.
@@ -4253,7 +3524,7 @@ rofi can similate dmenu with the -dmenu argument
 dmenu/rofi/choose create a menu entry for each item in stdin, where newline is treated as the delimiter by default
 dmenu/rofi/choose output the selected item to stdout
 
-######## command palette / quick open menu
+####### command palette / quick open menu
 
 flex-container:✫Screenshot%202021-12-09%20at%2003.12.09.png✫
 
@@ -4280,22 +3551,22 @@ Possible prefixes in Quick Open menus
 ⟮c+;›⟯|⟮enter command palette mode⟯
 
 
-####### context menu
+###### context menu
 
 flex-container:✫Menu_key_screen.jpg✫✫Context_menu_windows.png✫✫Context_Menu_on_OS_X_10.9.png✫
 
 A context menu is a menu of actions for wherever the focus is, most commonly summoned by right-clicking.
 
-###### ambiguous
+##### ambiguous
 
-####### task switcher
+###### task switcher
 
 A task/app(lication) switcher is a menu that allos switching between open programs or windows.
 A task switcher that allows switching between windows is more properly a window switcher.
 windows|alt+tab|windows
 mac|cmd+tab|applications
 
-####### hamburger 
+###### hamburger 
 
 flex-container:✫hamburger-menu-definition.png✫
 
@@ -4304,18 +3575,18 @@ A hamburger menu generally comes out from the side, contains a a list of navigat
 A hamburger button is a three-line icon that contains 
 A hamburger menu most often refers to the menu you get when you click a hamburger button but also may refer to the button itself, or the whole package
 
-##### bar
+#### bar
 
 A bar is a long-ish rectangle found at the edge of an UI element.
 
-###### title bar
+##### title bar
 
 A title bar is a horizontal bar that is typically located at the top of a window and contains the name of the application andor document/window, as well as the title bar buttons.
 the title bar buttons are most typically minimize, maximise and close.
 In most GUIs, you can move the window by grabbing the title bar and dragging.
 In most GUIs, you can expand the window to fill the screen by double-clicking the title bar.
 
-###### status bar
+##### status bar
 
 flex-container:⟮h∞;✫sb-paint.png✫✫460px-Emacs_statusline.png✫✫Gedit_3.11.92.png✫✫StatusBar_Light.png✫✫lGPcKx09nzIAFtAjFbQ_6FoXc3hnT7y0oMOGVNI8tbFWziGJQdUAgar1TBMmIGP_2Sj0gvLJonpoydv5UyTrOl_WJnrDz45RPMkSM7s=w1064-v0.png✫⟯
 
@@ -4324,7 +3595,7 @@ A ⟮status bar⟯ on desktop displays ⟮various kinds of information⟯, often
 On ⟮mobile⟯, a ⟮status bar⟯ is a ⟮horizontal⟯ ⟮bar⟯ at ⟮the top of the screeen⟯. 
 A ⟮status bar⟯ on mobile contains ⟮notification⟯ and ⟮system⟯ ⟮icons⟯ ⟮hb;(such as ⟮power, networks, time⟯⟯) 
 
-###### taskbar
+##### taskbar
 
 flex-container:⟮h∞;uh11:12;✫Windows_XP_task_grouping_(Luna).png✫✫Windows_10_Taskbar.PNG✫✫1024px-MacOS_Sierra_dock.png✫✫1024px-Plasma_5.20_Taskbar.png✫⟯
 
@@ -4334,14 +3605,14 @@ A taskbar generally positioned ⟮as a strip along the edge of a screen⟯.
 A taskbar, aside from programs may also have a ⟮notification section⟯, ⟮a search box⟯, ⟮various tools⟯, etc. 
 Despite being called '⟮Dock⟯', it's just ⟮macOs⟯'s version of a ⟮taskbar⟯ 
 
-###### navigation bar
+##### navigation bar
 
 flex-container:✫8f922968919629.5b6dba4c75e8b.png✫✫Dahsboard+Sidebar+Menu.webp✫✫rm0fIeRuMarYY8xM5bLwss_ISqewjbPE0j-WOpx99ZflAdj6WFUK18kjeXGW2Ir4d1lVLDH_TgFYA(1)B0l0UIO2WK6iE8dktiZnEBohs=w1064-v0.png✫✫NavigationBar_Standard.png✫
 A navigation bar/menu/navbar is a bar/strip, generally placed at any edge of the window, that contains links/shortcuts for navigation through a thing (program, app, website, whatever)
 On iOS specifically, a navigation bar appears at the top of the screen, often containing a back button on the left, and a few controls on the right, sometimes a title in the middle
 On android specifically, a navigation bar is the bar at the bottom of the screen that generally houses the three navigation controls: back, home, and overview.
 
-###### activity bar (vscode)
+##### activity bar (vscode)
 
 flex-container:⟮h∞;✫sm_toggle_side_bar.gif✫⟯
 
@@ -4358,7 +3629,7 @@ nth icon in activity bar|Purpose
 
 ⟮Extensions⟯ can ⟮populate all of VS Code's bars⟯ with ⟮more content⟯ 
 
-##### breadcrumbs
+#### breadcrumbs
 
 
 flex-container:✫sm_2021-06-26--14-46-16-screenshot.png✫
@@ -4367,12 +3638,12 @@ A breadcrumb trail most commonly represents a hierarchical structure.
 Each breadcrumb is usually a minimal element containing text only.
 In bootstrap, breadcrumbs are created by .breadcrumb › .breadcrumb-item*n
 
-##### sidebars
+#### sidebars
 
 flex-container:⟮h∞;✫440eb7ec02550be3045c969dc02dc7f2.png✫✫162vsE7VWrMgBdBTF8MCKXw.jpeg✫✫ditch-sidebar-2016-2-fox.jpg✫✫ditch-sidebar-2016-4-washington.jpg✫✫sidebars.png✫⟯
 A ⟮sidebar⟯ is an UI element that is displayed ⟮to the side of⟯ ⟮the main content⟯ or ⟮of the screen⟯. ⟮hb;Sidebars may be ⟮navigation bars⟯, contain ⟮tools⟯ or contain ⟮further content⟯. ⟮hb;Sidebars are generally ⟮reasonably wide (i.e. not just icons).⟯⟯⟯ 
 
-##### disclosure widgets
+#### disclosure widgets
 
 A disclosure widget has a collapsed state where it only shows a heading, and an expanded state which shows the heading and more content contained within.
 With a disclosure widget, the content contained within is shown if the heading is interacted with.
@@ -4384,11 +3655,11 @@ Most commonly, disclosure widgets start out in their collapsed state by default.
 In html, you can force a disclosure widget to start in its open state by specifying the boolean attribute open.
 flex-container:✫disc.png✫✫kfw-disclosure.jpg✫⟮h2;✫sm_FAQ-Content-Style-Accordion.gif✫⟯
 
-##### containers
+#### containers
 
 A lightbox is a box/container that displays images/videos by filling the screen and dimming out the rest of the page/UI.
 
-###### drawer
+##### drawer
 
 A drawer is a container at one edge that is show-hidable.
 A drawer typically takes up most of the screen when opened on a mobile device.
@@ -4396,9 +3667,9 @@ A drawer uses a shadow dims the rest of the UI when expanded, seemingly appearin
 Often, the menu a hamburger button triggers is a drawer.
 drawers on android can typically also be opened with a swiping gesture.
 
-###### windows
+##### windows
 
-####### dialog box
+###### dialog box
 
 A dialog box is a small window that appears in front of the main window due to some event or action and requires some sort of response.
 An alert box is a dialog box which contains important information and only accepts the response of ;close'.
@@ -4410,7 +3681,7 @@ The dialog element rerpesents a dialog box container semantically.
 The dialog element has a boolean attribute open representing whether the dialog should be shown or not.
 ‹form› elements can close a dialog if they have the attribute method="dialog". When such a form is submitted, the dialog closes with its returnValue property set to the value of the button that was used to submit the form.
 
-##### tooltips ＆ popovers
+#### tooltips ＆ popovers
 
 flex-container:⟮h∞;✫sm_13gJ2VKho0yW4vEovAMtrjg.jpg✫⟯⟮ha;✫sm_220px-Mobile_URL_tooltip.png✫⟯]]][[[⟮ha;✫sm_1sGOKl17J48qhDRMx-foqOw.gif✫⟯⟮ha;✫sm_2021-06-24--02-37-46-screenshot.png✫⟯
 ⟮Tooltips⟯ and ⟮popovers⟯ are similar in that ⟮they both appear close to the thing that triggered them⟯. 
@@ -4418,71 +3689,71 @@ A ⟮tooltip⟯ is an element/component ⟮with extra text⟯ which ⟮appears�
 A ⟮popover⟯ is a element/component that usually ⟮appears⟯ when ⟮interacting with something⟯ ⟮directly adjacent to that thing⟯. it ⟮is a modal (creates a mode⟯). 
 ⟮Popper⟯ is a ⟮JS⟯ library for ⟮tooltips⟯/⟮popovers⟯. 
 
-##### list box
+#### list box
 
 flex-container:✫1-final-listbox-matrix✫✫List_example.PNG✫✫ctrl-list-boxes-image1.png✫
 
 A listbox (or list box) is a UI element that contains a list of values within a box, of which the user can select one or more (depending on the box)
 
-##### corners
+#### corners
 
-###### hot corners
+##### hot corners
 
 ⟮hot corners⟯ are a feature of ⟮mac⟯ and some ⟮DEs on linux⟯ where ⟮moving your mouse into a corner⟯ will ⟮perform a certain action⟯ 
 
-##### dropdown list/menu
+#### dropdown list/menu
 
 flex-container:✫1y2NriILZC8ujowKW4TWb2Q.png✫✫dropdown-example.jpg✫✫3-final-sidebyside-dropdowns✫
 
 dropdown is short for dropdown list/menu
 A dropwdown is a UI element that consists of ⟮a box⟯ and ⟮a downward arrow⟯ that ⟮one can interact with⟯ to ⟮show a list of options⟯, ⟮exactly one of which⟯ can be ⟮selected⟯. Often, larger ones will ⟮scroll⟯.
 
-##### buttons
+#### buttons
 
-###### app shortcuts
+##### app shortcuts
 
 App shortcuts is the webdev name for the set of actions that are shown e.g. when you long press on a launcher icon on android
 
-###### FAB
+##### FAB
 
 flex-container:⟮ha;✫sm_fab.jpg✫⟯⟮ha;✫sm_paste-ea1a89438b76845b5487f1dddea6f955ef559d50.png✫⟯
 A ⟮FAB⟯ ⟮(c:2;floating action button⟯) is ⟮a button⟯ that ⟮is always visible⟯ and contains ⟮the primary action for the application/view⟯. 
 A ⟮FAB⟯ is typically located ⟮in the bottom right⟯, is fairly ⟮large⟯ and ⟮round⟯. 
 A ⟮FAB⟯ may ⟮contain more actions⟯ when ⟮pressed⟯. 
 
-##### icons
+#### icons
 
-###### icon fonts
+##### icon fonts
 
 Icon fonts map unicode characters from the private use areas to vectors/images
 Icon fonts are most often applied via css classes.
 the most common icon font is font awesome.
 
-###### icon packs
+##### icon packs
 
 An icon pack is a set of aesthetically united icons.
 octicons|icons used on github
 bootstrap-icons|Icons by/for bootstrap
 
-#### actions
+### actions
 
-##### window snapping
+#### window snapping
 
 Window snapping is making windows take up an exact area of the screen (most commonly halves, thirds, corners)
 Window snapping is most commonly performed by dragging them to edges/corners, via keyboard shortcuts or other buttons/automatic dialogs.
 Windows has had window snapping as of windows 7.
 Mac requires custom programs sto achieve window snapping, e.g. Spectacle (now deprecated) or Rectangle
 
-#### platforms
+### platforms
 
 flex-container:✫view_demonstrator.svg✫
 
 
 In ⟮mobile/app⟯ development, a ⟮view⟯ is ⟮the basic building block of UI⟯. They can be ⟮nested⟯, it is views ⟮all the way down⟯.
 
-### properties
+## properties
 
-#### diagesis
+### diagesis
 
 Something ⟮diegetic⟯ ⟮exists within the fictional world.⟯ 
 Something ⟮non-diegetic⟯ ⟮only exists outside of the fictional world⟯. 
@@ -4492,24 +3763,24 @@ Music that ⟮can be heard by the characters in a film⟯ would be ⟮diegetic m
 flex-container:✫sm_Dead_Space_gameplay.jpg✫
 Besides the meaning ⟮of inside/outside of a text⟯, ⟮diegesis/diegetic⟯ refers to ⟮narration (as opposed to mimesis⟯) 
 
-## user experience
+# user experience
 
 user experience is (the design of) the experience of an user interacting with something.
 
-### waiting
+## waiting
 
 Waiting is less frustrating when there is an indication of progress and transparancy of how the progress relates to the whole (e.g. Kayak.com showing cheaper prices trundling in).
 Jason Farman (Delayed Response) argues that what really matters about if we leave a waiting situation satisified is if we waited less than we expected, rather than the whole wait time.
 The fact that our expectations are the thing that determines our assesment of waiting and progress bars has given rise to the progress bar that starts out slow and then speeds up towards the end (no matter if this is a correct interpretation)
 
-## usability
+# usability
 
 Something that has high usability is usable safely, effectively, easily.
 Usability engingeering is a field that is concerned with the usability of things, especially with human-computer interfaces.
 Perhaps the most well-known advocate/export for usability is Nielsen.
 A think-aloud protocol has users do a certain task and say whatever comes to mind as they are doing them.
 
-### responsive design
+## responsive design
 
 responsive (web) design is (esp. web) design that adjusts to work ⟮on a variety of different devices⟯
 progressive enhancement is the (esp. web) design philosophy that emphasizes  creating a good-enough base level  and ⟮then building on top of that for other targets⟯
@@ -4517,20 +3788,20 @@ Graceful degradation is the (esp. web) design philosophy that emphasizes buildin
 progressive enhancement ↔ graceful degradation
 Mobile first is building the mobile site first (and expanding on that for desktop users)
 
-## computer graphcis
+# computer graphcis
 
-### FOUC
+## FOUC
 
 A ⟮FOUC (Flash of unstyled content)⟯ is when a ⟮page (or some content)⟯ is briefly visible with ⟮no styling/browser default styling⟯
 
-### geometry
+## geometry
 
-#### bounding box
+### bounding box
 
 The minimum/smallest bounding box of an element or a set of elements is the smalles box that can contain all of the elements.
 the minimum/smallest bounding box is often shortened to merely 「bounding box」.
 
-### color
+## color
 
 A ⟮color model⟯ is a model of how ⟮a set of channels⟯ ⟮make up a color⟯. 
 A ⟮color space⟯ is a ⟮color model⟯ ⟮associated with⟯ ⟮how the results are to be interpreted (viewing conditions etc.⟯) 
@@ -4641,7 +3912,7 @@ incandescent lights|~2500K
 daylight|6000K+
 candles|1500-2000K
 
-#### color schemes
+### color schemes
 
 ⟮c1,15;analogous ⟯|⟮c+;h15:21;Two or more colors that are all next to each other on the color wheel⟯|⟮c+;h8:14;✫sm_paste-1533923cee269fdd130a526f947f61f8c9c1a07a.jpg✫⟯
 ⟮c2,16;complementary ⟯|⟮c+;h15:21;Two opposite colors on the color wheel⟯|⟮c+;h8:14;✫sm_paste-03f4e18bda3e8ee3b4153d5f2ef646224461c7d2.jpg✫⟯
@@ -4652,7 +3923,7 @@ candles|1500-2000K
 ⟮c7,21;triadic ⟯|⟮c+;h15:21;Three colors equally spaced on the color wheel⟯|⟮c+;h8:14;✫sm_paste-002328be373e9ab91dcae451d436c067fa5a2718.jpg✫⟯
 
 
-### blending
+## blending
 
 Blend modes (or mixing modes[1]) in digital image editing and computer graphics are used to determine how two layers are blended with each other. 
 Blend modes typically use values from 0 to 1 for the channels for the math.
@@ -4662,12 +3933,12 @@ normal|use alpha compositing
 multiply|channel_t * channel_b|result will be darker (since two numbers less than 1 multiplied will always be smaller)
 screen|1 - (1 - channel_t) (1 - channel_b)|result will be always be lighter
 
-### image rendering
+## image rendering
 
 Sprites are multiple graphics fused into an image, which is then masked to only show the relevant image
 The two main advantages of sprites over multiple images is that  they can be easier to use and that   they take only one request to load which used to be better, but might not be anymore with HTTP/2
 
-### refresh rates
+## refresh rates
 
 ⟮FPS⟯ (computing context) is short for ⟮frames per second⟯ 
 The most common ⟮display refresh rate⟯ as of 2020 is ⟮60fps/hz⟯ 
@@ -4678,7 +3949,7 @@ medium|FPS
 ⟮film⟯|⟮24fps⟯
 
 
-### transparency ＆ opacity
+## transparency ＆ opacity
 
 The ⟮inverse of⟯ ⟮transparency⟯ is ⟮opacity⟯ 
 
@@ -4690,7 +3961,7 @@ transparency/opacity|visibility
 
 
 
-## design
+# design
 
 flex-container:✫sm_paste-cb3a6dba13c1114c73bc6f0fe28db50a33115787.jpg✫✫sm_paste-d33218361257ffbf6af9622ca81f2ec76c4c892c.jpg✫✫sm_paste-77fe64317aade2f78384ed042619b7625fb24c43.jpg✫✫sm_paste-36ea8c9033d617787cf777046d06e8b5f8db3454.jpg✫
 
@@ -4715,17 +3986,17 @@ flex-container:✫sm_merlin_159438345_f559b53a-6da1-49f2-a8d8-141c8887d2a6-artic
 hostile/defensive architecture might look like ⟮‹image›⟯ 
 The most common people targeted by ⟮hostile/defensive architecture/design⟯ in the west are ⟮the homeless⟯ and ⟮young people⟯ 
 
-## misc
+# misc
 
 mentions indicate that a user is being addressed, often linking to that user and also sending a notification.
 On most platforms, mentions begin with @.
 
 
-## non-standard humans or non-humans
+# non-standard humans or non-humans
 
-### either
+## either
 
-#### captions
+### captions
 
 captions|transcribing audio content mainly for agents who can't hear (well)
 subtitles|translating foreign language content
@@ -4733,7 +4004,7 @@ subtitles|translating foreign language content
 closed|can be en/disabled
 open|cannot be en/disabled
 
-#### curb cut effect
+### curb cut effect
 
 flex-container:⟮h∞;✫sm_paste-2ab6d6b8ccffb953b18c192a791aa3c2cbba86e5.jpg✫✫sm_paste-b6739c18073b7652f19b772187e5a52c68d24aa9.jpg✫✫sm_paste-c77343d19ee4958e246f56f5e234d8f9682731c2.jpg✫⟯
 
@@ -4742,7 +4013,7 @@ Only after ⟮disabled people protested⟯ did ⟮curb cuts begin to be institut
 ⟮Curb cuts⟯ had ⟮many unexpected benefits⟯ besides ⟮helping disabled people⟯, giving rise to the term ⟮curb cut effect⟯. 
 ⟮The curb cut effect⟯ states that ⟮accessibility improvements⟯ provide ⟮many and varied benefits for everyone⟯ besides ⟮their initial aims⟯ 
 
-#### non-directive play
+### non-directive play
 
 flex-container:⟮h∞;✫sm_Isamu-Noguchi-Three-1440x943.jpg✫✫sm_IMG_8551.jpg✫⟯⟮non-directive/self-directed play⟯ is play that ⟮allows the players to do whatever they come up with⟯
 
@@ -4750,9 +4021,9 @@ flex-container:⟮h∞;✫sm_Isamu-Noguchi-Three-1440x943.jpg✫✫sm_IMG_8551.j
 ⟮self-directed play⟯ was advocated, especially in ⟮playgrounds⟯, by ⟮Isamu Noguchi⟯ 
 ⟮Noguchi⟯ ⟮long struggled⟯ to g⟮et a self-directed play playground built⟯, but ⟮one was eventually built in Sapporo⟯ 
 
-### robots
+## robots
 
-#### robots/noindex
+### robots/noindex
 
 There are two ways to ⟮specify what crawlers such as those from search engines can crawl⟯, ⟮the robots.txt⟯ and ⟮the noindex tag⟯. 
 The ⟮robots.txt⟯ follows/implements ⟮the robots exclusion standard/protocol⟯. 
@@ -4765,11 +4036,11 @@ While ⟮you can tell what crawlers should crawl⟯ via ⟮robots.txt/noindex⟯
 If ⟮a page should truly inaccessible to outside forces⟯, ⟮using robots.txt/noindex tags is not enough⟯, it should then be ⟮password-protected or similar.⟯ 
 Example noindex tag: `‹⟮meta⟯ name="⟮robots⟯ (all) / ⟮googlebot⟯ (only google) content="⟮noindex⟯"›` 
 
-#### sitemap
+### sitemap
 
 sitemaps are XML, RSS/Atom, or .txt documents that describe the navigational structure of your site, and are often used by search engines
 
-#### search
+### search
 
 The most fundamental thing that influences your SEO is how many other links to your site exist, and who these sites linking to you are.
 By linking to a site, you confer some of your sites reputation to that site.
@@ -4780,13 +4051,13 @@ Google may penalize if you have a bunch of pages with basically the same content
 As of 2021, ⟮stuffing keywords⟯ in places is ⟮no longer effective⟯ for ⟮SEO⟯ 
 As of 2021, for ⟮SEO⟯, ⟮a page title/ description⟯ should be ⟮descriptive of the page content⟯ and ⟮distinct from other page titles⟯. 
 
-### Accessibility
+## Accessibility
 
 ⟮Accessibility⟯ is ⟮designing things⟯ ⟮so as to be usable by people with disabilities (with a variety of bodies⟯)
 Accessibility improvements often do not merely benefit the disabled, but also non-human users (e.g. web crawlers and thus SEO), users with different input methods (such as the keyboard)
 For accessibility purposes, audio/video should have captions, and lighthouse will chide you if it doesn't
 
-#### WAI ＆ WCAG basics
+### WAI ＆ WCAG basics
 
 ⟮the Web Accessibility Initiative (WAI)⟯ is the W3C initiative supporting accessibility.
 the WCAG (Web Content Accessibility Guidelines) are guidelines for web accessibility published by the WAI.
@@ -4802,26 +4073,26 @@ the WAI published the WCAG ⟮2.1⟯ version in ⟮2018⟯, and is expected to p
 According to the WCAG ⟮level AA⟯, color should have a ⟮contrast ratio⟯ of at least ⟮3:1⟯ for ⟮large⟯ and ⟮4.5:1⟯ for ⟮normal⟯ text 
 According to the WCAG ⟮level AAA⟯, color should have a ⟮contrast ratio⟯ of at least ⟮4.5:1⟯ for ⟮large⟯ and ⟮7:1⟯ for ⟮normal⟯ text 
 
-#### WCAG success critera
+### WCAG success critera
 
 The text of a link should be descriptive of the purpose of the link, even out of context.
 
-##### Non-text content
+#### Non-text content
 
 the alt text should be blank if the image is merely presentational, don't just not specifiy it, or screen readers might e.g. read out the url
 iframes and frames should have a title (doing what alt text would do for images)
 
-#### WCAG techniques
+### WCAG techniques
 
 Based off ⟮the DOM tree⟯, the browser builds the ⟮accessibility tree⟯ containing ⟮all accessibility-relevant information⟯
 
-##### Semantic HTML
+#### Semantic HTML
 
 Semantic HTML is HTML where the tags contain semantic information about the content
 Semantic HTML includes elements like ‹article›, ‹nav›, ‹summary›, contrasting with elements like ‹div›, ‹span›
 
 
-##### aria
+#### aria
 
 ARIA attributes fall under the umbrella of WCAG techniques.
 ARIA  Accessible Rich Internet Applications
@@ -4839,21 +4110,21 @@ a reason for using aria-label might be e.g. because a close button is realized �
 
 # data storage
 
-## memory
+# memory
 
-### medium
+## medium
 
-#### holes
+### holes
 
 In punch card/punched tapes, the two states of binary data represent the presence or absence of holes.
 punched tape is like punched cards, but continuous
 
-#### flash memory
+### flash memory
 
 Solid state memory/storage in theory is any storage without any moving part.
 Flash memory is the most common type of solid state memory.
 
-### mutability ＆ volatility
+## mutability ＆ volatility
 
 ROM  Read only memory
 ROM is memory that is set once, and then cannot be changed anymore, or only using a special technique.
@@ -4861,7 +4132,7 @@ ROM was used to store games on game cartidges, for example.
 Memory that retains information after power is removed   Non-volatile memory
 Memory that requires power to retain stored information   Volatile memory
 
-### addressing
+## addressing
 
 Memory is generally addressed via memory addresses.
 Physical addressing is addressing memory by using addresses corresponding to actual memory addreesses
@@ -4886,7 +4157,7 @@ Small blocks may cause storage overhead b/c the metadata to content ratio is sma
 large blocks may cause storage wastage b/c small files still need at least a single block.
 
 
-#### memory management
+### memory management
 
 swap/page storage are virtual memory that is secondary memory used as an extension of primary memory
 swap/page storage may be a file(s) or a partition(s).
@@ -4896,16 +4167,16 @@ moving virtual memory from secondary to primary memory or v.v. (without using pa
 primary → secondary memory|paged/swapped out
 secondary → primary memory|paged/swapped in
 
-### fragmentation
+## fragmentation
 
 ⟮Memory fragmentation⟯ is when memory is ⟮allocated in many non-contiguous blocks⟯, meaning it has ⟮small spaces that can't store anything useful⟯ 
 ⟮Memory fragmentation⟯ results in ⟮the wasting of storage⟯. 
 
-### relation to processor
+## relation to processor
 
 The difference between primary and secondary memory is that the processor can address primary memory directly.
 
-#### primary memory/storage
+### primary memory/storage
 
 The terms primary storage/memory, internal storage/memory, and main storage/memory are often used interchangeably.
 As I will use the term, primary memory consists of CPU core Registers and Cache as well as main memory.
@@ -4925,17 +4196,17 @@ Memory closer to the processor is faster but more expensive and smaller, memory 
 memory speed:
 registers › processor cache › main memory › secondary memory
 
-#### secondary memory
+### secondary memory
 
 secondary meory is generally non-volatile memory
 
-##### drives
+#### drives
 
 HDD  Hard disk drive
 SSD  Solid state drive/device/disk
 clonezilla is the standard FOSS program for cloning entire drives.
 
-###### HDD
+##### HDD
 
 HDDs store bits of data data via magnetic north/south.
 Physically, a HDD stores the data on rotating platters.
@@ -4963,7 +4234,7 @@ CHS = Cylinder Head Sector
 CHS used the head, cylinder and sector (like coordinates) to specify a memory location.
 CHS was replaced in the mid-90s by logical block addressing.
 
-###### SSD
+##### SSD
 
 A flash memory device typically consists of multiple flash chips and a controller.
 a flash chip is made up of blocks which are made up of pages
@@ -4986,9 +4257,9 @@ onion-box:
     ⟮c;...⟯
   ⟮c;...⟯
 
-## secondary memory organization
+# secondary memory organization
 
-### devices
+## devices
 
 RAID = Redundant Array of Inexpensive/Independent Disks
 SLED = Single Large Expensive disk
@@ -5000,7 +4271,7 @@ RAID 1|data is mirrored on all drives|reliability ＆ some read performance
 
 `df` shows memory device storage usage
 
-### partitions
+## partitions
 
 A secondary memory device is divided into n partitions.
 How partitions are layed out on a secondary memory device is described by the partition table.
@@ -5023,7 +4294,7 @@ Verb|Function|Which of drutil/diskutil?
 
 
 
-### file system
+## file system
 
 The file system is the method/system/whatever that controls/specifies how ⟮data is organized within a partition⟯
 A flat file system is a file system with no ⟮subdirectories⟯
@@ -5035,7 +4306,7 @@ FUSE  is system that allows users to create their own filesystems without editin
 FUSE was originally developed for linux, but has been ported to other OSs such as win or mac
 fuse is configured in /etc/fuse.conf
 
-#### mounting
+### mounting
 
 mouting is associating a device with a location in the directory tree.
 /etc/fstab allows specifying default moun points for certain devices/partitions.
@@ -5045,12 +4316,12 @@ mount may take both a device and a mountpoint.
 mount may take just a device or mountpoint, in which case it will try to mount this in the way specified in /etc/fstab.
 in contrast to mount, pmount allows one to mount a device without being root, but only if one conforms to a certain set of rules (its policy)
 
-#### file info
+### file info
 
 stat|info about file
 file|get file type and related info
 
-### directory structure
+## directory structure
 
 ⟮the directory structure⟯ is the way data is organized in a file system using directories.
 If the directory structure is a tree, it is often called a/the directory tree.
@@ -5066,10 +4337,10 @@ A relative path begins at the current working directory.
 In general on *nix systems, whatever/share contains architecture-independent data
 
 
-#### navigation
+### navigation
 
 
-##### traversal
+#### traversal
 
 autojump is a tool that remembers which places you've navigated to, and allows quick jumping to the most commmonly used place.
 j foo| jump to most commonly used directory containing foo
@@ -5080,7 +4351,7 @@ cd|move to specified directory
 cd without an argument moves back to your home directory
 cd - moves back to previous directory (not parent directory)
 
-###### file manager/browser
+##### file manager/browser
 
 file browser = file manager
 a file manager/browser is a program that provides an user interface for managing files and folders.
@@ -5091,7 +4362,7 @@ flex-container:✫sm_Screenshot%202020-02-23%20at%2018.08.49%20(1).jpg✫
 
 For ⟮Finder⟯, ⟮whenever you search anything in the top right bar⟯, ⟮a Searching/Find window opens⟯. ⟮hb;To ⟮add filters to the search⟯, ⟮click the small plus in the top right corner⟯. ⟮hb;You can use this to search ⟮pretty much any of the files properties⟯ with ⟮fine granularity⟯.⟯⟯ 
 
-##### information
+#### information
 
 pwd|print path of current directory
 tree|print a directory tree
@@ -5118,7 +4389,7 @@ du ＆ dust estimate storage usage of files in current directory.
 realpath gets the absolute path for a file name
 basename strips the path and suffix from a file name
 
-###### find
+##### find
 
 find|find files
 find-command ::= find {‹global-option›} {‹starting-point-path›} {‹expression›}
@@ -5134,7 +4405,7 @@ If no starting point is specified for find, it takes the current working directo
 fd is a simpler and faster version of find implemented in rust.
 fdupes finds duplicate files.
 
-###### grep
+##### grep
 
 grep is a tool that takes a regex, applies it to a set of files, and prints the lines that match.
 There are tons of grep variants:
@@ -5149,9 +4420,9 @@ grep -v = grep --invert-match
 grep -F/--fixed-strings interpet pattern as fixed string, not as regex
 `-C NUM/--context=NUM`   show this much context
 
-#### directory structures
+### directory structures
 
-##### home dir
+#### home dir
 
 Generally one home directory per user.
 On *nix, the home directory of a user generally contains all the stuff pertaining ot a user.
@@ -5159,7 +4430,7 @@ FHS: Home directories live in /home/
 $XDG_CONFIG_HOME/autostart contains .desktop files to run on system start
 $XDG_DATA_HOME/fonts contains fonts for a specific user
 
-##### XDG Base Directory Specification
+#### XDG Base Directory Specification
 
 XDG Base DIrectory Specification is the spec governing the organization of files in your home directory   
 
@@ -5171,13 +4442,13 @@ $XDG_DATA_HOME|$HOME/.local/share|/usr(local/)share
 $XDG_CONFIG_HOME|$HOME/.config|/etc
 $XDG_CACHE_HOME|$HOME/.cache|/var/cache
 
-##### FHS
+#### FHS
 
 FHS  Filesystem Hierarchy Standard
 FHS (Filesystem Hierarchy Standard) is the Linux spec for ⟮directory structure⟯
 source code should be in src for reference only
 
-###### /sys
+##### /sys
 
 /sys provides a window to the kernel.
 /sys/class|contains (a view of) different types of devices
@@ -5185,15 +4456,15 @@ source code should be in src for reference only
 /sys/class/power_supply/BAT‹n›|information about the nth battery
 /sys/class/backlight|contains (a view of) the screen backlights.
 
-###### /boot
+##### /boot
 
 /boot contains things necessary for booting, most importantly the kernel.
 
-###### /proc
+##### /proc
 
 /proc contains information for each process and a lot of runtime system info.
 
-###### /var
+##### /var
 
 /var contains data likely to change often.
 the structure of /var is provided by the OS
@@ -5209,34 +4480,34 @@ Of /var/mail/ and /var/spool/mail, the semantics are the same, and thus one is m
 /var/lib data to maintain program state that doesn't have  a better directory to be in. 
 /var/lib state information is valid even after reboot.
 
-###### /opt
+##### /opt
 
 /opt   software packages (complete and kind of foreign)
 programs in /opt are usually more self-contained and system-fremd.
 
-###### /srv
+##### /srv
 
 /srv is a directory for data served by the system
 /srv is often organized into subfolders by protocol (though this is not a requirement.)
 /srv is not used particularly commonly
 
-###### /mnt and /media
+##### /mnt and /media
 
 /media is where the system mounts things automatically (e.g. removable media), and /mnt is where you mount things manually (with generic semantics)
 You are not forced to mount things in /mnt, you can mount them wherever you want.
 
-###### /opt
+##### /opt
 
 /opt contains fairly self-contained programs
 /var/opt contains variable data of programs installed in /opt
 today, usage of /opt is fairly rare
 
-###### /run and /var/run
+##### /run and /var/run
 
 today, /var/run is deprecated in favor of and a symlink to /run
 /run or /var/run contains runtime variable data that programs rely on that is cleaned or tirimmed at reboot
 
-###### /usr
+##### /usr
 
 /usr is called usr because it contains userland and not kernel land data
 Data within /usr should be usable on any FHS-compliant host, ergo data specific to host or time should not go in /usr.
@@ -5248,7 +4519,7 @@ stuff in a share directory is data sharable sharable across all architectures of
 /usr(/local)/src contains source code of installed programs for reference only.
 typically, /usr and /usr/local include at least bin, lib, include and share
 
-###### bins
+##### bins
 
 whatever/bin is generally for executables
 Originally and still in some unixes, /bin would have contained system-essential binaries, while /usr/bin and /usr/local/bin would have contained non-system essential bins (and analogously for lib)
@@ -5259,14 +4530,14 @@ instead of whatever/bin, games may also go in whatever/games
 /sbin is for binaries needing superuser priviledges/for system administration
 sbin = superuser binary
 
-###### /tmp
+##### /tmp
 
 /tmp is for temporary files.
 /tmp is sometimes emptied on process exit or on boot.
 /var/tmp is like /tmp, but meant to last longer and thus autocleaned less or not at all
 Organization within /tmp is pretty hodgepodge.
 
-###### /etc
+##### /etc
 
 /etc contains global config files for all the programs that run on your Linux/Unix system
 /etc/hosts
@@ -5277,14 +4548,14 @@ hostnamectl administers the stuff in /etc/hostname and /etc/machine-info, i.e. a
 hostname - show or set the system's host name
 Instead of /etc, some programs stored in /usr/local store their config in /usr/local/etc
 
-###### /dev
+##### /dev
 
 /dev contains device files.
 It makes sense to treat devices as just another file, as the operations they support (reading, writing or both) are the same as a file.
 device files are files that are interfaces to device drivers (or more rarely other things).
 udev is a system managing the /dev directory and userspace hardware events.
 
-####### drivers
+###### drivers
 
 on *nix, any device is identified by its major and minor number.
 on *nix, drivers generally should provide a mechanism but not a policy.
@@ -5295,7 +4566,7 @@ minor number|device of driver
 if two device files have the same major number, they are managed by the same driver
 if two device files have the same major and minor number, they are the same device
 
-####### not real devices
+###### not real devices
 
 /dev/random and /dev/urandom are CSPRNGs of nix* systems
 the difference between /dev/random and /dev/urandom is that the former blocks to wait for more entropy if necessary, the latter does not.
@@ -5305,7 +4576,7 @@ the man suggests one use /dev/random for long-lived GPG/SSL/SSH keys, and /dev/u
 anything written to /dev/null discards the data, whence its nicknames bit-bucket/black hole
 /dev/video‹n› represents attached cameras.
 
-####### block device files
+###### block device files
 
 The beginning of the device file name specifies the kernel's used driver subsystem to operate the block device.
 Originally, the /dev/sd‹char› was only used for block devices using SCSI.
@@ -5326,19 +4597,19 @@ A loop device is a normal file mounted as a block device, which you then can use
 .iso files might be good candidates for mounting as a loop device.
 loop devices are mounted at /dev/loop on linux
 
-####### character device files
+###### character device files
 
 /dev/stdin and /dev/stdout are symlinks to /dev/fd/0 and /dev/fd/1
 piping to `source /dev/stdin` executes the text as a command
 
-##### Mac
+#### Mac
 
 flex-container:✫sm_Screenshot%202020-07-09%20at%2014.36.21.jpg✫
 ⟮macOs⟯'s ⟮/private⟯ folder contains ⟮a few directories that would have been found in / on FHS-compliant devices⟯, namely ⟮s1:3;⟮etc⟯, ⟮tmp⟯, and ⟮var⟯⟯
 
-## files
+# files
 
-### file operations regardless of contents
+## file operations regardless of contents
 
 mv will silently overwrite if moving to something that already exists.
 dd   copying (similar to cat/cp) with some low-level options
@@ -5352,7 +4623,7 @@ rsync is an improved version of rcp and shares much the same general interface, 
 rnr   regex renaming utility that actually works well
 
 
-#### diff
+### diff
 
 ⟮diff⟯ is a tool that ⟮shows the differences between files⟯. 
 ⟮diff⟯ is originally ⟮a cli program of the same name⟯. 
@@ -5366,21 +4637,21 @@ There are variants of ⟮the original cli program diff⟯ that change how it wor
 
 further, ⟮diff-like output⟯ is now used in ⟮a wide variety of gui applications⟯ 
 
-### files as binary
+## files as binary
 
 A hex editor is an editor that allows you to edit the fundamental binary data of a file displayed as hex
 
 od|output files in octal, but also in other repreesentations
 od -x|hex dump
 
-### file types by relation to OS
+## file types by relation to OS
 
 linux: "Everything is a file"
 Plan 9: "Really everything is a file"
 
 folder (windows) = directory (*nix)
 
-#### permissions ＆ owners
+### permissions ＆ owners
 
 The user-and-group model means that for each file every user on the system falls into one of three categories: the owner of the file, someone in the file’s group and everyone else
 chown changes the owner and/or group of the file
@@ -5390,9 +4661,9 @@ The three permissions that unix tracks are ⟮read⟯, ⟮write⟯,, and ⟮exec
 ⟮w⟯|⟮write⟯
 ⟮r⟯|⟮read⟯
 
-#### inodes
+### inodes
 
-##### inodes themselves
+#### inodes themselves
 
 In linux exty file systems, a file is identified by an inode.
 An inode stores things such as types, permissions, ownership, and most importantly a pointer to the file's contents.
@@ -5401,12 +4672,12 @@ It's unclear what inode exactly is short for, but probably something like index 
 Oddly, the inode does not contain the file name, which is instead stored by the directory.
 If linux finds an inode without a filename (that is referenced in no directory), it puts it in lost+found
 
-##### inode numbers
+#### inode numbers
 
 An inode is uniquely identified by an inode number.
 Sometimes, inode is incorrectly used to refer to inode.
 
-##### inode table
+#### inode table
 
 The inode table is a property of the file system.
 The inode table contains all possible inode numbers.
@@ -5415,14 +4686,14 @@ The inode table is created at fs creation type.
 The inode table takes up roughly 1% of a file system's storage space.
 The fact that there is a limited number of inode numbers which are determined at fs creation time means that its possible to run out of inode numbers (and thus the ability to create no files)
 
-##### special inode numbers
+#### special inode numbers
 
 table:inode number|refers to
 2|/ (root)
 1|Bad blocks indication thingy
 0|NULL (no inode)
 
-#### 7 types of files
+### 7 types of files
 
 In unix, there are 7 types of files.
 Types of files in linux: ⟮Regular file⟯ ⟮Directory⟯ ⟮Symlink⟯ ⟮FIFO/named pipe⟯ ⟮Socket⟯ ⟮Device file (block)⟯ ⟮Device file (character)⟯
@@ -5438,7 +4709,7 @@ p|FIFO (named pipe)
 s|socket
 ?|some other file type
 
-##### named pipe
+#### named pipe
 
 named pipe = FIFO
 named pipes are functionally very similar to a temporary files.
@@ -5446,7 +4717,7 @@ the use-case for using named pipes instead of anonymous pipes is that you don't 
 mkfifo creates a new named pipe
 named pipes must be deleted manually (via rm)
 
-##### links
+#### links
 
 ln creates hardlinks by default, and symlinks with -/--symbolic.
 ln orders its arguments the same way cp would.
@@ -5462,7 +4733,7 @@ To use a hard link, the file must be on the same filesystem.
 If a file moves, a hard link will still be pointing to it.
 readlink prints the value of a symbolic link.
 
-##### directories
+#### directories
 
 In *nix, directories are nothing but a file, where the files 'contained' within are only associated with it via their directory entry.
 dentry = directroy entry.
@@ -5475,14 +4746,14 @@ Within the ext filesystem, the second entry in any directory file is the .. entr
 ..|parent directory
 If there is an inode not referenced by any directory entry, it will be placed in lost+found.
 
-##### device files
+#### device files
 
 two of the seven types of files are device files.
 The two types of device files are block device files and character device files.
 Block device files grant random access.
 Character device files grant sequential access.
 
-#### special names
+### special names
 
 When config files are split up into multiple files, .d directory names are often used.
 .d directory names are often used to give them a different names from normal files doing something  similar.
@@ -5490,7 +4761,7 @@ dotfiles are files starting with a dot.
 Dotfiles are generally hidden by default.
 Dotfiles are often used for config or metadata.
 
-##### sockets
+#### sockets
 
 Unix IPC sockets are distinct from network/internet sockets
 A socket in unix is realized as a file descriptor
@@ -5498,9 +4769,9 @@ A socket in unix is realized as a file descriptor
 /dev/log = socket for logging
 
 
-### file formats
+## file formats
 
-#### indication
+### indication
 
 ⟮File format⟯ and ⟮file type⟯ are ⟮basically synonyms⟯. 
 the ⟮file format/type⟯ is ⟮the structure/specification⟯ of what ⟮the binary contents⟯ of ⟮c+;a file following this ⟮s4;file format⟯⟯ ⟮mean/how they should be interpreted⟯. 
@@ -5534,7 +4805,7 @@ A ⟮mailcap⟯ ⟮file⟯ maps ⟮media types⟯ to ⟮applications to view/exe
 ⟮Mailcap mapping⟯ syntax: ⟮‹media-type›⟯⟮c+;;⟯⟮‹program-to-execute›⟯ ⟮%s⟯ 
 For ⟮mailcap⟯, ⟮%s⟯ represents ⟮the file of the relevant MIME type⟯ that ⟮the program gets passed⟯ 
 
-##### common file extensions
+#### common file extensions
 
 File format|File extension
 ⟮TypeScript source code⟯|⟮.ts⟯
@@ -5565,13 +4836,13 @@ File format|File extension
 ⟮shell script⟯|⟮.sh⟯
 
 
-#### binary
+### binary
 
 Binary files without a specification/documentation/parser are basically meaningless/unreadable.
 What the binary files contents mean is defined by the file format.
 Binary files are generally smaller and quicker to process than plaintext files
 
-##### encoding as text
+#### encoding as text
 
 ⟮binary-to-text encodings⟯ represent ⟮binary data⟯ with ⟮plain text⟯ 
 ⟮binary-to-text encoding⟯ is ⟮inefficient⟯ but is ⟮necessary⟯ to ⟮send binary data over plaintext channels⟯, e.g. in ⟮email⟯. 
@@ -5583,7 +4854,7 @@ the most common ⟮binary-to-text encoding⟯ is ⟮base64⟯.
 data URI syntax `⟮data:⟯⟮[‹media type›]⟯⟮c+;[;base64]⟯⟮,‹data›⟯` 
 base64 is a command-line program to en/decode things as base64
 
-##### bitmaps
+#### bitmaps
 
 In the technical definition, a bitmap maps some domain to some bits.
 In the technical definition, a pixmap is a bitmap mapping a pixel to a set of bits.
@@ -5591,15 +4862,15 @@ While in the technical definition, a pixmap is a hyponym of bitmap, they also ma
 The common file format for a pixmap image is BMP.
 Pixmap images are very large, since they don't have any compression.
 
-##### multimedia
+#### multimedia
 
 (multi)media files are almost always binary files
 
-###### video/sound
+##### video/sound
 
 Default mac japanese voice is  Kyoko
 
-####### players
+###### players
 
 ffmpeg media player   `ffplay`
 
@@ -5610,7 +4881,7 @@ mpv plays files, urls, and playlists.
 Play a playlist‹filename›   --playlist=‹filename›
 don't open a new video window‹filename›‹/filename›   --no-video
 
-######## mpd mpc
+####### mpd mpc
 
 mpd is short for Music Player Daemon.
 mpd acts as a server, which you can start via the `mpd` command (either directly or via a service)
@@ -5637,9 +4908,9 @@ mpc -p port or --port=port|connect to mpd at the specified port
 `mpc next`|go to next song
 `mpc toggle`|play if paused, pause if playing
 
-####### processing
+###### processing
 
-######## ffmpeg
+####### ffmpeg
 
 ffmpeg is mainly a video/audio converter
 
@@ -5657,9 +4928,9 @@ input-output-options
 -to ‹position›|stop at position
 `-preset FOO`   set the speed (and thus the effectiveness) of the encoding (values such as veryfast, medium, slow...)
 
-###### images / combined
+##### images / combined
 
-####### types
+###### types
 
 flex-container:✫1280px-VectorBitmapExample.svg.png✫
 
@@ -5674,7 +4945,7 @@ Affinity Designer|proprietary, desktop|.afdesign
 Inkscape|FOSS, desktop|SVG
 SVG-edit|FOSS, web|SVG
 
-######## SVG
+####### SVG
 
 SVG is the standard format for vector images
 SVG is a subformat of XML.
@@ -5685,19 +4956,19 @@ Often, ⟮SVG⟯ is ⟮included in HTML⟯. This can be done by i⟮ncluding it 
 ⟮‹foreignObject›⟯ is an SVG element that allows you to ⟮include non-SVG XML⟯, most commonly ⟮s15;⟮HTML⟯⟯. 
 
 
-########## affinity designer
+######### affinity designer
 
 flex-container:⟮h∞;✫sm_Screenshot%202020-04-05%20at%2018.40.27.jpg✫⟯
 
 To ⟮select a color in affinity designer⟯ (must be in ⟮Pixel Persona⟯) ⟮c+;Select › Select Sample Color⟯ 
 To ⟮turn a color transparent⟯ in affinity designer ⟮select a color, then delete it with backspace⟯ 
 
-####### viewers
+###### viewers
 
 feh|terminal-launched image viewer
 imgcat|in-terminal image viewer
 
-####### processing
+###### processing
 
 unpaper cleans/post-processes scanned pages
 pdftk and qpdf are the most common CLI tools for pdf transformation
@@ -5705,7 +4976,7 @@ gifsicle is a CLI program to manipulate gifs
 remove.bg is an AI tool that can remove the bg of images with people in them.
 remove.bg is accessible via an API as well, which can be called via a command `removebg`
 
-######## ocrmypdf
+####### ocrmypdf
 
 `⟮ocrmypdf⟯` is a command line tool to ⟮add OCR text to scanned PDF files⟯. 
 ```
@@ -5717,7 +4988,7 @@ ocrmypdf ⟮SOURCE DEST⟯
 ⟮change/correct rotation (the one in steps of 90°⟯)|⟮`--rotate-pages`⟯
 
 
-######## imagemagick
+####### imagemagick
 
 ⟮Imagemagick⟯ is ⟮a set of programs⟯ for ⟮modifying images.⟯ 
 ⟮Imagemagick⟯ mainly exists as ⟮a cli⟯, has ⟮a basic X window gui⟯, and ⟮API bindings⟯ for ⟮pretty much any programming language under the sun⟯. 
@@ -5765,11 +5036,11 @@ table:span=2;Imagemagick options
 ⟮`-flip`⟯|⟮Change to upside down⟯
 
 
-#### plaintext
+### plaintext
 
-##### utilities
+#### utilities
 
-###### output/info
+##### output/info
 
 cat|output a file
 tac|cat, but reversed line-by-line
@@ -5780,7 +5051,7 @@ wc output ordering
 
 bat is a more fancy version of cat with auto syntax highlighting, line numbers, git integration etc. implemented in rust.
 
-###### editors
+##### editors
 
 a stream editor is a filter used to do text transformations
 a line editor is a stream editor that applies its commands to some or all of the lines.
@@ -5818,7 +5089,7 @@ For sed, using the \‹char› syntax as a regex starting delimiter must then co
 
 nano|basic cmd-line text editor
 
-###### basic filters
+##### basic filters
 
 lolcat   make output rainbowy
 cowsay   make an ascii cow say the specific thing
@@ -5834,7 +5105,7 @@ rev|reverse each line of a file ('horizontally\)
 The commands head and tail print the first/last few lines of a file.
 The amount of lines printed by head/tail defaults to 10
 
-###### pandoc
+##### pandoc
 
 Pandoc is a haskell-based powerful converter between text-based formats.
 By default, pandoc acts as a filter.
@@ -5852,7 +5123,7 @@ pandoc-format-specifier ::= ‹pandoc-format›{(+|-)‹pandoc-extensions›}
 By default pandoc creates an output pdf by using latex as an intermediary, you can change this behavior with --pdf-engine.
 
 
-###### generation
+##### generation
 
 fortune|display a random fortune
 
@@ -5860,9 +5131,9 @@ yes[ ‹string›]
 yes outputs y or ‹string› until killed.
 yes can be used to e.g. provide always answer yes for whatever a script asks by using yes | ...
 
-###### regex
+##### regex
 
-####### basic syntax
+###### basic syntax
 
 regex ::= [^|\A]‹expression›[$|\Z]
 expression ::= ‹alternative›{|‹alternative›}
@@ -5872,34 +5143,34 @@ quantifiable ::= ‹character-class›|‹group›|‹character›|‹reference�
 
 | marks alternation, where one alternative must match
 
-####### the regex engine
+###### the regex engine
 
 In general, the regex engine proceeds from left to right through the regex, matching the next token in the regex to the next token in the string.
 The regex engine always returns the first (leftmost) string that matches all our constraints (though of course that is also the longest match e.g. if our quantifiers are greedy).
 
-######## backtracking
+####### backtracking
 
 As the regex goes through the regex, it inserts a backtracking position at any point in the regex/string where it could have tried to match differently.
 If a regex tries a certain match, and this fails at some point, it backtracks.
 Backtracking is when regex goes to the last backtracking position and tries a different alternative.
 
-######## zero length
+####### zero length
 
 In regex, some things, e.g. assertions as well as some quantifiers allow matching things of zero length. These are known as zero-length matches.
 Some flavors of regex always skip zero-legnth matches = don't return zero-length matches.
 When a regex engine can find multiple zero-length matches at the same position, it could concievably get stuck there forever.
 To prevent the regex engine from getting stuck matching zero-length matches at the same position until the heat death of the universe, there are two strategies: Either attempt the next match one character after the end of the previous match, or start the next match at the same position, but make note of the fact that the previous match was zero-length, and forces the thing to give up its zero-length match if it tries to match the same zero-length position agaoin.
 
-####### regex syntax
+###### regex syntax
 
-######## characters
+####### characters
 
 a literal character matches/represents itself (unless it is a metacharacter in that position, in which case it needs to be esxaped)
 The . character matches all characters (including newlines if the dotall flag is enabled, excluding newlines otherwise)
 It is often more sensible to use a negated character class instead of .
 The sequence q-e-escape-sequence ::= \Q{‹character›}\E forces everything within to be treated as literal and not as metacharacters
 
-######## character class
+####### character class
 
 A character class matches exactly one of several characters.
 There built-in character classes, or you may specify one with a character class literal.
@@ -5923,7 +5194,7 @@ Character classes that contain a built-in character class and its negation match
 There are a special kind of character class called a posix bracket expression, which has the syntax [:‹name›:]
 In many langauges \p{} is a character class that takes an argument of a certain unicode category matches all relevant unicode characters. Java uses the same type of notation for posix bracket expressions 
 
-######## group
+####### group
 
 a group allows an expression to be acted upon.
 Capturing stores a matched string for further use.
@@ -5943,7 +5214,7 @@ group-specifier|meaning
 ?‹flags›|activates certain flags from within a regex
 group ::= \(‹group-specifier›‹expression›\)
 
-######### lookaround assertions
+######## lookaround assertions
 
 lookaround assertions live in groups that are non-capturing and atomic by default (and unalterably so)
 the four lookaround assertions are assertions testing whether the environment before or after the string is a certain way.
@@ -5960,7 +5231,7 @@ positive-negative ::= =|!
 
 SOme regex flavors require lookaround assertions to be fixed length and so disallow quantifiers, alternaton and backreferences
 
-######### modfies |
+######## modfies |
 
 conditional and branch rest groups modify the meaning of the | within.
 A conditional gropu looks like (?‹expression›|‹expression›[|‹expression›]) and works much the same way as an if-conditional in usual programming languages
@@ -5971,7 +5242,7 @@ The index of the next group after the branch reset group is the maximum index th
 
 table:style=text-align: left;headerrows=0;!type=th;Regex|(a)|(? x|(y)z||(p|(q)r)||(t)u(v))|(z)!Group index|⟮1⟯|⟮2⟯|⟮2⟯|⟮3⟯|⟮2⟯|⟮3⟯|⟮4⟯
 
-######## reference
+####### reference
 
 references are macros replaced with the content of the group they're referring to
 references to nonexistant capture groups produce errors in most regex flavors, in JS they match an octal number up to \7.
@@ -5985,7 +5256,7 @@ Most regexes that support the \k or \g flavors support them for both relative ba
 Some regexes support only the \k or \g flavors for relative/named refs, some support both, and some use a completely different syntax all together.
 Relative backreferences use a negative number to count back from that position.
 
-######## Assertions 
+####### Assertions 
 
 Assertions in regex test if a condition is the case, but themselves only produce zero-length matches.
 Assertions is a group consisting of the lookaround assertions, anchors
@@ -6005,7 +5276,7 @@ Notably, JS regex does not support \A and \Z.
 \K keeps the text matched so far out of the overall regex match. 
 keep-out ::= ‹expression›\K
 
-######## quantifiers
+####### quantifiers
 
 quantifier ::= (?|+|*|‹range›)‹quantifier-mode›
 range ::= \{[‹integer›][,][‹integer›]\}
@@ -6026,7 +5297,7 @@ greedy|get longest possible match|tries token as many times as possible, and gra
 lazy|get shortest possible match|tries token as few times as possible, and gradually expands match if backtracking
 posessive|get longest possible match, or none at all|tries token as many times as possible, does not backtrack
 
-######## recursion tokens
+####### recursion tokens
 
 recursion-token ::= \(?(R|0)\)|\g‹0›
 recursion tokens must be marked optional, or they will always reach a point where they have consumed the whole string and want more, and thus the regex will fail
@@ -6034,7 +5305,7 @@ recursion in regex is most often used to match things that need to be balanced
 The recursion token basically says "go one level deeper and start the match from the start"
 Once the recursion token fails to match (assuming we have made it optional), the regex engine will backtrack back one level up the recursion hierarchy.
 
-####### flags
+###### flags
 
 m|multiline|make ^ and $ match line boundaries
 s|dotall/single-line mode|make . also match linebreaks
@@ -6044,27 +5315,27 @@ g|global|more than one match
 
 c|confirm before replacing|vim
 
-####### flavors
+###### flavors
 
 BRE treats most characters that would be metacharacters in other flavors as literals and as metacharacters only when escaped.
 ERE does not have BRE's weird metacharacter behavior.
 Both ERE and BRE are feature-poor compared to modern regex flavors.
 both sed and grep default to BRE.
 
-####### the whole regex
+###### the whole regex
 
 Often, regexes are given in the pattern /‹regex›/‹replacement›/‹flags›
 sed, perl, vim
 
-##### types
+#### types
 
 Markup files are subset of plaintext files.
 Markup files are written in markup languages.
 markup languages consist of normal text and specific markup, which are intermingled.
 
-###### markup
+##### markup
 
-####### across languages
+###### across languages
 
 bold (no importance impl)|\textbf{} (though there are others)|‹b›|**text** or __text__
 italic (no importance impl)|\textit{}|‹i›|*text* or _text_
@@ -6079,9 +5350,9 @@ Inline quotation of foo|\enqote{foo} (package csquotes)|‹q›foo‹/q›
 inline source code||‹code›|``
 create a newline|\\ or \newline|‹br›| two spaces or \‹newline character›
 Heading (level one) "foo"|relevant section command|‹h1›foo‹/h1›|# foo or foo\n===(number doesn't matter)
-Heading (level two) "foo"|relevant section command|‹h2›foo‹/h2›|## foo or foo\n---(number doesn't matter
-Heading (level three) "foo"|relevant section command|‹h3›foo‹/h3›|### foo 
-Heading (level six) "foo"|relevant section command|‹h6›foo‹/h6›|###### foo 
+Heading (level two) "foo"|relevant section command|‹h2›foo‹/h2›|# foo or foo\n---(number doesn't matter
+Heading (level three) "foo"|relevant section command|‹h3›foo‹/h3›|## foo 
+Heading (level six) "foo"|relevant section command|‹h6›foo‹/h6›|##### foo 
 A code block foo||‹pre›‹code›foo‹/code›‹/pre›| originally a block indented by four spaces and separated by newlines, but most flavors now have fenced code blocks, which are done like ``` or ~~~(or more)\nfoo\n``` or ~~~
 a paragraph foo|\par{foo}|‹p›foo‹\p›|\n\npar\n\n (uses blank lines)
 image with url/source Asuka and alt text best girl|\includegrapics{Asuka} (no alt text possible)|‹img src="Asuka" alt="best girl"›|![best girl](Reina)
@@ -6137,7 +5408,7 @@ pandoc-md-heading ::= #{#} ‹title› [\{{‹class›|‹id›|...}\}]
 
 RTF|Rich Text Format
 
-####### tex, especially latex
+###### tex, especially latex
 
 ⟮Tex⟯ consists of ⟮tex-core⟯ and ⟮plain-tex⟯ 
 ⟮plain-tex⟯ is ⟮the set of macros that the tex typsetting program uses⟯; ⟮tex-core⟯ is ⟮the typesetting program (that transforms it into output⟯) 
@@ -6155,7 +5426,7 @@ texinfo is a set of macros for tex for generating hypertextual documentation
 
 info|read texinfo files
 
-######## unsorted
+####### unsorted
 
 \{{c1::stackrel}}{{c2::{top}{bot} }} will {{c3::render the top text above the bottom text}}
 In Latex, there are a bunch of commands starting with \text (which I will call \textwhatever) that indicate different fontstyles: \textbf, \textit, \textrm (roman), \texttt (monospace), \textsc (smallcaps)
@@ -6308,7 +5579,7 @@ the table environment is used for something different
 </div>
 </div>
 
-######## Commands
+####### Commands
 
 A typical ⟮command⟯ looks ⟮c1;⟯⟮name⟯⟮{⟯⟮argument⟯⟮} ⟯ 
 a ⟮command⟯'s ⟮required arguments⟯ (AKA ⟮arguments⟯) are ⟮delimited by {⟯} 
@@ -6322,7 +5593,7 @@ the ⟮environment form⟯ of ⟮\foo⟯ would look like {{c25::`\begin{command}
 ⟮Most (afaik) commands⟯ in ⟮declaration (\command (no args⟯)) form can also be used  ⟮in an environment form⟯ 
 ⟮The environment form⟯ of a command is based on ⟮its declaration form.⟯ 
 
-######### new commands
+######## new commands
 
 To ⟮create a new command⟯, use ⟮\newcommand⟯, which goes in ⟮the preamble⟯ 
 ⟮\newcommand⟯ has the syntax: ⟮\newcommand⟯⟮{‹name›⟯}⟮[‹number-of-arguments›]⟯⟮{‹latex-code-to-execute›⟯} 
@@ -6332,7 +5603,7 @@ Within ⟮\newcommand⟯, you ⟮refer to arguments⟯ ⟮positionally⟯ with �
 \newcommand{\abs}[1]{\left|#1\right|}
 ```
 
-######## Sections
+####### Sections
 
 Latex ⟮sections⟯ ⟮go until⟯ ⟮the beginning of the next section⟯ 
 Latex sections are declared via ⟮command. (e.g. \part⟯) 
@@ -6340,7 +5611,7 @@ Latex ⟮section commands⟯ take ⟮the full section title⟯ as ⟮a mandatory
 ^\subsection[shortitle]{This is the full title}
 ⟮Article⟯ notably does not havet the ⟮\chapter⟯ section command. 
 
-######### Latex section hierarchy
+######## Latex section hierarchy
 
 1. ⟮c+;sb;part⟯
 2. ⟮c+;sb;chapter⟯
@@ -6350,12 +5621,12 @@ Latex ⟮section commands⟯ take ⟮the full section title⟯ as ⟮a mandatory
 6. ⟮c+;sb;paragraph⟯
 7. ⟮c+;sb;subparagraph⟯
 
-######## latex groups
+####### latex groups
 
 in Latex, ⟮groups⟯ ⟮create a scope⟯ 
 `⟮\bgroup ... \egroup⟯` or ⟮`{ ... }`⟯ ⟮delimit a group⟯ 
 
-######## latex labels and refs
+####### latex labels and refs
 
 In latex, using ⟮\label⟯ you ⟮define a marker⟯, which ⟮you can then later reference⟯. 
 the main advantages of ⟮using labels⟯ in latex instead of ⟮manually referring to the indices of the things⟯ is that ⟮they auto-update⟯ 
@@ -6378,9 +5649,9 @@ command|refers to?|from package
 ⟮\eqref{foo}⟯|⟮returns the index of foo, but surrounded by parentheses⟯|⟮amsmath⟯
 
 
-######## Lengths
+####### Lengths
 
-######### rigid and rubber
+######## rigid and rubber
 
 The two types of lengths ⟮latex⟯ has are ⟮rigid lengths⟯ and ⟮rubber lengths⟯. 
 a ⟮rubber length⟯ is a length that ⟮⁑can⁑ shrink or grow⟯ 
@@ -6399,7 +5670,7 @@ indicator|meaning
 ```
 
 
-######### creating lengths
+######## creating lengths
 
 To ⟮create a length foo⟯, you first have to ⟮declare it⟯ with ⟮\newlength{\foo⟯} and then ⟮initialize it⟯  ⟮with \setlength{\foo}{bar⟯}. 
 ⟮\setlength⟯ can also be used to ⟮change the value⟯ of ⟮preexisting length keywords⟯. 
@@ -6409,15 +5680,15 @@ If you ⟮change the value of preexisting length keywords with \setlength⟯, �
 
 
 
-######## math
+####### math
 
-######### packages
+######## packages
 
 the package ⟮amsmath⟯ contains ⟮a bunch more stuff related to math⟯. 
 the package ⟮mathtools⟯ is ⟮a superset of⟯ ⟮amsmath⟯, and also ⟮fixes some of its bugs⟯ 
 the package ⟮s9:10;⟮amssymb⟯ ⟮adds more math symbols⟯⟯; the package ⟮s7:8;⟮amsthm⟯ ⟮adds more theorem/proof related stuff⟯⟯. ⟮these both⟯ ⟮need to be separately loaded from amsmath/mathtools⟯ if desired. 
 
-######### environments
+######## environments
 
 Fundamentally, ⟮math⟯ in LaTeX is always ⟮contained in its own environment.⟯ 
 There are ⟮two types of math environments⟯ in ⟮LaTeX⟯, ⟮displayed (block in CSS terms⟯) and ⟮inline⟯. 
@@ -6454,7 +5725,7 @@ flex-container:✫sm_CkJlF.png✫
 
 
 
-######### newtheorem
+######## newtheorem
 
 \newtheorem is used in the document preamble
 ⟮\newtheorem⟯ ⟮creates a new theorem envronment⟯ 
@@ -6473,9 +5744,9 @@ For ⟮\newtheorem⟯, if ⟮[foo]⟯ occurs {{c11::between the two {args} }}, i
 ```
 
 
-######## Symbols
+####### Symbols
 
-######### case-changed symbols
+######## case-changed symbols
 
 For arrows, if the ⟮first letter⟯ is ⟮lowercase⟯, it will render the ⟮thin arrow (→⟯), if the ⟮first letter⟯ is ⟮uppercase⟯, it will render the ⟮thick arrow (⇒⟯). 
 so `⟮\right/left/up/downarrow⟯` renders ⟮a thin right arrow →⟯, and ⟮\Right/Left/Up/Downarrow⟯ renders ⟮a thick, double-line right arrow ⇒⟯. 
@@ -6485,7 +5756,7 @@ the four directional arrows are created by \right/left/up/downarrow
 For greek letters, if the ⟮first letter⟯ is ⟮lowercase⟯, it will render the ⟮lowercase letter⟯, if the ⟮first letter⟯ is ⟮uppercase⟯, it will render the ⟮uppercase letter⟯. 
 so ⟮\pi⟯ ⟮inserts a lowercase pi π⟯ and ⟮\Pi⟯ ⟮inserts an uppercase pi Π⟯ 
 
-######### logic symbols
+######## logic symbols
 
 symbol|command(s)|requires package
 ⟮∧⟯|⟮c+;s5;\land⟯ ⟮c+;s4;\wedge⟯
@@ -6493,7 +5764,7 @@ symbol|command(s)|requires package
 ⟮¬⟯|⟮c+;s8;\lnot⟯ ⟮c+;s7;\neg⟯
 ⟮∴⟯|⟮\therefore⟯|amssymb
 
-######### set symbols
+######## set symbols
 
 \supset|⊃
 \supseteq|⊇
@@ -6509,13 +5780,13 @@ symbol|command(s)|requires package
 ∖|set difference/relative complement
 ⟮\o⟯|⟮ø⟯
 
-######### comparison operators
+######## comparison operators
 
 ⟮\leq⟯|⟮≤⟯
 ⟮\geq⟯|⟮≥⟯
 ⟮\approx⟯|⟮≈⟯
 
-######### various symbols
+######## various symbols
 
 
 command|symbol
@@ -6539,7 +5810,7 @@ command|symbol
 ⟮\dots⟯ ⟮is equivalent to \ldots⟯ in ⟮vanilla latex⟯. 
 If using ⟮amsmath⟯ and ⟮within math mode⟯, ⟮\dots⟯ ⟮decides between \ldots and \cdots⟯ ⟮based on context⟯ 
 
-######## language ＆ encoding
+####### language ＆ encoding
 
 Package|Function
 ⟮babel⟯|⟮foreign language support⟯
@@ -6547,7 +5818,7 @@ Package|Function
 ⟮inputenc⟯|⟮input character encoding⟯
 
 
-######## beginning of document
+####### beginning of document
 
 ⟮Latex commands⟯ are ⟮either defined in the .cls file⟯ (and thus ⟮you can use them by default⟯) or ⟮in packages⟯. 
 
@@ -6574,9 +5845,9 @@ calling {{c14::\documentclass{foo} }} ⟮loads foo.cls⟯ in the background
 
 
 
-######## document classes and their specific features
+####### document classes and their specific features
 
-######### beamer
+######## beamer
 
 The ⟮documentclass⟯ for ⟮creating presentations⟯ is ⟮beamer⟯. 
 The highest-level division of ⟮beamer⟯ is ⟮the frame⟯. 
@@ -6614,7 +5885,7 @@ the ⟮columns environment⟯ allows ⟮a multicolumn setup⟯ in latex ⟮beame
 ⟮theorem⟯ is an ⟮environment⟯ that ⟮delimits a theorem⟯ ⟮(c:69;beamer⟯ only) 
 flex-container:⟮h∞;✫sm_Beamerblock.png✫✫sm_Beamercolumns.png✫✫sm_Beamermaths.png✫ ⟯
 
-######### KOMAScript
+######## KOMAScript
 
 ⟮KOMA-script⟯ is ⟮a bundle of classes⟯ generally more ⟮versatile⟯ than ⟮builtin equivalents⟯ (if ⟮even  extant⟯). 
 ⟮KOMAoptions⟯ allows you to ⟮set a bunch of options⟯ ⟮of koma script classes⟯ 
@@ -6638,12 +5909,12 @@ command|effect
 
 
 
-######## text formatting
+####### text formatting
 
 ⟮centering⟯ is a ⟮declaration form command⟯ that ⟮centers content⟯. 
 ⟮center⟯ is ⟮an environment⟯ that ⟮centers content⟯. 
 
-######### text sizes
+######## text sizes
 
 1. tiny
 2. scriptsize
@@ -6656,7 +5927,7 @@ command|effect
 9. huge
 10. Huge
 
-######## compilation
+####### compilation
 
 ⟮pdf(la)tex⟯ ⟮compiles⟯ ⟮(la)tex to pdf⟯ 
 ⟮\listoffigures⟯|⟮generate a list of figures⟯
@@ -6670,17 +5941,17 @@ Latex uses ⟮the .lot, .lof, or .toc files⟯ on ⟮the next run⟯ ⟮to gener
 The reason ⟮latex needs to compile at least twice⟯ is so ⟮it can populate the references⟯ for things like ⟮lot, lof, toc as well as various things in .aux⟯ correctly. 
 The ⟮aux⟯ file keeps track of ⟮various things relevant to latex compilation⟯. 
 
-######### logging
+######## logging
 
 ⟮Logging⟯ is done to ⟮.log⟯ for ⟮latex itself⟯ and ⟮.blg⟯ for ⟮bibtex/biber⟯. 
 
-######### synctex
+######## synctex
 
 ⟮Synctex⟯ is the utility that ⟮synchronizes changes between⟯ ⟮source documents and pdf output⟯
 
-######## additional functionality
+####### additional functionality
 
-######### headers and footers
+######## headers and footers
 
 ⟮\pagestyle{foo⟯} sets ⟮the style⟯ of ⟮your headers and footers⟯ to ⟮the format defined by foo⟯ 
 for ⟮anything more fancy⟯ with ⟮headers and footers⟯ than ⟮\pagestyle⟯ can do with ⟮builtin formats⟯, you need the package ⟮fancyhdr⟯ 
@@ -6695,7 +5966,7 @@ For more ⟮advanced header/footer config⟯ using ⟮fancyhdr⟯, use ⟮\(l/c/
 
 to style headers and footers with ⟮fancyhdr⟯ in ⟮double-sided documents (e.g. books⟯) use ⟮\fancyhead⟯ and ⟮\fancyfoot⟯ 
 
-######### ending commands
+######## ending commands
 
 ⟮c4;⟯ and ⟮\newline⟯ both ⟮generate a linebreak (/end the current line⟯) 
 ⟮\​⟯ but not ⟮\newline⟯ takes an ⟮option⟯ to specify how ⟮large the vertical gap to the new line⟯ should be 
@@ -6704,7 +5975,7 @@ to style headers and footers with ⟮fancyhdr⟯ in ⟮double-sided documents (e
 ⟮\newpage⟯ and ⟮\clearpage⟯ both ⟮generate a new page (/end the current page⟯) 
 ⟮\clearpage⟯ is like ⟮\newpage⟯, but ⟮\clearpage⟯ ⟮forces floats to go on a new page⟯, while ⟮\newpage⟯ will in multicollumn mode ⟮actually just create a new column (not necessary a new page⟯) 
 
-######### pdf metadata
+######## pdf metadata
 
 the package ⟮hyperref⟯ also handles ⟮metadata⟯ via ⟮the \hypersetup command⟯. 
 The ⟮hypersetup⟯ command defines ⟮pdf metadata⟯ by taking ⟮keys⟯ with ⟮the syntax of pdf‹name›, e.g. pdfauthor or pdftitle⟯ 
@@ -6712,7 +5983,7 @@ The ⟮hypersetup⟯ command defines ⟮pdf metadata⟯ by taking ⟮keys⟯ wit
 Arguments to ⟮pdfbookmark⟯⟮[section]⟯⟮{Title} ⟯⟮{uid(of some kind, no standard)} ⟯ 
 ⟮hypcap⟯ is a package extending ⟮hyperref⟯ {{c13::make hyperref figure links link to the correct thing} 
 
-######### page geometry
+######## page geometry
 
 ⟮layout⟯ is a package that allows you to ⟮show the setup of the page (how much spaces is being taken up by margins etc.⟯) 
 ⟮geometry⟯ is a package that allows you to ⟮change page layout (margins etc.⟯) 
@@ -6720,19 +5991,19 @@ You can use ⟮the  geometry package⟯ to ⟮change the page layout globally⟯
 You can use ⟮\newgeometry{options⟯} to ⟮change the page layout⟯ for ⟮the following pages⟯, and 
 ⟮\restoregeometry⟯ to ⟮reset the page layout to the original state⟯ (both package ⟮geometry⟯) 
 
-########## lscape
+######### lscape
 
 using the package ⟮lscape⟯, you can use ⟮the landscape environment⟯ to make ⟮the thing go into landscape mode⟯ 
 If using ⟮pdflatex⟯, you use ⟮pdflscape⟯ instead of ⟮lscape⟯. 
 
-######### images
+######## images
 
 ⟮graphicx⟯ is a package that allows us to ⟮use images/graphics⟯ in ⟮latex⟯. 
 You define the ⟮root directory⟯ for where ⟮graphicx⟯ should ⟮look for images⟯ with ⟮\graphicspath{\foo⟯} 
 To ⟮include an actual image⟯ with ⟮graphicx⟯, use ⟮\includgraphics{path⟯}. 
 ⟮Changing attributes of images⟯ included w/ graphics is done in ⟮the optional argument⟯ of ⟮\includegraphics⟯ 
 
-######### hyphenation
+######## hyphenation
 
 The ⟮hyphenation⟯ command takes a ⟮list of words⟯ as an ⟮argument⟯, which will ⟮only be hyphenated⟯ in ⟮the places indicated with dashes⟯ 
 ⟮hyphenat⟯ is a package to ⟮en/disable autohyphenation⟯, e.g. in ⟮words that contain hyphens or in monospaced fonts⟯ 
@@ -6746,7 +6017,7 @@ Latex|Result
 ⟮-⟯|⟮a hyphen⟯
 
 
-######### blockquotes
+######## blockquotes
 
 the ⟮quote⟯, ⟮quotation⟯, and ⟮verse⟯ environments all ⟮indent the material, blockquote-style⟯. They ⟮differ in⟯ ⟮what they indent additionally, if anything⟯. 
 ⟮quotation environment⟯|⟮indents the beginning line of a paragraph additionally⟯
@@ -6755,7 +6026,7 @@ the ⟮quote⟯, ⟮quotation⟯, and ⟮verse⟯ environments all ⟮indent the
 
 
 
-######### verbatim
+######## verbatim
 
 Package ⟮verbatim⟯ contains the ⟮verbatim⟯ and ⟮comment⟯ ⟮environments⟯.
 environment|function
@@ -6763,14 +6034,14 @@ environment|function
 ⟮verbatim⟯|⟮the text, exactly as you have inputted it (similar to ‹pre›⟯)
 
 
-######### drawing (tikz)
+######## drawing (tikz)
 
 ⟮tikz⟯ is a package for ⟮creating images⟯ based on ⟮LaTeXlike commands⟯ 
 ⟮TikZ⟯ is short for ⟮TikZ ist kein Zeichenprogramm⟯ 
 ⟮TikZ⟯ has ⟮its own pacakge/library system⟯, for which you ⟮import packages/libraries⟯ via ⟮\usetikzlibrary⟯ in ⟮the preamble⟯ 
 ⟮tikzpicture⟯ is the ⟮environment⟯ that ⟮delimits tikz commands to draw an image⟯ 
 
-######### resizing braces
+######## resizing braces
 
 In latex, ⟮parentheses⟯ and ⟮square brackets⟯ ⟮can just be inserted⟯, ⟮curly braces⟯ ⟮must be escaped⟯. 
 ⟮curly braces⟯ must ⟮be escaped even⟯ if ⟮as part of \left or \right⟯ 
@@ -6778,16 +6049,16 @@ In latex, ⟮parentheses⟯ and ⟮square brackets⟯ ⟮can just be inserted⟯
 ⟮prefixing⟯ ⟮parentheses, square brackets or (escaped) curly brackets⟯ with ⟮\left⟯ (if ⟮opening⟯) or ⟮\right⟯ (if ⟮closing⟯) will ⟮make them resize if around something larger (e.g. a fraction⟯) 
 ^e.g. `$$\left[\frac{foo}{bar}\right]$$`
 
-######### links (hyperref)
+######## links (hyperref)
 
-######### including other pdfs
+######## including other pdfs
 
 ⟮pdfpages⟯ is a ⟮package⟯ to ⟮include other pdfs within the latex documents⟯ 
 ⟮pdfpages⟯ mainly features the command ⟮\includepdf⟯ which ⟮allows include a pdf document in the latex document⟯ 
 ⟮\includepdf⟯ allows specifying ⟮how you want to include what⟯ in ⟮its options⟯ 
 ⟮to control the pages that are included⟯, \includepdf⟮[pages=foo]⟯ 
 
-######### color
+######## color
 
 the ⟮packages⟯ ⟮color⟯ and ⟮xcolor⟯ allow ⟮using various color-related commands⟯. 
 ⟮xcolor⟯ is ⟮an extension/superset of⟯ ⟮color⟯. 
@@ -6799,7 +6070,7 @@ command|effect
 ⟮\textcolor{color}{text}⟯|⟮colors the text in a specific color⟯
 
 
-######### misc
+######## misc
 
 command|Effect
 ⟮\noindent⟯|⟮prevent the paragraph from being indented⟯
@@ -6814,24 +6085,24 @@ Command|does
 ⟮a' or a^{\prime}⟯|⟮render an a with a prime⟯
 
 
-####### MD
+###### MD
 
 In ⟮markdown⟯, you can include arbitrary ⟮HTML⟯. 
 In ⟮markdown⟯, you need to ⟮put blank lines⟯ ⟮before and after⟯ ⟮block-level⟯ elements, this includes ⟮HTML in markdown⟯. 
 To ⟮indent something under something else⟯ in md, ⟮indent the source code thing by four spaces⟯. 
 
-######## GFM
+####### GFM
 
 ⟮Github-flavored⟯ ⟮markdown⟯ supports creating ⟮task lists⟯ via the syntax ⟮`- [ ]`⟯ 
 You ⟮complete⟯ ⟮github-flavored markdown task lists⟯ via the syntax `⟮- [x]⟯` 
 
-###### non-markup
+##### non-markup
 
-####### citations
+###### citations
 
-######## software
+####### software
 
-######### reference management software
+######## reference management software
 
 reference/citation/bibliographic management software is software that manages citation information
 
@@ -6841,11 +6112,11 @@ JabRef|FOSS|often used for LaTeX
 Citavi|Proprietary|only really used in germany
 Zotero|FOSS|most common
 
-######### libraries
+######## libraries
 
 citations.js|node
 
-######## CSL
+####### CSL
 
 CSL|Citation Style Language 
 CSL is a standard for describing citations.
@@ -6853,21 +6124,21 @@ CSL has XML, JSON, YAML realizations.
 The CSL-processor is citeproc.
 citation-js is a npm module and CLI for citation magic using various different formats.
 
-######## BibTeX
+####### BibTeX
 
 BibTeX is the format (La)TeX uses to describe citation information.
 bibtex-entry ::= @‹type›\{‹unique-key›, ‹list-of-props›\}
 list-of-props ::= ‹key› = ‹value›{, ‹key› = ‹value›}
 type ::= book|article|...
 
-####### toml xdg systemd
+###### toml xdg systemd
 
 INI files inspired XDG desktop files.
 XDG desktop files inspired systemd unit files.
 TOML was inspired by INI, XDG and systemd unit files.
 TOML|Tom's obvious, minimal language
 
-####### m3u
+###### m3u
 
 m3u is a plain-text file format for playlists
 m3u merely has a de-facto standard.
@@ -6882,7 +6153,7 @@ entry ::= [‹resource-entry›|‹directive›]‹CRLF›
 resource-entry ::= (‹path›|‹URL›)[ #‹string›]
 directive :: #‹directivename›[:‹argument›]
 
-####### ICAL/VCARD
+###### ICAL/VCARD
 
 ical|text/calendar|calendar information|RFC 5545|.ics
 vcard|text/vcard|contact information|RFC 6350|.vcf
@@ -6931,9 +6202,9 @@ VJOURNAL   Journal entry
 VTIMEZONE   timezone definition
 VTODO   Task/Todo
 
-####### dictionary-based
+###### dictionary-based
 
-######## TOML
+####### TOML
 
 in ⟮TOML⟯, ⟮the top-level table⟯ starts at ⟮the beginning of the document⟯ and ends before/at ⟮the first table header⟯ 
 in ⟮TOML⟯, a ⟮header⟯ looks like ⟮[foo]⟯ 
@@ -6943,11 +6214,11 @@ to create ⟮an array of⟯ ⟮standard tables,⟯ you ⟮surround the header wi
 TOML also supports ⟮JSON style tables⟯, (though ⟮they use = instead of :⟯), but only if ⟮they do not contain a newline⟯. 
 TOML: ⟮fruit.apple.color = "red"⟯ produces ⟮a table named fruit that has a table named apple that has a key color with the value red⟯ 
 
-######## YAML
+####### YAML
 
 YAML|YAML Ain't Markup Language
 
-######### Anchors ＆ merge keys
+######## Anchors ＆ merge keys
 
 YAML ⟮anchors⟯ ⟮save a reference to a value⟯, which ⟮then can be included in a different location⟯ via ⟮an alias.⟯ 
 ⟮A merge key⟯ ⟮merges the values of an anchor⟯ ⟮into the current leve⟯l, thus allowing ⟮overwriting some of the values if necessary⟯. 
@@ -6959,7 +6230,7 @@ A YAML ⟮merge key⟯ goes ⟮instead of a key⟯, and ⟮takes an alias as a v
 ⟮c+;‹‹⟯|⟮Merge key⟯
 
 
-######## JSON
+####### JSON
 
 JSON|JavaScript Object Notation
 JSON is a plaintext file format.
@@ -6975,19 +6246,19 @@ JSON does not allow comments by default, however many implementations of it do i
 The version of JSON that allows comments is used frequently by microsoft technologies.
 The version of JSON that allows comments is often called jsonc (though there are other things called jsonc)
 
-######## Schema
+####### Schema
 
 JSON schemas are schemas for data formats JSON, YAML, etc.
 JSON schemas are usually written in JSON, though they can be written in any language that supports it
 
-######### top-level keys
+######## top-level keys
 
 title|title for the schema
 description|description for the schema
 $schema|URL of the version of JSON Schema this document adheres to 
 $id|base url for the document, similar to ‹base› in HTML
 
-######### child keys
+######## child keys
 
 \$ref allows you to refer to another schema to implement the element, rather than definining it here, by passing a JSON pointer.
 format|force string to have specific format (e.g. ISO 8061)
@@ -6998,11 +6269,11 @@ default|specify a default value that should be assumed if a value is missing
 
 in JSON Schema, to specify that there are multiple relevant specifications for a type in the sense of AND, OR, XOR, there are the keywords allOf, anyOf, oneOf
 
-######### integration with other languages
+######## integration with other languages
 
 to use your ⟮JSON Schemas⟯ as ⟮TS typeings⟯ use the ⟮npm package⟯ ⟮json-schema-to-typescript⟯
 
-######## jq yq
+####### jq yq
 
 jq|process JSON
 yq|process YAML ＆ convert to/from JSON
@@ -7010,7 +6281,7 @@ yq -y/-Y roundtrip back to YAML
 `yq ⟮‹command›⟯ ⟮‹flags›⟯ {⟮‹file›⟯}`
 `yq ⟮-t/--to-type⟯ ⟮yaml⟯/⟮json⟯/...` ⟮outputs the file as the specified file format⟯
 
-####### subtitles
+###### subtitles
 
 WebVTT|Web Video Text Tracks Formats
 ⟮WebVTT⟯ and ⟮.srt⟯ are file formats for ⟮subtitles⟯. 
@@ -7061,17 +6332,17 @@ CSS Selector|Selects
 If you ⟮specify timestamp text (WebVTT only⟯), then ⟮any text before a timestamp text whose time you are at or after⟯ is ⟮previous text⟯, ⟮the text from the current to the next timestamp tag⟯ is ⟮active text⟯ and ⟮text after the next timestamp tag⟯ is ⟮future text⟯. 
 If we specify ⟮‹track kind="chapters"›⟯, cues ⟮may not overlap time-wise⟯, and payloads ⟮may not contain tags⟯ 
 
-####### misc
+###### misc
 
 Ignore files specify things which a given utility should ignore.
 Pretty much all VCSs have ignorefiles.
 prettierignore.
 
-#### complex
+### complex
 
 epub is a format for ebooks that is in essence just a zip wrapper + scaffolding around web technologies such as HTML, CSS, JS, SVG, etc.
 
-##### container
+#### container
 
 A container format is a file format that contains different parts.
 The component parts of a container format may be called chunks, segments, streams, or something else.
@@ -7080,7 +6351,7 @@ IFF is a chunk-based file format.
 IFF chunks begin with a type ID, followed with a specifier of the length of the chunk.
 RIFF and AIFF are file formats based on IFF, but TIFF (surprisingly) isn't 
 
-##### archive
+#### archive
 
 An archive file format generally wraps multiple files into one file, compresses a file, or does both at the same time.
 Archive file formats generally preserve directory structure and metadata
@@ -7095,14 +6366,14 @@ tar is a command to manipulate tar files
 zip is the command to create zip files, unzip the command to unizp files
 bzip2 is the command to manipulate bzip3 files
 
-#### cross-cutting
+### cross-cutting
 
-##### email
+#### email
 
 Fundamentallly, all emails in an email account (generally associated with a single email address, but not necessarily) are stored in an an (email) mailbox
 Message/mail delivery agents are programs that deliver emails to a mailbox.
 
-###### mbox ＆ imf
+##### mbox ＆ imf
 
 In the mbox format, an entire mail directory is held in a single file.
 The mbox format consists of individual IMF messages.
@@ -7118,7 +6389,7 @@ body ::= ‹LF›‹body-contents›
 
 The IMF uses CRLF, however when stored in mbox, they use LF instead.
 
-###### maildir
+##### maildir
 
 The maildir format is a format to store mailboxes and mail directories.
 The maildir format has three subdirectories (at least) for any directory.
@@ -7126,19 +6397,19 @@ The three mandatory directories for any subdirectory in maildir are cur, new, an
 Using maildir, an arriving message will be sorted into tmp until it is processed completely, then it is inserted into new.
 Using maildir, once a mail in new has been read, it si sorted into cur.
 
-## VCS
+# VCS
 
 VCS|Version Control System
 Version control system (VCS) are systems for tracking/managing changes to things.
 Most commonly in a VCS, a repository contains all the files and folders of the project and their history.
 
-### git 
+## git 
 
 Git is a VCS, but really isn't.
 Git is fundamentally a content-addressable filesystem with a VCS user interface written on top of it.
 Git is a content-addressable filesystem in that it fundamentally indexes files by hash keys.
 
-#### objects
+### objects
 
 Objects are the various things git has.
 Objects in git are stored in .git/objects
@@ -7147,21 +6418,21 @@ Git objects are text files.
 git objects have their hashes as their names, allowing them to easily be referenced.
 git objects are commits, trees, blobs and annotated tags.
 
-##### inspecting
+#### inspecting
 
 the `git cat-file` command is the swiss army knife for inspecting git objects.
 
 -p|Pretty-print the contents of ‹object› based on its type. (can be used to retrieve the file from the store)
 -t|Instead of the content, show the object type identified by ‹object›.
 
-##### hashes
+#### hashes
 
 hashes can be abbreviated to their first n characters, as long as those are unique.
 the command `git hash-object` takes some data and returns the hash git would hash it with.
 If you use the flag -w, `git hash-object` actually writes the file to .git/objects and returns the hash.
 The type of hash git uses is a 40-character SHA-1 hash
 
-##### commits
+#### commits
 
 At its most simple, a repository contains a series of commits.
 A commit is an object consisting of a few metadata.
@@ -7170,7 +6441,7 @@ The commit object has its hash as its name.
 A commit consists of a hash of the tree, a hash of the parent commit, author, committer, date, and message.
 Running `git commit` adds a new commit with the files in the staging area.
 
-##### trees
+#### trees
 
 A tree is a git object representing the directory structure of the project at time of commit as an ordered list.
 The file representing the tree has 'entry' (not a real term) per line.
@@ -7178,15 +6449,15 @@ A tree 'entry' consists of file permissions, object type, object hash, and filen
 The object type of a tree 'entry' is usually "blob" for files or "tree" for a subdirectory.
 tree git objects are confusingly named, as they are ordered lists and only become trees by their ability to refer to other trees.
 
-##### blobs
+#### blobs
 
 A blob is a git object representing the contents of a file.
 
-##### annotated tags
+#### annotated tags
 
 A tag git object contains the hash of the tagged object, the type of tagged object (usually a commit), the tag name, author, date and message.
 
-#### heads
+### heads
 
 the HEAD is a pointer to the currently checked out commit/branch head.
 You are in detatched HEAD state is when your HEAD is pointing directly to a commit.
@@ -7196,7 +6467,7 @@ the newer porcelain command to check out a branch head is `git switch`.
 the HEAD is implemeted by storing the hash of the commit or the file for the branch header (i.e. refs/head/whatever) we're pointing to in .git/HEAD 
 HEAD may also often be used as a keyword for git commands.
 
-#### repository
+### repository
 
 The working directory contains the repository directory as well as the current versions of all the files in the repository.
 The repository directoy contains all git internals, and is called .git.
@@ -7208,12 +6479,12 @@ git status tells us about our working directory and staging area.
 The staging area is not emptied by committing! But after commiting, there is no difference between the staging area and the working directory
 If you changed a file, it's unchanged version will be living in the staging area, while its `modified` version will be living in the working directory. To make it part of the staging area, you need to `git add`.
 
-##### tracked and untracked files
+#### tracked and untracked files
 
 At the beginning of a git repository, all files are untracked.
 All files that have been `git add`ed at some point become tracked files.
 
-##### .gitignore
+#### .gitignore
 
 there is also a per-clone version of the gitignore in form of the .git/info/exclude file.
 Patterns which a user wants Git to ignore in all situations (e.g., backup or temporary files generated by the user’s editor of choice) generally go into a file specified by core.excludesFile in the user’s ~/.gitconfig. Its default value is $XDG_CONFIG_HOME/git/ignore. If $XDG_CONFIG_HOME is either not set or empty, $HOME/.config/git/ignore is used instead.
@@ -7223,23 +6494,23 @@ If a line is prefixed by !, a line in a gitignore instead contains a pattern to 
 
 Github hosts a nice list of gitignores for most common languages/frameworks/build tools.
 
-##### creating a new repository
+#### creating a new repository
 
 `git init` creates a new repository by creating the repository directory.
 
 
 
-#### commit history
+### commit history
 
 git log shows a set of commits of the commit history.
 `git reset` can be used to reset your HEAD to the specified past commit.
 git reset moves the HEAD/branch heads to the specified commit, as well as the staging area, but does not modify the working area.
 
-##### retrieval
+#### retrieval
 
 `git checkout ‹commit› ‹filename›` retrieves the file ‹filename› as of commit ‹commmit›
 
-#### branches
+### branches
 
 branches split the linear relationship of the commit history.
 In git, a branch merely consists of a branch head.
@@ -7251,17 +6522,17 @@ When we create a new branch, git creates a new branch head pointing to the speci
 `git branch` without arguments lists the current branch heads.
 A newly created repository contains one branch head, master/main.
 
-##### creating branches
+#### creating branches
 
 `git branch` with two arguments A, B creates a new branch A with the commit to start at specified by B.
 `git checkout -b` works the same as git branch with two arguments, but also checks out the new commit.
 
-##### unifying
+#### unifying
 
 to include changes from another branch into the current branch, one has two choices: rebase and merge
 Compared to merging, rebasing results in a more 'pretty' commit history
 
-###### merging
+##### merging
 
 two possible merges: fast-forward, three-way-merge
 In a fast-forward merge, the the HEAD is (pointing to) a direct ancestor of the commit we're merging in.
@@ -7276,11 +6547,11 @@ After fixing a merge conflict, you need to commit again.
 
 To abort a maerge during a merge conflict: git merge --abort
 
-###### rebasing
+##### rebasing
 
 Rebasing in git is taking the changes from somewhere (e.g. a branch) and applying them on another branch as if the changes had been made there originally
 
-#### rev-parse
+### rev-parse
 
 the suffixes ~‹n› and ^‹n› are for moving back in the tree of commits.
 ~‹n› goes n commits back into the history
@@ -7289,13 +6560,13 @@ the suffixes ~‹n› and ^‹n› are for moving back in the tree of commits.
 ^‹n› selects the nth parent commit sibling if there are multiple.
 ^1 = ~1, ^2 is the second commit of a merge commit, etc.
 
-#### plumbing and porcelain
+### plumbing and porcelain
 
 Git has two kinds of commands, plumbing and porcelain.
 Git's plumbing commands are older and more low-level.
 Git's porcelain commands are newer and more high-level.
 
-#### remotes
+### remotes
 
 Remotes are ⁑links to⁑ other git repositories. (!)
 Remotes may be on the same device, or other devices (e.g. online).
@@ -7305,25 +6576,25 @@ The default name for a remote is 'origin'.
 remotes are stored in .git/config
 In .git/config, each remote has its own header
 
-##### pushing, fetching, pulling
+#### pushing, fetching, pulling
 
 things git push/fetch transfers are refs and objects.
 
 
-###### pushing
+##### pushing
 
 git push transfers all the information a remote does not yet have but needs of a certain refspec to that remote.
 `git push [‹repository› [‹refspec›]]`
 If the repository is left out from git push, it will take it from the branch.*.remote (i.e. the configured remote for the branch) config, or origin if none is found.
 When the command line does not specify what to push with ‹refspec›... arguments or --all, --mirror, --tags options, the command finds the default ‹refspec› by consulting remote.*.push (i.e. the push key for the specified remote) configuration, and if it is not found, honors push.default configuration to decide what to push
 
-###### fetching
+##### fetching
 
 `git fetch [‹repository› [‹refspec›]]`
 If the repository is left out from git push, it will take it from the branch.*.remote (i.e. the configured remote for the branch) config, or origin if none is found.
 
 
-##### remote tracking branches
+#### remote tracking branches
 
 A remote tracking branch someremote/foo is a local copy of the foo branch on the remote, possibly as distinct from the truly local foo branch.
 to list remote tracking branches, use `git branch --remotes`
@@ -7332,7 +6603,7 @@ A tracking branch is a local branch that is directly related to a remote trackin
 The remote tracking branch of a tracking branch is called the upstream branch.
 Establishing a new tracking branch can be done by creating a new local branch for a remote tracking branch e.g. via `git checkout -b newLocalBranch ‹remote›/‹branch›`, for which the shorthand `git checkout --track ‹remote›/‹branch›` exists.
 
-##### refspec
+#### refspec
 
 A refspec tells git how to map references from a remote to the local repo.
 refspec-format ::= [+]‹src›:‹dst›
@@ -7341,22 +6612,22 @@ refspec-format ::= [+]‹src›:‹dst›
 If a plus is included in a refspec, it tells git should update even if it isn't a fast-forward 
 Default refspecs for pushing and fetching for each remote are established in the remote entry in the config file.
 
-##### cloning
+#### cloning
 
 `git clone` creates a new directory containing a copy of a remote repository, setting up remote tracking branches for each branch of the remote repository.
 
-#### config
+### config
 
 per-repository config for git is stored in the .git/config file.
 Global git config is stored in the .gitconfig or the ~/.config/git/config file.
 Git config files are ini-likes
 
-#### tags
+### tags
 
 tags are pointers to specific commits.
 
 
-#### hooks
+### hooks
 
 git supports hooks in the form of git hooks.
 git hooks are stored in .git/hooks
@@ -7379,11 +6650,11 @@ pre-recieve|when recieving commits from git push|none, but recieves commit refer
 update|
 post-recieve|after push has succeeded|none|nothing
 
-#### github
+### github
 
 Github is a hosting service for git repositories.
 
-##### Issues ＆ PRs
+#### Issues ＆ PRs
 
 Github issues track desired changes such as features, bugs, etc.
 A milestone is a set of github issues.
@@ -7393,9 +6664,9 @@ If you refer to an issue with ⟮#number⟯ and a word such ⟮as closes, fixes 
 
 # hardware/low-level
 
-## hardware only
+# hardware only
 
-### electrical connectors
+## electrical connectors
 
 flex-container:✫Connectors.jpg✫✫1280px-ConnectorSymbols.svg.png✫
 
@@ -7410,9 +6681,9 @@ An ⟮electrical connector⟯ with ⟮male gender⟯ is also called ⟮a plug.�
 An ⟮electrical connector⟯ with ⟮female gender⟯ is also called ⟮a socket/jack⟯. 
 A ⟮terminal⟯ is ⟮the point where a conductor ends⟯. It may be ⟮an electrical connector⟯. 
 
-### transistor → logic gate → logic circut
+## transistor → logic gate → logic circut
 
-#### transistors
+### transistors
 
 A transistor has three terminals.
 In a transistor, if you apply power to two certain terminals, power can flow through two other terminals. (of course, between both of the sets of the terminals, one will be the same.
@@ -7441,7 +6712,7 @@ most ICs that use MOSFETs are manufactured with CMOS
 
 today, most ICs are made with CMOS-manufactured MOSFETs
 
-#### logic gates
+### logic gates
 
 Logic gates are made up of a few transistors in a specific arragnement (depending on the gate).
 
@@ -7456,15 +6727,15 @@ AND|✫sm_120px-AND_ANSI_Labelled.svg.png✫
 Either NAND or NOR gates could be used to create any possible logic circuit since they are functionally complete 
 Today, NAND is the most commonly used logic gate, since it's functionally complete and can be built with few trasnistors
 
-#### circuits
+### circuits
 
 A ⟮logic circuit⟯ consists of interconnected logic gates.
 A combinatorial logic circuit is one whose output only¬ depends on its input.
 A sequential logic circut is one whose output depends on its input, and the previous state.
 
-### processors
+## processors
 
-#### architecture
+### architecture
 
 A stored-program computer stores data and instructions in the same way.
 The VNA implements a stored-program computer.
@@ -7478,9 +6749,9 @@ Stored-program computers can present a security risk due to the fact that data c
 The harvard architecture separates instructions and data (= does not store them in the same way/treat them differently)
 Modern processors are claimed to be stored-program computers (specifically VNA), but since they separate data and instructions to a certain extent, they may be considered modified Harvard architecture to a certain extent.
 
-#### electronics
+### electronics
 
-##### integrated ＆ discrete circuits
+#### integrated ＆ discrete circuits
 
 IC = integrated circuit
 an integrated circuit is a set of electronic circuit on a piece of semiconductor material.
@@ -7490,7 +6761,7 @@ The opposite of an integrated circuit is a discrete circuit.
 A discrete circuit is a 'traditional' circuit, i.e. a circuit made up of different parts.
 ICs are orders of magnitude faster, smaller, less power hungry, etc. than discrete circuits.
 
-##### processors
+#### processors
 
 A processor is any circuit that performs operations.
 A processor core is a self-contained processing unit.
@@ -7502,7 +6773,7 @@ A SoC is a IC that doesn't just include the CPU, but also other components, such
 As time has been progressing, more and more things have been moving onto the SoC.
 moore's law is the observation that the number of transistors in a IC doubles ⟮every two years⟯
 
-#### CPU
+### CPU
 
 CPU = central processing unit
 
@@ -7512,7 +6783,7 @@ to differentiate, I will never call SOCs CPUs (if I can avoid it.).
 to differentiate, I will call the main processor, potentially consisting of multiple CPU cores, a CPU.
 A multi-core processor is when the chip contains multiple CPU cores.
 
-##### registers
+#### registers
 
 A processor generally has between 10-100 registers.
 There are many different kinds of registers:
@@ -7537,7 +6808,7 @@ The instruction Register contains the current machine language instruction (opco
 
 Instead of a single accumulator, modern processors generally have many registers that can be used as accumulators.
 
-##### ALU
+#### ALU
 
 ALU  Arithmetic logic unit
 https://upload.wikimedia.org/wikipedia/commons/0/0f/ALU_block.gif
@@ -7546,7 +6817,7 @@ The ALU performs arithmetic and bitwise operations.
 A basic ALU takes two imputs and returns an output, generally all of the word size of the encapsulating CPU.
 A basic ALU, besides its two inputs and an output, has a status flag input and output as well as an opcode input.
 
-###### Adders
+##### Adders
 
 An adder is a logic circuit (I think?) that chains logic gate to perform addition.
 Adders are used within the ALU.
@@ -7555,11 +6826,11 @@ A full adder is like a half-adder, but also takes a carry-in.
 A half and a full-adder ouptuts an output of size 2 bit.
 Chaining full adders allow us to do arbitrary large binary addition.
 
-##### CU
+#### CU
 
 CU  Control Unit
 
-#### machine code ＆ instruction set
+### machine code ＆ instruction set
 
 Assembly language is largely syntactic sugar for machine code.
 Machine code consists of machine language instructions.
@@ -7585,7 +6856,7 @@ The machine code of a program depends on the ISA, but also on other things about
 arch with no args prints the current ISA family
 the arch command can be made to run programs on other ISA families via arguments.
 
-##### Instruction-level parallelism
+#### Instruction-level parallelism
 
 Instruction-level parallelism is the parallel execution of instructions of a single thread (thus it is different from concurrency).
 In general, the goal of instruction-level parallelism is to keep all of the processor busy
@@ -7600,11 +6871,11 @@ speculative execution is worthwhile if the cost of waiting until we know if the 
 speculative execution is most commonly referred to in the case of instuction pipelining, but may also be performed in many higher-level tasks.
 speculative execution (in processors) is most often performed in the case of control flow, where branch prediction is often used to try and guess which branch is most likely.
 
-###### RISC instruciton pipelining
+##### RISC instruciton pipelining
 
 Instruction fetch › Instruction decode and register fetch › Execute › Memory access › Register write back 
 
-##### Hazards
+#### Hazards
 
 In processors, a hazard is when the next instruction cannot execute in the following cycle, or doing so would lead to an error.
 Data dependence is when an instruction depends on the data of the preceeding statement.
@@ -7615,14 +6886,14 @@ read after write is a true dependency: it cannot be resolved.
 write after write is an output dependency: it can be resolved by just anulling the first write.
 write after read is an anti-dependency, it can be solved by register renaming.
 
-##### RISC CISC
+#### RISC CISC
 
 RISC  Reduced instruction set computer
 CISC  Complex instruction set computer
 
 The design goals of RISC and CISC are different: while CISC tries to use as few lines of assembly as possible and thus uses more complex, featureful instructions that take multiple clock cycles, RISC uses simple instructions that only take a single clock cycle to be quick.
 
-###### CISC
+##### CISC
 
 x86 is a family of instruction set architectures
 x86 are the most common type of CISC architectures.
@@ -7631,7 +6902,7 @@ x86_64 may also be called AMD64 or Intel 64
 the architecture is called x86 b/c the first processor with it was the Intel 8086.
 CISC is the dominant architecture on desktop/laptops as of 2020, though it is slowly changing
 
-###### RISC
+##### RISC
 
 ARM is a family of instruction set architectures
 ARM ISAs are the most common type of RISC arcchitectures.
@@ -7642,7 +6913,7 @@ CPI = clocks/cycles per instruction
 In general, a RISC ISA has 1 CPI, with fixed-length instructions.
 ⟮RISC-V⟯ is a ⟮RISC⟯ instruction set architecture that is ⟮open source⟯.
 
-#### cache
+### cache
 
 processor caches are used to speed up memory access, which is especially important since processor memory is orders of magnitude slower than processing speed.
 The cache levels that are common as of 2021 are L1, L2 and L3 cache, with L4 cache slowly becoming more common.
@@ -7654,7 +6925,7 @@ processor does not find memory location in cache   cache miss
 When a cache miss occurs, the processor generally needs to wait while the data is being fetched
 the ⟮Cache replacement policy⟯ is the policy that decides what to 'evict' on having to add something new to the cache on a cache miss
 
-#### clocking
+### clocking
 
 A clock signal ⟮coordinates/synchronizes the circuits⟯ the circuits of the thing it's governing.
 A clock signal is usually a square wave with a high and low state.
@@ -7664,7 +6935,7 @@ processors are (made of) synchronous circuits
 DDR  Double data rate
 ⟮DDR (double data rate)⟯ is the technology that activates the circuit. both on the rising and the falling edge of the clock signal
 
-### chipset
+## chipset
 
 
 flex-container:✫sm_chipset.svg✫
@@ -7676,22 +6947,22 @@ When they still existed northbridge and the southbridge were connected.
 Over time, more and more of especially northbridge chipset functions moved onto the SoC, and so the chipset is as of 2020 generally just one chip. 
 Slowly, even the functions of the one chip left of the chipset are moving onto the SoC itself.
 
-### assembler
+## assembler
 
 Why don't we just write programs in machine code/assembler?  extremely mühselig and error-prone
 Today, assembler/machine code is almost always generated by compilers/interpreters/etc.
 
-### scheduling
+## scheduling
 
 scheduling is the action of assigning resources to perform tasks.
 In the context of processors, scheduling is the assigment of processor cores to execute threads.
 
-## layering on hardware 
+# layering on hardware 
 
 firmware is software that is hard to change, often because it's physically built in.
 BIOS and UEFI are both firmware, though BIOS is firmer.
 
-### hardware interfaces
+## hardware interfaces
 
 ACPI  advanced configuration and power interface
 ACPI is a low-level interface to the power hardware of the computer, allowing for power management; it is currently the standard for that purpose.
@@ -7700,7 +6971,7 @@ The ACPI exposes its interface as ACPI tables.
 The Windows Platform Binary Table is an ACPI tible that allows software to persist even beyond reinstalls.
 The Superfish vulnerability was enabled by the Windows Platform Binary Table.
 
-### booting
+## booting
 
 Booting comes from bootstrap load, which itself comes from the idea of pulling yourself up by your bootstraps.
 Booting is initializing the computer.
@@ -7709,7 +6980,7 @@ has ended when the OS has reached a certain state.
 When the user presses the power button, the computer, and especially the CPU gets power, and executes a hardcoded JUMP fo a place in ROM (or a specific place in normal secondary memory) where the BIOS/UEFI sits (though some non-x86 ISAs may do it differently)
 All x86 processors start in real mode, which has the features the intel 8086 had, with 20 bit addresses addressing memory non-virtually - this allows for backwards compatibility.
 
-#### BIOS/UEFI
+### BIOS/UEFI
 
 UEFI  Unified Extensible Firmware Interface
 BIOS  Basic Input/Output System
@@ -7732,7 +7003,7 @@ CSM is the mode of UEFI that makes it similar to BIOS by loading MBR or somethin
 to manipulate the UEFI boot manager from linux, use the command efibootmgr
 -o/--bootorder|change the boot order
 
-##### SMBIOS
+#### SMBIOS
 
 DMI  Desktop Management Interface
 The original common inteface for managing components of a computer was teh DMI, but it was end-of-lifed in 2005
@@ -7741,7 +7012,7 @@ Originally, the SMBIOS interacted with the DMi
 The SMBIOS provides an interface for accessing BIOS/hardware info.
 CLI command for interacting with SMBIOS (formerly with the DMI): dmidecode
 
-#### boot loader
+### boot loader
 
 MBR  Master boot record
 The boot sector is typically one sector large
@@ -7754,9 +7025,9 @@ THe second-stage boot loader, perhaps after some user choosing, loads the kernel
 When using GRUB, all the boot sector contains is a pointer to the next boot stage.
 When using GRUB, the boot menu that allows you to choose the os is loaded in the second stage of the bootloader.
 
-### the OS
+## the OS
 
-#### the kernel
+### the kernel
 
 Primary memory is often divided into kernel space and user space, mainly for security.
 Kernel stuff runs in kernel space while user prcesses runs in userspace.
@@ -7769,7 +7040,7 @@ system call → syscall.
 Drivers run in kernal space.
 Drivers expose a well-defined interface of the hardware to the OS, but otherwise act as a black box.
 
-#### the init process
+### the init process
 
 The init process is launched by the kernel.
 In unix, the init process is the first processes that launches when a computer boots.
@@ -7780,27 +7051,27 @@ macOs|launchd
 
 # security
 
-## authentication
+# authentication
 
 Authentication is proving one's identity.
 
-### nonce
+## nonce
 
 flex-container:✫300px-Replay_attack_on_hash.svg.png✫
 Nonce (short for number once) is a number (generally random) that can only be used once in a cryptographic communication, to make sure an attacker can't repeat a data transmition (called a replay attack)
 
-### challenge-response
+## challenge-response
 
 challenge–response authentication is a family of protocols in which one party presents a question ("challenge") and another party must provide a valid answer ("response") to be authenticated.
 
-#### passwords
+### passwords
 
-##### pass
+#### pass
 
 - pass backup
 - pass anki-main
 
-#### CAPTCHA
+### CAPTCHA
 
 Captcha is short for "completely automated public turing test (to tell) computers (and) humans apart"
 A CAPTCHA is a challenge-response test to prove that the user is a human.
@@ -7816,16 +7087,16 @@ reCAPTCHA v2 displays only a single checkbox, and uses behavioral analysis to ch
 ReCAPTCHA v2 is being used to train the image recognition of google's AI
 reCAPTCHA v3 checks if you are a bot purely based giving you a score in the background
 
-## crypt
+# crypt
 
-### ciphers
+## ciphers
 
 ⟮a cipher⟯ is an algorithm for performing encryption/decryption
 Ciphertext is the text that is the result of ⟮using a cipher⟯
 A substitution cipher is a cipher where an unit of plaintext is replaced by an unit of cipher text
 The caesar cipher is a kind of substitution cipher where the replacement is done by rotating the entire alphabet by some number.
 
-### keys (symmetric and assymetric)
+## keys (symmetric and assymetric)
 
 Today's cryptosystems (such as TLS, Secure Shell) use both symmetric encryption and asymmetric encryption, often by using asymmetric encryption to securely exchange a secret key which is then used for symmetric encryption. 
 
@@ -7846,41 +7117,41 @@ If you want to ⟮decrypt a message⟯ sent to you ⟮via public key cryptograph
 flex-container:✫1200px-Private_key_signing.svg.png✫
 For ⟮digital signing⟯, ⟮you⟯ ⟮encrypt it with your private key⟯. ⟮The recipient⟯ ⟮decrypts it with your public key.⟯ This proves ⟮that the message is from you⟯, since only ⟮your public key can decrypt things encrypted with your private key⟯. 
 
-### random numbers
+## random numbers
 
 C(S)PRNG  Cryptographically (secure) pseudorandom number generator
 PRNG  pseudorandom number generator
 RNG  random number generator
 
-## attacks
+# attacks
 
-### brute-force
+## brute-force
 
 A brute-force attack is an attack of something such as a password ⟮By trying until successful⟯
 
 
-### buffer overflow
+## buffer overflow
 
 Buffer overflow is when a buffer of a specific size is written to with data larger than that buffer, thus writing to a different memory location.
 In a buffer overflow attack, a buffer overflow is intentionally produced (e.g. by entering too-long user input), with executable code in the overflown part (ergo a code injection attack), which may then be executed as normal code.
 C and C++ are well-known to be vulnerable to buffer overflow.
 
 
-### Injection
+## Injection
 
 Code injection is an attack vector where malicious code is injected due to some flaw.
 Code injection can often be prevented by sanitizing user input.
 Delimiter/terminater-based code injection uses delimiters, e.g. of strings or similar, to escape from string interpretation to code interpretation.
 
-### network 
+## network 
 
-#### MITM
+### MITM
 
 
 flex-container:✫sm_mitm_illus.svg✫
 A  ⟮man-in-the-middle⟯ attack is when an attacker ⟮inserts themseves⟯ into the ⟮communication⟯ between ⟮two parties⟯ believing ⟮to be talking to each other directly⟯.
 
-##### key exchange
+#### key exchange
 
 ⟮MitM attack⟯
 
@@ -7898,12 +7169,12 @@ A  ⟮man-in-the-middle⟯ attack is when an attacker ⟮inserts themseves⟯ in
 
 ⟮public key⟯ ⟮mitm attacks⟯ are countered with ⟮certificate authorities⟯ 
 
-#### XSS
+### XSS
 
 XSS  Cross-site scripting
 Cross-site scripting (XSS) is a code-inejction attack where malicious client-side scripts are injected into web pages being viewed by users
 
-#### DOS
+### DOS
 
 DoS = denial of service
 DDoS = distributed denial of service
@@ -7912,9 +7183,9 @@ In general, DoS succeed in making the network resource unavailable by taking up 
 DoS may be performed by flooding the target with requests, or with some more sophisticated techniques.
 A DDoS attack is a DoS performed from many different sources.
 
-##### Low and Slow
+#### Low and Slow
 
-###### Slow Loris
+##### Slow Loris
 
 A ⟮slowloris/slow loris⟯ is a type of ⟮DoS (Denial of service)⟯ attack, more specifically a type of ⟮Low and Slow⟯ attack.
 A slow loris takes advantage of the fact that the http (1.1.) header section ends CRLF (last header) CRLF (blank line).
@@ -7922,9 +7193,9 @@ A slow loris works by opening as many connections to the server as possible, and
 If the server e.g. creates a new thread for each incoming request and only kills it once it has sent the response, under a slow loris it quickly reaches its thread limit, and can no longer serve new (legitimate connections)
 A slow loris is easy to pull off, because it needs very little bandwith and only a normal computer.
 
-## privacy
+# privacy
 
-### device fingerprinting
+## device fingerprinting
 
 A device/browser fingerprint is the set of information about the device/browser that together renders it uniquely identifiable.
 since fingerprinting exists, a user can generally be tracked even without a cookie (or similar)
@@ -7932,14 +7203,14 @@ Having social media buttons on your page generally enables the providers to trac
 
 # OSs
 
-## global
+# global
 
 OS|Operating System
 roughly, the OS could be considered the layer between hardware and programs
 
-### userland
+## userland
 
-#### clipboard
+### clipboard
 
 clipboard-cli is an npm package that exposes the command clipboard which works as a shell filter for the clipboard, copying or pasting as needed.
 xclip allows interaction with the X clipboard
@@ -7947,7 +7218,7 @@ A clipboard manager is a computer program that adds functionality to an operatin
 Many clipboard managers allow the pinning of items, in maccy with ⟦⌥⟧ ⟦p⟧
 Maccy is a FOSS clipboard manager for macOS.
 
-#### screen selection
+### screen selection
 
 slop|queries for a selection from the user and prints the region to stdout
 maim|screenshot-taking-utility
@@ -7960,11 +7231,11 @@ maim
 -i string / --window=string   cature the desired window (name could be gotten dynamically via various x utilities for example)
 -g string / --geometry=string   capture the selected geometry rect
 
-#### backups/snapshots
+### backups/snapshots
 
 rsnapshot|Rsync based snapshot utility
 
-#### notifications
+### notifications
 
 Spec for how notifications should work on linux   Desktop Notifications Specification
 libnotify is the most common implementation of the Desktop Notifications Specification
@@ -7972,19 +7243,19 @@ To use libnotify, you need to also install a notification server/daemon.
 dunst is a minimal notification server/daemon.
 to send notifications on linux, you can use the CLI notify-send.
 
-#### fonts
+### fonts
 
 ⟮FontBook⟯ is the ⟮mac⟯ GUI for ⟮font handling⟯. 
 For ⟮manual font installation⟯ on mac, you can ⟮copy them⟯ to ⟮/Library/Fonts⟯ or ⟮~/Library/Fonts⟯ 
 
-#### text expanders
+### text expanders
 
 Text expanders are programs which allow OS-wide macros.
 espanso is a FOSS cross-platform expansion manager.
 
-##### espanso
+#### espanso
 
-###### config files
+##### config files
 
 espanso config files are YAML flies.
 The basic unit of espanso is the match.
@@ -7992,12 +7263,12 @@ Matches are contained in an espanso config file in the array matches.
 the default config file is `default.yml`
 Espanso allows breaking up its config into multiple files.
 
-####### multiple component configs
+###### multiple component configs
 
 Any component config file of espanso should have a top level `name` key.
 In a component config file, `parent: default` merges it into the generic config 'namespace'
 
-######## app-specific config
+####### app-specific config
 
 To apply certain config files to only certain apps, use app-specific configurations.
 App-specific configurations use one of three top-level config keys {`filter_title`, `filter_exec`, `filter_class`}
@@ -8009,7 +7280,7 @@ filter_title|current window title|win, mac (uses app identifier), linux
 filter_exe|application's executable path. For example, C:\Programs\Telegram.exe|win, mac, linux kinda
 filter_class|window class|only usefully linux
 
-###### global config
+##### global config
 
 the global config key auto_restart specfies whether espanso should restart on config change
 the global config key backend specfies how the insertion takes place and takes the values {Clipboard, Inject, Auto}
@@ -8020,32 +7291,32 @@ Clipboard|works like pasting
 Inject|works like keypresses
 Auto|linux only autochoosing
 
-###### match structure
+##### match structure
 
-####### basics
+###### basics
 
 The main two fields of an espanso match are `replace` and `trigger`.
 `trigger` represents the thing that will be replaced by `replace`.
 when you have multiple triggers, pass an array to `trigger⁑s⁑`
 Within `replace` one can determine the cursor position after via `$|$`
 
-####### other match related properties
+###### other match related properties
 
 If you specify `word: true` on  a match, it will only match if surrounded by word boundaries.
 The propagate_case property of a match will match on and preserve any case, so that "alh" will expand to "although", "Alh" will expand to "Although" and "ALH" will expand to "ALTHOUGH"
 
-####### image matches
+###### image matches
 
 Image matches have an `image_path` instead of a `replace`.
 
-####### vars
+###### vars
 
 the vars array of a match contains vars for that match.
 Each var has at least a key `name` identifying it and a key `type` indicating the type of variable.
 One can refer to any var within `replace` by `{{‹name›}}`
 Any further specification of an espanso variable goes into the `params` key.
 
-######## globals
+####### globals
 
 global variables may be specified within the `global_vars` sequence of the `default.yml`.
 global vars can just be referred to as any other variable without mentioning them in `vars`, however they are evaluated before local variables. To make them evaluate at a specific point, there is the type `global`
@@ -8069,12 +7340,12 @@ matches:
         type: "global
 ```
 
-######## date
+####### date
 
 The `date` type for espanso allows outputting formatted datetimes using rust's chrono as the backend.
 `params.format` for espanso's `date` type takes a format string
 
-######## script
+####### script
 
 The `script` type for espanso allows running external scripts (i.e. in languages that are not shell)
 `params.args` for `script` espanso variables is a sequence of the programming language executable and the path to the script
@@ -8091,7 +7362,7 @@ The `script` type for espanso allows running external scripts (i.e. in languages
           - /path/to/your/script.py
 ```
 
-######## shell
+####### shell
 
 The `script` type for espanso allows running cli commands.
 
@@ -8113,7 +7384,7 @@ debug|populate espanso's log file
         shell: bash
 ```
 
-######### env vars
+######## env vars
 
 ⟮Espanso variables⟯ are made available in the ⟮environment⟯ of the `shell` type. 
 $CONFIG|the path of the config file
@@ -8136,7 +7407,7 @@ lang=yaml;
         cmd: "echo $ESPANSO_MYTIME | rev"
 ```
 
-######## random
+####### random
 
 to ⟮insert a random choice of different options⟯ use the type ⟮random⟯, ⟮the options⟯ are specified ⟮in the choices sequence of params⟯ 
 ```
@@ -8152,7 +7423,7 @@ to ⟮insert a random choice of different options⟯ use the type ⟮random⟯, 
             - "Whatever you do, do it well."
 ```
 
-####### forms
+###### forms
 
 When using espanso forms, ctrl (yes, really) enter to submit on mac.
 When using forms, instead of using `replace`, we instead use `form`.
@@ -8160,7 +7431,7 @@ Espanso's `form` key includes a string with blanks signified by the usual {{‹n
 Espanso allows customization of its form fields via the `form_fields` mapping.
 The `form_fields` mapping can have a key for each blank in the form, I will be calling each of these a field specifier.
 
-######## field specifiers
+####### field specifiers
 
 field specifiers, similar to vars, take a `type`.
 
@@ -8174,12 +7445,12 @@ any field specifier that allows multiple choices takes these choices as a `choic
 
 using espanso, I've created an expansion that uses `!!!` to run an arbitrary shell command and insert the results
 
-###### caveats
+##### caveats
 
 espanso does not source any of the usual files and so doesn't get any environment variables.
 espanso also doesn't seem to set any LANG or LC variables, which may cause some issues.
 
-#### jobs
+### jobs
 
 A ⟮job⟯ in computing is ⟮a thing to do⟯, generally ⟮scheduled⟯, and generally ⟮in the background without intervention⟯.
 ⟮Batch job⟯ is r⟮oughly synonymous⟯ to ⟮job⟯, though it ⟮more strongly implies⟯ ⟮the scheduled⟯ and ⟮in the background without intervention⟯ parts, and also the idea of ⟮there being quite a few things to process⟯.
@@ -8189,18 +7460,18 @@ A ⟮job⟯ in computing ⟮consists of⟯ ⟮one or more tasks/steps⟯.
 A ⟮job scheduler⟯ is an application for ⟮controlling⟯ ⟮the scheduling⟯ of ⟮the execution⟯ of ⟮jobs⟯ (which is ⟮unattended⟯, ⟮in the  background⟯).
 The ⟮job queue⟯ is ⟮where tasks are put⟯, and is what ⟮the job scheduler manages⟯.
 
-##### cron ＆ at
+#### cron ＆ at
 
 ⟮cron⟯ and ⟮at⟯ are ⟮job schedulers⟯ for unix-likes.
 ⟮cron⟯ is for ⟮scheduling repeated tasks⟯, while ⟮at⟯ is for ⟮scheduling one-time tasks⟯.
 
-###### crontab
+##### crontab
 
 the ⟮job scheduler cron⟯ is ⟮configured by⟯ ⟮a crontab file⟯.
 the ⟮crontab⟯ is interacted with by ⟮the crontab command⟯.
 
 
-####### syntax
+###### syntax
 
 In cron, ⟮each job⟯ is defined by ⟮a line in the crontab⟯, which consists of ⟮times to execute a command⟯, and ⟮a command itself⟯.
 
@@ -8211,7 +7482,7 @@ crontab-line ::= (⟮‹time-specifier› ‹time-specifier› ‹time-specifier
 ⟮time-item⟯ ::= ⟮‹time›-‹time›⟯⟮||(‹time›|*)/‹time›⟯⟮||‹time›⟯
 ```
 
-####### time specifiers
+###### time specifiers
 
 cron time item|refers to
 ⟮*⟯|⟮all relevant time units⟯
@@ -8235,15 +7506,15 @@ crontab job line example|does
 ⟮*/5 * * * * [command]⟯|⟮12 times an hour (every 5 minutes⟯)
 ⟮* * * * * [command]⟯|⟮every minute always⟯
 
-####### output
+###### output
 
 By default, ⟮the output⟯ of ⟮a cron job⟯ gets ⟮sent to your email⟯.
 To ⟮change the email⟯ ⟮cron output gets sent to⟯, specify ⟮MAILTO=somemail.⟯
 To ⟮change where⟯ cron output ⟮goes⟯, ⟮redirect it as per usual⟯.
 
-### kernelland
+## kernelland
 
-### installation
+## installation
 
 A live OS is a bootable OS on some kind of removable device.
 A live OS typically also allows installation of the OS and may be the main means of installing an OS
@@ -8251,23 +7522,23 @@ A live USB is a live OS on an USB stick.
 A live CD is a live OS on a CD.
 Unetbootin is a cross-platform untility for creating bootable USBs
 
-### virtualization
+## virtualization
 
 Virtualization is creating something virtual instead of something real.
 For the isolated execution of programs, generally either virtual-machine-based virtualization or os-level virtualiztion is used.
 A virtual machine is a form of virtualization where an entire operating system is virtualized.
 
-#### OS-level virtualization
+### OS-level virtualization
 
 OS-level virtualization is where multiple isolated user space instances exist on the same OS.
 
-##### chroot ＆ chroot jail
+#### chroot ＆ chroot jail
 
 chroot changes the root directory of a process, preventing it from changing anything outside.
 A chroot jail is the environment set up by chroot.
 Often, the basis of OS-level virtualization is a chroot jail.
 
-##### containerization
+#### containerization
 
 Containerization is (is an implementation) of OS-level virtualization, which generally refers to specifically using OS-level virtualization for running one app, including all its dependencies and its own fs.
 Using OS-level virtualization/containerization, interactions with the larger OS is only allowed through limited, specified channels.
@@ -8277,7 +7548,7 @@ Containerization is the standard for most mobile operating systems.
 Containerization may limit functionality and increase size (since dependencies cannot be shared)
 Docker is the most common service for os-level virtualiztion/containerization.
 
-###### docker
+##### docker
 
 In docker, a container is an instance of a container image.
 A docker container can be run pretty much anywhere.
@@ -8285,28 +7556,28 @@ A container image contains everything needed to create the container, including 
 
 the command `docker` is used to administer docker.
 
-### communication between OSs
+## communication between OSs
 
 scrcpy is a program that provides display and control of android devices from the computer via USB or the internet(TCP/IP).
 
-## mac
+# mac
 
-## windows
+# windows
 
-### misc
+## misc
 
 Right-clicking the ⟮windows start button⟯ brings up a ⟮context menu⟯ with ⟮a bunch of system tools⟯ 
 
-## *nix
+# *nix
 
-### different *nixes
+## different *nixes
 
-#### POSIX
+### POSIX
 
 The Portable Operating System Interface (POSIX) is a family of standards specified by the IEEE Computer Society for maintaining compatibility between operating systems.
 POSIX specifies both kernel- and user-level APIs as well as various shells and utilities.
 
-#### differences
+### differences
 
 Different *nixes have different versions of different command-line tools, on account of having descended in different ways from the original unix.
 coreutils are the basic GNU file, shell and tex manipulation utilities.
@@ -8316,9 +7587,9 @@ You can install the GNU coreutils on non-GNU systems via homebrew.
 If there is also a preexisting version of the command when the GNU coreutils are installed with homebrew, they are prefixed with g (e.g. gdir instead of dir).
 If you need the normal names of the GNU coreutils when installed with homebrew (e.g. because they're being used in a preexisting script etc, add the directory they're in (/opt/homebrew/opt/coreutils/libexec/gnubin) to your $PATH
 
-#### what's in a *nix
+### what's in a *nix
 
-##### GNU/Linux
+#### GNU/Linux
 
 GNU is the set of free software that accompanies the linux kernel in GNU/Linux.
 GNU = GNU's not unix
@@ -8333,7 +7604,7 @@ A Linux distribution is GNU/Linux plus a set of other stuff, which depends on th
 Android uses the Linux Kernel but not GNU or any of the other libraries.
 From ⟮android⟯ ⟮1.0⟯ until ⟮9⟯, ⟮android⟯ versions had ⟮sweets⟯-based names, with each name ⟮going one further in the alphabet⟯
 
-###### WSL
+##### WSL
 
 WSL = Windows Subsystem for Linux
 The Windows Subsystem for Linux is a Linux VM/compatibility layer for Windows
@@ -8341,26 +7612,26 @@ The Windows Subsystem for Linux allows you to do things like run a shell environ
 To install the Windows Subsystem for linux, turn it on in the "Turn windows features on or off" dialog, then download the distro from the windows store
 The windows drives with letters C, D, ... are accesible from the WSL as /mnt/c, /mnt/d ...
 
-##### Android
+#### Android
 
 ⟮Android features⟯ depend on the relevant ⟮API level⟯, which starts at ⟮1⟯ and is at ⟮30⟯ as of android ⟮11⟯ 
 
 Curreny android has one ⟮API level⟯ per ⟮major version⟯ (e.g. ⟮android 11⟯), but it used to be ⟮multiple ones per version⟯ (bc in the past ⟮minor versions⟯, e.g. ⟮2.2.⟯ Gingerbread and even ⟮patch versions⟯, e.g. ⟮2.2.3⟯ Gingerbread ⟮introduced new features⟯) 
 
-#### libraries ＆ systems
+### libraries ＆ systems
 
-##### linux
+#### linux
 
-###### input
+##### input
 
 On Linux, input devices are often handled on linux by the library libinput, which is also the name of the command used to interface with it. 
 libinput is native in wayland, but optional in X, which can also manage input devices directly, whose implementation you can interface with via xinput.
 
-###### grapical display ＆ related systems
+##### grapical display ＆ related systems
 
 pango is a linux library for international text rednering.
 
-####### X
+###### X
 
 the X window system is the whole thing with X servers, X clients, an X server, X11, ...
 The core part of the X window system is the X server.
@@ -8377,7 +7648,7 @@ X thingies installed by default live in /usr/share/X11
 X local config changes live in /etc/X11
 xorg is configured in X11/xorg.conf(.d)
 
-######## window manager
+####### window manager
 
 In Unix, a window manager handles window management.
 to the X window system, the window manager is just another client.
@@ -8386,21 +7657,21 @@ wmctrl   Manage an X window manager
 A desktop environment is a window manager plus a set of base applications and some other stuff such as a clipboard manager, toolbar, etc.
 Well-known desktop environments are GNOME, KDE, XFCE, Unity...
 
-######## starting X
+####### starting X
 
 startx is a wrapper around to xinit.
 xinit/startx source .xinitrc when run.
 .xprofile and /etc/xprofile is run by X before your window manager is run.
 .xsession is (at least in theory) only sourced when logging in from a display manager
 
-######## Login
+####### Login
 
 A X display manager is a graphical login manager which starts a login session on an X server.
 the GNOME X display manager is gnome's display manager.
 GDM = GNOME display manager
 LightDM is the most common alternative to GDM.
 
-######## DE
+####### DE
 
 D-Bus is a protocol/interface/middleware for messaging between processes (IPC).
 AccountsService is a D-BUs service for accessing the list of user accounts and information attached to those accounts.
@@ -8408,14 +7679,14 @@ AccountsService is a D-BUs service for accessing the list of user accounts and i
 What Desktop Environment you're using   XDG_CURRENT_DESKTOP
 What Desktop Environment you selected from the display manager (might be limited to gnome display manager)   GDMSESSION
 
-######## CLI
+####### CLI
 
 xdotool allows automation of X windows
 xdpyinfo gets info about an x server
 xwininfo gets information about open windows
 xev shows X events such as keyboard, resizing, clicking etc.
 
-###### systemd
+##### systemd
 
 In SystemV style init, the init process was actually called init.
 In SystemV style init, the device starts by executing numbered startup scripts one at a time.
@@ -8432,7 +7703,7 @@ There are different systemd folders depending on the persistence that is desired
 /lib/systemd|persitent (package-manaed software, the os)
 /etc/system|persistent (device admin)
 
-####### units
+###### units
 
 systemd deals with system units.
 A systemd unit represents any kind of system resource.
@@ -8453,7 +7724,7 @@ When a .path units path becomes available, ⟮an associated .service⟯ is start
 When a .socket unit has some activity, an associated service is started.
 When a .timer units time state is reached, an associated unit is started.
 
-######## targets
+####### targets
 
 reboot.target   The target for rebooting
 poweroff.target   The target for turning off the computer
@@ -8461,7 +7732,7 @@ multi-user.target   multiuser (but no GUI)
 graphical.target   multiuser ⁑with GUI⁑
 default.target   what the machine should try and aim for when booting (another target generally)
 
-######## CLI
+####### CLI
 
 Passing systemctl a target (such as reboot) without the .target will execute that target
 The main command to administer systemd is systemctl
@@ -8485,14 +7756,14 @@ when using systemctl, for mount/device operations, besides using .mount and .dev
 loginctl controls the systemd login manager
 systemd-analyze allows for systemd debugging
 
-###### various subsystems ＆ specs
+##### various subsystems ＆ specs
 
-####### NetworkManager
+###### NetworkManager
 
 NetworkManager aims to provide an 'it just works' type network epxerience for linux
 NetworkManager stores its saved connections in /etc/NetworkManager/system-connections/
 
-####### bluetooth
+###### bluetooth
 
 The most common low-level bluetooth stack for linux is bluez
 hcitool is a command allowing noninteractive bluetooth config.
@@ -8500,7 +7771,7 @@ bluetoothctl is a command allowing interactive commincation with bluetooth.
 As of 2021, bluetooth on linux is still pretty buggy.
 Bluetooth high-level-ish management software on linux: blueman, blueberry, bluedevil
 
-####### sound
+###### sound
 
 Linux's reasonably low-level sound interface is ALSA.
 ALSA|Adavance Linux Sound Architecture
@@ -8509,14 +7780,14 @@ PulseAudio is often layered on top of ALSA
 pactl is a command to manage pulse audio
 in linux soudn jargon, an output is a sink
 
-####### language
+###### language
 
 ibus and fcitx are linux frameworks for multilingual input
 mozc is a plugin for ibus/fcitx/whatever for japanese input.
 ibus-daemon is the command for managing ibus
 fcitx-configtool allows managing fcitx graphically.
 
-##### state change
+#### state change
 
 `shutdown`|shutting your system down
 reboot|restart your computer
@@ -8527,7 +7798,7 @@ If no assertion flags are specified, caffeinate creates an assertion to prevent 
 If a utility is specified with -u, the caffeinate assertions will persist for the duration of the utility's execution. 
 if no utility is specified with -u, caffeinate creates the assertions directly, and those assertions will persist until caffeinate exits, or until the timeout specfied w/ -t.
 
-#### leaving the shell
+### leaving the shell
 
 termux-open-url   open an url in its default application (termux)
 termux-open   open something it its default application
@@ -8543,7 +7814,7 @@ termux-open   open something it its default application
 ⟮-t⟯|⟮open the file with your default text editor⟯
 
 
-#### misc
+### misc
 
 `redshift`|make screen red/yellowish (linux)
 
@@ -8584,12 +7855,12 @@ unoconv is a CLI util to convert files using libreoffice in the background.
 
 tee redirects a stream to stdout and to all listed files
 
-### processes
+## processes
 
 On unix systems, a process is an (instance of a) program that is ⟮running⟯
 On unix, a process is the instance that has its own heap.
 
-#### process relationshps
+### process relationshps
 
 IPC|inter-process communication.
 
@@ -8597,14 +7868,14 @@ PPID|Parent Process ID
 PID|Process ID
 
 
-#### process management
+### process management
 
 ps|list of processes
 pstree|processes as a tree
 
 procs is a more fancy version of ps written in rust
 
-#### file descriptors
+### file descriptors
 
 A file descriptor is a positive integer that uniquely identifies a file (or file-like) things.
 Each process has its own file descriptors.
@@ -8623,26 +7894,26 @@ using `-` to refer to stdin or stdout is a common convention specified by posiz,
 
 When you open a file on unixy systems, the kernel creates a file descriptor for the file using (amongst other things) the relevant the inode
 
-#### daemons
+### daemons
 
 A daemon is a process running in the background, not under the direct control of a user.
 In *nix, a daemon is generally a process which is a child of the init process.
 A daemon is usually created either by a process forking a child process and then immediately exiting, thus causing init to adopt the child process, or by the init process directly launching the daemon. 
 The names of daemons generally end with d.
 
-#### exit codes
+### exit codes
 
 true|do nothing, sucessfully (exits 0)
 false|do nothing, unsuccessfully (exit non-0)
 
-#### process management tools
+### process management tools
 
 top is a process viewer.
 htop is a more fancy version of top with a better TUI and interactivity.
 
-### terminal system
+## terminal system
 
-#### job control
+### job control
 
 job control is mainly performed by signals.
 A job is a shell concept, but generally corresponds to a process group.
@@ -8654,13 +7925,13 @@ bg  resume stopped task in background
 ⟮c+;＆⟯ at the ⟮end of an command⟯ ⟮puts it in the backround⟯ (but it ⟮still continues running⟯)
 jobs|show processes running in the background
 
-#### terminal
+### terminal
 
 A terminal may be a physical/hardware terminal, a virtual terminal/console, or a terminal window.
 /dev/tty represents the current terminal, regardless of what kind of terminal it is (hardware, virtual, etc.)
 the tty command tells us which device file is implementing the current terminal
 
-##### terminal architecture
+#### terminal architecture
 
 
 flex-container:✫file://~/Downloads/terminalsys.svg✫
@@ -8678,7 +7949,7 @@ the tty driver seems to be the parent process of the session leader.
 stty administers the options for the tty driver.
 The tty driver is the thing that has all all the processes living in a terminal as descendants (?)
 
-###### physical terminals and terminal emulators
+##### physical terminals and terminal emulators
 
 Terminal emulator is properly a synonym for virtual terminal/console, though sometimes terminal emulator is used in the wider sense of 'any thing that emulates a hardware terminal', though I would consider this incorrect usage. Nevertheless, I wil use virtual terminal for this to avoid ambiguity. 
 virtual terminal = virtual console.
@@ -8699,7 +7970,7 @@ ttys (physical terminals and virtual terminals) are initialized by `getty`, whic
 each /dev/tty‹n› has a corresponding /dev/vcs‹n› (including /dev/tty0, which means that /dev/vcs0 corresponds to the memory of the current virtual terminal)
 the /dev/vcs‹n› contains what is visible on the screen of a /dev/tty‹n›
 
-###### pseudo terminals
+##### pseudo terminals
 
 A pseudo-terminal consists of two device files, a master file and a slave file.
 In a pseudo-terminal, a terminal window such as xterm (or sth like ssh) replaces the virtual terminal. 
@@ -8714,7 +7985,7 @@ Opening /dev/ptmx gives you a file descriptor for the master device and spawns a
 When sshing, the pseudo terminal master device is connected to your terminal/terminal window/virtual terminal, but the pseudo terminal slave is instead on the remote machine.
 The thing that creates the pseudo terminal slave on the remote machine is sshd.
 
-###### system console
+##### system console
 
 In the past, many hardware/physical terminals might have been connected to one computer.
 In the past, the system console would have been its own hardware/physical terminal connected directly to the computer.
@@ -8722,7 +7993,7 @@ Today, the system console is merely the device file /dev/console.
 In most modern systems /dev/console is merely a symlink to /dev/tty (however it may also point at something else)
 In any case /dev/console and /dev/tty have different major numbers.
 
-##### terminal window
+#### terminal window
 
 A terminal window must be one level of emulation deeper than a virtual terminal, since it lives in a GUI which in linux at least itself lives within a virtual terminal.
 A terminal emulated within a GUI is known as a terminal window
@@ -8734,7 +8005,7 @@ all the various terminal windows generally have a command of the same name to la
 most terminal windows take the -e argument to execute the command in the newly opened terminal window.
 Termux is a terminal window for android.
 
-##### process interaction with terminals
+#### process interaction with terminals
 
 PGID|Process group ID
 SID|Session ID
@@ -8760,7 +8031,7 @@ for the process group leader, PGID == PID
 for the session leader, SID == PGID == PID
 
 
-##### signals
+#### signals
 
 signals allow the kernel to communicate asynchronously with a process (group).
 The thing that is signalled when being singalled from a terminal is always an entire process group.
@@ -8782,15 +8053,15 @@ kill sends a signal to a process, given its PID
 killall sends a signal to a n processes, given a string that their name contains
 by defaut, kill and killall send SIGTERM
 
-##### appearance
+#### appearance
 
 Things such as color and cursor movement in the terminal are implemented via control characters.
 
-##### shell commands for terminal management
+#### shell commands for terminal management
 
 There are a number of shell commands that nevertheless still are concerned with terminals, and not with shells
 
-###### virtual terminal
+##### virtual terminal
 
 fgconsole   get the number of the current tty
 fgconsole --next-avaliable   get next unallocated vt
@@ -8799,7 +8070,7 @@ deallocvt   remove unused virtual terminals
 chvt N   change to ttyN
 Couldn't get a file descriptor referring to the console is an error you encounter using commands meant for virtual terminals somewhere else
 
-###### any terminal 
+##### any terminal 
 
 the who utility displays all active terminal sessions and for each the users logged into them, datetime of login, and hostname if not local.
     sam$ who
@@ -8815,7 +8086,7 @@ w is an extended version of who, which shows everthing who does, plus what is cu
     sam      s002     -                09Jan22  3:34 -bas
     sam      s007     -                Mon23    9:41 -bas
 
-#### shell
+### shell
 
 the shell is typically the foreground process in a given terminal, but may be the background process e.g. if we're using a TUI.
 The shell runs in the foreground of a terminal if its being used interactively.
@@ -8826,7 +8097,7 @@ The difference between set and shopt is that set is a POSIX-compliant command or
 SHELLOPTS|options set via set
 BASHOPTS|options set via shopt
 
-##### variants
+#### variants
 
 The first shell, introduced in 1971, was called the thompson shell with the executable sh.
 the pwb/masey shell was introduced in 1977 and built on top of the thompson shell, keeping the executable sh.
@@ -8839,7 +8110,7 @@ ash, bash, ksh, and zsh are descendants of the bourne shell.
 bash is the shell of GNU, and perhaps the most common shell as of 2020.
 bash = bourne again shell
 
-##### history
+#### history
 
 history can be en/disabled via the history parameter of set.
 The history list is a list of commands that the shell internally stores.
@@ -8858,9 +8129,9 @@ The builtin command fc may be used to list or edit and re-execute a portion of t
 The history builtin may be used to display or modify the history list and manipulate the history file.
 With no options, history displays the history list with line numbers.
 
-##### various features
+#### various features
 
-###### The directory stack
+##### The directory stack
 
 in nix, there is a stack of directories called the directory stack.
 in nix, you can push/pop from the directory stack with the commands pushd/popd.
@@ -8871,7 +8142,7 @@ dirs +/-‹n›|display the nth directory counting from the start/end
 pushd +/-‹n›|bring the nth directory counting from the start/end to the top of the stack by rotating the stack
 popd +/-‹n›|remove the nth directory counting from the start/end from the directory stack (without cding)
 
-##### Prepopulated environment variables
+#### Prepopulated environment variables
 
 PWD|current directory
 OLDPWD|directory before last pwd
@@ -8894,7 +8165,7 @@ PS4|execution of shell script debugging trace (whatever that is)
 Bash additionally executes the content of the PROMPT_COMMAND just before displaying the PS1 variable.
 for PS‹n›, ash supports a set of \ initiated special escape sequences for things such as the time, hostname, number of current jobs etc.
 
-##### login shell
+#### login shell
 
 A login shell is is the first shell that executes after you `login`.
 login indicates to the shell that the shell should be a login shell by prepending the name of the shell with a -, so that $0 will e.g. be -bash, not bash.
@@ -8904,7 +8175,7 @@ On mac, all interactive shells become login shells, meaning that .bashrc is not 
 linux can rely on the login shell startup files being executed since the login shell is started before the OS has become interactive
 mac cannot rely on the login shell startup files being executed before the first shell has been opened.
 
-##### startup files
+#### startup files
 
 pretty much all shells have a set of startup files that they run as normal shell code when starting a new shell.
 when bash starts non-interactively, it looks for startup files in the paths listed in BASH_ENV.
@@ -8916,7 +8187,7 @@ When an interactive login shell exits, or a non-interactive login shell executes
 
 There are other files for environment variables that may be read at different times unrelated to the shell: .pam_environment, /etc/environment
 
-##### Shell lifecycle
+#### Shell lifecycle
 
 0. The shell may get its input from a file, a string, or the terminal, and splits it into lines.
 1. The shell performs history expansion
@@ -8930,34 +8201,34 @@ There are other files for environment variables that may be read at different ti
 since shell syntax (such as filename expansion) are performed far before something like sudo is executed, if you lack permission to see things those things will not work.
 To use shell syntax/features with sudo permissions, the easiest way is to create a sudoed subshell (sudo bash -c "command")
 
-###### whence commands?
+##### whence commands?
 
-####### interactive shell
+###### interactive shell
 
 Bash uses a simple heuristic to determine if the shell is interactive: (if neither an non-option argument nor -c or -s is specified and error/iput are connected to terminals) OR (-i is specified), it is interactive.
 While an interactive shell is meant to read/write to a terminal, there is no guarantee it is in a terminal if you force it with -i.
 if a shell is interactive, $- will contain i, and $PS1 will be set (otherwise unset).
 Interactive shells have a bunch of unique rules and semantics.
 
-######## readline
+####### readline
 
 An interactive shell will typically use the GNU readline library to allow line-editing of entered commands.
 While GNU readline is most commonly used in interactive shells, it may be used in may different places.
 GNU readline has both emacs and vi editing modes, with emacs editing mode enabled by default.
 The emacs and vi arguments for set allow switching between those two modes.
 
-######## tab completion
+####### tab completion
 
 compgen generates potential autocompletes for a certain string based on its option
 
-####### noninteractive shell
+###### noninteractive shell
 
 bash -s|read commands from standard input
 bash -c|read commands from following string
 shell scripts execute in their own shell by default
 Unless you force it, the shell a script will execute in is a noninteractive shell.
 
-###### history expansion
+##### history expansion
 
 history expansion allows us to splice parts of the history list into the current input stream
 In history expansion, the line from the history list that is used is called the event.
@@ -8994,17 +8265,17 @@ s/old/new/ regex like substitution
 
 indexes for ! for repeating start at 1 for the first command and go from there
 
-###### tokenization
+##### tokenization
 
 to the shell, a word is a sequence of characters treated as a unit by the shell. words are separated by whitespace or the characters ‘|’, ‘＆’, ‘;’, ‘(’, ‘)’, ‘‹’, or ‘›’. (this has nothing to do with IFS)
 
-###### parsing (quoting)
+##### parsing (quoting)
 
 since bash allows strings without quotes, double quotes actually perform a function somewhat similar to raw strings/escaping, except that the constructions starting with the metacharacters $, `, and ! still work.
 In bash, $'...' treats the contents as raw strings, but allows for C-style escape seuqences.
 In bash, $"..." translates the string according to the current locale settings
 
-###### Expansion
+##### Expansion
 
 Expansion is replacing a thing with another thing or things.
 
@@ -9012,7 +8283,7 @@ Expansions are performed in the order: brace › tilde › parameter › command
 
 Only brace expansion, word splitting, and filename expansion can increase the number of words of the expansion; other expansions expand a single word to a single word. The only exceptions to this are the expansions of "$@" and $* (see Special Parameters), and "${name[@]}" and ${name[*]} (see Arrays).
 
-####### Brace expansion
+###### Brace expansion
 
 Brace expansion is similar to filename expansion, but things expanded to need not exist as files.
 Brace expansion is a mechanism for generating strings.
@@ -9024,7 +8295,7 @@ a{d,c,b}e results in ade ace abe
 For brace expansion, bash generates all string alternatives, separated by spaces.
 Since bash does brace expansion before anything else, it can contain other metacharacters, e.g. * or _, but they will be interpeted at the appropriate step later.
 
-####### Tilde expansion
+###### Tilde expansion
 
 tilde expansion is performed if a word begins with a tilde.
 tilde expansion takes an argument that is specified between the tilde and the next /
@@ -9037,7 +8308,7 @@ With tilde expansion, if no argument is given, the tilde will merely evaluate to
 
 The ‘$’ character introduces parameter expansion, command substitution, or arithmetic expansion. 
 
-####### Shell parameter expansion
+###### Shell parameter expansion
 
 While parameter expansion is disabled within '', it works in "", but also in unquoted strings.
 In shell parameter expansion, the thing being expanded may be enclosed in curly braces, which is optional in some circumstances, and mandatory in others.
@@ -9086,19 +8357,19 @@ parameter@Q|quote the parameter
 
 Getting the length of something is done within parameter expansion: #parameter
 
-####### Command substitution
+###### Command substitution
 
 Command substitution takes a command and replaces it (and the syntax) with its output.
 Command substitution is performed in the modern syntax with $(command).
 Command substitution is performed in the older, deprected syntax with `command`.
 Command substitution may be nested.
 
-####### Arithmetic expansion
+###### Arithmetic expansion
 
 Arithmetic expansion evaluates arithmetic and replaces it (and the syntax) with the result.
 Arithmetic expansion is performed by $(())
 
-####### Process substitution
+###### Process substitution
 
 Process substitution allws referring to the in or output of another process as a file.
 To implement process substitution, bash creates an anonymous pipe with two file descriptors.
@@ -9110,7 +8381,7 @@ command1 ›(command2) is equivalent to command1 | command2 if command1 supoorts
 e.g. a command doesn't output to stdout, but just a file
 ‹() is used more commonly than ›() because it is more common that a program expects multiple inputs as files than that it outputs multiple outputs as files.
 
-####### Word splitting
+###### Word splitting
 
 Word Splitting	  	How the results of expansion are split into separate arguments.
 the shell scans the results of parameter expansion, command substitution, and arithmetic expansion, if they did not occur within double quotes, for word splitting.
@@ -9121,7 +8392,7 @@ IFS is short for internal field separator.
 The default value of IFS is whatespace.
 
 
-####### File name expansion
+###### File name expansion
 
 filename expansion expands strings containing wildcards to pathnames.
 filename expansion is perfomed using an utility/syntax known as glob.
@@ -9155,11 +8426,11 @@ to activate bash wildcards using (), you have to enable extglob with shopt
 
 .gitignore uses a similar syntax to globbing
 
-####### Quote removal
+###### Quote removal
 
 After the preceding expansions, all unquoted occurrences of the characters ‘\’, ‘'’, and ‘"’ that did not result from one of the above expansions are removed. 
 
-###### Redirection
+##### Redirection
 
 Before a command is executed, its input and output may be redirected using a special notation interpreted by the shell. 
 
@@ -9186,9 +8457,9 @@ for redirecting, the ‹n› before the ‹ or › may be the number of any file
 
 if a file is to be used as input to a command, there is often no reason to do cat file | command, since one could also do command ‹ file
 
-###### command execution
+##### command execution
 
-####### aliases
+###### aliases
 
 alias-command ::= alias{ name=vale}
 the alias command with no arguments lists available aliases
@@ -9196,7 +8467,7 @@ aliases are only replaced if they are the first word of a simple command.
 Aliases have very error-prone semantics, so using shell functions is almost always preferred.
 sometimes an extra file bash_aliases is created for storing aliases, however bash does not itself read from bash_aliases so it needs to be sourced from other files.
 
-####### pipelines
+###### pipelines
 
 the character indicating an anonymous pipe is |
 In a general sense, a ⟮filter⟯ ⟮takes some input⟯, ⟮transforms it⟯, and ⟮produces some output⟯.
@@ -9217,7 +8488,7 @@ When the second process reads from the buffer created by a pipe, this is called 
 
 theoretically, any program that reads from stdin should read from terminal input if given no standard input (as cat does), however some programs don't.
 
-######## liquid (semantically appropriate)
+####### liquid (semantically appropriate)
 
 Liquid also features filters prominently to transform values, and also uses the pipe | as a separator.
 filter name (liquid)|filter action|constraints
@@ -9226,7 +8497,7 @@ filter name (liquid)|filter action|constraints
 ⟮append: foo⟯|⟮append foo to the string⟯
 ⟮prepend: foo⟯|⟮prepend foo to the string⟯
 
-####### command search
+###### command search
 
 When the shell encounters something it thinks it is a command, if it does not contain slashes, it first searches shell functions, then builtins, then $PATH, if it does contain slashes, it executes the path as a command. If the execution fails but the file is not a directory, it assumes the file is a shell script and tries to execute it thus.
 The environment variable PATH provides a set of locations of where to search for commands.
@@ -9236,7 +8507,7 @@ For anything in PATH we can execute it by just using its name, to execute anythi
 npx ‹name› allows execuution of a binary ‹name› within an npm project without having to specify a path (e.g. a local version of a build tool or sth.)
 npx can also be used to run a specific version of a npm binary.
 
-####### exit status
+###### exit status
 
 exit allows you to exit the current (sub)shell, optionally specifying an exit code.
 success|0 
@@ -9244,9 +8515,9 @@ some kind of failure|not 0
 miscellaneous error|1
 (bash builtins) incorrect usage (invalid/missing arguments)|2
 
-##### concepts
+#### concepts
 
-###### Parameters
+##### Parameters
 
 In bash, a parameter is an entity that stores a value.
 In bash (as in other languages), a positional parameter one passed by position (indicated by $1 ... $9)
@@ -9269,7 +8540,7 @@ $|PID of shell, except in (), where it still has the PID of the shell and not th
 
 NOT CONTENT JUST STOPPING THE PARSER FROM FREAKING OUT $
 
-###### declaration commands
+##### declaration commands
 
 declaration commands = {alias, declare, typeset, export, readonly, local}
 
@@ -9285,15 +8556,15 @@ for declare options, using + instead of - turns off the attribute instead (yes, 
 The typeset command is supplied for compatibility with the Korn shell. It is a synonym for the declare builtin command.
 the type command indicates what it would be interpeted as if used as a command name (e.g. is a shell builtin, is a function, etc.).
 
-#### conventions
+### conventions
 
-##### commands
+#### commands
 
 most configurable commands are done so by a config file, either at ~/.commandname or XDG_CONFIG_HOME/commandname if following the XDG base directory specification, some also read from a global config file generally in /etc. Some commands also have a file ending in rc for config in those locations, though rc files generally specify commands to run beforehand more than settings.
 
 The unix philosophy says each program should do one thing well and be designed to work together with other programs, most commonly by accepting text as IO.
 
-###### common syntax considerations
+##### common syntax considerations
 
 -o PATH|generally short for/equiv to --out or --output
 -O|output to current directory with same name. (curl, wget)
@@ -9337,7 +8608,7 @@ In general commands that do something from a source to a target (e.g. cp, mv) ha
 -- normally ends the list of flag arguments and allows you to pass plain arguments
 
 
-##### man
+#### man
 
 Most CLI commands have a manual page, which can be diplayd with man.
 When we want a man entry for a composite command (e.g. git log, jekyll serve), the man entry headword (by convention) is the same, but hyphenated (git-log, jekyll-serve)
@@ -9352,13 +8623,13 @@ The standard sections of the manual include:
 7      Miscellanea
 8      System Administration tools and Deamons
 
-##### pagers
+#### pagers
 
 a ⟮pager⟯ is ⟮a terminal program⟯ that ⟮paginates⟯ its input. 
 the ⟮default pager⟯ for the terminal is set in the env variable ⟮PAGER⟯. 
 `⟮less⟯` is the most common ⟮pager⟯. 
 
-### users and groups
+## users and groups
 
 GID|group id
 UID|user id
@@ -9371,13 +8642,13 @@ the groups command lists the groups a user is in.
 etc-groups ::= {‹group-name›:‹password-encrypted›:‹GID›:‹member_list›‹newline›}
 passwd – modify a user's password
 
-#### commands
+### commands
 
 whoami|show current username
 login|login as user
 logout|logout of shell
 
-#### superuser
+### superuser
 
 superuser = root = admin(istrator)
 OS-independently, the superuser/root/administrator is a user with large to unlimited power over the system.
@@ -9395,34 +8666,34 @@ sudo = substitute (in the past super) user do
 
 -E = --preserve-env
 
-##### polkit
+#### polkit
 
 polkit is a toolkit to allow finer-grained control than just running sudo.
 Polkit defines ⟮actions⟯, ⟮who can use them (group/user)⟯, and ⟮under which circumstances⟯.
 pkexec works like sudo, but instead opens a window for password entry (it also depends on polkit policies)
 
-### projects
+## projects
 
 freedesktop.org was formerly called X Desktop Group (XDG)
 freedesktop.org governs projects such as the X Window System, wayland or systemd
 
 # communication
 
-## concepts
+# concepts
 
 A telegraph is a system for communicating at a distiance via coded signals
 semaphore is telegraphy via visual signalling.
 master/slave is (problematically) when one entity controls or serves as an example to other entity(s)
 Crosstalk is a signal transmitted on a channel causing an undesired effect on another circuit or channel
 
-### serial and parallel
+## serial and parallel
 
 Serial communication sends its information one after another over the channel.
 Parallel communication sends multiple piecies of information simultaneously over multiple subchannels.
 One would expect parallel communication to be faster than serial communication, with the factor equivalent to the amount of channels/wires/whatever, however serial communication can often be clocked far higher to make up for it.
 Serial communication is often far easier/simpler to implement and thus less error-prone, cheaper and thinner/lighter than parallel communication.
 
-### allow ＆ deny
+## allow ＆ deny
 
 an allowlist implies forbidding everything by default
 an allowlist enumerates a set of things that may pass
@@ -9431,22 +8702,22 @@ an denylist enumerates a set of things that may not pass
 allowlists were/are known as whitelists
 denylists were/are known as blacklists
 
-### pushpullpoll
+## pushpullpoll
 
 pulling is where the request initiates from the client, and is responded to by the server
 pushing is where a request is initiated by a server.
 polling is frequently checking whether a thing is in a certain state
 polling may be used to simulate push protocols.
 
-### state
+## state
 
-#### sessions
+### sessions
 
 In computer science, a ⟮session⟯ is ⟮started at some point⟯, ⟮ends at some point⟯, and during this time ⟮maintaines state⟯.
 A browser session starts when the browser is opened and ends when the browser is closed (unless session restoring is used.)
 A login session starts when a user logs in and ends when a user logs out or the existence of the session is otherwise terminated.
 
-### proxy
+## proxy
 
 flex-container:✫Proxy_concept_en.svg✫
 
@@ -9456,30 +8727,30 @@ flex-container:✫Reverse_proxy_h2g2bob.svg✫
 
 Reverse proxies are sometimes called surrogates or gateways.
 
-### directions
+## directions
 
 simplex|one direction only
 duplex|bidirectional
 half duplex|bidirectional, but only one at a time
 full duplex|bidirectional, both simultaneously
 
-### fresh and stale
+## fresh and stale
 
 In technical contexts, ⟮fresh⟯ and ⟮stale⟯ are often contrasted. 
 In technical contexts, something ⟮fresh⟯ is ⟮still relevant/valid/useful⟯. 
 In technical contexts, something ⟮stale⟯ is ⟮no longer relevant/valid/useful⟯. 
 
-## design
+# design
 
 The ⟮robustness principle⟯ is "⟮be conservative in what you send⟯, and ⟮liberal in what you accept⟯".
 The robustness principle is often said to be ⟮good design⟯, but also ⟮create bad de-facto standards⟯
 
-## interfaces 
+# interfaces 
 
 At its most general interface is a shared boundary across which information flows.
 An interface specifies specific channels (endpoints, methods, ...) for the access of information.
 
-### API
+## API
 
 API = application programming interface
 An API is an interface of a piece of software/module/web service/etc.
@@ -9498,13 +8769,13 @@ A shim is a library that takes API calls for something else and then does someth
 A shim may do one or more of with a given call: redirect it, change the arguments, handle it itself.
 A polyfill is a shim for a browser API, which passes it through if available, and implements it itself if not.
 
-#### APIs for certain purposes
+### APIs for certain purposes
 
 Data|Name|Interface
 ⟮DWD open weather data⟯|⟮Bright Sky⟯|⟮JSON⟯
 
 
-## protocols
+# protocols
 
 A protocol is a set of rules that allows transmitting messages via a medium.
 Protocols are often layered to produce a protocol stack.
@@ -9519,22 +8790,22 @@ Protocols that are transferred over wires as a medium typically also define the 
 PDU = Protocol data unit
 SDU = Service data unit
 
-### hardware / low-level
+## hardware / low-level
 
-#### NFC
+### NFC
 
 NFC = Near field communication
 NFC works via induction.
 NFC works at a distance of up to ~4 cm
 
-#### PCI
+### PCI
 
 PCI   Peripheral Component Interconnect
 PCIe  Peripheral Component Interconnect Express
 PCI is a parallel bus, PCIe is a serial bus
 PCI, AGP (older), PCIe (today) are the protocols/connectors that were/are used to connect things on the motherbord, especially PC expansion cards but also some of the things soldered on.
 
-#### thunderbolt
+### thunderbolt
 
 Thunderbolt 1 and 2 are transmitted via the MiniDisplayPort connector.
 Thunderbolt 3 and 4 are transmitted via the USB C connector.
@@ -9545,13 +8816,13 @@ Thunderbolt was designed to run over optic fiber cables, but actually generally 
 3|40 Gbit/s
 4|40 Gbit/s
 
-#### DP
+### DP
 
 https://upload.wikimedia.org/wikipedia/commons/f/f1/DisplayPort_Connector.svg|DisplayPort Connector
 flex-container:✫sm_300px-Mini_DisplayPort_on_Apple_MacBook.jpg✫|Mini DisplayPort Connector
 Mini and nonmini ⟮DisplayPort⟯ is mainly for ⟮video / audio⟯, but can also carry ⟮USB⟯ and ⟮other data (e.g. thunderbolt)⟯
 
-#### ATA
+### ATA
 
 ATA is short for Advanced Technology Attachment, though due to IBM trademarks its officially short for nothing.
 ATA was renamed PATA after SATA was introduced.
@@ -9565,7 +8836,7 @@ II|3Gb/s
 III|6Gb/s
 III Rev 3.2|16 Gb/s
 
-#### usb
+### usb
 
 USB   Universal serial bus
 USB can transmit both data of various kinds as well as power.
@@ -9601,22 +8872,22 @@ type=th;Micro-AB|span=3;class=no;N/A|<img src="https://upload.wikimedia.org/wiki
 USB has a tree (bus + star) topology 
 
 
-##### usb 4
+#### usb 4
 
 USB 4 was released in 2019.
 As of USB 4, the only connector type is USB C.
 
-### Internet Protocols
+## Internet Protocols
 
-#### network admin tools
+### network admin tools
 
 ifconfig is a linux tool to configure networke interfaces, though it is often deprecated in favor of iproute2.
 iproute2 collects a bunch of legacy networking commands into a few commands, the most important of which are ip and tc.
 speedtest-cli test the speed of your connection
 
-#### model comparison
+### model comparison
 
-##### models
+#### models
 
 The OSI model remains useful, but unimplemented.
 In both the OSI and the TCP/IP Model of how computers communicate, the application layer is the ⟮top⟯ layer.
@@ -9625,7 +8896,7 @@ The internet protocol suite is a protocol stack
 Instead of the OSI model, the TCP/IP model is used to model the communication on the internet today.
 One of the first networks to implement the ⟮TCP/IP protocol suite⟯ and one of the precursors to ⟮the internet⟯ was ⟮ARPANET⟯
 
-##### layers
+#### layers
 
 table:OSI Model|TCP/IP Model|PDU (TCP/IP)|Communicant identifier
 Application|span=1,3;Application||path of URL (I think)
@@ -9646,7 +8917,7 @@ table:style=table-layout: fixed;|||style=background-color: #9f9;Data||type=th;�
 |style=background-color: #87e;IP header|span=2;style=background-image: linear-gradient(to right, #b7a 50%, #8d8 50%);(IP) data||type=th;⟮c+;s∞;Internet⟯
 style=background-color: lightsalmon;Frame header|span=3;style="background-image: linear-gradient(to right, #87e 33%, #d8b 33% 66%, palegreen 66%);(Frame) data|style=background-color: lightsalmon;Frame footer|type=th;⟮c+;s∞;Link⟯
 
-##### hardware
+#### hardware
 
 layer no|layer name|device that moves things here
 3|Network/Internet|Router
@@ -9674,21 +8945,21 @@ The function of a firewall is to filter  incoming network traffic.
 a firewall filters network traffic according to a variety of rules, the most basic of which might be blocking most ports unless needed
 A firewall generally operates on the network/internet layer and up.
 
-###### alternative names
+##### alternative names
 
 a ⟮network switch⟯ is more rarely also called a ⟮bridging⟯/⟮switching⟯ ⟮hub⟯ or a ⟮MAC bridge⟯
 
-#### layers
+### layers
 
-##### layer 7
+#### layer 7
 
 HTTP, SMTP, POP, SSH, telnet...
 
-###### common concepts
+##### common concepts
 
-####### URLS ＆ Hyperlinks
+###### URLS ＆ Hyperlinks
 
-######## URI
+####### URI
 
 IRI   Internationalized Resource Identifier
 URI   Uniform Resource Identifier
@@ -9726,14 +8997,14 @@ mailto|email messages
 mailto-url ::= mailto:[‹email-address›{,‹email-address›}][?‹email-key›=‹value-percent-encoded›{＆‹email-key›=‹value-percent-encoded›}]
 email-key ::= subject | cc | body | ...
 
-######## URN 
+####### URN 
 
 the path of URN URIs can theoretically be anything, however it typically has the following syntax
 urn-path ::= ‹urn-namespace›:{‹urn-subnamespace›:}‹unique-id› 
 urn-namespace ::= ISBN|ISSN|UUID|...
 e.g. urn:oasis:names:specification:docbook:dtd:xml:4.1.2
 
-######## origins
+####### origins
 
 The group of scheme/host/port making up a web resources origin are sometimes called the (scheme/host/port) tuple
 in a scheme, host, port tuple, host is actually the FQDN
@@ -9743,7 +9014,7 @@ The ⟮same-origin⟯ policy allows ⟮same-origin⟯ access by ⟮default⟯, a
 The ⟮same-origin⟯ policy is relevant only when ⟮two pages want to communicate⟯
 The same-origin policy is ⟮active⟯ (⟮in some shape or form⟯) in ⟮all modern browsers⟯
 
-######## domains
+####### domains
 
 A domain consists of n labels separated by dots.
 The further right a label is in a domain name, the higher it is in the hierarchy.
@@ -9769,7 +9040,7 @@ A registrable domain name is so called because it is or at one point would have 
 
 In the past, the www hostname was popular, since webservers might have had many different application-level services and thus there was a desire to enforce separation between them.
 
-######### linux hostnames
+######## linux hostnames
 
 Linux has three hostnames, static, transient, and pretty.
 The pretty hostname can be pretty much anything
@@ -9778,22 +9049,22 @@ While the pretty hostname can be pretty much anything, static and transient host
 
 the `hostname` command shows the hostname, which is the same for DNS, NIS and YP.
 
-######## hotlinks, deeplinks
+####### hotlinks, deeplinks
 
 hotlinking = inline linking
 Hotlinking is embedding a resource from ⟮another fqdn⟯
 A deep link may be a link that links to any other page than the site's home page, a link that links to content within an installed app instead of a webpage (polysemy).
 A link to the homepage of a page is called a surface link
 
-####### URL manipulation libraries/objects
+###### URL manipulation libraries/objects
 
 `URL`|JS
 
 The ⟮URL⟯ constructor takes ⟮a string of the url⟯, and optionally ⟮a base url⟯ (if the url is ⟮relative⟯)
 
-###### applications
+##### applications
 
-####### cURL
+###### cURL
 
 ⟮cURL⟯ is a project for ⟮transferring data⟯ using various ⟮application protocols⟯. 
 one half of ⟮cURL⟯ is ⟮the command-line tool⟯ ⟮curl⟯. 
@@ -9816,9 +9087,9 @@ Site|Does what when `curl`ed?
 ⟮wttr.in⟯|⟮get weather⟯
 
 
-####### various data-fetching CLIs
+###### various data-fetching CLIs
 
-######## youtube-dl
+####### youtube-dl
 
 ⟮youtube-dl⟯ is a ⟮CLI⟯ tool for ⟮downloading from⟯ ⟮mainly⟯ ⟮youtube⟯, ⟮but also from other platforms⟯. 
 basic syntax for youtube-dl: `⟮youtube-dl⟯ ⟮[OPTIONS]⟯ ⟮URL {URL⟯}` 
@@ -9851,13 +9122,13 @@ The ⟮c+;s46;-x⟯/⟮c+;s45;--extract-audio⟯ option makes ⟮youtube-dl extr
 If ⟮using -x/--extract-audio⟯, you ⟮can specify the format⟯ ⟮with --audio-format FORMAT⟯, which ⟮accepts the subset of things for --format FORMAT⟯ that ⟮make sense for audio⟯. 
 
 
-###### protocols
+##### protocols
 
-####### WHOIS
+###### WHOIS
 
 whois is the command to query WHOIS.
 
-####### SMTP, IMAP, POP
+###### SMTP, IMAP, POP
 
 SMTP = Simple Mail Transfer Protocol
 IMAP = Internet Message Access Protocol
@@ -9868,7 +9139,7 @@ IMAP or POP3 are both used to retrieve email messages (though they can be used f
 IMAP keeps messages on the server while POP3 deletes them (by default)
 Between IMAP and POP3, IMAP is more feature-rich.
 
-####### HTTP
+###### HTTP
 
 HTTP|HyperText Transfer Protocol
 
@@ -9894,7 +9165,7 @@ http-response-header-part ::= ‹http-status-line›{‹http-response-header›}
 http-response-line ::= ‹CRLF›
 http-reponse-header ::= ‹key›: ‹value›‹CRLF›
 
-######## request verbs
+####### request verbs
 
 TRACE   Ask the server to return a diagnostic trace
 PUT   Ask the server to store the data
@@ -9905,7 +9176,7 @@ GET   Get a resource from the server
 DELETE   Ask the server to delete the data
 CONNECT   Tell a proxy to connect to another host and simply reply the content
 
-######## status codes
+####### status codes
 
 ⟮Status-Code⟯|⟮Reason-Phrase⟯|Further explanation
 ⟮1xx⟯|⟮Informational⟯
@@ -9931,7 +9202,7 @@ CONNECT   Tell a proxy to connect to another host and simply reply the content
 ⟮504⟯|⟮Gateway timeout⟯|⟮Proxy/Gateway recieved a timeout from an upstream server (gateway seems to be a bit of a misnomer here, or at least it doesn't refer to a router but justt is a synonym for proxy⟯)
 
 
-######## cache
+####### cache
 
 A ⟮cache⟯ is a thing that ⟮stores data⟯ so that ⟮future requests for that data⟯ ⟮can be served more quickly⟯. 
 With ⟮caching and esp. with HTTP caching⟯, the guiding principle is that you want to ⟮store the thing as long as possible⟯, but ⟮update it as soon as it changes⟯. 
@@ -9974,7 +9245,7 @@ flex-container:✫sm_tmpyvxwccqz.png✫
 
 
 
-######### cookies
+######## cookies
 
 By default, HTTP is stateless, ergo technologies such as cookies exist to enable state.
 
@@ -10022,12 +9293,12 @@ The JS inteface for ⟮cookies⟯ is ⟮document.cookie⟯
 A ⟮zombie cookie⟯ is a cookie that ⟮is restored even when deleted⟯, by using ⟮various nooks and crannies of different internet technologies.⟯ 
 
 
-######### Content Negotiation
+######## Content Negotiation
 
 Content Negotiation is a mechanism of HTTP that allows serving different versions of a document at the same URI depending on the prefrences of the user agent.
 The headers for content negotiation are Accept and Accept-Language, Accept-Charset, Accept-Encoding
 
-######## CDN
+####### CDN
 
 CDN = content delivery network or content distribution network
 A CDN is a geographically distributed network of servers. 
@@ -10035,7 +9306,7 @@ The goal of a CDN is to provide high availability and performance by distributin
 unpkg|FOSS|npm pacakges
 jsdelivr|FOSS|different platforms
 
-####### telnet/ssh
+###### telnet/ssh
 
 SSH = secure shell
 Telnet is a protocol that sends text plainly and immediately as 8-byte ASCII characters, with the high bit unset.
@@ -10055,7 +9326,7 @@ For scp, when using user@hostname, add the file with :filename to the end\
 
 ssh-keygen manages keys for SSH.
 
-####### NIS/YP
+###### NIS/YP
 
 YP = Yellow Pages
 NIS = Network Information Service
@@ -10065,7 +9336,7 @@ domainname shows or sets the NIS/YP (!) domain nime
 aliases for domainname: nisdomainname, ypdomainname
 dnsdomainname shows the systems DNS domain name (the part of the FQDN)
 
-####### DNS
+###### DNS
 
 DNS|Domain Name System
 the problem that both the hosts file and DNS want to solve is mapping hostnames/domain names to IP addresses.
@@ -10076,7 +9347,7 @@ To use the hosts file to block something, set its IP address to 0.0.0.0
 hosts-file ::= {‹hosts-line›‹linebreak›}
 hosts-line ::= ‹ip-address› ‹hostname›{ ‹hostname›}
 
-######## dig
+####### dig
 
 dig is a CLI utility to look up DNS records.
 dig-command ::= dig {‹option›}[ ‹DNS-server›][ ‹resource-name›][ ‹record-type›]{ ‹query-option›}
@@ -10094,7 +9365,7 @@ In digs output, non-records begin with ;;, non-records do not.
 
 8.8.8.8|Google DNS nameserver
 
-####### WebSocket
+###### WebSocket
 
 WebSocket is an application-layer communications protocol with client and server APIs.
 WebSocket, being an application-layer protocol, is distinct from HTTP, but uses the same TCP ports, mainly for firewall-related reasons
@@ -10102,7 +9373,7 @@ WebSocket, in contrast to HTTP allows full-duplex communication and streams of d
 WebSocket use the scheme `ws:` (if unencrypted) or `wss:` (if encrypted)
 To change from HTTP to WebSocket, the WebSocket handshake uses the HTTP Upgrade header
 
-######## client
+####### client
 
 on the client side, sockets are created via the `WebSocket` constructor
 the `WebSocket` constructor recieves the necessary argument of the url, and an optional argument of which sub-protocols to use
@@ -10110,11 +9381,11 @@ to send data on a `WebSocket`, use the method `send()`
 To ⟮react to incoming data⟯ ⟮event handlers are registered⟯ on the WebSocket object
 the four common events a `WebSocket` might recieve client-side are open, message, close, error
 
-######## server 
+####### server 
 
 the most common node web sockets library is `ws`
 
-####### DHCP
+###### DHCP
 
 DHCP = Dynamic Host Configuration Protocol
 DHCP is a protocol used for automatically assigning IP addresses and other parameters.
@@ -10141,24 +9412,24 @@ client         server
   |←-ACKNOWLEDGE--|
   |               |
 
-##### between application and transport
+#### between application and transport
 
 TLS/SSL are on top on the transport layer, but beneath the application layer, and are used as if they were the transport layer.
 SSL is deprecated in favor of TLS, however TLS is often still called SSL
 
-##### layer 4
+#### layer 4
 
 The most common protocols in the ⟮transport⟯ layer are ⟮TCP⟯ and ⟮UDP⟯. 
 The ⟮transport⟯ layer, directly beneath the ⟮application⟯, but above the ⟮internet⟯ layer is the ⟮2nd⟯ layer from the top of the internet portocol suite. 
 ⟮TCP⟯ is ⟮more complex⟯ than ⟮UDP⟯ (amongst other things) because it is ⟮stateful⟯ 
 
-###### nc
+##### nc
 
 nc as a command is read netcat
 nc allows you to make raw TCP/UDP connections.
 nc [‹options›] [‹hostname›] [‹port›]
 
-###### ports
+##### ports
 
 Ports exist only in software 
 A ⟮port⟯ is ⟮uniquely identified by⟯ a ⟮port number⟯. 
@@ -10175,7 +9446,7 @@ Port range|Is called
 
 Generally, an ⟮application protocol⟯ will have a ⟮port number⟯ it ⟮is associated with⟯ (esp. on ⟮the server side⟯). 
 
-####### preassigned
+###### preassigned
 
 Protocol|Port
 FTP|21
@@ -10190,13 +9461,13 @@ FTP|21
 ⟮IMAP (encrypted⟯)|⟮993⟯
 
 
-####### conventional
+###### conventional
 
 HTTP dev servers|8080 or 8000
 
 ports below 1024 require root permission to open
 
-###### sockets
+##### sockets
 
 TCP|stream sockets
 UDP|datagram sockets
@@ -10207,38 +9478,38 @@ The socket address of a network/internet socket is the combination of IP address
 A network/internet socket is minimally identified by the combination of socket address and transport protocol
 A network/internet socket that has been connected to another socket (e.g. when using TCP), also is identified by the remote socket address.
 
-###### TCP
+##### TCP
 
 TCP = Transmission Control Protocol
 TCP but not UDP can deal with / solve packets arriving out of order, lost packets (retransmits them), error detection, flow ＆ congestion control
 
-####### starting operations
+###### starting operations
 
 TCP: Passive open → Active open
 Passive open: The server binds to and listens at a port.
 Active open: The client starts the 3-way/3-step handshake at the port.
 
-######## TCP three-step handshake
+####### TCP three-step handshake
 
 Client --SYN-→ Server
 Client ←-SYN-ACK-- Server
 Client --ACK--→ Server
 
-####### normal operation
+###### normal operation
 
 TCP requires the reciever to respond with an acknowledgement message for each message
 in TCP, the client must retransmit the packet if a certain amount of time passes without recieving this acknowledgement message
 
-####### segment header
+###### segment header
 
 the TCP segment header contains 9 1-bit flags amongst which are the ones used for connection management (handshake, termination, etc.)
 TCP uses a sequence number in the header to determine the order of the bytes to allow the data to be reconstructed if out of order.
 The TCP sequence number should be unpredictable, or it is vulnerable to TCP sequence prediction attacks, where the attacker substitutes the packets.
 
-###### UDP
+##### UDP
 
 
-####### Datagram header
+###### Datagram header
 
 the UDP ⟮datagram header⟯ consists of ⟮4⟯ ⟮fields⟯ of ⟮2⟯ ⟮bytes⟯ for a total of ⟮8⟯ ⟮bytes⟯ (⟮64⟯ ⟮bit⟯)
 
@@ -10254,20 +9525,20 @@ octets|0 ＆ 1|2 ＆ 3
 !type=th;0|style=background-color: #fa9;Source port|Destination port
 !type=th;4|Length|style=background-color: #fa9;Checksum
 
-####### Datagram
+###### Datagram
 
 the maximum size of a ⟮UDP datagram⟯ is ⟮2^16 bytes⟯ (although IPv6 ⟮jumbograms⟯ do allow more, and ⟮headers⟯ take up some of that)
 
-###### TCP vs UDP
+##### TCP vs UDP
 
 UDP can be significantly faster than TCP because TCP may wait seconds for out-of-order messages or retransmissions of lost messages, etc.
 
-##### layer 3
+#### layer 3
 
 The ping utility uses the ICMP protocol's mandatory ECHO_REQUEST datagram to elicit an ICMP ECHO_RESPONSE from an IP.
 the main protocol that lives on the network (OSI)/internet (TCP/IP) layer is IP.
 
-###### IP
+##### IP
 
 IP  Internet protocol
 IP has the task of delivering packets from the source host to the destination host solely based on the IP addresses in the packet headers.
@@ -10276,7 +9547,7 @@ IP (in general) works because connected routers know where packages starting wit
 the ⟮host URL element⟯ for the ⟮loopback address⟯ is usually ⟮localhost⟯
 the IP protocol data unit (the packet) is alternatively sometimes also called datagram.
 
-####### hops
+###### hops
 
 flex-container:✫Hop-count-trans.png✫
 
@@ -10284,7 +9555,7 @@ flex-container:✫Hop-count-trans.png✫
 A ⟮hop⟯ occurs every time a ⟮packet⟯ is ⟮passed from one network to the next⟯. 
 The ⟮hop⟯ count is thus a rough measure of ⟮distance between devices⟯.
 
-####### address space
+###### address space
 
 flex-container:✫1024px-Regional_Internet_Registries_world_map.svg.png✫
 
@@ -10294,7 +9565,7 @@ There are 5 RIRs.
 the 5 RIRs are affiliated via the NRO
 5 RIR areas:, one for Africa, most of NA, latin and central america + Mexico, Europe + Russia/West Asia, and one for most of Asia + Oceania
 
-####### headers
+###### headers
 
 the ⟮IPv4 header⟯ consists of ⟮14⟯ ⟮different fields⟯
 TTL = Time To Live
@@ -10303,9 +9574,9 @@ TTL as hop count was implmeneted by an 8-bit integer, usually starting at 64. Wh
 TTL exists amongst other reasons to prevent an infinite routing loop.
 ⟮TTL⟯ is called ⟮hop limit⟯ in ⟮IPv6⟯
 
-####### addr
+###### addr
 
-######## IPv
+####### IPv
 
 The first major version of IP was IPv4, which is being succeeded by IPv6
 The main reason IPv6 was introduced is that there are not enough IPv4 addresses
@@ -10316,7 +9587,7 @@ IPv6|128
 
 IPv4-addr = 1*3DIGIT "." 3("." 1*3DIGIT)
 
-######### IPv6
+######## IPv6
 
 An IPv6 address consists of 8 quibbles.
 the ⟮quibbles/hextets/hexadectets/quad-nibbles⟯ of a IPv6 address are separated by ⟮colons⟯
@@ -10327,7 +9598,7 @@ because of possible ambiguity of having colons within the host of URLs, when wit
 2001:0db8:85a3:0000:0000:8a2e:0370:7334
 ```
 
-######## division
+####### division
 
 IP addresses have always been divided between network prefix and host identifier.
 network prefix is also called routing prefix
@@ -10337,7 +9608,7 @@ The subnet mask is the bitmask that when applied with bitwise AND yields the net
 The subnet mask is also often written in the notation of IP addresses.
 using CIDR notation, the subnet mask of whatever.whatever.whatever.0/24 is 255.255.255.0
 
-######### History
+######## History
 
 In the very beginning (until the 1980s) IP addresses were divided between the first octet as network prefix and the last 3 octets as host identifier.
 In the very beginning (until the 1980s) what we call network prefix was called network number, and what we call host identifier was called rest field.
@@ -10357,7 +9628,7 @@ C|110⎵2⎵|3 byte
 ⟮Classful IP addresses⟯ were used until ⟮the early 90s⟯ (⟮1993⟯) and then replaced with ⟮Classless Inter-Domain Routing⟯ (⟮CIDR⟯)
 
 
-######### CIDR
+######## CIDR
 
 CIDR = Classless Inter-Domain Routing
 cidr-notation ::= [‹IPv4-addr›]/‹int-0-32›
@@ -10367,7 +9638,7 @@ if CIDR notation is used with no IP address, it describes networks with the rele
 Using CIDR, to indicate a super/subnet/CIDR block, you may either use the network identifier address (e.g. 198.51.0.0/16), or only include the filled bits of the address (198.51/16)
 198.51.100.14/24 is saying that this address has a network prefix of 24 bit length (198.51.100) and a host identifier of 8 bit (14)
 
-########## CIDR blocks
+######### CIDR blocks
 
 flex-container:✫sm_cidr_addr.svg✫
 
@@ -10380,7 +9651,7 @@ Note: Not all possible CIDR block sub/supersets are actual sub/supernets!
 The process of forming a supernet is called supernetting or prefix/route aggregation/summarization
 the largest ⟮CIDR block (= sub/supernet)⟯ the IANA assigns is ⟮/8⟯ (⟮16 million⟯ addresses)
 
-######### broadcast ＆ network identifier
+######## broadcast ＆ network identifier
 
 A ⟮subnet/CIDR block⟯'s ⟮broadcast⟯ address is the ⟮all-ones⟯ version of the ⟮host (any relevant IP address)/network (all-zeroes) identifier⟯
 A ⟮subnet/CIDR block⟯'s ⟮network identifier⟯ address is the ⟮all-zeroes⟯ version of the ⟮host identifier⟯
@@ -10388,7 +9659,7 @@ The network identifer address is often functionally treated as the broadcast add
 The network identifier address of 173.240.0.0/16 is 173.240.0.0
 The broadcast address of 173.240.0.0/16 is 173.240.255.255.
 
-########## max broadcast and max identifier
+######### max broadcast and max identifier
 
 Ergo, 255.255.255.255 (/0) is (theoretically) the broadcast address to all IP addresses in existence.
 A godzillagram is theoretically a message to 255.255.255.255, which should theoretically broadcast to all IP addresses in existence.
@@ -10396,7 +9667,7 @@ Since gateways generally do not let godzillagrams pass, 255.255.255.255 generall
 Since network identifier addresses are generally aliases to broadcast addresses, 0.0.0.0/0 is an alias to the broacast address 255.255.255.255/0.
 0.0.0.0/32 represents the undefined/NULL address, and may be used when one has not yet aquired an IP address or when accepting all incoming connections.
 
-######### special IP addresses
+######## special IP addresses
 
 all IP adresses with the CIDR notation ⟮127.0.0.0/8⟯ (⟮127.0.0.1⟯ - ⟮127.255.255.254⟯, excluding ⟮network identifier⟯ and ⟮broadcast addresses⟯) are ⟮loopback⟯ addresses
 of the IPv4 loopback addresses, generally 127.0.0.1 is used.
@@ -10407,7 +9678,7 @@ The private IPv4 address blocks sorted from largetst to smallest are: ⟮10.0.0.
 (100000 = Prof X dual-wielding dual swords, 172160 = Android 17 outrunning a caravan of refugees, 192168 = Anakin skywalker outrunning a dragon)
 a private network is a computer network that uses a private address space of IP addresses, most often used for LANs
 
-####### NAT
+###### NAT
 
 NAT = Network Address Translation
 ⟮NAT⟯ ⟮maps one IP address space to another⟯ by ⟮modifying the info in the IP header⟯
@@ -10417,19 +9688,19 @@ For one-to-many NAT, the client port is additionally used disambiguate the recie
 NAT (Network Address Translation)  allows mitigation of IPv4 address exhaustion because one IP address can be used for an entire network
 the form of NAT where ⟮the combination of IP address and port number is used to identify the recipient⟯ may also be known as ⟮NAPT⟯ (⟮network address and port translation⟯) , ⟮PAT⟯ (⟮port address translation⟯) or ⟮IP masquerading⟯ amongst others
 
-####### tracing
+###### tracing
 
 traceroute and tracepathe are *nix utilities to measure IP paths and transit durations.
 ⟮tracepath⟯ is a ⟮non-superuser⟯ version of ⟮traceroute⟯
 tracepath/traceroute sends messages with adjusted TTL values and uses ICMP time exceeded messages to identify the routers traversed by packets from the source to the destination.
 
-####### ICMP
+###### ICMP
 
 ICMP = Internet Control Message Protocol
 ICMP is used to send IP/routing-related error/control message.
 ICMP messages are sent within an IP packet
 
-##### layer 2 ＆ 3 
+#### layer 2 ＆ 3 
 
 ARP = Address Resolution Protocol
 NDP = Neigbor Discovery Protocol
@@ -10439,9 +9710,9 @@ NDP|IPv6
 
 ARP/NDP is used to discover the link layer address associated with a given internet layer address
 
-##### layer 2
+#### layer 2
 
-##### layer 2 ＆ 1 (TCP/IP Link layer)
+#### layer 2 ＆ 1 (TCP/IP Link layer)
 
 NIC = Network interface controller
 A NIC is a hardware component used to connect a computer to a computer network (layer 1 ＆ 2 (physical and data link))
@@ -10450,30 +9721,30 @@ MAC addresses are 48 bit long.
 MAC address = media access control address
 Mac addresses are most commonly used with IEEE 802 technologies.
 
-###### IEE 802
+##### IEE 802
 
 IEEE 802 networking technologies contain technologies such as bluetooth (formerly, now managed/standartized by the bluetooth special interest group), ethernet, and WLAN
 IEEE 802.3|Ethernet
 IEEE 802.11|WLAN/WIFI
 
-####### WLAN
+###### WLAN
 
 WLAN may run in ⟮infrastructure⟯ or ⟮ad-hoc mode⟯
 (WLAN) In infrastructure mode, clients connect to  ⟮a central WAP (Wireless Access Point)⟯
 (WLAN) In ad-hoc network mode, clients connect ⟮to each other peer to peer⟯
 
-####### Ethernet
+###### Ethernet
 
 The ethernet frame header contains quite a few fields, amonst which the most important might be destination MAC address and source mac address
 
 IPoE is short for IP over Ethernet
 PPPoE is short for Point-to-Point Protocol over Ethernet
 
-### protocols higher than the OSI/TCP/IP
+## protocols higher than the OSI/TCP/IP
 
 For HTTP APIs, the endpoint is most commonly an URL + request verb.
 
-#### REST
+### REST
 
 ⟮REST⟯ is short for ⟮Representational State Transfer⟯
 ⟮REST⟯ is a set of ⟮constraints⟯/⟮design principles⟯ for ⟮APIs⟯
@@ -10487,7 +9758,7 @@ Code on demand as a REST API constraint means that a REST endpoint may return co
 RESTful APIs must be stateless, that is, the server does not have state, but rather any state information is transmitted by the client
 The thing a RESTful API returns is called aaresource
 
-##### six principles (alphabetical)
+#### six principles (alphabetical)
 
 Cacheability
 Client-server achitecture/decoupling
@@ -10496,7 +9767,7 @@ Layered system architecture
 Statelessness
 Uniform interface
 
-##### HATEOAS
+#### HATEOAS
 
 HATEOAS = Hypermedia as the Engine of Application State
 HATEOAS(Hypermedia as the Engine of Application State) is part of the uniform interface constraint of REST
@@ -10505,7 +9776,7 @@ in a RESTful API following HATEOAS, the API may change its URLs without creating
 in a RESTful API following HATEOAS, one hits an initial API URL and navigates via hyperlinks from there.
 Access in a RESTful API following HATEOAS is similar to a web-browsing user hitting a home page and finding their way from there
 
-#### OAuth
+### OAuth
 
 OAuth is short for Open Authorization
 The current version of OAuth  is OAuth 2
@@ -10535,28 +9806,28 @@ In general, when users want to sign in using OAuth:
 5. We exchange the authorization code for an access token
 6. We can now make API requests
 
-### misc
+## misc
 
 MTP|Media transfer protocol
 PTP|Picture transfer protocol
 
-## networks
+# networks
 
 A network is a group of connected nodes that communicate via a medium, and almost always via a protocol.
 
-### concepts
+## concepts
 
-#### routing
+### routing
 
 Routing is the process of selecting a path for traffic in a network or between or across multiple networks. 
 
-##### addresses
+#### addresses
 
 An address is the identifier of an entity(ies) in a network, often relevant to a specific protocol.
 A broadcast address is an address that identifies a subgroup of entities to target with a broacast transmission.
 Loopback is the routing of signals/streams back to their source without intentional processing/modification.
 
-##### routing schemes/architectures
+#### routing schemes/architectures
 
 Routing architecture visualization|name
 ⟮✫sm_unicast.svg✫⟯|⟮Unicast⟯
@@ -10566,7 +9837,7 @@ Routing architecture visualization|name
 
 
 
-#### topologies
+### topologies
 
 The topology of a network is how its vertices are arranged.
 A tree network may consist of star networks connected ⟮via a bus network⟯, or may be a tree just as a network.
@@ -10585,9 +9856,9 @@ topology name|how it looks
 ⟮tree⟯|⟮✫TreeNetwork.svg✫⟯
 
 
-### types
+## types
 
-#### telegraphs
+### telegraphs
 
 The first type of telegraph was the optical telegraph.
 The electrical telegraph began to overtake optical telegraphs middle of the 19th century.
@@ -10600,7 +9871,7 @@ A ⟮telegraph key⟯ was/is a electrical switch where ⟮pressing it⟯ would �
 The telegraph sounder would have produced clicks from the electrical impulses.
 Telegraphs were operated by telegraph operators until the advent of teh writing  pelegraphs.
 
-#### telex
+### telex
 
 flex-container:✫sm_dbb1bf63cbbb7831ac766c93ee6e10d8.jpg✫✫sm_220px-Fernscheiber_01.jpg✫✫sm_s-l1600.jpg✫
 
@@ -10611,7 +9882,7 @@ Teletypewriters/teleprinters/telex/ttys have keyboard for input and a printer fo
 Video terminals then came to replace teletypewriters especially for computer IO
 Teletypewriters + video terminals = physical/hardware terminals.
 
-#### the internet
+### the internet
 
 On a basic level, the internet is a system of globally interconnected ⟮computer⟯ ⟮networks⟯.
 The internet runs on the internet protocol suite.
@@ -10619,7 +9890,7 @@ The internet runs on the internet protocol suite.
 An intranet is a computner network for an organization, but which uses most of the the Internet protocol suite. 
 An intranet that can be acessed from approved 3rd parties too is sometimes called  an extranet
 
-##### standards
+#### standards
 
 IANA  Internet Assigned Numbers Authority
 IETF  Internet Engineering Task Force
@@ -10634,7 +9905,7 @@ BCPs are a subset of RFCs.
 ⟮W3Schools⟯ is a website for ⟮documentation/information⟯ for ⟮web technologies/languages⟯ as well as ⟮other languages⟯. 
 In ⟮the early 2010s⟯ ⟮W3Schools⟯ was known to have ⟮much low-quality information and errors⟯, leading to ⟮the website w3fools pointing it out⟯. However, ⟮today, most of it has been fixed⟯. 
 
-##### the web
+#### the web
 
 WWW = World Wide Web
 The WWW runs on the internet, using the protocol HTTP(S).
@@ -10646,7 +9917,7 @@ The main organization working on web standards is the W3C.
 World Wide Web Consortium = W3C
 A web site is a collection of web pages, generally one that share a domain name/FQDN
 
-###### user agents
+##### user agents
 
 User agent may mean any device that accesses web services for an user, or autohyponymously to a web browser specifically, or to the HTTP header User-Agent.
 
@@ -10658,39 +9929,39 @@ For qutebrowser, you do ⟮advanced config⟯ in ⟮the config.py⟯
 In the config.py of qutebrowser, you ⟮can change most settings⟯ ⟮on the `c` object⟯ 
 In qutebrowser, greasemonkey scripts become active merely by placing them in $XDG_CONFIG_HOME/qutebrowser/greasemonkey
 
-###### file-sharing
+##### file-sharing
 
 ephemeral file-sharing sites allow you to upload files which expire after a while
 
-###### performance
+##### performance
 
 https://developer.mozilla.org/en-US/docs/Web/Performance/Critical_rendering_path
 https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading
 TODO: More structure. How do these relate? WHat aspect of performance are they optimizing? Perhaps use PRPL as a structure, or something else, or a combination.
 
-####### speculative parsing
+###### speculative parsing
 
 Speculative parsing is that the browser will not block when hitting a script tag, but instead just continue parsing while fetching the script, and using the parsed DOM if the script hasn't modified it (which only really happens via document.write()).
 Speculative parsing does not apply to images/css/videos, which will not block even if speculative parsing is disabled (the fact that it doesn't is a common myth)
 
-####### lazy loading
+###### lazy loading
 
 lazy loading is loading things only when needed.
 In general, one lazy-loads the things that are not critical to performance.
 To enable lazy loading for images and iframes, set loading="lazy", these images will only load once they are a specific distance away from the viewport.
 TODO relationship with code splitting (I think code splitting allows for lazy loading)
 
-####### server push
+###### server push
 
 Server push allows the server to send along resources it knows the browser will need directly on the first HTTP request (without the browser having requested them)
 Server push is a feature of HTTP/2, used by specifying it in the HTTP header
 
-####### minifcation
+###### minifcation
 
 ⟮Minifying⟯ is ⟮removing unnecessary characteristics⟯ (e.g. ⟮longer names, whitespace⟯) from ⟮source code⟯ to ⟮reduce size⟯
 ⟮minified files⟯ are commmonly indicated by ⟮.min(.whatever)⟯
 
-####### media compression
+###### media compression
 
 Images used ⟮on the web⟯ are typically ⟮specifically compressed⟯ beforehand, e.g. ⟮by using programs such as imageoptim⟯
 
@@ -10700,7 +9971,7 @@ imageoptim|y|y|y
 squoosh|web|y|n
 sharp|n|n|n|npm module
 
-####### PRPL
+###### PRPL
 
 Push/Preload the most important resources
 Render the initial route ASAP
@@ -10710,13 +9981,13 @@ Lazy-load other routes and non-critical assets
 the "render the initial route ASAP" of PRPL is basically "reduce time to first (contentful) paint"
 "render the initial route ASAP" can be achieved server-side by SSR/Static Generation, and client-side by stuff like async or defer (and maybe others)
 
-######## P
+####### P
 
 ⟮c+;‹link rel="preload"⟯ specifies that you ⟮will need the resource very soon⟯, and that it should be downloaded ⟮asyncly⟯ with ⟮high priority⟯
 ⟮c+;‹link rel="preload"⟯ needs an ⟮as=⟯⟮"kind(e.g. style, script, image)"⟯
 If you've specified a resource with ‹link rel="preload", you still need to actually include it later
 
-####### defer ＆ async
+###### defer ＆ async
 
 defer ＆ async are two attriubtes for ‹script› that influence how it is loaded.
 Ignoring speculative parsing, when the browser hits a ‹script› tag, it blocks until it's loaded, which is not ideal since scripts are quite large, and the browser could be loading things in parallel.
@@ -10724,7 +9995,7 @@ Instead of the default behavior, the `defer` and `async` attribute of scripts te
 Between  the `defer` and `async` attributes, defer executes scripts loaded in the background ⟮when the dom is fully built⟯, in the order they were in the document
 Between  the `defer` and `async` attributes, async executes scripts loaded in the background ⟮as soon as possible⟯, in the order in which they load, no matter source order.
 
-####### RAIL
+###### RAIL
 
 RAIL is a performance model that centers on the user.
 RAIL is short for Response, Animation, Idle, Load.
@@ -10734,7 +10005,7 @@ Animation|provide an animation frame every 16ms (= 60FPS). Since browsers take a
 Idle|Use idle time so that other goals are met. Perform work in idle time in bursts of 50ms or less so that the Response goal is met.
 Load|(subject to change with new technology) Load within 5s on first load and in 2s on subsequent loads on mobile.
 
-####### minification
+###### minification
 
 Webpack minifies your JS by default, using `terser`.
 Source maps allow mapping minfied/compressed/otherwise transformed code back to the original source
@@ -10742,12 +10013,12 @@ to indicate a source map, at the bottom of the optimized file, add a magic comme
 source map magic comment: //# sourceMappingURL=foo/bar.js.map 
 Most dev tools have source map support built in.
 
-####### Google speed
+###### Google speed
 
 PageSpeed Insights|Lab data ＆ realworld data|Web Vitals|only website by default
 Lighthouse|only lab data|Web Vitals ＆ other data|GUI (devtools ＆ website), CLI, CI pipeline
 
-######## Lighthouse
+####### Lighthouse
 
 Lighthouse's Performance audits provides a grade consisting of (the scores of individual) metrics, but also offers opportunities and diagnostics::d... as ways to improve the metrics
 Lighthouse consists of 5 categories, Performance, PWA, Best Practices, Accessibility, and SEO.
@@ -10775,45 +10046,45 @@ FCP  First Contentful Paint
 FID  First Input Delay
 LCP  Largest contentful paint
 
-###### web analytics
+##### web analytics
 
 In web analytics, a bounce is a person who only views one page of a site and then leave.
 The bounce rate is the percentage of total site visitors who bounce.
 
-##### infrastructure
+#### infrastructure
 
-###### clients
+##### clients
 
 A thin client is a low-performance computer that mainly exists to connect with a server, which handles most of the computing ＆ storage.
 A zero client is a thin client driven to extremes, so that it has no local storage and barely any computing ability of its own.
 Hardware terminals are basically zero clients.
 a rich/fat/heavy/thick client is a client that contrasts with a thin client in that it can do more stuff itself.
 
-## platforms running on the internet
+# platforms running on the internet
 
-### search engines
+## search engines
 
-#### google
+### google
 
 WIthin google search, ⟮tbm⟯ is the key of the query parameter that ⟮specifies the type of search (Image, News, Shopping etc.⟯) 
 For example, ⟮Specifying the search mode in google search as images⟯ is done by ⟮`tbm=ish`⟯ 
 Force google to ⟮only finde pages from a certain domain⟯ is done by ⟮site:foo.com⟯ 
 
-### fora
+## fora
 
-#### text ＆ imageboards
+### text ＆ imageboards
 
 A ⟮textboard⟯ is a ⟮simple⟯ kind of Internet ⟮forum⟯; most require neither ⟮registration⟯ nor ⟮entry of a screen name⟯. 
 An ⟮imageboard⟯ is like a ⟮textboard⟯, just with ⟮images⟯. 
 ⟮Textboards⟯ as well as ⟮imageboards⟯ were invented in ⟮Japan⟯. 
 ⟮Textboards⟯ such as ⟮2channel⟯ are generally popular in ⟮Japan only⟯, while ⟮imageboards⟯ (e.g. in the form of ⟮4chan⟯) are popular in ⟮english-speaking countries too⟯ 
 
-## in programming
+# in programming
 
 To share data between entities, one can use message passing or shared memory.
 Shared memory is having a fixed storage location which both entities can access to read/write the data.
 
-### messages
+## messages
 
 Message passing is communicating between two things by sending messages.
 A message consists of the source thing, the target thing, the message, and potentially the  arguments passed.
@@ -10823,9 +10094,9 @@ IPC is just message passing between two processes.
 
 ⟮Photoscape X⟯ is notable for being a ⟮GUI⟯ program that has ⟮batch editing of photos⟯
 
-## vimlike
+# vimlike
 
-### modes
+## modes
 
 vim basic modes: ⟮normal⟯, ⟮insert⟯, ⟮visual⟯, ⟮select⟯, ⟮command⟯, ⟮ex⟯, ⟮terminal⟯ (there are more, but they are all derivative of these)
 
@@ -10851,7 +10122,7 @@ esc|most modes → normal mode
 enter|search mode → normal mode at place where searched
 visual|ex mode → normal mode
 
-### vimscript/commands
+## vimscript/commands
 
 vimscript is the scripting language built into vim.
 vimscript is used for command mode commands, macros and in .vimrc
@@ -10888,23 +10159,23 @@ in the map commands, nore means no recursion, i.e. don't trigger further keybind
 In general, it is wise to use the nonrecursive mappings
 in the map commands, un is for unmapping a certain combination
 
-### concepts
+## concepts
 
-#### lists
+### lists
 
 all past jumps are stored in the jump list
 In vim, only a specific subset of things that move the cursor counts as a jump
 In addition to the jump list, there is the similar  change list
 
-### shortcuts
+## shortcuts
 
-#### normal mode
+### normal mode
 
-##### common/vim only
+#### common/vim only
 
-###### multiple modes/mode-agnostic
+##### multiple modes/mode-agnostic
 
-####### search
+###### search
 
 /|start forward search
 ?|start backwards search
@@ -10912,7 +10183,7 @@ n|next regex match|qutebrowser, zathura, vim, less
 N|previous regex match|qutebrowser, zathura, vim, less
 
 
-####### window
+###### window
 
 ctrl+w   prefix for window management
 ctrl+w ›   grow window width of window rightwards
@@ -10927,12 +10198,12 @@ ctrl+w o   maximize current window (and thus get rid of all splits)
 ctrl+w s   split window horizontally
 ctrl+w v   split window vertically
 
-####### buffer
+###### buffer
 
 ctrl+^    doing buffer related stuff (switching buffer when no leading number arg)
 ‹n›ctrl+^    switch to buffer n
 
-###### grammar-defined (may be insert-only or multi-mode)
+##### grammar-defined (may be insert-only or multi-mode)
 
 action ::= ‹command-component›||‹motion-component›
 command-component ::= [‹count›]‹command›[‹command›]
@@ -10949,7 +10220,7 @@ modifiers:
 a   around our object (including whitespace/surrounding symbols) 
 i   inside our object (excluding whitespace/surrounding symbols)
 
-####### countable commands
+###### countable commands
 
 ctrl+i   jump to next (newer) location in jump list
 ctrl+o   jump to previous (older) location in jump list
@@ -10975,7 +10246,7 @@ x/X   delete forwards/backwards (not an operator, therefore does it immediately,
 
 J   join next line with this one
 
-######## page navigation
+####### page navigation
 
 ctrl y|half page right|zathura only
 ctrl d|half page down|qutebrowser, zathura, vim
@@ -10987,7 +10258,7 @@ ctrl u|half page up
 In vim, adding a ‹count› before the half page... makes this scroll ‹count› lines instead of a half page, in qutebrowser it instead scrolls ‹count› half-pages. They both behave the same for whole file commands
 
 
-####### motions
+###### motions
 
 k|move cursor up|qutebrowser, zathura, vim, less
 j|move cursor down|qutebrowser, zathura, vim, less
@@ -11012,7 +10283,7 @@ $   emd of line
 '‹letter›|mark ‹letter›
 +/-   beginning of line below/above
 0   move to first character in line (even if indented)
-###   search backwards for word under cursonr
+##   search backwards for word under cursonr
 *   search forwards for word under cursor
 f‹character›   go to next ‹character› on current line
 F‹character›   go to previous ‹character› on current line
@@ -11021,7 +10292,7 @@ T‹character›   go to up to (one before) character backwards
 
 The capital versions of the motions w e and b are different from the non-capital versions in that the capital versions only consider space as a separator, while the non-capital versions also consider puctuation as a separator
 
-#######  objects
+######  objects
 
 p   paragraph
 s   sentence
@@ -11029,7 +10300,7 @@ s   sentence
 ( or )   something wrapped  in ()
 [ or ]   something wrapped  in []
 
-####### motionable commands
+###### motionable commands
 
 ›   shift right
 ‹   shift left
@@ -11039,21 +10310,21 @@ y   yank
 c   change (delete and enter insert mode)
 d   delete (more precisely: cut (you can paste it again))
 
-####### g
+###### g
 
 g|first character of a whole set of additional shortcuts|qutebrowser, vim
 gd|download page|qutebrowser
 gg|go to first line|
 
-####### related
+###### related
 
 m‹letter›|set a ‹letter› as a mark
 
-###### visual mode exclusive
+##### visual mode exclusive
 
 o|go to other end of selection
 
-##### qutebrowser
+#### qutebrowser
 
 yt|yank title to clipboard
 yT|yank title to selection (primary selection has something to do with terminal clipboards etc.)
@@ -11108,12 +10379,12 @@ enter passthrough mode   ctrl v
 exit passthrough mode   shift - esc
 Passthrough mode is like insert mode, but won't auto-exit
 
-##### less
+#### less
 
 q|quit|less
 h|show help|less and similar
 
-##### zathura
+#### zathura
 
 best-fit mode of display   a
 follow links/ display link target   f/F ‹number-index›
@@ -11139,7 +10410,7 @@ y|yank the thing you've searched for, if you've searched for something
 
 .|repeat past action
 
-### vimlike apps
+## vimlike apps
 
 name|function
 ⟮lf⟯|⟮vimlike curses file manager⟯
@@ -11150,9 +10421,9 @@ name|function
 ⟮zathura⟯|⟮vimlike document viewer⟯
 
 
-### patterns
+## patterns
 
-#### do an edit a bunch
+### do an edit a bunch
 
 1. search for the place you want to make an edit with /pattern
 2. make your repeatable edit
@@ -11160,15 +10431,15 @@ name|function
 4. use . to repeat the edit
 5. repeat the last two steps: You're the king of the world (or at least of edits
 
-### misc
+## misc
 
 In vim, copying is known as yanking.
 
-## misc
+# misc
 
-#### various programs
+### various programs
 
-##### subscriptions
+#### subscriptions
 
 podboat   podcast management for newsboat
 newsboat|good rss reader
@@ -11188,15 +10459,15 @@ operator-prefix ::= ~|!
 -x string, --execute=string   execute a command
 commands e.g. reload
 
-##### mail
+#### mail
 
 mail or the older mailx are *nix builtins to manage mail.
 
-##### backup
+#### backup
 
 borg, restic
 
-##### termdown
+#### termdown
 
 termdown is a terminal timer utility.
 termdown [OPTIONS] [TIME]
@@ -11210,7 +10481,7 @@ L|Lap
 
 --critical SECONDS|Draw final N seconds in red and announce them individually with --voice
 
-##### pass
+#### pass
 
 `pass` terminal-based password manager
 `pass` edit plaintext version of file  `pass edit somepassword`
@@ -11218,25 +10489,25 @@ L|Lap
 `pass` command for listing the passwords  pass ls (or just pass)
 `pass` command for adding passwords  `pass insert/add`
 
-##### misc
+#### misc
 
 cal/ncal display a mini ascii calendar
 
-#### online data fetching
+### online data fetching
 
 `urban`|Terminal urban dictionary browser
 `trans`|Use google translate to translate text
 `deepl`|Use deepl to translate text
 
-lang-specifier (trans, deepl) ::= [‹lang›]:‹lang›{+‹lang›} ## leave out first arg for detection
+lang-specifier (trans, deepl) ::= [‹lang›]:‹lang›{+‹lang›} # leave out first arg for detection
 
 
-#### sysadmin
+### sysadmin
 
 powertop - cli program to analzye power consumption
 mac: system_profiler|report system hardware and software configuration (mac)
 
-##### hardware info
+#### hardware info
 
 lspci   list pci devices
 lshw   list hardware config
@@ -11249,21 +10520,21 @@ lsusb   list USB devices
 
 unofficial extensions are generally indicated x-whatever
 
-## licenses
+# licenses
 
 A rights managed license allows only specific uses.
 A royalty-free item is one with a license which allows unlimited uses without paying any more money.
 
-### CC
+## CC
 
 The three attributes that a CC license can require (or not) are Attribution, Share Alike, No Derivates.
 As of 2013, the newest version of CC is 4.0
 CC0 releases the work into the public domain.
 
-## identifiers
+# identifiers
 
 
-### language
+## language
 
 The locale of a user is a set of values for a set of parameters related to language and region.
 The locale is generally specified as an identifier.
@@ -11275,16 +10546,16 @@ All LC_* locale variables are overwritten with LC_ALL.
 the locale command shows the currently specfied locales.
 /etc/locale.gen and the command locale-gen associated with it is used for generating locales
 
-#### BCP47
+### BCP47
 
 A ⟮IETF language tag⟯ indicates exactly ⟮in which language a thing is⟯. 
 Currently, the standard for ⟮IETF language tags⟯ on the internet is ⟮BCP47⟯. 
 BCP 47: ⟮‹primary-language›⟯⟮[-‹extended-language›]⟯⟮[-‹script›]⟯⟮[-‹region›]⟯⟮[-‹variant›]⟯⟮[-‹extension›]⟯⟮[-‹privateuse›]⟯ 
 BCP 47 language tags should be kept ⟮as short as possible⟯. 
 
-##### subtags
+#### subtags
 
-###### primary language
+##### primary language
 
 The ⟮primary language⟯ subtag of ⟮BCP 47⟯ is specified as ⟮a language code⟯. 
 A ⟮language code⟯ consists of ⟮2 or 3 letters⟯. 
@@ -11292,14 +10563,14 @@ A ⟮language code⟯ consists of ⟮2 or 3 letters⟯.
 ⟮3-letter language codes⟯ are standartized ⟮in ISO 639-2 and -3⟯. 
 ⟮2-letter language codes⟯ are standartized ⟮in ISO 639-1⟯. 
 
-###### other
+##### other
 
 ⟮extlang (extended language⟯) subtags are for ⟮sublanguages of a given language (e.g. hakka chinese, the variants of arabic⟯) 
 ⟮script⟯ subtags are for ⟮writing systems⟯, and always ⟮4 characters long⟯ 
 ⟮region⟯ subtags are for ⟮locations (countries, other geo regions⟯) 
 ⟮variant⟯ subtags are for ⟮dialects or other variations (however, use other tags if possible⟯) 
 
-###### extension
+##### extension
 
 bcp-extension = (ALPHA/DIGIT) 1*( "-" 2*8(ALPHA/DIGIT) )
 
@@ -11308,11 +10579,11 @@ currently, for the initial char/digit of a BCP extension, only two are defined (
 u alllows additional customization, specified as ‹key›-‹value›
 t indicates that it was transformed from the following locale
 
-###### private use
+##### private use
 
 bcp-private-use = x 1*( "-" 1*8(ALPHA/DIGIT) )
 
-##### examples
+#### examples
 
 BCP 47 language tag|meaning
 ⟮en⟯|⟮english (no further info⟯)
@@ -11327,16 +10598,16 @@ tag|problem
 ⟮it-IT⟯|⟮unneccesary specification of IT (italian as spoken where else?⟯)
 ⟮es-Latn⟯|⟮Unneccesary Latn (As opposed to spanish written in kanji? :P⟯)
 
-#### in HTML
+### in HTML
 
 In HTML, the ⟮language of the document⟯ should be indicated with ⟮a lang attribute⟯ ⟮on ‹html›⟯o 
 In HTML, ⟮anything that is not in the language indicated on ‹html›⟯ should be ⟮indicated by an element with a lang attribute.⟯ 
 In HTML, the ⟮lang attribute⟯ takes ⟮BCP 47 language tags⟯. 
 
 
-### media
+## media
 
-#### DOI
+### DOI
 
 DOI = Digital Object Identifer
 A DOI is a eternally persistant identifier of exactly one work.
@@ -11347,7 +10618,7 @@ DOI resolver + DOI resolves to an online representation/page of the resource
 One can identify DOIs by prefixing the DOI resolver or the URN namespace `doi:`
 doi-syntax ::= ‹registrant-identifer›/‹object-identifier›
 
-#### ISBN
+### ISBN
 
 ISBN   International Standard Book Number
 There is one ISBN per version of a book, such that different editions, hardcovers/paperbacks, etc. each have unique ISBNs
@@ -11355,7 +10626,7 @@ ISBN-10 and ISBN-13 are the two types of ISBNs there are, with 10 and 13 charact
 the original standard was ISBN-10, but since that was filling up, it was switched to an ISBN-13.
 Serial publications don't get ISBNs, but instead ISSNs.
 
-### licenses
+## licenses
 
 Copyleft is type of restriction that does not allow creators of thing B including thing A to restrict the access to thing B more than thing A.
 GPL is a type of copyleft license.
@@ -11368,7 +10639,7 @@ spdx-simple-expression ::= (‹license-name›-‹license-version›)[+]
 Each SPDX license has a short and a long name.
 The + at the end of a SPDX license indicates this version or later.
 
-### versions
+## versions
 
 semver = semantic versioning
 semver is the most common way to specify version identifiers
@@ -11387,21 +10658,21 @@ major|incompatible changes to existing API
 
 Using semver, for each of major, minor or patch you can instead specify a * to indicate that any are acceptable.
 
-### date ＆ time
+## date ＆ time
 
-#### Unix time
+### Unix time
 
 Unix time measures seconds passed since the unix epoch.
 The unix epoch is the datetime at which unix time starts.
 The unix epoch is 1970-01-01T00:00:00 UTC. 
 Unix time is also called various other things including unix, posix, epoch, and time, none of them correct.
 
-#### datetimes
+### datetimes
 
 Most common format is RFC 3339 / ISO 8601
 RFC 3339 is almost the same as ISO 8601
 
-#### time zones
+### time zones
 
 The primary standard for time is UTC.
 The primary standard for time used to be GMT.
@@ -11413,7 +10684,7 @@ UTC may be specified using an UTC offset as UTC+0
 Nevertheless, what people often are referring to when they say UTC is the system of UTC offsets
 Today, GMT is an alias for UTC+0
 
-### currencies
+## currencies
 
 Currencies are identified by a currency code.
 ISO 4217 standartizes currency codes for national currencies as well as some other currencies.
@@ -11428,7 +10699,7 @@ for special metals, the currency code indicates one troy ounce instead of one of
 XTS|testing only
 XXX|no currency
 
-### emoji shortcodes
+## emoji shortcodes
 
 The ⟮common syntax for emoji⟯ is sometimes called '⟮emoji shortcodes⟯'
 ⟮emoji shortcodes⟯ are delimited by ⟮colons⟯, and have names in ⟮lowercase⟯ connected by ⟮underscores⟯.
@@ -11437,16 +10708,16 @@ The ⟮emoji shorcodes⟯ don't have ⟮a spec⟯, but you ⟮can use them in ma
 In ⟮some places⟯ (e.g. ⟮discord⟯), you can ⟮prefix⟯ ⟮emoji shortcodes⟯ with ⟮+⟯ to ⟮add a reaction⟯.
 I can ⟮type emoji using emoji shortcodes⟯ but ⟮using spaces instead of underscores⟯ anywhere using ⟮espanso⟯. 
 
-### dice notation
+## dice notation
 
 ⟮Dice notation⟯: `⟮‹amount›⟯⟮d⟯⟮‹sides›⟯⟮+⟯⟮‹add-to-end-result›⟯` 
 In ⟮dice notation⟯, you can leave out ⟮the amount of dice to roll⟯, if ⟮its one⟯. 
 ⟮4d10+3⟯ is an example of ⟮Dice notation⟯, it means ⟮roll 4 10-sided dice and add 3 to the overall result⟯ 
 the shell command ⟮`roll`⟯ ⟮rolls dice⟯, specified in ⟮dice notation⟯ 
 
-### citation
+## citation
 
-#### content
+### content
 
 Reference and citation are most often synonyms.
 Citation is indicating a source of information.
@@ -11459,7 +10730,7 @@ Author-date citation is also called harvard style.
 
 some citation styles allow using ibid. instead of the page information if the page information is repeated.
 
-#### placement
+### placement
 
 onion-box:
 citations 
@@ -11473,7 +10744,7 @@ Note citations are citations in endnotes/footnotes.
 In-text citations are citations within the flow of text.
 Typically, short citations are also in-body citations, and full citations are reference entries.
 
-#### → in-text short citations
+### → in-text short citations
 
 Parenthetical citation is a type of in-text short citation format where the citation is surrounded in parentheses.
 Narrative citation is a type of in-text short citation format where the citation is mentioned in the prose of the text.
@@ -11483,14 +10754,14 @@ author-date-parenthetical-format ::= \(‹author› ‹date›[, ‹page-specifi
 
 when adding page specifiers to author-date narrative citations, the page specifier goes in its own set of parentheses, at the end of the clause.
 
-##### specifying pages
+#### specifying pages
 
 page-specifier ::= p. ‹integer›[f.|ff.|-‹integer›]
 
 f.|this page or the next
 ff.|this page or any following.
 
-#### sections
+### sections
 
 ＿Works Cited＿ and ＿References＿ are synonyms.
 Sometimes the ＿References＿ section is also called 「reference list」
@@ -11502,7 +10773,7 @@ An annotated bibliography is a bibliography with author's comments on each work.
 「Literaturverzeichnis」 is the german name for ＿Works Cited＿/＿References＿.
 Quellenverzeichnis may be used as a synonym for Literaturverzeichnis, but is more properly a section used in historical science for identifying primary sources.
 
-#### citation style
+### citation style
 
 A citation style is a set of rules of how to structure your citations.
 the APA is the american psychological association.
@@ -11513,22 +10784,22 @@ The current APA edition is the 7th, released 2019.
 table:citation style|in-body
 APA|author-date
 
-#### multiple authors
+### multiple authors
 
 et al. is used to abbreviate many authors in an academic setting
 
 
-## databases
+# databases
 
-### geonames
+## geonames
 
 Geonames is the worlds largest databae of geographical features, their locations, type, names, and names in alternative languages.
 Geonames is updated via crowsourcing.
 Geonames is licensed under CC BA.
 
-## documentation
+# documentation
 
-### RFC 2119 (this is basically done)
+## RFC 2119 (this is basically done)
 
 ＞ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED" "MAY", and "OPTIONAL" in this document are to be interpreted as described in RFC 2119. 
 
@@ -11541,7 +10812,7 @@ Requirement level terms are only relevant if the spec is being followed.
 
 ⟮＿The requirement level terms＿⟯ that ⟮＿RFC 2119 / BCP 14＿⟯ defines are typically rendered in ⟮allcaps⟯.
 
-#### requirement level terms
+### requirement level terms
 
 ⟮MUST⟯ = ⟮REQUIRED⟯ = ⟮SHALL⟯
 ⟮MUST NOT⟯ = ⟮SHALL NOT⟯
@@ -11555,12 +10826,12 @@ for something foo marked with the requirement level term ⟮OPTIONAL⟯, ⟮any 
 
 # programming (mostly)
 
-## Expressions
+# Expressions
 
 An expression evaluates to = returns a value.
 e.g. `6`, `6 * 2`, `true ? "foo" : "bar"`
 
-## Statements
+# Statements
 
 Statements are the fundamental unit of programming in imperative programming languages (used in some restricted sense).
 Ergo, imperative programming languages (in some restricted sense) are those that use statements as their fundamental unit, in this sense a program consits of n statements.
@@ -11569,7 +10840,7 @@ Since statements do not return a value, they either do nothing or cause side eff
 var test = 2 + 6; → side effect of initializing a variable test
 An expression statement is a statement that consists of a single expression.
 
-### imperativeness
+## imperativeness
 
 Imperative vs. declarative may be understood as a spectrum.
 If imperative/declarative is understood as a spectrum, the more imperative something is, the more you're specifying the actual steps necessary for something to happen.
@@ -11577,7 +10848,7 @@ If imperative/declarative is understood as a spectrum, the more declarative some
 On the imperative/declarative spectrum, functional languages are quite far on the declarative side.
 Markup languages such as HTML are quite far on the declarative side of the imperative/declarative spectrum.
 
-### statement separators and terminators
+## statement separators and terminators
 
 A statement separator is used to demarcate boundaries between two separate statements. A statement terminator is used to demarcate the end of an individual statement.
 Semicolons are used in programming languages for two things: statement separators and statement terminators. When a language uses semicolons as statement separators, this allows you to write more than one statement on the same line.
@@ -11593,7 +10864,7 @@ In languages which have newlines as statement terminators, typically the stateme
 e.g. print("foo" + \
 "bar")
 
-### Blocks
+## Blocks
 
 In ⟮most programming languages⟯, a ⟮block⟯ is a ⟮statement⟯.  
 However, in ⟮Rust⟯ (and in ruby to, though its weird, as blocks have the same syntax/are merely anon functions w/o arguments), ⟮blocks⟯ are ⟮expressions⟯. 
@@ -11616,7 +10887,7 @@ In some languages, notably Ruby and Rust, block expression return the value of t
 liquid|{% keyword %} ... {% endkeyword %}
 python|Sass|indentation
 
-#### bash
+### bash
 
 In bash, compound commands includes all control structures and block statements (which bash calls command grouping).
 (ba)sh is not generally a curly-brace language, but it still allows creating block statements via {} (but also via `()`)
@@ -11624,7 +10895,7 @@ bash calls its block statements command grouping.
 bash block statements/command grouping is what is used by bash functions.
 The difference between bash block statements using () and using {} is that () spawns a subshell and thus a new scope, while {} executes the commands in the current shell.
 
-### control structures
+## control structures
 
 The default control flow is linear from top to bottom, this is called sequencing.
 A thing that modifies control flow is a control structure. 
@@ -11648,13 +10919,13 @@ Ergo, one can use the `test` command in the condition of a (ba)sh control struct
 test is also available under the name `[` but requires a closing `]` in this case.
 (ba)sh requires all operators and the [] themselves to be separated by spaces, since [ is actually just a symlink for test, and thus all of these are actually arguments for a command.
 
-#### choice/selection control structures
+### choice/selection control structures
 
 choice/selection control structures allows choosing between several alternatives based one or more conditons.
 choice/selection control structures constructs are also just called conditionals.
 In conditionals, any of the possible paths is called a branch.
 
-##### if
+#### if
 
 The most common conditional is if/then/else. 
   
@@ -11675,7 +10946,7 @@ lang=text;
 ⟮{​{⟯⟮/FieldName⟯⟮}​⟯}
 ```
 
-##### conditional operator
+#### conditional operator
 
 The ternary operator is a conditional which is typically an expression. 
 The ternary operator is more properly called conditional operator. 
@@ -11685,7 +10956,7 @@ Example in JS:
 `let attack = enemy.isFireType() ? this.attacks.thundershock : this.attacks.inferno;`
 Languages that I can write that ⁑don't⁑ have a ternary/conditional operator with the typical syntax are Bash (more precisely, only exists for arithmetic expressions), Lua, Python, and Rust.
 
-##### others
+#### others
 
 An if statement/expression, but reversed in its truth value, is an unless statement/expression.
 unless statements/expressions use the keyword unless.
@@ -11698,7 +10969,7 @@ for the postfix conditionals in perl, ruby
 
 in rust, `if let` instead of `if` allows for an if with pattern matching
 
-##### switch
+#### switch
 
 switch is a type of conditional.
 the switch conditional is generally a statement.
@@ -11723,17 +10994,17 @@ switch (expression) {
 }
 ```
 
-##### guards
+#### guards
 
 guardss are additional boolean expressions specified on branches of conditionals that must also evaluate to true if the program is to continue.
 Of the languages I know, Rust has guards, introduced by `if`.
 
-#### Iteration/Loop control structure 
+### Iteration/Loop control structure 
 
 Control flow that repeats the code a number of times is called iteration/looping
 
 
-##### Count-controlled loops
+#### Count-controlled loops
 
 Count-controlled loops are loops that repeat a piece of code a certain number of times.
 Count-controlled loops are often started with the keyword for.
@@ -11744,7 +11015,7 @@ for (;;) ends up just being an infinite loop
 SCSS/Sass instead has the syntax @for ‹variable› from ‹lowerbound› to (excl)/through (incl) ‹upperbound›
 
 
-##### Condition-controlled loops
+#### Condition-controlled loops
 
 
 A condition-controlled loop is aloop that repeats until a condition changes.
@@ -11757,7 +11028,7 @@ Lua also has a while loop with an inverted condition that tests at the end of th
 in rust, `while let` instead of `while` allows for a while with pattern matching
 
 
-##### Collection-controlled loops 
+#### Collection-controlled loops 
 
 
 A collection-controlled loop is a loop that loops over all elements of a thing.
@@ -11806,16 +11077,16 @@ JS|1|1|2|0
 SCSS|1|1|1|0
 Rust|0|1|1|1
 
-### Labels
+## Labels
 
 A label in a programming language is a sequence of characters that identifies a location within source code. In most languages labels take the form of an identifier, often followed by a punctuation character (e.g., a colon). 
 JS and C have labels.
 JS label syntax: ‹name›:
 Labels can be used to break out of a loop that is not the enclosing one.
 
-### other statements
+## other statements
 
-#### empty statements
+### empty statements
 
 Empty statements are useful if a statement is required syntactically, but there is nothing to do, e.g. when writing outlines
 
@@ -11825,7 +11096,7 @@ pass|Python
 
 : is actually more complicated. It is kinda similar to true, and is therefore used as a condition for an infinite while loop.
 
-## Identifiers
+# Identifiers
 
 In a wide sense, "name" is synonymous to identifier, in a narrow sense it is an identifier
 An identifier is a thing that refers to/labels an object or class/set/collection of objects.
@@ -11842,11 +11113,11 @@ GUID|Globally Unique Identifier
 UUID=GUID
 UUIDs/GUIDs are 128 bit long, which makes it very likely for them to be unique.
 
-### name resolution
+## name resolution
 
 name resolution is the associating of identifiers with the correct things (e.g. variables)
 
-#### Name binding
+### Name binding
 
 Name binding is the association of entities with identifiers.
 For an identifier to reference something is to the identifier bound to that thing.
@@ -11856,7 +11127,7 @@ dynamic = late binding is name binding during runtime
 dynamic/late binding enables duck typing
 duck typing is calling a method without caring about its type, and seeing if it works.
 
-#### namespaces
+### namespaces
 
 a namespace is a context in which names are unique.
 Names within a namespace are sometimes called local names.
@@ -11865,13 +11136,13 @@ Within a namespace, only the local name is needed to refer to a thing.
 Outside of the namespace, the namespace and the local name are needed to refer to the thing.
 In hierarchical namespaces, namespaces are nested.
 
-### Scope
+## Scope
 
 the scope of a name binding is the part of a program where the name binding is valid.
 for something to have x-scope is to only have the name binding be valid within x.
 a variable with foo-scope is often called an foo-variable
 
-#### Lexical ＆ dynamic
+### Lexical ＆ dynamic
 
 Static scope is another name for lexical scope.
 Lexical scope is where scope is determined by where in the source code (a reference to) a name binding is.
@@ -11879,7 +11150,7 @@ Lexical/static scope is contrasted with dynamic scope
 Dynamic scope is where scope is determined by where on the stack something is.
 Pretty much all programming languages today use lexcial scope. Bash is the example, using dynamic scope.
 
-#### global/local scope
+### global/local scope
 
 The scope that is the entire program is global scope.
 A variable that does not have global scope has local scope.
@@ -11895,7 +11166,7 @@ The `self` property of a WorkerGlobalScope returns a reference to the WorkerGlob
 
 Without ⟮crates/unsafe code/etc.⟯, ⟮globals⟯ in Rust can only be ⟮constants⟯.
 
-##### Variable scope
+#### Variable scope
 
 In general, if you declare block- or function-scoped variables on the top level, these will be global or at the least, global to the module.
 
@@ -11916,7 +11187,7 @@ $|Ruby
 Variable scope in python is not determined by keyword but by context.
 In JS, variables declared without a keyword become properties of the global object
 
-#### shell scope
+### shell scope
 
 In (ba)sh, the thing that determines scope is the shell.
 
@@ -11932,7 +11203,7 @@ env|show all environment variables
 export|export a variable
 export -n|unexport a variable
 
-#### Shadowing
+### Shadowing
 
 Masking = shadowing
 Name masking/shadowing is when a name in a inner scope overrides that same name in an outer scope
@@ -11940,13 +11211,13 @@ Variable masking/shadowing is name shadowing involving variables
 In rust, shadowing allows for 'changing' tye type of the variable (really merely declaring a new variable)
 
 
-#### Hoisting
+### Hoisting
 
 Hoisting moves declarations but not initializations to the top of the scope.
 Hoisting is mainly a JS concept.
 in JS, var variables and function declarations (but not function expressions) and hoisted.
 
-### Case
+## Case
 
 snake_case|variables, methods (, symbols)|ruby|python (use underscores sparingly)
 UpperCamelCase|classes|C#|Javaruby
@@ -11958,7 +11229,7 @@ _leading_underscore_snake_case|fake private variables|(ba)sh
 
 most programming languages are case-sensitive as regards identifiers.
 
-### Naming
+## Naming
 
 While there is variety in what is allowed in a identifier name, most commonly it is [a-zA-Z0-9_]
 JS also allow $ in a non-sigil way in identifier names.
@@ -11967,13 +11238,13 @@ In general, identifiers may not be keywords.
 
 # values, variables, types
 
-## Values
+# Values
 
 A literal is a value which is written into the source code as-is and therefore is fixed.
 
-### Memory-management
+## Memory-management
 
-#### Ownership
+### Ownership
 
 In rust, eveary value has exactly one owner.
 Owners are variables(/constants).
@@ -11987,11 +11258,11 @@ When a owner goes out of scope, a value is dropped.
 
 to allow cloning(), implement the Trait `Clone`. This does not change the semantics, since clone() must be called manually
 
-## Variables
+# Variables
 
 A variable is an identifier which is associated with a storage location which contains a value.
 
-### Declaration and initialization
+## Declaration and initialization
 
 Declaring something is saying what an identifier means.
 In most languages, but not in JS and Python, declaration at the very least fixes the kind of entity the identifier refers to. 
@@ -12007,7 +11278,7 @@ In JS, a declared but unitialized variable has the value undefined. In most othe
 In python there is no such thing as variable declaration (however, using a name you haven't used before still creates an error)
 Redeclaration may or may not produce an error. In JS, it does not produce an error for var, but does for const and let.
 
-### assignment
+## assignment
 
 Setting a variable/constant to a value is known as assignment.
 = is used as the assignment operator in most programming languages
@@ -12016,7 +11287,7 @@ SCSS/Sass uses : as the assignment operator.
 In most languages, assignment expressions evaluate to the value assigned.
 Many languages have combinations of their math/string concat and assignment operators to combine these two operations (e.g. +=)
 
-#### Destructuring
+### Destructuring
 
 Destructuring is binding variables to values in a way that does not correspond to the 1 variable - 1 value pattern
 
@@ -12081,7 +11352,7 @@ pattern1 bar pattern2|pattern 1 or pattern 2
 
 Within rust pattern matching/destructuring, we even can destructure a thing out of a reference: let ＆foo = somereference
 
-### Sigils
+## Sigils
 
 In programming, a sigil is a symbol(s) affixed to a variable name.
 Sigils are generally used to show that something is a variable, show its type, or ts scope.
@@ -12099,11 +11370,11 @@ In sh, $ is a sigil-like used for various kinds of expansion
 In SCSS/Sass, any variable requires teh $ sigil
  
 
-### Declaring multiple variables
+## Declaring multiple variables
 
 a, b = 1, 2 (or e.g. returnTwoValues()) (lua, python)
 
-### Constants (and not)
+## Constants (and not)
 
 Mutability is whether something can be changed after inital creation. Something is mutable if it can be changed, and immutable if it can't.
 Different things can have mutability: Objects, variables, (though generally not primitves).
@@ -12126,11 +11397,11 @@ In some languages (JS), consts must be initialized in the same statement as they
 The term magic number or magic constant refers to the anti-pattern of using numbers directly in source code. 
 Instead of magic numbers (the antipattern), one should instead use constants.
 
-### Default variables
+## Default variables
 
 In Perl there is a special variable $_. There are many places in programming language Perl where if you do not explicitly specify a variable, the variable will be used $_. There are key words that read the values from this variable, and there are those which set of values in this variable. (also sometimes exists as @_ and %_)
 
-## (Data) types
+# (Data) types
 
 An abstract data type is defined in terms of its behavior or more specifically its semantics, instead of in terms of its syntax.
 If an abstract data type is a description of what something does, a data structure is how something does it.
@@ -12141,13 +11412,13 @@ Bash is fun in that it does not have data types at all, in truth all values are 
 
 To clamp a value is to specify an upper and a lower bound, and keep the number within those values.
 
-### primitives and composites
+## primitives and composites
 
 Primitive may refer to a data type that is provided in a programming language as a basic building block.
 Composite data types are built from primitive data types. 
 Primitive may also refer to a type that has built-in language support.
 
-##### primitive types in different languages
+#### primitive types in different languages
 
 C#: int, float, bool, string, char, double
 Java: byte, short, int, long, float, double, char, String, boolean
@@ -12159,7 +11430,7 @@ Python: integers, floats, complex numbers
 
 
 
-### Type Systems
+## Type Systems
 
 A (data) type consists of a set of values that something with that type can assume.
 In implementation, each value of a type has a unique (within the type) binary representation.
@@ -12170,7 +11441,7 @@ A language may also be untyped: neither variables nor values have type.
 An example of an untyped language is bourne shell, which is completely untyped.
 Bash supports a very mediocre type of typing via builtins such as declare.
 
-#### Dynamic vs Static typing
+### Dynamic vs Static typing
 
 Dynamic typigng: type checking at runtime ≈ values have type
 Static typing: type checking at compile time ≈ variables have type
@@ -12179,7 +11450,7 @@ Dynamically typed languages I know: JavaScript, Lua, Python, Ruby
 Statically typed languages I know: C#, Java, Perl (with regards to the scalar, array, hash distinction), Rust, TS
 TS makes the normally dynamically typed JS statically typed
 
-#### Type inference/manifest
+### Type inference/manifest
 
 Explicit/manifest typing is a feature of a type system where the type has to be explicitly declared.
 Implicit/latent typing is a feature of a type system where the type is not explicitly declared.
@@ -12198,7 +11469,7 @@ On the positive side, manifestly and statically typed languages 1) dramatically 
 
 Often, when rust can't infer the type, we need to use turbofish notation ( :​:‹type›)
 
-##### const assertions
+#### const assertions
 
 In TS, const assertions are a special case of type assertions that influence type inference rather than specifying a specific type to cast to.
 const-assertion ::= ‹type› as const;
@@ -12208,7 +11479,7 @@ Specifically, const assertions make three things happen:
 2. object literals get readonly properties.
 3. arrays become readonly tuples.
 
-##### type narrowing
+#### type narrowing
 
 Type narrowing is a form of implicity type change where the type of a thing is made more precise based on which types could possibly exist in that context.
 In TS, pretty much anything that could be reasonably assumed to narrow does.
@@ -12220,7 +11491,7 @@ in TS, a type predicate is a function that returns a boolean value. The boolean 
 A type predicate is specified by adding ` is ‹type›` to the end of the return type.
 In effect, using a type predicate acts as a custom type guard.
 
-##### Type annotation
+#### Type annotation
 
 Specifying the type of a thing (esp. a variable/constant) by writing the type into the code is known as type annotation.
 Languages with manifest typing generally require type annotation for variable/constant declarations, parameters as well as return types.
@@ -12228,22 +11499,22 @@ In most (esp. C-family) languages, type annotation goes before the variable/cons
 In Python, Rust and TS, type annotation looks like so `: type`
 Python supports type annotation since Python 3.5
 
-###### Type aliasees
+##### Type aliasees
 
 Type aliases are names for types thsat abbreviate longer type descriptions.
 Where type aliases exist, they generally use the type keyword.
 Type aliases exist in TS, Rust
 `type ‹name› = ‹type-expression›`
 
-###### Interesting keywords
+##### Interesting keywords
 
-#### Type errors
+### Type errors
 
 Type safety is the dgree to which a programming language prevents logic-type type errors in favor of static-semantic type errors.
 A logic-type type error is caused by treating a value as the wrong type.
 A type-safe language is a language that throws more static semantic type type errors instead of logic errors.
 
-#### Conversion, coercion, casting and context (plus truthy/falsiness)
+### Conversion, coercion, casting and context (plus truthy/falsiness)
 
 Context is a term usely used in programming, and with much variation.
 We can think of context related to types as creating a situation in which things will be coerced to certain types automatically.
@@ -12258,7 +11529,7 @@ Since (ba)sh doesn't have any types but strings, it needs specific contexts to d
 math context is required to do math
 math context|$(()), (()) and the command let
 
-###### Type annotation keywords
+##### Type annotation keywords
 
 In general, certain types are generally indicated similarly across programming languages (though there is variation)
 Integers|int|not Rust
@@ -12268,13 +11539,13 @@ Booleans|boolean|Java
 Characters|char|C#, Java, Rust
 Double-precision floating-point numbers|double|C#, Java
 
-##### Conversion
+#### Conversion
 
 Type conversion is explicitly using a function or the like to change the datatype of something.
 All pythons types, called as a function, convert to that type (e.g. list(), bool(), int())
 Ruby has a set of methods that have the syntax foo.to_‹char› that convert to that type (e.g. to_i, to_f, to_s, to_sym)
 
-##### Coercion
+#### Coercion
 
 Type coercion is implicitly forcing a value to be treated as of a different datatype.
 JS will coerce extensively in the case of operations w/ mismatched types.
@@ -12282,7 +11553,7 @@ Concatenation of non-string w/ string|coerces non-string to string
 use of booleans w/ math operators|coerce to 0/1
 In contrast, pythons operators rarely coerce.
 
-##### Casting
+#### Casting
 
 Type casting is asking the programming language implementation to treat a value as a certain datatype temporarily.
 Casting will go wrong if the vlaue cannot be treated as teh casted type.
@@ -12295,14 +11566,14 @@ In TS, if ⟮you know something about a type that TS doesn't⟯, you can use ⟮
 TS type assertion syntax: prepending ⟮‹some_type›⟯ or appending ⟮as some_type⟯
 
 
-#### Firstclassness
+### Firstclassness
 
 An entity is said to be first-class in programming if you can ⟮Do most other things you can do with objects/values⟯
 typical features of entities that are first-class in a certain language are e.g. ⟮Can be stored in variables/data structures, can be passed as a parameter to callable units, can be returned, tec.⟯
 An entity that is first-class is called a first-class citizen.
 Lua: all values
 
-### bottom type
+## bottom type
 
 A bottom type is the subtype of every other type.
 A variable with bottom type can take no value. (there is no value that can be assigned to a variable with the bottom type.)
@@ -12314,7 +11585,7 @@ no bottom type|most languages
 ! (called the never type)|Rust
 never|TS
 
-### unit type
+## unit type
 
 A unit type is a type that only allows a single value.
 A variable with unit type only ever takes things of the unit type or the bottom type.
@@ -12333,38 +11604,38 @@ in TS `void` is only unit-like, since besides the proper relationships things of
 in TS, if `strictNullChecks` is enabled (which is not the default behavior, but my default assumption otherwise the type system becomes a mess) `null`, `undefined` and `void` act like unit types, such that nullable types need to be literally declared as option types.
 in TS, if `strictNullChecks` are disabled, all types are nullable.
 
-#### Literal types
+### Literal types
 
 A literal type is unit type whose value is specified via the literal of another type (e.g. 4 or true or "ara ara")
 in TS, the types of constants are a literal type of thier value.
 
-### combination of other types
+## combination of other types
 
-#### intersection types
+### intersection types
 
 An intersection type specifies a type which must satisfy all constraints that individual types satisfy.
 While it would be technically possible to create intersection types of primitive types, it is pointless: There is no value that could possibly satisfy the constraints e.g. 'is a string' and 'is a number' at the same time, since they are disjoint.
 intersection-type ::= ‹type› ＆ ‹type›
 
-#### Union type
+### Union type
 
-##### definition
+#### definition
 
 A union type specifies a number of types that anything with the union type as type may take.
 A union type can hold a value that could take on several different but fixed types.
 A union type can be thought of as a type that has several "cases", each of which should be handled correctly when that type is manipulated.
 In type theory, a union type is a sum type.
 
-##### use
+#### use
 
 with ⟮union⟯ types, you can only use things that ⟮all of the relevent types can do⟯, unless you ⟮narrow them down⟯
 
-##### in various languages
+#### in various languages
 
 Common syntax: type1 | type2 ...
 Syntax for creating arbitrary union types exist in Python, TS and graphQL
 
-##### Tagged unions
+#### Tagged unions
 
 A tagged union type is a union type where each of the types has a tag, which is used to determine which type is currently in used.
 What rust calls enums is more properly a tagged union.
@@ -12372,12 +11643,12 @@ in TS, a thing similar to tagged unions is called a discriminated union.
 in TS, discriminated unions are implemented by a union type of other types with a shared field.
 In a discriminated union, TS can narrow based on checking a shared field.
 
-###### Rust
+##### Rust
 
 in rust, tagged unions implements the tag by means of the name of the enum.
 in rust, tagged union variants may be tuples, structs, or unit-like
 
-####### strum
+###### strum
 
 strum|enum ‹-› string manipulation
 
@@ -12388,9 +11659,9 @@ Enum → str|derive strum_macros::ToString
 Enum → str message|derive strum::EnumMessage|Enum.get_message() ＆ Enum.get_detailed_message() (return options)
 str → Enum|derive strum::EnumString|Enum::from_str()
 
-###### Types with two possible states
+##### Types with two possible states
 
-####### Option type
+###### Option type
 
 An option type is a type that represents an optional value.
 An option type can generally take on a state representing it is empty, or a state representing it is full, and wrapping around another value.
@@ -12404,14 +11675,14 @@ pub enum Option‹T› {
 
 In general, either option types or nullable types will be used to represent the absence of a value in a given language, but no both.
 
-####### Result type 
+###### Result type 
 
 A result type is a type which can be either of two variants/states, a success type holding the result, or an error type holding the error message.
 in rust, the result type is `Result`, looking like enum Result‹T, E› { Ok(T), Err(E)}
 
-####### Commonalities
+###### Commonalities
 
-######## logic with methods
+####### logic with methods
 
 |if None|if Some
 ‹OptionOrResult›.and(‹AnotherOptionOrResult›)|None/Err|‹AnotherOptionOrResult›
@@ -12421,36 +11692,36 @@ in rust, the result type is `Result`, looking like enum Result‹T, E› { Ok(T)
 ‹OptionOrResult›.map(‹callback›)|None|call callback with contained value and return option with returned value
 ‹OptionOrResult›.map_or(‹default›, ‹callback›)|‹default›|call callback with contained value and return option with returned value
 
-######## cloning and copying
+####### cloning and copying
 
 the cloned/copied methods of Options/Results takes an Option‹＆T› or ‹＆mut T› or a Result‹＆T, E› or ‹＆mut T, E› and returns an Option‹T› or Result‹T, E› by cloning/copying
 
-######## conversion
+####### conversion
 
 Result‹T, E›.ok() → Option‹T›
 
-######## ? operator
+####### ? operator
 
 In rust, the ? operator takes a `Result` or `Option`
 In rust, the ? makes a `Result` evaluate to the value inside the `Ok` if `Ok` or exit out of the nearest function, returning an `Err`.
 In rust, the ? makes a `Option` evaluate to the value inside the `Some` if `Some` or exit out of the nearest function, returning a `None`.
 The ? is implemented via the trait std::ops::Try
 
-######## unwrap ＆ expect
+####### unwrap ＆ expect
 
 unwrap and expect can be called on options and results.
 unwrap and expect are similar that they return the value if the type is Ok/Some, and panic otherwise.
 the difference between unwrap and expect is that expect allows us to choose our error message.
 
-##### Nullable types
+#### Nullable types
 
-###### definitions
+##### definitions
 
 Null is not typically its own type (since it would be a useless unit type), instead other types are generally nullable.
 A type being nullable means it can take a special value null/nil/undefined instead of the usual possible values.
 We can understand nullable types as an union type between usual type | null type
 
-###### keywords for the special value null
+##### keywords for the special value null
 
 nil|lua|liquid|ruby
 null|C#|Java|JS (secondary)
@@ -12458,21 +11729,21 @@ undefined|JS (primary)
 None|Python
 there isn't one|Rust
 
-###### language peculiarties
+##### language peculiarties
 
-####### liquid
+###### liquid
 
 Liquid has a special null-like type that is returned when accessing a deleted object called EmptyDrop
 
-####### JS
+###### JS
 
 In JS a type is nullish if it is null or undefined.
 
-####### graphql
+###### graphql
 
 In GraphQL, an exclamation mark `!` afte a type indicates that the field is non-nullable.
 
-#### type manipulation
+### type manipulation
 
 in most languages, types are limited in how they can be used:
 contain predefined primitive types|all statically typed languages
@@ -12500,11 +11771,11 @@ Template literal types use JS template literal syntax to expand to all possible 
 
 mapped types
 
-#### TS Utility types
+### TS Utility types
 
 TypeScript provides several utility types to facilitate common type transformations.
 
-### top type
+## top type
 
 A top type is the supertype of every other type.
 A variable with top type can take any possible value. (any possible thing can be assigned to a variable with top type)
@@ -12529,7 +11800,7 @@ in TS, `{}`, `Object` are the same type.
 in TS, `{}`/`Object` are nearly top types, you can assign everything but `null`, `undefined`, or of course `unknown` to `{}`/`Object`.
 by contrast, `object` (notice the case) is any non-primitive type, and thus not even nearly a top type.
 
-### object types, interfaces and classes in TS
+## object types, interfaces and classes in TS
 
 object type = objects literals as types, generally declared with the type keyword if not inline.
 in TS, object types, interfaces and to a certain extent classes share a lot of syntactic similarities.
@@ -12565,7 +11836,7 @@ Partial‹T›|Returns T where all keys have been set to optional
 Required‹T›|Returns T where all keys have been set to required.
 Readonly‹T›|Retunrs T where all keys have been set to readonly
 
-### boolean
+## boolean
 
 A boolean data type is a type that has one of two possible values, indicating
 truth values.
@@ -12577,7 +11848,7 @@ no boolean type, only truthy/falsiness|Python
 
 YAML is not boolean keyword case sensitive
 
-### Symbols
+## Symbols
 
 Symbols as a datatype are guaranteed to be unique, and generally have a human-readable representation.
 The fact that symbols are guaranteed to be uniqe mean that they are equal only to themselves.
@@ -12589,7 +11860,7 @@ Internally, symbols are often represented by a number.
 :name|Ruby
 Symbol("name")|JS
 
-### references
+## references
 
 A reference is a value that allows indirect access to another value.
 A pointer is a type of reference that allows indirect access to a thing by storing its memory address.
@@ -12650,7 +11921,7 @@ String.from() gets a String from an ＆str.
 String.new() creates a new empty string.
 the + operator for strings requres a `String` on the left and a `＆str` on the right
 
-### Numeric types
+## Numeric types
 
 Languages generally have at least a type for Integers and a type for numbers with fractional parts, most commonly floats. JS combines these into a single type Number.
 C#, Java, Perl, Python, Ruby, Rust, TOML allow inserting underscores in numeric literals for readability.
@@ -12667,14 +11938,14 @@ In CSS, the general numeric type is ‹number›, which supports decimal numbers
 In CSS, percentages are a special type, ‹percentage›. 
 In CSS, ‹percentage› consists of a ‹number› followed by a %
 
-#### Overflow
+### Overflow
 
 If a numeric type has arbitrary precision, it can store (nearly) infinitely large numbers (it will in practice be limited by the memory the application can get from the OS)
 overflow/underflow occurs when a numeric value is to large/small for its container.
 Numeric types either have arbitrary precsion, are subject to overflow/underflow, or need to throw an error if a calculation exeeds the size limit of a numeric type.
 Rust throws an error in overflow/underflow scenarios when debugging, and wrap otherwise.
 
-#### size (not arbitrary precision)
+### size (not arbitrary precision)
 
 In rust:
 Numeric types: ‹type›‹size›
@@ -12686,16 +11957,16 @@ size as part of the type annotation (usize, isize) indicates the system word siz
 ⟮ES2020⟯ introduces the ⟮BigInt⟯ datatype for numbers ⟮larger than the previous maximum size⟯
 BigInt literal is indicated by ends in n
 
-#### Integers
+### Integers
 
 Integer literals generally not overtly marked
 
-#### float and double
+### float and double
 
 In Java and C#, to indicate a float literal you must add f as a suffix. any number containing a decimal point not explicitly indicated as a float will be a double
 Most other languages don't distinguish between floats and doubles on a keyword level, merely by size (rust) or automatically
 
-##### single and double precision
+#### single and double precision
 
 single-precision floating point numbers are floating point numbers stored in 32 bit of storage.
 double-precision floating point numbers are floating point numbers stored in 64 bit of storage.
@@ -12703,7 +11974,7 @@ A single-precision floating point number typically has 1 bit sign bit, 8 bits fo
 A double-precision floating point number typically has 1 bit sign bit, 11 bits for the exponent, and 52 (stored) bits for the significand
 In JS, all Numbers are double-precision floating points.
 
-#### methods
+### methods
 
 Object/Struct/whatever for standard math operations
 Math|JS
@@ -12738,7 +12009,7 @@ Square root
 Is the thing an Integer?
 Number.isInteger(foo)|JS
 
-### enums
+## enums
 
 Enum is short for enumeration or enumerated datatype.
 An enum is a datatype that can take on one of a finite set of values.
@@ -12756,7 +12027,7 @@ In C# the syntax ‹variant› = ‹value› exists to apply values to enum vari
 We may want to consider enums a special case of tagged unions, where enums can only stand for simple values.
 
 
-### Collections
+## Collections
 
 Collections are an abstract data type that hold a number of data items.
 Python calls its data structures that represent collection ADTs, well, collections.
@@ -12768,49 +12039,49 @@ Collections may be implemented in the language as primitives, but many are eithe
 Rust only calls its non-primitive collections collections, which are stored in std::collections.
 Rust collections (as in non-primitve collections) are stored on the heap and are variable size, primitive data structures are stored on the stack and are fixed-size.
 
-#### access
+### access
 
-##### random and sequential
+#### random and sequential
 
-###### definitions
+##### definitions
 
 Random access might be clearer if it was called direct access.
 Random access allows access to arbitrary elements at will.
 Sequential access only allows access in a certain sort of order.
 
-###### examples
+##### examples
 
 flex-container:✫sm_rand_seq_acc.svg✫
 book|random access (to pages)
 scroll|sequential access
 
-##### notation
+#### notation
 
 
 
-#### Collection methods
+### Collection methods
 
-##### Clear a mutable collection
+#### Clear a mutable collection
 
 foo.clear()|not JS|Python|Ruby
 
-##### Flatten a nested thing ([[1]].flat() =› [1])
+#### Flatten a nested thing ([[1]].flat() =› [1])
 
 foo.flat(depth)|JS
 foo.flatten(dept)|Ruby
 nothing in py
 
-#### Non-linear collections
+### Non-linear collections
 
 Python: dictionary, set (and frozenset)
 
-##### Sets
+#### Sets
 
 ADT similar to sets in math = unique members, don't have order.
 Python data structure: set (mutable), indicated by {}, frozenset (immutable).
 JS: class Set, create via new Set(), add(), has()
 
-###### Set operations
+##### Set operations
 
 Many languages/libraries have generalized set operations to something you can do to most/all collection types.
 Python has set methods, but only allows them on sets.
@@ -12818,55 +12089,55 @@ JS has a Set class, which does not support set method
 
 xor/union/intersection/difference(things...)|lodash/underscore(JS)
 
-##### Associative collections
+#### Associative collections
 
-###### Associative array
+##### Associative array
 
-####### definitions
+###### definitions
 
 An associative array is an abstract datatype composed of a collection of (key, value) pairs so that each possible key appears only once (as a key) = keys are unique.
 A mapping is the term for a single key-value set (ordered pair).
 
-####### keys
+###### keys
 
 Different programming language's implementations limit keys to only strings, strings or integers, all values, or something inbetween.
 In programming languages, string assoc arr keys are generally quoted. In TOML they may be unquoted for simple alphabetic keys.
 
-######## computed property names
+####### computed property names
 
 Computed property names allows you to put any expression on the left-hand side of a property within an object literal, if you wrap that thing in []
 AFAIK only JS has computed property names
 
-####### implementation
+###### implementation
 
-######## primitve vs records
+####### primitve vs records
 
 Associative arrays are implemented as primitives in some languages, as records in others, or sometimes as both.
 Languages with no associative array primitives: C#, Java, Rust
 If languages implement assoc arr via records, you then interact with them as you would with records.
 If languages implement assoc arr as primitives, these then often have their own syntax for interaction.
 
-######## literals
+####### literals
 
-######### delimiters
+######## delimiters
 
 no literals at all|C#|TOML
 {}|JS (objects)|Lua|Perl (1 of 2)|Python|Ruby|YAML
 ()|Perl (1 of 2)|SCSS/Sass (same as arrays)
 newlines ＆ indentation|YAML
 
-######### mapping separators
+######## mapping separators
 
 In associative array literals, the separator between 2 mappings is generally ,
 
-######### key-value separators
+######## key-value separators
 
 =|lua|TOML
 :|python|Ruby (symbols)|YAML
 =›|Perl (1 of 2)|Ruby (non-symbols)
 , (yes, really)|Perl (1 of 2)
 
-######### assoc array names (if primitve)
+######## assoc array names (if primitve)
 
 table|lua|TOML
 hash|perl
@@ -12876,30 +12147,30 @@ map|SCSS/Sass
 
 In most languages with primitive associative arrays, accessing and assigning are handled by the usual indexing syntax also used for their primitive array type etc.
 
-######## Objects
+####### Objects
 
 Dictionary‹K, V›|C#
 HashMap‹K, V›|Rust
 BTreeMap‹K, V›|Rust
 Map‹K, V› interface, e.g. HashMap‹K, V›|Java
 
-######## JS
+####### JS
 
 JS implements associative arrays via the `Map` and `WeakMap` classes. 
 In JS objects (esp. object literals) also perform many of the operations we would expect of associative arrays. 
 Specifically, Maps maintain insertion order, and support any key type, while Object coerces any key to a string (except Symbols). 
 Objects are primitives, Maps need to be created with the new Map() constructor. 
 
-####### properties
+###### properties
 
-######## Insertion order
+####### Insertion order
 
 There are both languages that do and do not guarantee insertion order to be maintained for their associative arrays.
 In Rust, you need to use the `indexmap` crate to get an associative array that keeps insertion order.
 
-####### operations
+###### operations
 
-######## assigning
+####### assigning
 
 adding a key, value pair
 .Add(‹key›, ‹value›)|C#
@@ -12907,61 +12178,61 @@ adding a key, value pair
 .put(‹key›, ‹value›)|Java
 .insert(‹key›, ‹value›)|Rust
 
-######## retrieval
+####### retrieval
 
 get(‹key›)|Java|JS(map only)|Rust
 [] indexing notation despite not being a primitive|C#
 
-######## deletion
+####### deletion
 
 set it to null type|lua
 
-######## checking for existence
+####### checking for existence
 
-######### Has key? 
+######## Has key? 
 
 key?|Ruby
 
-######### Has value?
+######## Has value?
 
 value?|Ruby
 
-######## iterators/arrays of
+####### iterators/arrays of
 
-######### key, value tuple/array/whatever
+######## key, value tuple/array/whatever
 
 pairs()|lua
 items()|Python
 entries()|JS (map only)
 
-#########  keys
+########  keys
 
 keys()|JS(only Map)|perl|Ruby|Rust|Python (returns a dict_keys object)
 Object.keys(someobj)|JS
 
-######### values
+######## values
 
 values()|JS(only Map)|perl|Ruby|Rust|Python (returns a dict_values object)
 Object.values(someObj)|JS
 
-######### JS
+######## JS
 
 Amusingly, JS doesn't have the keys(), values(), entries()... functions for its assoc array type (objects), but does have them for arrays
 
-######## merging
+####### merging
 
 map-merge(foo, bar)|SCSS/Sass
 
-####### derived structures
+###### derived structures
 
-######## entries
+####### entries
 
 An entry is a view into one item in a assoc array.
 In rust, an `Entry` is an Enum with possible variants `Occupied`, `Bacant`
 in rust `Entry.or_insert` insets the key into the map if map is empty.
 Rust: Has the entry() function go get a Entry
 
-####### assoc-array files
+###### assoc-array files
 
 typically, most languages have modules/libraries called json/yaml for json/yaml processing.
 JS and thus node calles its json/yaml libraries JSON/YAML.
@@ -12971,7 +12242,7 @@ JS and thus node calles its json/yaml libraries JSON/YAML.
 
 to make sure that Python's JSON/YAML libraries insert newlines and indentation, pass the load method the named parameter indent with the relevant indent.
 
-######## Rust serde
+####### Rust serde
 
 serde is a rust crate for serializing/deserializing data structures from/to common formats.
 serde uses additional crates to add support for formats, e.g. serde_json for json and serde_yaml for yaml.
@@ -12988,13 +12259,13 @@ serde_json represents Objects as `Value::Map‹String, Value›`
 using serde to parse, we may parse arbitrary data into a serde representation using from_str and then index into it as you would in JS with square bracket notation (but you may recieve `Value::Null`), or we may parse data into a predefined rust representation
 to make serde support the derive macro, set the "derive" feature
 
-####### peculiarities
+###### peculiarities
 
-######## lua
+####### lua
 
 tables are actually the only data structure in lua
 
-#### Linear collections/ADTs
+### Linear collections/ADTs
 
 Linear collections/ADTs are a sequence of items.
 Python calls its data structres that are linear collections sequences.
@@ -13003,36 +12274,36 @@ Python sequences: list, tuple, str
 
 It seems to me that all non-array linear collections only allow sequential access.
 
-##### Linear collection methods
+#### Linear collection methods
 
-###### reverse the thing
+##### reverse the thing
 
 reverse()|JS(in-place)|Perl|Python (in-place!)|Ruby
 
-###### Append a linear collection to a different linear collection
+##### Append a linear collection to a different linear collection
 
 col1 + col2|Python (also works for strings)
 col1 ‹‹ col2|Ruby (also works for strings)
 col1.extend(col2)|Python
 
-###### Repeat the contents of a linear collection n times
+##### Repeat the contents of a linear collection n times
 
 col1 * n|Python
 
-###### append one element to end of dynamic linear collection
+##### append one element to end of dynamic linear collection
 
 push()|JS|Rust
 append()|Python
 
-###### remove an element from a lin coll by name
+##### remove an element from a lin coll by name
 
 somelincoll.remove(elem)|Python
 
-###### insert an element at a specific position
+##### insert an element at a specific position
 
 somelincoll.insert(elem, index)|JS
 
-###### Fill the thing with the specified element
+##### Fill the thing with the specified element
 
 somelincol.fill(element[, start[, range]])|JS|Ruby
 In Ruby, fill also may take a block to calculate the element to fill it.
@@ -13053,17 +12324,17 @@ somearr.pop(index)
 
 somearray.splice(⟮start⟯, numberOfElementsToDelete, element1toInsert, ...); (odd, js only, returns array of removed elements which may be empty)
 
-###### Rust
+##### Rust
 
 In Rust, vectors can be indexed via the [] syntax, which will panic if the element doesn't exist, or via get(), which returns an Option‹＆T›
 
-##### Strings as linear collections
+#### Strings as linear collections
 
 TODO string as iterable
 Strings are often implemented as linear collections (esp. arrays) of chars, or at least their semantics are similar enough that they work the same way.
 Since strings are semantically and often also by implementation similar to linear collections, their methods often are the same.
 
-###### methods
+##### methods
 
 get (first) index of element/substring in string or linear collection
 foo.index(bar, optionalStartIndex)|Python
@@ -13075,26 +12346,26 @@ foo.lastIndexOf(bar, optionalStartIndex)|JS
 Concatenate multiple strings/ arrays at the end of an existing string/array
 stringOrArray.concat(stringsOrArrays)|JS|Ruby
 
-##### Array
+#### Array
 
 An array (type) is a abstract datatype of an ordered linear collection of elemennts, selected by indices.
 
 
-###### depth
+##### depth
 
 no indices (one value only)|zero-dimensional array (uncommon)|scalar
 one index|(one-dimensional) array|vector
 two indices|two-dimensional array|matrix
 n indices|multidimensional array|tensor
 
-###### types, names, literals
+##### types, names, literals
 
-####### primitiveness
+###### primitiveness
 
 Arrays are generally primitives in different programming languages, though they differ on syntax and what they call them.
 In C# and Java, the builtin static arrays are objects, and thus must be created using the new operator. 
 
-####### possibilities
+###### possibilities
 
 Arrays may be dynamic = have variable size, or static = have fixed size.
 Some languages have mutable static arrays, some languages have immutable static arrays, and some languages have both.
@@ -13102,9 +12373,9 @@ Some languages allow only one type in an array, and some languages allow multipl
 In static arrays, the compiler therefore knows the type of each index
 Dynamic arrays are sometimes called arraylists.
 
-####### names
+###### names
 
-######## dynamic arrays (one type only*)
+####### dynamic arrays (one type only*)
 
 Vec‹T›|rust
 ArrayList‹T›|Java
@@ -13113,30 +12384,30 @@ List(yes, really)‹T›|C#
 Rust Vectors, Java ArrayLists and C# Lists are Objects/Structs and defined over a generic
 Different types in the dynamic arrays defined over a generic may be possible via parametric polymorphism.
 
-######## dynamic arrays (of whatever types)
+####### dynamic arrays (of whatever types)
 
 list|GraphQL|python
 array|perl|JS|ruby
 table|lua (though this is more properly the assoc array type, it just happens that an assoc array w/o keys will have numeric keys set up for it by lua, making it also the array type)
 
-######## static arrays (one type only)
+####### static arrays (one type only)
 
 array|C#|Java|Rust
 
-######## static arrays (of different types)
+####### static arrays (of different types)
 
 tuple|rust|TS
 
-######## immutable static array (of whatever types)
+####### immutable static array (of whatever types)
 
 sequence|yaml
 array|liquid|TOML
 tuple|Python
 list|SASS/SCSS 
 
-####### Array literals
+###### Array literals
 
-######## delimiter
+####### delimiter
 
 dynamic (of whatever types)
 ()|Perl (same as assoc. arr)|Shell
@@ -13157,52 +12428,52 @@ immutable static array (of whatever types)
 ()|SASS/Scss|Python (Though in python in reality it is the comma that creates a tuple. the parentheses are just often needed for grouping)
 []|TOML|YAML (if inline)
 
-######## separator
+####### separator
 
 In array literals, the invidual elements are generally separated by ',', except sh, which separates them by space
 
-######## oddities
+####### oddities
 
 YAML also has indentation delimited, newline separated, individual items marked by `- ` version
 
-######## nested
+####### nested
 
 Most languages use the same syntax for one-dimensional, two-dimensional, or multidimensionall arrays, merely nesting the literals.
 
-######## type annotation
+####### type annotation
 
 In principle, type annotation for array types usually uses the same delimiter as the literal for that array type.
 
-######### specific variants
+######## specific variants
 
 static immutable arrays|‹delimiter›‹type›{, ‹type›}‹delimiter›
 static mutable single-type arrays|‹delimiter›‹type›, ‹length›‹delimiter›
 dynamic arryas|‹type›‹delimiter›‹delimiter›|TS
 dynamic arrays|‹delimiter›‹type›‹delimiter›|GraphQL
 
-######### language peculiarities
+######## language peculiarities
 
 In C# the type for multidimensional arrays (e.g. for a three-dimensional array) is type‹delimiter›,,‹delimiter› (and for the constructor type‹delimiter›length,length,length‹delimiter›). These are different from merely arrays of arrays, as these have a uniform size (while arrays of arrays do not) 
 
 in TS, ‹type›[] is syntactic sugar for Array\‹‹type›\›
 in TS, readonly ‹type›[] is syntactic sugar for ReadonlyArray\‹‹type›\›
 
-###### operations
+##### operations
 
 In sh, referring to the whole array requires a special syntax my_array[@] which can only be used within ${}
 
-####### fixed length
+###### fixed length
 
 When creating static arrays, the size must be given. In C# and Java, this is done in the [] of the array type in the constructor, e.g. new type[10];
 In JS, one can create an array with a specfic size (and thus ergo empty slots) by using Array(n) or new Array(n)
 
-##### Lists
+#### Lists
 
 Lists/Sequences are an abstract data type (specifically a collection), in which each element has a position (a first element, a second element), and that are finite.
 Lists are always dynamically sized
 C#: List, defined over one generic. must be created via constructor. Add to end of list .Add()
 
-###### linked list
+##### linked list
 
 flex-container:✫sm_408px-Singly-linked-list.svg.png✫
 A linked list is a data structure (implementing the ADT list) in which each node/vertex holds a reference to the next element.
@@ -13213,14 +12484,14 @@ flex-container:✫sm_doubly_linked_list.svg✫
 A linked list with a backward reference too is a doubly-linked list.
 access|O(n)
 
-####### cons
+###### cons
 
 cons is short for construct function, and comes from lisp. 
 To ⟮cons something onto something⟯ is to take a ⟮container⟯, add ⟮an element in front of it⟯, and ⟮put this in another container⟯.
 A singly linked list is functionally eqivalent to / can be modelled by a set of nested ordered pairs (foo, (bar, (quuz, nil))).
 A cons list is a singly linked list constructed via nested ordered pairs.
 
-####### blockchain
+###### blockchain
 
 flex-container:✫blockchain.svg✫
 
@@ -13229,17 +12500,17 @@ A ⟮blockchain⟯ is a growing ⟮(linked) list⟯ of records called ⟮blocks�
 In a blockchain, each block contains ⟮a hash⟯ of ⟮the previous block⟯, a ⟮timestamp⟯, a ⟮nonce⟯, and ⟮transaction data⟯ represented as ⟮a merkle tree⟯.
 Since ⟮blocks contain hashes of previous blocks⟯, ⟮changing a block⟯ would ⟮also require changing subsequent blocks.⟯
 
-###### vs arrays
+##### vs arrays
 
 slower access O(n) vs O(1)
 more space consumption if no empty spaces in array due to pointers.
 Re: modern processors, linked lists have the problem that they are stored non-contiguously and thus can't take advantage of processor cache as well (priniple of spatial locality)
 
-##### Streams
+#### Streams
 
 Streams are an abstract data type (specifically a linear collection), in which each element has a position (a first element, a second element), and that are infinite (or at least potentially so).
 
-##### Stack
+#### Stack
 
 The anaogy of a stack historically comes from spring-loaded plate dispensers (e.g. in a mensa)
 In a stack, the element you remove will be ⟮the one you added most recently⟯
@@ -13251,7 +12522,7 @@ peek: loop at top of stack
 
 flex-container:✫sm_Data_stack.svg✫
 
-##### Queue
+#### Queue
 
 FIFO = first in first out
 A stack is a linear collection ADT with FIFO order, and the operations:
@@ -13261,9 +12532,9 @@ peek: look a the next element that would be dequeued
 
 flex-container:✫sm_450px-Data_Queue.svg.png✫
 
-### intersection of iterators, strings, linear collections
+## intersection of iterators, strings, linear collections
 
-#### slicing and ranges
+### slicing and ranges
 
 Slice and range syntax is often similar.
 For slicing, the slice syntax must generally be surrounded by the same brackets used for array indexing.
@@ -13273,7 +12544,7 @@ start..end_excl|Rust
 start...end_excl|Ruby
 start..=end_incl|Rust
 
-##### Slicing
+#### Slicing
 
 Slicing is extracting a subset of elements from a data structure.
 Slicing is most commonly performed on linear collections or strings.
@@ -13286,7 +12557,7 @@ In python you can assign to slices, delete them, etc.
 .substring(start, end_excl)|JS (only strings, will not count from back, but will swap start and end if start is larger)
 [start,length]Ruby
 
-##### ranges
+#### ranges
 
 Ranges may be a syntax for generating iterators/arrays, or may be their own type. They may also be both, pythons range is an interable type that as all iterables generates an iterator if needed.
 Step is pretty much always optional.
@@ -13297,7 +12568,7 @@ seq start step stop|sh
 Bash calls its range syntax a »sequence expression«.
 Bash also supports characters as start and stop.
 
-#### misc
+### misc
 
 does the thing contain the thing?
 include?|Ruby (Array, String, Enumerable)
@@ -13319,7 +12590,7 @@ count occurrences of element
 foo.count(bar)|Python|Ruby
 no easy way|JS
 
-### Iterators
+## Iterators
 
 An iterator is an object (or similar) whose purpose is to iterate over some data. 
 An iterator has a next() method that returns the next element.
@@ -13328,20 +12599,20 @@ An iterable is generally something that can create an iterator of itself.
 Something being iterable is generally implemented as an interface.
 Something being an iterator may be implemented as a type or interface
 
-#### Iterator implementation
+### Iterator implementation
 
 `Iterator` trait/interface|Rust
 
 In rust, to implement `Iterator` you only have to implement `next()`, and Rust will automatically implement a bunch of other methods for you.
 
-#### iterables
+### iterables
 
 
 In ruby, iterables are called enumerables.
 In most languages that have iterables, most collections are iterable, as are strings and ranges. 
 Java Strings are not iterable, JS objects aren't either.
 
-##### iterable ↔ iterator
+#### iterable ↔ iterator
 
 Iterables generally require explicit or implicit conversion to become/spawn iterators.
 iterables are always automatically converted to iterators|
@@ -13350,7 +12621,7 @@ iterables are only automatically converted to iterators in loop contexts, manual
 
 In rust, you call `collect` on the iterator to turn it back into a data structure.
 
-###### rust
+##### rust
 
 In rust, iterators themselves must always be mutable, since calling next() changes the iterator.
 
@@ -13359,7 +12630,7 @@ In rust, iterators themselves must always be mutable, since calling next() chang
 ‹iterable›.into_iter()|iterator of owned values
 
 
-#### next()
+### next()
 
 in JS, the next() method returns an assoc array {
   done: bool,
@@ -13367,7 +12638,7 @@ in JS, the next() method returns an assoc array {
 }
 In JS, Array.from() transforms a given iterable into an array. (list() does the same in Python and foo.to_a does it in ruby)
 
-#### Generators
+### Generators
 
 A generator is a form of iterator. Generators are created via a generator function (thus you control what the next() method returns), but otherwise behave like any other iterator.
 In JS, generators are indicated by a * after the function keyword.
@@ -13379,14 +12650,14 @@ yield|JS
 
 yield another generator (JS) yield*
 
-#### iterator methods
+### iterator methods
 
 someIter.⟮zip⟯() takes ⟮two iterators⟯ and returns ⟮a new iterator⟯ which will for each call to ⟮next()⟯ return a ⟮tuple⟯ with the values ⟮the other two would have returned⟯ with ⟮next()⟯
 In rust, methods (most of them higher-order functions) called on iterators are known  as adapters or consumers, depending on what they do.
 Iterator adapters take an iterator and return another iterator
 Iterator consumers take an iterator and return something else (thus consuming the iterator)
 
-### Strings
+## Strings
 
 A string type is generally a type for an arbitrary sequence of characters.
 Depending on the language, strings may be mutable or immutable.
@@ -13420,12 +12691,12 @@ Strings that stretch over multiple lines in source code but are actually folded 
 
 The type for css strings is ‹string›
 
-#### chars
+### chars
 
 The datatype storing a single character is generally called char.
 In rust, a char contains a single UTF-32 encoded unicode codepoint.
 
-#### String interpolation/String formatting
+### String interpolation/String formatting
 
 String interpolation is evaluating a string with placeholders and replacing them with their values
 String interpolation is a form of template processing (cf other cards)
@@ -13450,7 +12721,7 @@ rust defines its format syntax in std::fmt, which largely tracks python's str.fo
 rust allows its std::fmt formatting syntax in its format! and println!/eprintln! macros, with the difference being that the former returns a string and the latter prints.
 specifying a ? as the final element in a rust formatting syntax specifier makes it use the trait `Debug`, otherwise it will use the trait `Display`
 
-##### C style string formatting
+#### C style string formatting
 
 (C) format strings aka printf (print formatted) format strings are names for a specific type of string formatting syntax using % and originating from C.
 C format strings specify the format of a given argument with a format specifier
@@ -13485,7 +12756,7 @@ s|string
 %|percentage (python .format() only)
 b|binary (python .format() only)
 
-##### python-style string formatting
+#### python-style string formatting
 
 python's str.format() method takes a C format string inspired but somewhat different syntax.
 [[‹fill›]‹align›][‹sign›][#][0][‹width›][‹group›][.‹precision›][‹type›]
@@ -13512,13 +12783,13 @@ sign ::= +| |-
 
 
 
-#### String multiplication
+### String multiplication
 
 x n|Perl
 * n|Python (can also be used for arrays)|Ruby (can also be used for arrays)
 .repeat(n)|JS|Ruby
 
-#### String concatenation
+### String concatenation
 
 string concatenation is joining strings together into a single string.
 
@@ -13529,7 +12800,7 @@ string concatenation is joining strings together into a single string.
 .push()|Rust (for str + cahar)
 Adjacent string literals are automatically concatenated|Python|Ruby
 
-#### Regex matching
+### Regex matching
 
 JS has regex literals: /‹regex›/‹flags› (which creates a RegExp object)
 and a constructor: new RegExp("regex","flags"), often used if you need to construct the regex dynamically at runtime
@@ -13562,7 +12833,7 @@ What somestr.match(regexp) returns depend on whether the regex is global (g) or 
 If global, match() returns all matches, but no capturing groups. If not global, match() returns the same thing as RegExpObject.exec. matchAll() returns an iterator with individual things that are  the same thing as RegExpObject.exec returns.
 
 
-#### common string methods
+### common string methods
 
 Capitalizations
 
@@ -13603,18 +12874,18 @@ SCSS/Sass
 
 
 
-##### String replacement
+#### String replacement
 
 somestr.replace(foo, bar)|JS|Python
 
-##### Join to string
+#### Join to string
 
 separator.join(iterable)|Python
 somearray.join(separator)|JS|Ruby
 
 separator defaults to , for JS and to nothing for Ruby
 
-#### JS oddity: tag functions
+### JS oddity: tag functions
 
 Tag functions are functions prefixed to template literals (but not called)
 Tag functions recieve a first argument an array of all constituent string parts of a template literal, and all interpolated values as following arguments.
@@ -13622,7 +12893,7 @@ Whatever the tag function returns will be what the string evaluates to.
 Tag functions can return whatever.
 
 
-## Polymorphism
+# Polymorphism
 
 something is monomorphic if it works for one type
 something is polymorphic if it works for several different types
@@ -13631,20 +12902,20 @@ monomorphization is a compile-time process in which polymorphic code is transfor
 ad-hoc polymorphism is polymorphism where different implementations are selected based on the type of the argument(s)
 → callable unit overloading, operator overloading
 
-### dispatch
+## dispatch
 
 dispatch is choosing which method should be invoked in response to a method call.
 displatch is based on the type of the thing
 dispatch is only relevant if there are multiple implementations of a thing.
 
-#### static dispatch
+### static dispatch
 
 static dispatch is choosing an implementation of a polymorphic operation at compile time
 callable unit overloading and operator overloading are forms of static dispatch, since the implementation is chosen based on the declared type of the parameters
 
-##### Overloading
+#### Overloading
 
-###### callable unit
+##### callable unit
 
 Overloading of callable units is creating multiple callable units with different callable unit signatures.
 Languages I know that support overloading are C#, Java, TS.
@@ -13657,27 +12928,27 @@ In TS, things that can be overloaded anything that is callable: functions, calla
 
 Operator overloading is where different operators have different implementations based on their operands.
 
-#### dynamic dispatch
+### dynamic dispatch
 
 dynamic dispatch is choosing an implementation of a polymorphic operation at runtime.
 dynamic dispatch is accomplished by means of virtual methods/functions.
 both single dispatch and multiple dispatch are forms of dynamic dispatch.
 
-##### single ＆ multiple dispatch
+#### single ＆ multiple dispatch
 
 single dispatch is where only the type of one parameter (the reciever of the message = the thing it was called on, mostly) is used to choose the implementation
 
 multiple dispatch is where the type of multiple parameters (the reciever of the message = the thing it was called on as well as the method parameters) is used to choose the implementation
 Overloading would be multiple dispatch if it was performed at runtime, but it isn't, so it isn't.
 
-##### virtual method table
+#### virtual method table
 
 VMT = virtual method table
 virtual method table is also called (virtual) function/call/dispatch table
 virtual method/function/call table is sometimes abbreviated vftable or vtable.
 A vtable contains all relevant virtual functions.
 
-##### rust
+#### rust
 
 In rust, `dyn ‹trait-bound›` is the type of a trait object.
 A trait object is an opaque type of another type that implements a set of traits.
@@ -13689,12 +12960,12 @@ The reason a trait object may not have any gemeric type parameters is that these
 The reason a method of a trait used in a trait object may not return `Self` is that we don't known `Self` at compile-time, thus we can't reason about its size and can't guarantee safety.
 In rust, we can specify that we want dynamic dispatch where we chose an implementation of a trait at runtime by having a pointer (e.g. Box) to `dyn ‹trait-list›`
 
-### parametric polymorphism
+## parametric polymorphism
 
 Parametric polymorphism is polymorphism that only uses one implementation, instead taking a generic (that is perhaps subject to some contraints) and performing one's operatons based on that.
 A generic is a stand-in for a type that is not yet specified or unknown. 
 
-#### type parameters ＆ generics
+### type parameters ＆ generics
 
 A type parameter is a specifier of one or more types that a thing (callable unit, object, ...) is defined over.
 Type parameters go in angle brackets.
@@ -13704,7 +12975,7 @@ Generics are specified within type parameters.
 Names of generics are typically single characters.
 A generic of any type is typically indicated T
 
-##### binding generics
+#### binding generics
 
 Once the name of a generic is bound, any reference to that name refers to that generic.
 Two generics of different names are independent, even if they may be filled by the same concrete type at runtime.
@@ -13713,7 +12984,7 @@ E.g. impl‹T› SomeStruct‹T› is saying that you're implementing SomeStruct
 Binding ‹T› via the `impl` already allows one to do more interesting things.
 e.g. `impl‹T: Copy› SomeStruct‹T, T›` for a `SomeStruct‹T, U›` is saying that you're implementing this for all SomeStructs whose type parameters are of the same type which implements copy.
 
-#### constrainment
+### constrainment
 
 Many languages have a way to specify contraints a generic should satisfy.
 Rust specifies a set of traits as constraints for generics, these are called »trait bounds«.
@@ -13724,7 +12995,7 @@ where-clause-syntax ::= where {‹generic›: ‹trait-list›‹newline›}
 TS allows specifying constraints for generics via the `extends` keyword.
 The TS `extends` keyword in type parameter contexts takes a type specifier to specify the constraints of the generic.
 
-#### implementation ＆ monomorphization
+### implementation ＆ monomorphization
 
 Javas ArrayList, C# List and Rusts vec are dynamic arrays defined over a generic, and are thus parametrically polymorphic.
 C# List and rusts vec are monomorphosized for each type usedas a generic; Javas ArrayList instead only generates a single implementation for ArrayList‹Object› - therefore in Java all values in an ArrayList must be boxed.
@@ -13732,14 +13003,14 @@ In Rust, parametric polymorphism using generics is monomorphizised, so that Opti
 
 Interfaces/traits often enable parametric polymorphism.
 
-### subtyping
+## subtyping
 
-## operators
+# operators
 
 overloading
 In Ruby, all operators are actually just syntactic sugar for methods. that is, + 3 is .+(3), somearr[1] is somearr.[](1), !3 is 3.! etc.
 
-### precedence
+## precedence
 
 Operator precedence in programming mirrors the math concept of order of operations.
 Operator precedence / order of operations is in which order to apply operations.
@@ -13748,11 +13019,11 @@ Parentheses can modify the order of operations just as in math.
 The power operator has unclear order of operations for historical reasons (in other programming languages), so JS throws an error if you use it without parentheses where it would make a difference
 In liquid, the order of operatons is right to left, parentheses are forbidden.
 
-### relational opearators
+## relational opearators
 
 In computer science, a relational operator is an operator that tests or defines some kind of relation between two entities. These include numerical equality (e.g., 5 = 5) and inequalities (e.g., 4 ≥ 3).
 
-#### standard relational operators
+### standard relational operators
 
 ~=|not equals|lua
 !=|not equals|C#|Java|JS
@@ -13763,7 +13034,7 @@ In computer science, a relational operator is an operator that tests or defines 
 ‹|less than|most programming languages
 ‹=›|returns 1 if left arg is larger, -1 if right arg is larger, and 0 if both are equal|Perl|Ruby
 
-#### types of equality
+### types of equality
 
 For anything that is a data structure, there can be two kinds of equality (using Kotlin terminology)
 structural equality = equivalent content
@@ -13773,28 +13044,28 @@ comparison operators for non-scalars use...
 referential equality|JS, Java, C#
 structural equality|Ruby, Python, TS
 
-##### `is`
+#### `is`
 
 Python uses the `is` operator for referential equality
 
-#### strings
+### strings
 
 greater/smaller with strings is generally relative to their position in unicode, which for latin characters tracks ASCII and thus "Z" ‹ "a"
 
-#### in different languages
+### in different languages
 
-##### JS
+#### JS
 
 JS has versions of the equality operators with one extra =. The shorter ones coerce before comparisons. Specifically, any of the shorter ops containing ‹ or › coerce to string or numbers (including null, but not undefined). == coercion is more complicated, but will coerce null to undefined.
 
-##### test
+#### test
 
 since relational operators are handled by test in sh, they are actually all arguments to test.
 
 test uses the normal equality operators (e.g. !=, ›, etc.) for strings, but has a different set of operators for integer equality.
 test uses the single (!) = sign for string comparison, though bash has a non-POSIX extension that allows for the more standard ==
 
-###### integer equality
+##### integer equality
 
 -ne|is not equal to
 -lt|is less than
@@ -13804,7 +13075,7 @@ test uses the single (!) = sign for string comparison, though bash has a non-POS
 -eq|is equal to
 Perl uses sh-style comparison operator without the leading -
 
-###### fs equality/existence
+##### fs equality/existence
 
 test has a number of options/operators for file existence and type
 
@@ -13812,7 +13083,7 @@ test has a number of options/operators for file existence and type
 -d foo|foo exists and is a directory
 -r foo|allowed to read foo
 
-###### [[
+##### [[
 
 [[ is an extension of `test`\[ which allows for a syntax superset (mostly)
 specifically, [[ but not test/[ allow for ＆＆ and || for multiple conditions, () for grouping, pattern matching on the right hand side of =/== and the use of ~= for regex matching.
@@ -13821,19 +13092,19 @@ specifically, [[ but not test/[ allow for ＆＆ and || for multiple conditions,
 Within [[]], in contrast with test/[], there will be no word splitting or globbing.
 [[]] and most versions of test allow `!` to negate an entire expression
 
-#### comparison with self
+### comparison with self
 
 Comparing a thing with itself is always true, except for: 
 in JS, NaN
 
-#### interfaces
+### interfaces
 
 Things using the ruby mixin Comparable must define ‹=› operator, and then gain access to the other comparison operators, as well as between? and clamp
 
 is x between foo and bar?
 x.between?(foo, bar)|Ruby
 
-#### string relational operators used in a set of a language
+### string relational operators used in a set of a language
 
 e.g. CSS attribute selectors, youtube-dl 
 
@@ -13844,7 +13115,7 @@ $=|ends with value
 ~=|attr is a whitespace-separated list of words, one of which is exactly value.
 bar=|attr  is exactly value or begins with value immediately followed by a hyphen. It is often used for language subcode matches.
 
-### boolean operators
+## boolean operators
 
 logical and|and|python|liquid|lua|Ruby (lower precedence)
 logical and|＆＆|C#|Java|JS|Ruby (higher precedence)|(ba)sh
@@ -13856,7 +13127,7 @@ logical not|!|C#|Java|JS
 In ruby, between and/or and ＆＆/|| the former have lower precedence, and even have lower precedence than the equality operator.
 Double not can generally be used to get the truthiness/falsiness of a thing, even outside of a boolean context.
 
-#### short-circuiting
+### short-circuiting
 
 Short circuiting is more properly short-circuit evaluation.
 Short-circuit evaluation  an expression stopping evaluating⟮as soon as it's outcome is determined⟯
@@ -13870,7 +13141,7 @@ It is possible to create a kind of if statement using only short-circuiting oper
 
 ⟮??⟯ is like ⟮||⟯ but ⟮only returns its right-hand value on nullish values⟯
 
-### bitwise
+## bitwise
 
 Bitwise operations operate on the underlying binary value (regardless of type in the programming language).
 Most C-family languages support bitwise operations.
@@ -13884,7 +13155,7 @@ bitwise AND|＆
 
 when using the left shift operator, the newly created places will be filled by zero
 
-### math
+## math
 
 addition|+
 multiplication|*
@@ -13903,7 +13174,7 @@ The increment and decrement operators do not exist in python.
 The increment and decrement operators behave differently based on their position in relation to the number in some languages: 
 ++somevar or --somevar will crement first, and then evaluate, somevar++ or somevar-- will evaluate first, and then crement
 
-### comma
+## comma
 
 In the C and thus in JS, Perl, the comma operator (represented by the token ,) is a binary operator that evaluates its first operand and discards the result, and then evaluates the second operand and returns this value (and type). (this is distinct from the comma e.g. in parameter lists)
 
@@ -13911,7 +13182,7 @@ A trailing comma is a comma at the end of a list of arguments, array elements, e
 In most programming languages (all of them I know), trailing commas are ignored (do not produce an error or empty elements).
 In JS, trailing commas produced errors in some situations until recently (the newer ES versions such as 2017)
 
-### element in collection/substring in string?
+## element in collection/substring in string?
 
 stringOrColl contains elem|liquid
 elem in stringOrColl|Python|JS
@@ -13919,12 +13190,12 @@ stringOrColl.includes(elem, optionalSearchStartPos)
 
 `in` in JS works amusingly if used on arrays: it will look for integer keys, and not for values, so that it will return false for "foo" in ["foo"] but true for 0 in ["foo"] (this is because arrays are objects, and thus the integer keys are actually object keys)
 
-### remove element from collection
+## remove element from collection
 
 del|python
 delete|JS
 
-### Type of element
+## Type of element
 
 typeof foo|JS
 type(foo)|Python
@@ -13952,7 +13223,7 @@ Infinity|'number';
 
 To test whether sth is an array in JS, you need to use Array.isArray()
 
-### Length of strings, collections, etc.
+## Length of strings, collections, etc.
 
 foo.length|Java|JS|Ruby
 foo.Length|C#
@@ -13961,7 +13232,7 @@ len(foo)|Python
 
 length() for strings in perl, merely generating a scalar context is enough for arrays
 
-### Spread operator/Rest syntax
+## Spread operator/Rest syntax
 
 Both JS and Ruby have an operator that allows them to do similar things in relation to arguments and arrays.
 Ruby calls this operator the splat operator, while js calls it a rest operator in the context of callable unit parameters (not arguments), and spread syntax otherwise
@@ -13981,18 +13252,18 @@ Rust's struct update syntax has some similarities to JS associative array destru
 Rust's struct update syntax uses the oparator ..
 for including all values of a struct instance into the current struct instance, use struct update sytnax.
 
-### traits/interfaces/methods that implement math operators
+## traits/interfaces/methods that implement math operators
 
 Add|Rust
 
-## Errors
+# Errors
 
 Some languages distinguish between recoverable and unrecoverable errors.
 recoverable errors e.g. not finding a file, unrecoverable errors e.g. stack overflow
 Java and C# call recoverable errors exceptions and unrecoverable errors errors.
 It can make sense to catch recoverable errors, but it is generally impossible to catch unrecoverable errors
 
-### types
+## types
 
 Errors can on one level be divided into ⟮syntax⟯, ⟮static semantic,⟯ and ⟮logic errors⟯.
 
@@ -14004,9 +13275,9 @@ A logic error is an error where the program runs without problems, but produces 
 
 Based on when they occur, we separate compile-time and runtime errors
 
-### Error handling
+## Error handling
 
-#### Throwing errors
+### Throwing errors
 
 Generally take an expression as arg.
 
@@ -14020,7 +13291,7 @@ panic!()|Rust
 
 for rust, panicking is throwing an unrecoverable error
 
-#### Error handling control structures
+### Error handling control structures
 
 most commonly: try ‹block› catch (‹error-specifier›) ‹block› finally ‹block›
 In Ruby begin ‹block› rescue (‹error-specifier›) ‹block› ensure ‹block›
@@ -14028,7 +13299,7 @@ Rust is notable for not having any error handling of this kind.
 In general, having a try and either a catch or a finally block is necessary for the construct to be syntacitcally correct.
 In JS, the ‹error-specifier› for catch was necessary until ES2019, and has been optional since
 
-#### assert
+### assert
 
 Assertions are predicates that deliberatly crash the program if the predicate is false.
 Assertions are generally used when something should be logically impossible to be false, and thus aren't handled by error handling.
@@ -14037,7 +13308,7 @@ Rust implements assertions via macros.
 rusts ⟮assert_eq!⟯ macro tests wheter ⟮two expressions are equal⟯ (using the trait ⟮PartialEq⟯), and ⟮panics if they are not⟯
 rusts ⟮assert!⟯ macro tests whether ⟮something is true⟯, and ⟮panics if it is not⟯
 
-## Callable units
+# Callable units
 
 Callable unit is a cover term for anything that can be called, be that functions, methods, procedures...
 A call is a thing that executes a callable unit.
@@ -14055,14 +13326,14 @@ The body of the callablue unit contains the code to execute.
 In java, the callable unit signature also specifies parameter type, access modifier, and optionally staticness/finalness/abstractness.
 In JS, function keyword defined callable units generate their own this, while arrow functions do not.
 
-### Declaration
+## Declaration
 
 In most languages, functions can only be declared in statements, however languages that have functions as first-class citizens often also allow declaration via expressions.
 function expressions are generally assigned to variables for later usage.
 JS calls function declarations that are statements function declarations, and function declarations that are expressions function expressions.
 since classes in JS are merely syntactic sugar for functions, there are also class declarations and class expressions
 
-### signatures
+## signatures
 
 Languages with manifest typing typically require the returned type to be declared in callable unit signatures.
 void is commonly used for no return type in languages that require a return type to be specified.
@@ -14071,7 +13342,7 @@ return type is indicated:
 : ‹type› at the end of signature|TS
 ‹access-modifier› [static|abstract] ‹type› ‹callable-unit-name›|C#|Java
 
-### returning
+## returning
 
 Across most languages, the keyword to return whatever value is the `return` keyword.
 The datatype of the thing that is returned from a callable unit is known  ⟮The return type⟯
@@ -14080,7 +13351,7 @@ In general, using the return keyword without a value returns the languages null 
 Multiple values: separated by comma|lua
 In Rust, using the return keyword is frowned upon, as blocks return their final expression anyway.
 
-#### returning and side effects
+### returning and side effects
 
 A side effect is a modification of the state of something that is outside of the local environment the operation is performed in.
 A callable unit must return something or have side effects, else it does nothing.
@@ -14089,13 +13360,13 @@ A function is a callable unit that returns a value.
 A pure function is idempotent and has no side effects.
 
 
-### Closures
+## Closures
 
 A ⟮closure⟯ is the combination of ⟮a callable unit⟯ and ⟮the lexical environment⟯ (= ⟮any variables that were in scope⟯) within which that function was declared.
 Closures are created when the functions are created.
 All callable units automatically create closures in JS, lua.
 
-#### rust
+### rust
 
 In rust, only closures create closures.
 In rust, there are three traits that indicate closures: Fn, FnMut and FnOnce.
@@ -14108,36 +13379,36 @@ Fn|forms closure of immutable references
 FnMut|forms closure of mutable references
 FnOnce|forms closure of owned values
 
-### Anonymous, first-class, higher-order functions and callbacks
+## Anonymous, first-class, higher-order functions and callbacks
 
-#### distinguising
+### distinguising
 
 A callable unit not bound to an identifier is an anonymous function/callable unit.
 First-class functions/callable units are callable units that are first-class citizens.
 A higher order function is a function that takes a first-class function as an argument, or returns a function. All other functions are first-order functions.
 callbacks are first-class functions passed to other callable units to be executed at some other point
 
-#### relationships
+### relationships
 
 anonymous functios are almost always first-class functions, and are thus often passed as arguments, etc.
 However, often non-anonymous functions can also be first-class functions
 callback functions are typically also anonymous
 
-#### callbacks
+### callbacks
 
 The deep nesting of callbacks that result in unreadability is known as callback hell or the pyramid of doom
 Error-first callback look like  (err, value) =› ...
 Node generally takes error-first callbacks.
 
-#### first-class functions
+### first-class functions
 
-##### which functions are first-class
+#### which functions are first-class
 
 In JS, lua, python, rust all functions are first-class. 
 In Ruby, only functions created with a special syntax are first-class.
 While in rust only closures form closures, all functions are in fact first class. Even things written with the closure syntax actually become `fn` type functions if they don't actually close over anything. (tested)
 
-##### types of first-class functions in statically typed languages
+#### types of first-class functions in statically typed languages
 
 In statically typed languages, first-class functions must have a type that describes them.
 \(‹ts-param-list›\) =› ‹return-type›|TS
@@ -14145,19 +13416,19 @@ In statically typed languages, first-class functions must have a type that descr
 
 ‹ts-param-list› ::= [‹param-name›: ‹param-type›]{, ‹param-name›: ‹param-type›}
 
-#### anonymous functions
+### anonymous functions
 
 In JS, anonymous functions have no special syntax, you merely leave out the identifier.
 
-#### anonymous first-class functions
+### anonymous first-class functions
 
-##### name
+#### name
 
 In ruby, anonymous first-class functions are called blocks.
 In rust, anonymous first-class functions are called closures.
 In JS, there is a special type of first-class anonymous function called an arrow function.
 
-##### syntax
+#### syntax
 
 In ruby and rust, parameters to blocks/closures are surrounded by |...|
 In ruby and rust, blocks/closures are surrounded by {}
@@ -14165,7 +13436,7 @@ In ruby and rust, blocks/closures are surrounded by {}
 In ruby, blocks may also be surrounded by do ... end
 In rust, one-line closures may have their curly braces left out.
 
-##### ruby
+#### ruby
 
 in ruby, to call a passed block, use the yield keyword. 
 Anything passed to the yield keyword will be available as arguments to the block
@@ -14173,13 +13444,13 @@ In ruby, the ＆ operator converts a block to a proc object.
 Calling #call on a proc object is similar to yielding a block
 instead of a block with the syntax {|elem| elem.method} you can also pass ＆:method for the same effect
 
-##### JS
+#### JS
 
 Arrow functions function similarly to normal js functions, but have a shorter syntax: (‹params›) =› ‹block›.
 Instead of a block, you may also specify a single expression, whose value will be returned. 
 The parentheses are optional if there is a single param
 
-#### IIFE
+### IIFE
 
 An immediately invoked function expression (IIFE) uses function scoping to create a fake block scope.
 IIFEs were used for the same reasons as block scope is used generally, and preventing hoisting.
@@ -14190,7 +13461,7 @@ With the introduction ES6 let and const, IIFEs have become mostly irrelevant.
 
 
 
-#### common higher-order functions
+### common higher-order functions
 
 There are many built-in higher order functions, generally as methods on data structure types.
 since higher-order functions must take first-class functions as arguments, in languages that only have a special type of anonymous function as a first-class function, a higher-order function must take these.
@@ -14207,7 +13478,7 @@ JS|value, index wholeArray
 
 In JS, any higher-order function can take a thisArg, which is then the final argument. This argument will be what the passed fucntion recieves as this.
 
-##### map
+#### map
 
 In many programming languages, map is the name of a higher-order function that applies a given function to each element of a collection, e.g. a list, returning a list of results in the same order. 
 thing.map(func)|Java|JS|Ruby|Rust
@@ -14221,13 +13492,13 @@ iterators, not arrays|Rust
 streams (whatever that is, but not the same as an iterator)|Java
 globally|Perl|Python
 
-###### flatmap
+##### flatmap
 
 A flatmap function is a map function which may return an array and which flattens all elements of the array into the resulting thing.
 effectively, flatmap is merely map with flat called on the array returned.
 Most languages that have map function have a flatmap (flatMap) version of it, except for Python,. C# calls it SelectMany. Perls ordinary map is actually a flatmap, so really perl doesn't have a map.
 
-##### sort
+#### sort
 
 Sort is a higher-order function that takes a function which itself takes two arguments. Depending on the language, return values are handled differently.
 JS function must return value smaller 0 if the first argument is to be first, larger 0 if the second argument is to be first, and 0 if it should not reorder.
@@ -14241,12 +13512,12 @@ foo.sort()|Python (in-place!)
 foo.sort(may be callback or nothing)|Ruby
 
 
-##### filter
+#### filter
 
 Filter in a narrow sense is a higher-order function that processes a data structure to produce a new data structure containing exactly those elements which the passed function returns true.
 filter()|JS|Rust
 
-##### reduce
+#### reduce
 
 The reduce function/method takes a function known as the reducer function
 The reducer function recieves the return value of the last execution of the reducer function, and the current element of the collection. 
@@ -14256,7 +13527,7 @@ Many languages allow specifying a 'previous result' element for the first time t
 js has the variant reduceRight that starts from the end
 reduce()|JS|Ruby|Python
 
-##### some/every/
+#### some/every/
 
 some is a higher order-function that takes a function and returns true if the passed function returns true even once.
 every is a higher order-function that takes a function and returns true if the passed function returns true for all elements.
@@ -14264,7 +13535,7 @@ JS
 
 python has the functions any(iterable) and all(iterable), that merely return the result of calling bool() on each item, not taking any higher-order function
 
-##### find
+#### find
 
 find is a higher-order function that takes a function and returns the first element for which the passed function returns true. findIndex instead returns the index.
 find()|JS|Ruby
@@ -14273,9 +13544,9 @@ find_index()|Ruby
 
 
 
-### Arguments ＆ Parameters
+## Arguments ＆ Parameters
 
-#### arguments vs parameters
+### arguments vs parameters
 
 How are parameters and arguments are often used synonymously, although they are more properly not synonyms
 for a callable unit,  ⟮parameters⟯ are the values you specify the function will be passed, most commonly in its signature.
@@ -14285,19 +13556,19 @@ function foo(a, b){...
 foo(12, "whistles") 
 a, b are parameters, 12, "whistles" are arguments
 
-#### syntax
+### syntax
 
-##### both
+#### both
 
 most languages separate both the parameteres and arguments with commas.
 sh separates arguments with space
 
-##### parameters
+#### parameters
 
 most languages require the possible parameters defined in a callable unit definition to be wrapped in parantheses.
 sh doesn't allow specifying parameters at all
 
-##### arguments
+#### arguments
 
 most languages require the arguments to a function call to be wrapped in parentheses.
 sh does not wrap arguments at all
@@ -14307,78 +13578,78 @@ Exceptions:
 always optional|ruby|perl
 never|sh
 
-#### operations
+### operations
 
-##### refer to all passed arguments as an array
+#### refer to all passed arguments as an array
 
 $@|(ba)sh
 arguments|JS (not arrow functions)
 
-##### amount of arguments passed
+#### amount of arguments passed
 
 \$#|(ba)sh
 
-#### Positional and named
+### Positional and named
 
-##### definition
+#### definition
 
 A positional argument is one where the language knows which parameter to assign it to based on its position in the argument list.
 A named argument is one where the language knows which parameter to assign it to because it directly refers to the name of the parameter.
 While arguments may be positional or named, the parameters themselves nearly always have names. However, in sh parameters do not have names, instead you refer to them positionally via $0...$9. 
 
-##### in languages
+#### in languages
 
 positional parameters exist in pretty much all languages, except GraphQL
 named parameters exist in GraphQL, Python, SCSS/Sass @mixin, @function
 
-##### positional
+#### positional
 
-###### operations
+##### operations
 
-####### move
+###### move
 
 Move remove the first positional argument and shift all arguments one to the left
 shift|Perl|sh
 
-##### named
+#### named
 
 Named arguments usually use normal assignment syntax
 
-#### Default parameters
+### Default parameters
 
-##### definition
+#### definition
 
 A default parameter is one which will take on a default value if no argument for it is specified in the call.
 
-##### syntax
+#### syntax
 
 the general syntax is `paramname = defaultval` (within the parameter list)
 
-##### in languages
+#### in languages
 
 GraphQL, Python, JS, SCSS/Sass @mixin, @function have default parameters TODO Check other languages
 
-##### interaction with null
+#### interaction with null
 
 In general, default parameters will also take on the default value if the argument passed is the language's null type. 
 In JS, the default parameter will take on the default value if undefined is passed as an argument, but not if null is passed.
 
-#### Optional
+### Optional
 
-##### general situation
+#### general situation
 
 In most languages, callable units must be recieve the exact amount of arguments specified as parameters, unless things like the splat operator or default parameters are used.
 
-##### JS ＆ TS
+#### JS ＆ TS
 
 JS does not require the same number of arguments as parameters, it will assign unpassed parameters `undefined`, and put all arguments into the array-like `arguments`, allowing for retrieval of extra arguments.
 TS moves JS in line with other programming languages, requiring arguments for parameters by default, and only accepting the not-passing of arguments if the parameter is optional.
 
-##### marking as optional
+#### marking as optional
 
 in TS, optional parameters and optional fields are marked with a ? after the name, which changes their type to be whatever | undefined
 
-#### evaluation strategy
+### evaluation strategy
 
 An evaluation strategy is a set of rules for evaluating expressions.
 Evaluation is equivalent to reduction in math.
@@ -14405,13 +13676,13 @@ Normal order is a rough synonym to lazy evaluation
 Call-by name implemens normal order by substituting the arguments of a function into the function body.
 Call-by-need is a memoized version of call-by-name.
 
-###### extracurricular binding
+##### extracurricular binding
 
 JS's bind() method has the potential to change the idea that arguments passed to a function call are bound to parameters.
 JS's bind() is called on a function.
 JS's bind() method binds the first argument that it is passed to the this of the function, and any following arguments to the parameters of the function it was called on.
 
-###### applicative order
+##### applicative order
 
 call/pass-by-value/-reference/sharing are all forms of strict evaluation.
 
@@ -14429,9 +13700,9 @@ sharing|lua|JS|Java
 
 moving seems like copying b/c you can't mess with it after, but in fact ofc only the reference changes hand.
 
-###### non-strict binding
+##### non-strict binding
 
-### Asynchronous callable units
+## Asynchronous callable units
 
 Asynchrony, in computer programming, refers to the occurrence of events independent of the main program flow and ways to deal with such events.  
 
@@ -14495,40 +13766,40 @@ util.promisif()y takes a function following with a error-first callback as the l
 
 Promisifying is making someting return a promise which wouldn't normally.
 
-#### asynchronous techniques
+### asynchronous techniques
 
 hooks and event handlers are asynchronous programming techniqyes.
 
-##### hooks
+#### hooks
 
 A hook is an action that is defined on a thing and is called when the thing is in a certain state, e.g. before a function call.
 
-##### Events
+#### Events
 
 Technically, an event listener watches for an event, at which point it calls the event handler to deal with it.
 In casual use, event listener and event handler are synonyms.
 
-### misc
+## misc
 
 Memoization is the form of caching that caches the return value of a deterministic callable unit
 
-#### recursion
+### recursion
 
 recursion ≈ self-inclusion
 
-## Records
+# Records
 
 A record is a collection of fields, possibly of different data types, typically in a fixed number and sequence. 
 A type that defines a record is a record type.
 Most programming languages allow creation of instances of record types.
 
-### Principles
+## Principles
 
 Encapsulation refers to grouping together related things somehow, e.g. within records.
 In OOP, encapsulation is often used to mean bundling the data and the methods that operate on it in one construct
 Information hiding is hiding the internals of a thing from the  outside.
 
-### Class and instance entities
+## Class and instance entities
 
 A class x is a x operates on/is defined on a class rather than an instance.
 An instance x operates on/is defined on an instance of a record.
@@ -14545,33 +13816,33 @@ In rust, a class method/associated function is called by using the :: operator
 static|Java|C#|JS
 does not take self as argument|Rust
 
-### self-reference
+## self-reference
 
 self/this are keywords to reference the current record/other thing
 
-#### self/this in different languages
+### self/this in different languages
 
 self|Python|Ruby|Rust
 this|C#|Java|JS
 
-#### typeof self
+### typeof self
 
 In rust, `Self` is the type of the current record.
 In rust, `self` has the type `Self` (or `＆Self` if borrowed)
 
-#### self/this binding
+### self/this binding
 
 Many languages bind self/this automatically in methods, all others typically bind self/this explicitly by taking self/this as their first arguments.
 In JS, any function binds this, even those that are not methods. Outside of a function, this refers to the global object.
 to refer to the this representing the global object even within places that bind this to something else, use `globalThis`.
 
-##### self and methods/assocated functions
+#### self and methods/assocated functions
 
 In certain languages (Rust, Python), methods must take self as the first argument, else they are class methods/associated functions.
 In rust, taking `self` takes ownership and thus invalidates previous references, ergo one generally wants to take ＆self or ＆mut self.
 In rust, one uses :: instead of . to call associated functions
 
-### Methods
+## Methods
 
 A method is a callable unit that is a member of a record.
 To make an object B do something, an object A must send a message.
@@ -14580,7 +13851,7 @@ Ergo, in OOP objects generally use message passing to communicate.
 In JS, methods are specified without using `function`, merely name and param list.
 There is an older version of specifying methods in JS that is ‹name›: ‹anonymous-function›, this only works for object literals.
 
-#### Getters and setters
+### Getters and setters
 
 Also called accessors and getters.
 A getter returns a field of a record.
@@ -14598,12 +13869,12 @@ only within a class
 
 You can only interact w/ ruby instance variables via getters and setters, trying to use it without those will give you a NoMethodError
 
-### passive data structure
+## passive data structure
 
 AKA plain old data structure (PDS)
 A passive data structure is a data structure, especially a record with fields but no other object-oriented features.
 
-### Structs
+## Structs
 
 Struct is not an incredibly well-defined term, but is generally a record with the possibility for methods, but not the whole inheritance etc. stuff of classes.
 In rust, struct declarations use the keyword struct.
@@ -14612,7 +13883,7 @@ struct User { username: String, ...}
 Tuple structs are either 'tuples with a name which can be instantiated' or 'structs with anonymous but ordered fields'.
 if a variable and a struct field have the same name, you can write `foo,` instead of `foo: foo,`
 
-### impl
+## impl
 
 Rust allows implementing methods or associated functions for structs, tagged unions (enums) and traits via the impl keyword.
 when used for implementing things on structs/enums/traits, the construct used is called an impl block
@@ -14624,7 +13895,7 @@ When we implement something, we can only rely on other things of the thing we're
 we may `impl` a Trait without any `for` clause to provide a default implementation.
 `impl ‹trait-list›` does not start an impl block and instead refers to a type that implements trait-list, with the advantage that this syntax can be used outside of a type parameter.
 
-### fields 
+## fields 
 
 In JS, fields themselves have properties (such as enumerable).
 In JS, enumerable fields are those that will be enumerated over in a `for-in` loop.
@@ -14634,7 +13905,7 @@ properties that are not inherited (that is, they are there not because of the pr
 ‹object›.hasOwnProperty(‹name›) 
 The ⟮Object⟯.⟮assign⟯⟮(foo, bar)⟯ method ⟮copies⟯ all ⟮enumerable⟯ ⟮own⟯ ⟮properties⟯ from ⟮one or more source objects⟯ to ⟮a target object.⟯ 
 
-### Classes ＆ objects 
+## Classes ＆ objects 
 
 An object in object-oriented language is essentially a record that contains procedures specialized to handle that record; and object types are an elaboration of record types.
 
@@ -14647,7 +13918,7 @@ method in lua function object:method(...)
 in languages with type annotation, the type annotation of an object is generally its class (e.g. MyClass myObject = new myObject();)
 
 
-#### Methods ruby
+### Methods ruby
 
 In ruby, methods that will return a boolean are marked by a ?
 In ruby, methods that do something destructive are marked by a !
@@ -14658,7 +13929,7 @@ In ⟮documentation⟯, these methods are referenced...|
 
 
 
-#### pure OO
+### pure OO
 
 A pure object oriented language is one where everything is treated as an object.
 There is much discussion on what it means to be 'treated as an object' for pure OO languages, but most commonly, it is at least:
@@ -14671,7 +13942,7 @@ It is a matter of debate which languages are sufficiently pure OO to qualify:
 Ruby, Python, and JS allow methods to be called on pretty much anything, even primitives, since all primitves are boxed.
 Only Ruby (of the languages I know) is quite pure enough to be called a pure object oriented language, I think
 
-#### Inheritance
+### Inheritance
 
 Superclass aka base class
 subclass aka derived class
@@ -14682,7 +13953,7 @@ In C#/Java, making a class final disallows a subclass from inheriting from it.
 In C#/Java, making a method/static function final disallows a subclass from overriding it it.
 Most languages only support single inheritance, some languages (among those I know Perl and Python) also allow multiple inheritance
 
-#### abstract ＆ static classes 
+### abstract ＆ static classes 
 
 Abstract classes are generally declared with the abstract keyword. 
 Within abstract classes, members are also declared with the abstract keyword.
@@ -14691,7 +13962,7 @@ Abstract classes/members are designed mainly to be inherited from.
 Since abstract classes/members cannot be instantiated, they must be overriden to be used.
 JS does not support abstact things, however you can simulate it by using the @abstract/@virtual JSDoc tag.
 
-#### Constructors/object creation
+### Constructors/object creation
 
 Creating a new object via a constructor is done by the new operator in most languages, but not in Ruby or Python.
 TS calles things that can be used to create new things `newable`.
@@ -14709,13 +13980,13 @@ A factory function is any callable unit which is not a class/constructor that re
 Ergo, factory functions create things without using the new keyword.
 in Rust, many things are created by a factory function `new()`, which is an associated function of the struct.
 
-#### immutable objects
+### immutable objects
 
 an immutable object is an object which cannot be changed once it's been created.
 in JS, Object.freeze(obj) makes the object an immutable object.
 In TS, Readonly ‹T› constructs a version of T whose properties are all set to readonly, making it a immutable object.
 
-#### Access modifier
+### Access modifier
 
 Access modifiers (or access specifiers) are keywords in object-oriented languages that set the accessibility of classes, methods, and other members. 
 
@@ -14738,7 +14009,7 @@ A ⟮private item⟯ can be accessed by ⟮its immediate parent module⟯ and �
 A public item can be accessed as a private item can, and additionally also through a chain through its ancestors.
 In rust, each field of a struct has its own access modifier, which must be set to public if desired.
 
-#### Interfaces
+### Interfaces
 
 mixins are pretty similar concepts.
 In OOP an interface is a set of methods that anything that implements that interface must also implement.
@@ -14752,7 +14023,7 @@ In interfaces in Java/C#, you most commonly merely specify method stubs. (in the
 Method stubs are method signatures without the implementation, in Java/C#, they are followed by a ;.
 In most languages, a record may implement multiple interfaces/traits.
 
-##### Traits
+#### Traits
 
 Traits in Rust are broadly similar to intefaces in other programming languages.
 Traits in Rust can be implemented for types you did not define.
@@ -14776,15 +14047,15 @@ A subtrait S of trait T means that any type implementing S is also guaranteed to
 
 syntax for declaring a trait with a supertrait: `trait ‹subtrait› : ‹trait-bound›`
 
-#### OOP
+### OOP
 
 C#, Java
 
-#### is X an object of Y
+### is X an object of Y
 
 someobj instanceof class|JS
 
-#### Duplication/Replication
+### Duplication/Replication
 
 A deep copy is a copy of a data structure where things referenced in the original data structure are also copied.
 A shallow copy is a copy of a data structure where references in the original data structure are merely copied, and still refer to the same thing.
@@ -14798,7 +14069,7 @@ deep copy
 copy (module copy).deepcopy(foo)|Python
 foo.clone()|Rust
 
-#### toString()
+### toString()
 
 Most languages with objects have a tostring method to convert these to strings for debugging purposes.
 It can often be useful to overwrite the default tostring implementation for more useful custom debugging.
@@ -14814,7 +14085,7 @@ The difference between Ruby's to_s() and to_str() is that to_s() is implemented 
 
 to_string() is part of the ToString trait.
 
-#### Boxing
+### Boxing
 
 A box is a minimal object wrapper around another type.
 The types that are most commonly boxed are primitives, sometimes boxing is restricted to this narrower definition.
@@ -14828,13 +14099,13 @@ Since boxed data will be stored on the heap, it is not necessary for it to have 
 
 Rust's construct for boxing is Box‹T›.
 
-## Pragmas
+# Pragmas
 
 In computer programming, a directive or pragma (from "pragmatic") is a language construct that specifies how a compiler (or other translator) should process its input
 Perls pragmas have the syntax use ‹name›;
 Perls pragma use warnings; causes the perl program to display warnings in certain circumstances.
 
-### Strict mode
+## Strict mode
 
 Both perl and JS have a strict mode pragma.
 Strict mode pragmas cause programs to fail in certain cases.
@@ -14846,13 +14117,13 @@ In JS, strict mode applies to the whole file if it's the first statement if the 
 Strict mode in JS:
 - reserves certain keywords (for future proofing)
 
-### shebangs
+## shebangs
 
 An interpreter directive is a type of pragma that specifies which interpreter to use for a thing.
 On a unix-like OS, if a script starts with the shebang, followed by a path, this is an interpreter directive, and specifies with which binary to execute the script.
 The shebang consists of the characters #!.
 
-### attributes
+## attributes
 
 Attributes are pragmas (mostly) for rust.
 attribute begins|applies to
@@ -14868,7 +14139,7 @@ attributes have four forms for taking arguments (or none)
 rust-attribute ::= #[!]\[‹rust-attribute-name›‹rust-attribute-arguments›\]
 rust-attribute-arguments ::= ø|(= "‹value›")|(\(‹value›{, ‹value›}\))|\(‹key› = "‹value›"{, ‹key› = "‹value›"}\)
 
-## modules
+# modules
 
 The main purpose of modules is encapsulation.
 A module is as self-contained set of code.
@@ -14885,13 +14156,13 @@ In some languages, when you're importin multiple members and want to bring the m
 Import/export anything uses * in most languages
 in JS, you can only import/export within modules.
 
-### prelude
+## prelude
 
 Most languages have a number of things that are automatically imported. Rust (and haskell) calls this prelude.
 
-### module systems
+## module systems
 
-#### Rust
+### Rust
 
 Rust allows nesting of modules in a module tree.
 In rust, the root node of the module tree is `crate`, sometimes called the crate root.
@@ -14906,21 +14177,21 @@ A package can contain 0-1 library crates and 0-∞ binary crates.
 the crate root for binary crates is called main.rs.
 the crate root for library crates is called lib.rs
 
-#### JS
+### JS
 
-##### CommonJS
+#### CommonJS
 
 CommonJS is ⟮a module ecosystem⟯ mainly used by node
 
 let/var/const ‹name› = require(‹path›)
 
-##### ES Modules
+#### ES Modules
 
 To contrast with module systems such as CommonJS, the official implementation of modules in JS are known as ES Modules.
 In JS, ES Module import/export statements can only be used within a module.
 Modules are declared in script tags by adding type="module".
 
-### importing
+## importing
 
 Import statements tell whatever's executing the program to act as if the specified entities were part of the file, potentially renaming them.
 In most languages, you can only import things that were first exported.
@@ -14930,40 +14201,40 @@ Import statements have the general syntax
 import ‹members› [as ‹name›] from ‹path›
 In many systems module/index.‹suffix›  can be imported as just module
 
-#### Runtime importing
+### Runtime importing
 
 JS supports an import() function that allows dynamic runtime imports.
 import() returns a promise.
 
-#### in various languages
+### in various languages
 
-##### JS
+#### JS
 
 in JS you can leave out `‹members› from` if you only want the side effects
 
-##### Python
+#### Python
 
 Python instead has the order from ‹path› import ‹members› [as ‹name›]
 
-##### CSS
+#### CSS
 
 In vanilla CSS, you can import other stylesheets via the non-nested at rule @import.
 @import syntax: @import ‹path› (‹media-query›|‹feature-query›);
 For CSS, the ‹path› may be an ‹url› or a ‹string›
 
-##### Rust
+#### Rust
 
 Rust uses `use` instead of import.
 
 
 
-#### SCSS/Sass 
+### SCSS/Sass 
 
 Three keywords: @use, @import, @forward (@include is not an import statement!)
 Syntax alwas keyword ‹path› [as ‹name›]
 @forward foo doesn't allow the current stylesheet bar to access the things in foo, but ⟮allows anything @using bar to access them.⟯
 
-#### latex
+### latex
 
 ⟮\input⟯ and ⟮\include⟯ both ⟮import latex code into the current file⟯. 
 ⟮\input, \include⟯ are useful if ⟮you want to split up you latex into multiple files⟯. 
@@ -14971,7 +14242,7 @@ both ⟮\input⟯ and ⟮\include⟯ take ⟮a path of the file to import⟯.
 ⟮\include⟯ but not ⟮\import⟯ ⟮adds a \clearpage when importing⟯, and thus ⟮can't be used in the preamble⟯ 
 using ⟮\include⟯ allows you to use ⟮\includeonly⟯, which takes ⟮an argument⟯ of ⟮a list⟯ and will ⟮only import the \includes listed within⟯, cutting down on ⟮compile time⟯. 
 
-### exporting
+## exporting
 
 Exporting is selecting entities for potential import.
 In most languages, exporting is required so they can then be imported.
@@ -14988,14 +14259,14 @@ In rust, re-exporting works by making a `use` itself public.
 
 In commonJS, exports are declared as properties of the module.exports object.
 
-#### default exports
+### default exports
 
-## Memory 
+# Memory 
 
 Memory allocation is setting aside memory for a purpose, e.g. to store entities of a programming language.
 Memory deallocation is releasing previously allocated memory.
 
-### The stack and the heap
+## The stack and the heap
 
 The call stack is often only called the stack.
 The call stack implements the stack ADT
@@ -15020,13 +14291,13 @@ The heap is managed much less strictly than the stack.
 In general, there is one stack per thread and one heap per process (instance of a program)
 
 
-### stack trace
+## stack trace
 
 A stack trace is a report of the active stack frames during the execution of a program.
 Stack traces are often automatically printed in the case of unrecoverable errors
 to show a stack trace on error in rust, set the env variable `RUST_BACKTRACE=1`
 
-### static and dynamic as size
+## static and dynamic as size
 
 static types/statically sized types (!= static variables) have a size that can be known at compile time.
 dynamic types/dynamically sized types have a size that cannot be known at compile time. 
@@ -15041,7 +14312,7 @@ In rust, the most common dynamically sized types are trait objects and slices.
 Pointers to slices are fat pointers because they also store a length of the slice.
 trait objects are fat pointers because they also store a virtual method table.
 
-### static, automatic and dynamic variables
+## static, automatic and dynamic variables
 
 The lifetime of a variable is the time where it is in a valid state, which generally coincides with when it has memory.
 The lifetime of a value is the time where it occupies a certain region of memory.
@@ -15053,7 +14324,7 @@ A data segment is a part of the object file (file of object code = compiler outp
 The read-only data segment is the part of the data segment (or an extra data segment) that contains read-only static variables (ergo static consonants)
 the read-only data segment may be called rodata.
 
-#### automatic and dynamic variables
+### automatic and dynamic variables
 
 The terms automatic and dynamic variables/memory allocation are mainly used in C-style languages.
 
@@ -15069,7 +14340,7 @@ Def: Automatic/static variables use automatic/static memory allocation.
 Use-after-free is a vulnerability where memory is used after it has been deallocated.
 Use-after-free can generally only occur to dynamically allocated memory.
 
-#### lexical and nonlexical lifetimes
+### lexical and nonlexical lifetimes
 
 In lexical lifetimes, the lifetime of a value is until the end of its lexical scope
 In non-lexical lifetimes, the lifetime of a value is until it is last used within its lexical scope.
@@ -15084,7 +14355,7 @@ ergo, lifetimes cannot be elided if the function returns a reference, the functi
 Importantly, lifetime annotations beside 'static do not change lifetimes, merely indicate how lifetimes of references relate (specifically, "treat all these lifetimes as the lifetime of the shortest one")
 Rust indicated static variables with a 'static lifetime annotation
 
-### memory management
+## memory management
 
 Memory management is managing the memory of an application.
 One of the main jobs of memory management is memory allocation and deallocation.
@@ -15097,28 +14368,28 @@ Most higher-level programming languages have no manual memory management at all.
 A destructor is a method which is envoked just before the memory of a thing is released.
 
 
-#### types of data
+### types of data
 
 Garbage data is data that cannot be used anymore (e.g. reference out of scope)
 The opposite of garbage data is live data.
 Outside of programming, garbage data is sometimes used for data that is unusable in some way (e.g. corrputed, garbled)
 
-#### manual memory management
+### manual memory management
 
 In C, dynamic memory allocation is done by manual memory allocation.
 malloc() allocates the specified number of bytes
 calloc() allocates the specified number of bytes, and sets them to 0
 free() releases teh specified block of memory back to the system.
 
-#### automatic memory management
+### automatic memory management
 
 The three most common types of automatic memory management are garbage collection, automatic reference counting, and RAII.
 
-##### garbage collection
+#### garbage collection
 
 Garbage collection is a form of automatic memory management in which a garbage collector deallocates garbage memory.
 
-##### reference counting
+#### reference counting
 
 (manual) reference counting is a form of manual memory management
 automatic reference counting is a form of automatic memory management
@@ -15133,30 +14404,30 @@ In rust, reference counting is implemented by Rc‹T›.
 Rc‹T› allows multiple owners, where each call to clone() increases the reference count.
 In rusts implementation of reference counting, dropping Rc‹T› decreases the reference count.
 
-##### RAII
+#### RAII
 
 RAII = resource acquisition is initialization
 In RAII, memory for a value is allocated by its constructor and deallocated by its destructor.
 In rust, the destructor for RAII is drop() of the Drop Trait.
 In rust, when a variable goes out of scope, the value it owns is dropped.
 
-## libraries
+# libraries
 
 
-### web frameworks
+## web frameworks
 
 A framework is a set of libraries where the framework itself has control by default, and only exposes an API.
 A framework: Don't call us, we'll call you.
 A web framework is a framework for use in web development.
 
-#### commonalities
+### commonalities
 
-##### templating
+#### templating
 
 ⟮a template engine/processor⟯ is something that ⟮combines⟯ ⟮a template⟯ and ⟮data⟯ ⟮into some kind of result⟯ 
 ⟮templatees⟯ are written in ⟮template languages⟯ 
 
-####### Liquid
+###### Liquid
 
 
 ⟮liquid⟯ is ⟮a template language⟯) 
@@ -15239,9 +14510,9 @@ There are ⟮two different namespaces⟯ for ⟮variables⟯ in ⟮liquid⟯: on
 {% capture my_variable %}あっ！いやだ！{{page.author}}によってバリアブルに入れられてしまいました。！{% endcapture %}
 ``` 
 
-#### front-end frameworks
+### front-end frameworks
 
-##### types of web pages and their generation
+#### types of web pages and their generation
 
 Fundamentally, a ⟮web page⟯ may either be ⟮static⟯ or ⟮dynamic⟯. 
 A ⟮static⟯ web page is ⟮delivered to the web browser⟯ ⟮exactly as stored on the web server⟯. 
@@ -15263,7 +14534,7 @@ The difference between ⟮static generation⟯ and ⟮server-side rendering⟯ i
 
 ⟮Static-site generator⟯ by ⟮github⟯: ⟮Jekyll⟯ 
 
-##### different products
+#### different products
 
 Express is the most popular server-side web framework for node.
 Angular is the successor to AngularJS
@@ -15273,9 +14544,9 @@ Angular and Vue.js are the two most popular front-end frameworks that are clearl
 React is often called a framework and would be the most popular front-end framework if it was, but is more like a library.
 Svelte works like a front-end framework, but actually compiles in advance.
 
-##### react 
+#### react 
 
-###### unsorted
+##### unsorted
 
 {{c4::setState}} may take a value, or a {{c1::callback}} which {{c2::recieves the previous value}} and {{c3::returns the next value}}
 
@@ -15597,32 +14868,32 @@ What does the content between &lt;FancyBorder&gt; tags do?
 }
 </code></pre> <span class="divider">-&gt;</span> {{c1::becomes accessible as props.children}}
 
-###### core react
+##### core react
 
-####### using JSX
+###### using JSX
 
 JSX is syntactic sugar for React.createElement(/*args*/)
 Using JSX with React is optional.
 
-####### components and elements
+###### components and elements
 
 React components accept arbitrary inputs as `prop`s and return react elements.
 Elements are either components or native DOM tags.
 Typcially, the ⟮top-most⟯ react component is called ⟮App⟯
 React components are UpperCamelCase'd
 
-######## attributes of components
+####### attributes of components
 
-######### props
+######## props
 
 all attributes that a react component recieves are gathered together and passed to the render logic as `props`
 
-######### state
+######## state
 
 state is by default encapsulated in a component.
 Passing state down is passing state to a child via props.
 
-######## implementation
+####### implementation
 
 Components can be implemented via functions + hooks or classes.
 function components = components implemented with a function
@@ -15642,7 +14913,7 @@ table:action|function|class
 referring to props|props (is parameter)|this.props
 referring to state||this.state
 
-####### the tree
+###### the tree
 
 React maintains a component tree called »the virtual DOM«, which is an in-memory JS representation.
 Because React maintains the virtual DOM as an in-memory JS representation, creating react elements is far cheaper than browser DOM elements.
@@ -15651,7 +14922,7 @@ Eventhough react's component tree is called 'the virtual DOM', it can be outputt
 ReactDOM.render(‹root-element›, ‹DOM-container›[, ‹callback›]) 
 calling ReactDOM.render() is most commoly done to render the initial the virtual DOM into the output DOM once, where subsequent changes are handled by the render() method of components.
 
-####### changes
+###### changes
 
 The render logic of a given component is called when state or props change, initating the render phase.
 Calling ReactDOM.render() also initiates the render phase for everything.
@@ -15664,7 +14935,7 @@ In an performance-unlimited word, react would just completely output the virtual
 Since performance is limited, react needds to figure out what has changed between the new and old virtual DOM trees and how to change the DOM based on that as little as possible, which is called »reconciliation«.
 Since complete tree diffs are O(n^{3}), reconciliation uses certain heuristics.
 
-######## component lifecycle
+####### component lifecycle
 
 In react, a component may change in three lifecycles, mounting, updating and unmounting.
 Mounting is outputting the virtual DOM representation of a component to its output representation (i.e. creating the output representation).
@@ -15678,7 +14949,7 @@ mounting|componentDidMount()
 updating|componentDidUpdate()
 unmounting|componentWillUnmount()
 
-######## reconciliation
+####### reconciliation
 
 If react hits an element in its tree that has a different type (e.g. from ‹Article› to ‹Comment›), it will destroy (unmount) and rebuild (mount) the whole subtree.
 when a DOM subtree is destroyed, all components of that subtree recieve `componentWillUnmount()`
@@ -15702,19 +14973,19 @@ To prevent a reorder of DOM nodes destroying the subtree, react offers the `key`
 `key`s should be stable over time, e.g. IDs or hashes of some description.
 `key`s should not be abstracted into subcomponents, as react cannot use them for element identity assertions form there.
 
-####### events
+###### events
 
 React wraps browser events in `SyntheticEvent`s, which generally have the same interface but prevent browser inconsistencies.
 In react, you can't return false to prevent the browser default for an event, you actually have to call preventDefault
 
-###### react native
+##### react native
 
 ⟮React Native⟯ is a ⟮framework⟯ for building native applications using ⟮React⟯ and ⟮the platforms native capabilities⟯
 The most common targets for react native are android and iOS, but you can also target desktop OSs, qt, TVs and even the web.
 You can use react native for your ⟮whole app⟯, but you can also ⟮integrate it into an existing project⟯
 React Native implements a polyfill for WebSockets, initialized via importing React. Other modules using WebSockets therefore need to be imported after React.
 
-####### components
+###### components
 
 Native Components: React Components transformed into native views
 Core components: Native Components that are part of React Natives standard library
@@ -15739,7 +15010,7 @@ All the elements and views of a ScrollView are rendered, even if they are not cu
 The ‹ScrollView› Core Component can scroll in y-direction and, if `horizontal` is specified, in x-direction.
 On iOS a ScrollView with a single item can be used to allow the user to zoom content. Set up the maximumZoomScale and minimumZoomScale props for that.
 
-####### switching based on platform
+###### switching based on platform
 
 Platform.version returns the os version (e.g. 10.1) on iOS and the API level on android
 Platform.OS returns the current os
@@ -15748,7 +15019,7 @@ to target React Native files specifically to android or to iOS, use the file ext
 Platform.select takes an object with keys "ios", "android", "native", and "default", and runs the code contained in the relevant value
 As far as I can see, for Platform.select "native" will trigger on native targets, while "default" will trigger on all targets, including web
 
-#### server
+### server
 
 Web servers provide web pages.
 CMS|Content Management System
@@ -15756,20 +15027,20 @@ SSR|Server-side Rendering
 ⟮Routing⟯ is relating ⟮paths⟯ to ⟮what should be shown⟯
 while ⟮react⟯ is by default a ⟮client-side-rendered⟯ thing, using ⟮next.js⟯, ⟮gatsbyjs⟯ or ⟮other custom tools⟯, you can make it ⟮SSR⟯
 
-##### JS
+#### JS
 
 Node.js was created in 2009.
 Node.js uses V8 as its JS engine/interpreter.
 ⟮Deno⟯ is a ⟮perhaps-sucessor⟯ to ⟮node⟯ by ⟮the same creator⟯.
 ⟮Deno⟯ is wrtten in ⟮rust⟯, provides native ⟮TS⟯ support, uses ⟮ES⟯ modules, and ⟮URLs⟯ for the location of dependencies
 
-##### Python
+#### Python
 
 Flask and Django are the most popular web frameworks for Python.
 
-#### both (Static generation / hybrid between CSR and SSR)
+### both (Static generation / hybrid between CSR and SSR)
 
-##### jekyll
+#### jekyll
 
 Jekyll|Ruby
 ⟮Jekyll⟯ uses ⟮liquid⟯ as its ⟮template language⟯ 
@@ -15817,13 +15088,13 @@ Besides ⟮creating a directory⟯, ⟮collections⟯ must also be ⟮referenced
 ⟮collections⟯ are ⟮arrays⟯ available via ⟮the `site.collectionname` propert⟯y 
 
 
-###### themes
+##### themes
 
 Jekyll ⟮themes⟯ are often ⟮gems⟯. 
 By default, if you use a ⟮gem theme⟯, ⟮some of the directories of your site⟯ are ⟮in the gem itself⟯. 
 If you want to ⟮edit things⟯ ⟮in gem themes⟯, you need to ⟮copy then out of the gem itself⟯, and ⟮reference the gem's dependencies in your gemfile/config⟯. 
 
-###### plugins
+##### plugins
 
 ⟮Jekyll plugins⟯ are specified within ⟮the _config.yml⟯ and within ⟮the gemfile⟯. 
 In the ⟮gemfile⟯, ⟮jekyll_plugin⟯s are specified within ⟮the `group :jekyll_plugins`⟯ 
@@ -15836,15 +15107,15 @@ Jekyll Plugins2§
 ⟮jekyll-paginate⟯|⟮allow pagination⟯
 
 
-###### config
+##### config
 ⟮defaults⟯|⟮default front matter⟯
 ⟮paginate: n⟯|⟮paginate with n pages⟯
 
 
 
-##### next.js
+#### next.js
 
-###### unsorted
+##### unsorted
 
 {{c1::next/head}} contains a component for {{c2::appending things to the &lt;head&gt;}}.
 
@@ -15972,7 +15243,7 @@ export default About</code></pre> <span class="divider">-&gt;</span> {{c1::a pag
 
 Each page is defined by a react component.
 
-###### globals
+##### globals
 
 The global component acts as a globabl template for all pages.
 The global component is stored in `pages/_app.js`
@@ -15981,11 +15252,11 @@ Overriding the global component is often doe to create global components, styles
 Stylesheets are imported by JS's `import` (as in webpack, which next.js uses in the background).
 Stylesheets may only be imported from the global component.
 
-###### layouts
+##### layouts
 
 Defining layouts for pages allows react to easily perform reconcilliation between the pages.
 
-###### ways to serve content
+##### ways to serve content
 
 Next.js allows you to mix and match static generation, SSR and CSR for each page.
 Next.js distinguishes between static generation, SSR and CSR by how the components implementing the page will recieve props.
@@ -15994,9 +15265,9 @@ Next.js's data fetching methods are all async.
 To use the data fetching methods, you need to `export` them
 
 
-### IO
+## IO
 
-#### shell environment
+### shell environment
 
 Modules which contain most of the environment stuff, though they may contain other stuff
 
@@ -16023,13 +15294,13 @@ child_processes|run a system command
 ruby
 no module|stdin, stdout, stderr, argv, env, printing, run a system command 
 
-##### stdin/stout
+#### stdin/stout
 
 ‹relevant-module-if-any›.stdin/stdout/stderr generally gets a streamlike io object referring to stdin/stdout/stderr
 
 std::io::stdin/stdout/stderr|Rust (returns a handle of std::io::Stdin/Stdout/Stderr)
 
-##### environment variables ＆ command-line arguments
+#### environment variables ＆ command-line arguments
 
 argv = argument vector
 Command-line arguments
@@ -16047,11 +15318,11 @@ std::env::vars()|Rust
 A signle environment variable
 std::env::var(‹name›)|Rust
 
-###### parsing
+##### parsing
 
 for any kind of involved CLI argument parsing in Rust, use `clap`.
 
-##### print to ＆ read from console
+#### print to ＆ read from console
 
 Print functions in different languages
 the JS console library works both in the browser and in node.js
@@ -16091,45 +15362,45 @@ besides taking more options, printf has exit codes other than 0 (echo always exi
 printf options
 -v foo|save the output in a variable foo
 
-###### fancy printing
+##### fancy printing
 
 Command line output coloring: chalk (node)
 CLI progress bar: progress (node)
 
-###### fancy reading
+##### fancy reading
 
 inquirer.js   A collection of common interactive command line user interfaces. (node)
 
-##### run commands in system shell
+#### run commands in system shell
 
 system()|ruby
 ‹system-module›.system()|python
 
-##### exit status
+#### exit status
 
 process.exitCode|node
 
-#### file system
+### file system
 
-##### current working directory
+#### current working directory
 
 process.cwd()|node
 __dirname|Node
 
-##### paths
+#### paths
 
 module for working with paths
 path|node
 
 ‹path-module›.resolve({‹items›})|glue passed things together into an absolute path (glues the path of the working directory onto the beginning if necessary)
 
-#### files ＆ streams
+### files ＆ streams
 
-##### relevant modues
+#### relevant modues
 
 std::io, std::fs|Rust
 
-##### non-stream based file interaction
+#### non-stream based file interaction
 
 Many programming languages feature utility functions to read an entire file to a string/write an entire file to a string, without having to use streamlike I/O.
 The functions to instantly write a file typicallly take at least a path and the contents plus named arguments or an assoc arr for options.
@@ -16139,7 +15410,7 @@ the node async instant read/write file function also takes an error callback, as
 readFile(Sync)/writeFile(Sync)|Node
 std::fs::read_to_string|Rust
 
-##### interaction
+#### interaction
 
 Once aquired, files and other streams such as stdin, stdout, stderr are often generalized in their functionality to a common interface, often called a stream, though sometimes called a file object.
 Streams may be distinguished by if they support input, output, or both, or if they represent text, binary or something else (but not necessarily the case).
@@ -16148,7 +15419,7 @@ Streams as the programming-centric I/O concept get their name and basic idea fro
 Sometimes, instead of conceptualizing inputs as streams, programming languages instead conceptualize the way of consuming input streams, and thus call their interface for consuming streams `Reader` or similar.
 For languages that have separate readers, getting the reader typically locks the stream to the given reader.
 
-###### implementation of streamslike IO in different languages
+##### implementation of streamslike IO in different languages
 
 Pythons streamlike I/O class/interface is `File`, even for things we wouldn't typically call files.
 Ruby's streamlike I/O class/interface is `IO`.
@@ -16160,7 +15431,7 @@ For some things, Rust only returns things implementing `Read` andor `BufRead` af
 For files, rust's struct implementing `Read` is `File`.
 JS returns the actual reader `ReadableStreamDefaultReader` after calling `.getReader()` on the stream, which locks the stream.
 
-####### streamlike IO that can be read
+###### streamlike IO that can be read
 
 read(‹integer›)|return next ‹integer› bytes/characters
 read()|return whole file
@@ -16169,17 +15440,17 @@ readline()|return next line
 Ruby doesn't support `readline()` for its streamlike object, but does support `readlines`, which returns all lines as an array.
 Node doesn't support `readline()` on `Stream`, however it offers a whole library `Readline` to consume `Readable` `Stream`s line by line.
 
-####### streamlike IO that can be written
+###### streamlike IO that can be written
 
 write(‹content›)|write the content to the string
 
-##### aquisiton and holding
+#### aquisiton and holding
 
-###### not quite dispose
+##### not quite dispose
 
 createReadStream/createWriteStream|node
 
-###### dispose
+##### dispose
 
 The dispose pattern is a pattern for resource management.
 In the dispose pattern, a resource is held by an object.
@@ -16188,12 +15459,12 @@ In the dispose pattern, a resource is used by calling methods on it.
 In the dispose pattern, a resource is released by calling a method on the object.
 The dispose pattern is common for interacting with files, in which case the resource is a file handle.
 
-####### aquisition
+###### aquisition
 
 to aquire files for the dispose pattern, most languages use a open() function, taking the path and returning a streamlike io thing.
 Most languages have a positional or named parameter for `open()` allowing the specification of the encoding.
 
-######## mode letters
+####### mode letters
 
 Established by *nix/C, many functions to open/create new files/file handles across languages take a certain set of letters with certain meanings
 
@@ -16202,11 +15473,11 @@ w|create/clobber (eqiv to › in shell)
 x|try create and fail if exists
 a|create/append (equiv to ›› in shell)
 
-####### releasing
+###### releasing
 
 ‹resource›.close()|release the file handle
 
-####### language constructs
+###### language constructs
 
 some languages have language constructs for the dispose pattern: 
 with|Python
@@ -16218,21 +15489,21 @@ In python, the interface for the dispose pattern is a context manager object, wh
 python-construct-for-dispose-pattern ::= with ‹context-manager› as ‹variable-name›:
 c#-construct-for-dispose-pattern ::= using(‹type› ‹variable-name› = ‹thing-implementing-IDisposable›){...
 
-### fancy IO
+## fancy IO
 
-#### visual
+### visual
 
-##### UI
+#### UI
 
 widget tookit   library for creating UIs
 gtk   GNU widget toolkit
 qt (read cute)   cross-platform widget toolkit
 
-##### Data visualization
+#### Data visualization
 
 d3 is a JS library for mainipulating/visualizing data
 
-#### web 
+### web 
 
 table:span=2;web IO library
 requests|python|requests only
@@ -16241,7 +15512,7 @@ ureq|Rust|requests only
 none|native js|requests only
 axios|node ＆ native js|requests (promise-based)
 
-##### requests
+#### requests
 
 table:span=2;requests
 ‹request-library›.get()|GET request|python, node
@@ -16281,12 +15552,12 @@ If the response object is going to be sent, as e.g. in node, it supports additio
 ‹response-object›.end()|finish the message
 
 
-###### XHR
+##### XHR
 
 XHR|XMLHttpRequest
 Ajax|Asynchronous JavaScript And XML
 
-###### fetch
+##### fetch
 
 the Fetch API features fetch() as its main method 
 The Fetch API is the new, modern method to fetch data via the interfet after a site has loaded.
@@ -16297,7 +15568,7 @@ Response
 
 Node doesn't have the Fetch API natively, but you can install it via a package, and Next.js polyfills it automatically
 
-##### sending responses
+#### sending responses
 
 to send a response to requests, you generally first need to create a server
 
@@ -16306,20 +15577,20 @@ table:span=2;method to create new servers
 
 createServer takes a callback to then respondd to requests
 
-### scientific computing
+## scientific computing
 
 pandas|python
 
-### performance monitoring
+## performance monitoring
 
 time|measure elapsed time in executing a command|sh
 console.time(), console.timeLog() ＆ console.timeEnd()|measure elapsed time in running code.
 
-### dates
+## dates
 
 most languages have a date object (or multiple different ones) that allows convenient manipulation of datetimes
 
-#### js
+### js
 
 In js, ⟮Unix time⟯ is almost always interacted with in ⟮milliseconds⟯, 
 as opposed seconds, which is more standard
@@ -16327,7 +15598,7 @@ the `⟮Date.parse()⟯` method takes ⟮a date in a few common formats⟯ and o
 `⟮new Date()⟯` takes ⟮Unix time milliseconds⟯ and returns ⟮a `Date`⟯
 `⟮someDate.toISOString()⟯ ` returns the datetime ⟮as ISO 8601⟯
 
-#### rust
+### rust
 
 In rust, the most featureful library to use to interact with dates is chrono.
 chrono has `Date` and `DateTime` to represents dates and datetimes, which both take a type parameter of the `TimeZone`.
@@ -16344,33 +15615,33 @@ for chrono `Duration`s there are a bunch of constructors for different amounts o
 For rust, if you only need simple duration handling, chrono might be overkill, and the things in `std::time` might be more appropriate.
 Weekdays in chrono are implemented by the enum chrono::Weekday and the variants( ::Mon,  ::Tue,...)
 
-### internationalization
+## internationalization
 
 table|library/object|language
 `Intl`|JS
 
-#### Intl
+### Intl
 
 The `Intl` object contains a bunch of constructors for creating internationalized versions of different types of things (dates, numbers, plurals, lists).
 Most `Intl` constructors take at least a locale or array of locales as well as an options object.
 If a list of locales is specified, it is interpreted as a priority hierarchy.
 
-##### locale specification
+#### locale specification
 
 Using `Intl`, locales are specified according to BCP 47.
 Locales for `Collator`, `NumberFormat` or `DateTimeFormat` may include additional specification in BCP extension format, however these same options can also be set in the options object.
 
-##### objects
+#### objects
 
 Any object created by the various constructors on `Intl` besides `Intl.Locale` feature a `resolvedOptions()` method which returns the computed options based on the extension part of the BCP locale specifier and the options object.
 Many Intl-constructor's options objects take a key `style` which takes `narrow`, `short` and `long`.
 
-###### format
+##### format
 
 All the Intl objects that end `Format` (e.g. `DateTimeFormat`, `NumberFormat`, ...) have a `format` method and a  `formatToParts` method.
 `DateTimeFormat` and `NumberFormat` also have a range version of the `format` and formatToParts` methods.
 
-####### parts
+###### parts
 
 `WhateverFormat.‹whatever›()` returns a string, while `WhateverFormat.‹whatever›ToParts()` returns an array of the parts this would format to.
 the array returned by `WhateverFormat.‹whatever›ToParts()` consists of objects with keys `type` and `value`
@@ -16392,26 +15663,26 @@ new Intl.NumberFormat('de-DE', {
 ]
 ```
 
-####### to range
+###### to range
 
 `WhateverFormat.format[ToParts]()` takes one argument and returns a simple return value
 `WhateverFormat.formatRange[ToParts]()` takes two arguments and returns a range of whatevers (e.g. separated by a hyphen)
 
-###### collator
+##### collator
 
 A `Intl.Collator` is there to allow comparison and thus string ordering on a language-sensitive basis.
 `Collator.compare` uses the same interface as the callback `Array.sort`.
 
-###### locale
+##### locale
 
 `Intl.Locale` grants an easy interface to return the parts of the BCP string that defined the locale, as well as some other information about how that locale does things.
 
-###### datetimeformat
+##### datetimeformat
 
 An `Intl.DateTimeFormat` has four methods to format specific dates.
 the methods of `DateTimeFormat` take (a) `Date`(s) and return strings.
 
-###### displaynames
+##### displaynames
 
 `Intl.DisplayNames` is for the translation of the names of certain things (countries, currencies, languages, ...) into the names they have in the specific locale.
 the options object for `DisplayNames` includes the keys (besides the global keys for Intl)`type`, `languageDisplay`, and `fallback`.
@@ -16425,29 +15696,29 @@ new Intl.DisplayNames(['ja'], { type: 'region', style: "long" }).of("US"); // �
 new Intl.DisplayNames(['de'], { type: 'currency', style: "long" }).of("USD") // US-Dollar
 ```
 
-###### listformat
+##### listformat
 
 `Intl.ListFormat` is for creating readable lists of arrays
 `type` for  the `Intl.ListFormat()` constructor takes a value `conjunction`, `disjunction` or `unit`.
 
-###### numberformat
+##### numberformat
 
 `Intl.NumberFormat` is for formatting numbers.
 The `NumberFormat` constructor options object takes about a bajillion options specifying things like notation, sign, sigfigs, units, currencies, separators, rounding etc. in excruciating detail.
 The `format` methods of `NumberFormat` take numbers and return strings.
 
-###### relativetimeformat
+##### relativetimeformat
 
 `Intl.RelativeTimeFormat` allows formatting of relative time (i.e. tomorrow, in 27 minutes)
 the `format` methods take two arguments, a number value and a `unit`, which is something like year, mont, week, day...
 
-###### segmenter
+##### segmenter
 
 `Intl.Segmenter` is a locale-sensitive segmenter (instead of something like `split()`) 
 The `Segmenter` constructor options object takes `granularity`, which can take the values `grapheme`, `word`, or `sentence`.
 A `Segmenter` is applied by calling `segment` with the string to be segmented.
 
-### Standard library
+## Standard library
 
 A software solution that has everything that it needs to run out of the box is said to be batteries included.
 A programming language that has a large standard library is said to be batteries included.
@@ -16467,27 +15738,27 @@ help(foo)|Python
 Show an output popup
 window.alert("mesg")
 
-#### Modules/Objects/Namespaces
+### Modules/Objects/Namespaces
 
 Filesystem handling
 fs|node|Rust
 
-#### Query for input
+### Query for input
 
 Generally, show a message, have a text input field, return the inputted text.
 
 input(mesg)|Python
 window.prompt(mesg, default)
 
-### other libraries
+## other libraries
 
-#### utility libraries
+### utility libraries
 
 An utility library is a library that adds a bunch of syntactic sugar methods for doing things.
 in JS, there is the tradition of importing the main utility library as `_`.
 As of 2021 the main js utility is lodash, before that it was underscore.
 
-#### presentations
+### presentations
 
 complexity|write in|name|converts to
 fancy|js|reveal.js
@@ -16495,9 +15766,9 @@ simple|md|remarkjs
 simple|own markdown syntax|pandoc|5 html-based formats incl. reveal.js, latex beamer, ms powerpoint, pdf
 
 
-## programming language categorization ＆ history
+# programming language categorization ＆ history
 
-### names
+## names
 
 Name|Prononciation
 ⟮C#⟯|⟮C sharp⟯
@@ -16507,11 +15778,11 @@ thing|slang
 ⟮Rust users⟯|⟮rustaceans⟯
 
 
-### Programming paradigms
+## Programming paradigms
 
 Functional programming languages: {Haskell}
 
-### Programming languages I don't know
+## Programming languages I don't know
 
 COBOL is a programming language introduced in 1959 with an englisy-like syntax that is as of 2021 mainly used on ⟮legacy mainframe computers⟯
 C was created in 1972.
@@ -16520,9 +15791,9 @@ tcl is a programming language where everything is a command.
 tcl has a well-known widgeting toolkit known as tk.
 wish is a tcl interpreter including its widgeting toolkit tk.
 
-### programming language relationships
+## programming language relationships
 
-#### versions over time
+### versions over time
 
 Python ⟮2⟯ and ⟮3⟯ have ⟮some syntactic differences.⟯ 
 ES2015|ES6
@@ -16530,9 +15801,9 @@ The rust development cycle has the three release channels ⟮Nightly⟯, ⟮Beta
 Therefore, ⟮s10:12;⟮what is beta now⟯ will be ⟮stable⟯ in ⟮a maximum of 6 weeks⟯⟯, and ⟮s7:9;⟮what is nightly now⟯ will be ⟮stable⟯ in ⟮at most 12 weeks⟯.⟯ 
 ⟮Breaking changes (such as reserving new features⟯) can only happen on ⟮the highest rust versioning level⟯, which are ⟮editions⟯. ⟮sb;these are released ⟮about every three years⟯, with the ones in existence as of writing being ⟮2015, 2018, and 2021⟯⟯ 
 
-#### dialects, influence, etc.
+### dialects, influence, etc.
 
-##### ECMA
+#### ECMA
 
 JS = Javascript
 ES = ECMAScript
@@ -16542,18 +15813,18 @@ However, this distincition is often not made, and JavaScript and ECMAScript are 
 CoffeeScript is similar to and compiles down to JavaScript, but has more syntactic sugar/cleaner syntax.
 TypeScript is a superset of javascript.
 
-### Things programming languages do especially well
+## Things programming languages do especially well
 
 performance|rust
 
-### language governance
+## language governance
 
 After being dropped by mozilla, the rust foundation has taken over the governance of Rust (as of 2021)
 The rust foundation is made up of major industry players like microsoft, google, huawei, mozilla.
 
 # CompSci
 
-## abstraction
+# abstraction
 
 abstraction is hiding implementation details in favor of a clear, semantic and elegant interface.
 A high-level programming language is a programming language with high levels of abstraction.
@@ -16562,11 +15833,11 @@ Often, abstraction has runtime overhead/costs.
 Zero-cost abstractions are abstractions that have no runtime, only compile-time overhead.
 Rust touts that it has many zero-cost abstractions.
 
-## concurrency
+# concurrency
 
 Concurrency is executing multiple things at the same time.
 
-### multithreading
+## multithreading
 
 A thread is the smallest sequence of instructions that can be independently managed by a scheduler.
 Threads can be divided into kernel and green/virtual/user threads.
@@ -16577,12 +15848,12 @@ N:1 Threading   all threads of the program map onto one kernel thread
 M:N Threading   some amount of threads of the program corresponds to some amount of threads of the os/kernel 
 1:1 Threading   1 thread of the program corresponds to 1 thread of the os/kernel
 
-#### thread pools
+### thread pools
 
 A thread pool is a group of pre-instantiated, idle threads which stand ready to be given work. These are preferred over instantiating new threads for each task when there is a large number of short tasks to be done rather than a small number of long ones. This prevents having to incur the overhead of creating a thread a large number of times.
 A thread pool typically processes a queue of tasks waiting for processing.
 
-#### workers
+### workers
 
 Web Workers are threadlike things in JS.
 Web Workers come in two flavors, dedicated workers and shared workers.
@@ -16596,50 +15867,50 @@ For Web Workers, messages always send a copy of the data.
 To handle events in Web Workers, use the error event.
 To stop a Web Worker, call the terminate() method on it.
 
-#### thread-safety
+### thread-safety
 
 Thread-safe code is code that will work even if many Threads are executing it simultaneously. 
 
-### concurrency control
+## concurrency control
 
 concurrency control ensures that correct results for concurrent operations are generated.
 Mutual exclusion is the requirement in concurrency control that no thing may access the critical section while another thing is already accessing the critical section.
 lock = mutex
 A lock or mutex is a thing that enforces mutual exclusion.
 
-### classic problems
+## classic problems
 
-#### race condition
+### race condition
 
 A race condition is the condition of a system where the behavior of a system depends on the sequence/timing of uncontrollable events.
 A race condition is often a flaw that may cause bugs.
 
-#### deadlock
+### deadlock
 
 flex-container:✫1280px-Process_deadlock.svg.png✫✫220px-Gridlock.svg.png✫
 A ⟮deadlock⟯ is a situation where ⟮each member of  a group⟯ is ⟮waiting on another member to do something⟯, and therefore ⟮the system is stuck⟯
 ⟮Gridlock⟯ is a specific type of ⟮deadlock⟯ that occurs ⟮in a street network⟯
 
-## metaprogramming
+# metaprogramming
 
 metapgrogramming is programming that operates on other programs
 An eval is a keyword/function/which executes a passed string as if it had been an expression in the language.
 Using eval with data from an untrusted source is a huge security risk.
 eval is a function in bash, JS, Perl, Python, Ruby. a similar function load is availabe in lua
 
-### reflexion
+## reflexion
 
 reflective programming is metaprogramming where the program operates on itself
 reflective programming is sometimes shortened to reflexion.
 
-### macros
+## macros
 
 a macro is something that maps a input to a replacement output.
 Rust supports macros as its main form of metaprogramming.
 Rust macros end in an !.
 
 
-## Programming language implementation
+# Programming language implementation
 
 A programming language implementation is a system for executing computer programs written in a given programming language (s). 
 There are two general approaches to programming language implementation: interpretation and compilation
@@ -16651,7 +15922,7 @@ TS compiles to JS via the compiler, interfaced with the cli tsc.
 $Something that happens during execution   runtime $something
 $Something that happens during compiling   compile-time $something
 
-### Types
+## Types
 
 A compiler translates one programming language into another in one step before execution.
 Most commonly, a compiler translates a programming language into machine code/assembler.
@@ -16660,26 +15931,26 @@ JIT = Just in time (compilation)
 frequently when using JIT as a first step the code is compiled to bytecode
 when using JIT, the code(/bytecode) is initially executed by an interpreter, but there is a monitor/profiler that constantly analyizes the code being executed and identifies parts of the code where the speedup gained from compilation or recompilation would outweigh the overhead of compiling that code, and then compiles this on the fly.
 
-#### Transpiling
+### Transpiling
 
 Source-to-source translator/compiler    trans(com)piler
 A transpiler compiles one (programming) language into another (programming) language, though the target language is generally not assemly.
 A preprocessor most typically takes some input and transforms it into some output, often for further use of compilers.
 While preprocessors generally don't transform the language, sometimes transpilers are called preprocessors, e.g. in the case of sass.
 
-#### compilers
+### compilers
 
 Object code is the code that the compiler produces, generally machine code.
 The object file is the file containing object code.
 
 
-### Steps involved
+## Steps involved
 
 1. lexical analiysis/tokenization/lexing
 2. sytax analysis = parsing
 3. semantic analysis
 
-#### lexical analysis
+### lexical analysis
 
 lexical analiysis = tokenization = lexing
 Terminology around tokenization/lexical analysis is not always consistent.
@@ -16693,18 +15964,18 @@ The analogue of token type in linguistics might be word class/syntactic category
 Compilers/interpeters store all the identifiers/symbols and info about them in the symbol table.
 In the context of compiling/interpreting, identifier/name is a synonym for symbol.
 
-#### syntax analysis
+### syntax analysis
 
-#### semantic analysis
+### semantic analysis
 
-#### compiler optimizations
+### compiler optimizations
 
 A compiler optmization is a feature of a compiler that tries to minimize or maximize some attributes of an executable computer program.
 Optimization levels are compiler options specifying how much compiler optimizations to apply.
 In the GCC C compiler and in Rust, there are four optimization levels, 0-3.
 In rust, optimization levels are set via `opt-level'.
 
-##### dead code
+#### dead code
 
 Dead code is code which is never or not usefully used.
 Unreachable code is dead code which is dead because there is no control flow path that would lead to it.
@@ -16715,14 +15986,14 @@ compilers and linters will typically warn about unused variables.
 unused variables may be a code smell in that they are mistakenly not used.
 in rust, to turn off warnings about unused variables for a certain variable, prefix it with a _.
 
-##### call sites
+#### call sites
 
 A call site is the place where a callable unit is called.
 Inlining is a compiler optimization that replaces a function call site with the body of the called function.
 
-### interfaces for implementation
+## interfaces for implementation
 
-#### Language CLI
+### Language CLI
 
 most languages have a CLI tool to interface with them, esp. with implementations
 
@@ -16745,7 +16016,7 @@ tsc|ts
 by default, TS will ⟮compile⟯ even ⟮if there are compiler errors⟯, since it assumes ⟮you might have a good reason⟯, use --noEmitOnError to disable this.
 by default, TS compiles down to ⟮ES3⟯, but you can change that with the ⟮--target⟯ flag
 
-##### REPL
+#### REPL
 
 REPL is short for read-eval-print loop
 ⟮REPLs⟯ are also called ⟮interactive toplevel⟯ or ⟮language shell⟯
@@ -16761,36 +16032,36 @@ Python calls being in the repl interactive mode
 the value of the last expression
 _|Python
 
-#### Shebangs
+### Shebangs
 
 env (/usr/bin/env) can be passed a comand, in which case it will populate the environment variables (including PATH) and then run command with this environment. 
 Using env in the shebang is to get the relevant executable on the path
 so in general, you can specify the language of a script by doing 
 #!/usr/bin/env language-command
 
-### specific languages
+## specific languages
 
-#### Python
+### Python
 
 CPython is the most common and reference implementation for Python.
 CPython implicitly compiles Python to bytecode, and then runs the bytecode via an interpeter.
 Python bytecode files produced by CPython are .pyc files.
 
-#### JS
+### JS
 
 JavaScript is run by a JavaScript engine (e.g. V8, SpiderMonkey), which may differ by browser.chromium|v8
 firefox|spidermonkey
 d8 is the developer shell for v8
 
-### document start/end indicators
+## document start/end indicators
 
 --- the file ... |YAML (but optional, merely allow multiple documents per file)
 
-## algorithms
+# algorithms
 
 ⟮An algorithm⟯ is a ⟮finite⟯ ⟮sequence⟯ (in the math sense) of ⟮steps⟯ that ⟮precisely defines an operation⟯. 
 
-### pseudocode
+## pseudocode
 
 ⟮pseudocode⟯ is ⟮a plain-language description⟯ of ⟮an algorithm⟯. 
 ⟮Pseudocode⟯ generally ⟮uses (structural) conventions of⟯ ⟮programming languages⟯, but not ⟮specific syntax⟯. 
@@ -16807,17 +16078,17 @@ When a button is pressed:
       Release the memory we used to remember the floor number
 ```
 
-### properties
+## properties
 
-#### determinism
+### determinism
 
 a deterministic algorithim/callable unit will, given a particular input ⟮always produce the same output⟯
 
-### for
+## for
 
-#### search
+### search
 
-##### binary
+#### binary
 
 
 flex-container:✫sm_1280px-Binary_Search_Depiction.svg.png✫
@@ -16830,11 +16101,11 @@ flex-container:✫sm_1280px-Binary_Search_Depiction.svg.png✫
 ⟮binary search⟯ has a ⟮worst-case time complexity⟯ of ⟮O(log n⟯) 
 ⟮Binary⟯ search can only be done on something that is ⟮sorted⟯. 
 
-#### sorting
+### sorting
 
 A sorting algorithm is an algorithm that sorts a linear collection.
 
-##### bubble
+#### bubble
 
 
 flex-container:✫sm_Bubble-sort-example-300px.gif✫
@@ -16844,7 +16115,7 @@ while true:
     if currentElement › nextElement, swap them
   if no swap occurred in the loop, stop.
 
-### complexity
+## complexity
 
 Computational complexity is the amount of resources necessary to run an algorithm.
 Computational complexity assumes the amount of resources to perform each operation are similar / average out.
@@ -16860,32 +16131,32 @@ O(n)   linear complexity/time|Iteratering over a one-dimensional array
 O(log n)   logarithmic time
 O(n⎴2⎴)   quadratic time
 
-### static program analysis
+## static program analysis
 
 static program analysis is reasoning about/analyzing the behavior of computer programs without actually running them
 Linting is probably the most common form of static program analysis.
 
-## information theory
+# information theory
 
-### symbol rate
+## symbol rate
 
 baud   Bd
 baud   symbol rate (AKA baud rate, modulation rate)
 symbol rate   symbol changes per second
 
-## coding theory
+# coding theory
 
 The Hamming weight of a string is the number of symbols that are different from the zero-symbol (of the alphabet used).
 This means that the hammming weight of a binary number is its digit sum. 
 The hamming weight of 11101 is 4, the hamming weight of 60801 is 3
 
-## AI
+# AI
 
-### Computer vision
+## Computer vision
 
 ⟮Computer vision (CV)⟯ is a field of study that aims to get ⟮artificial systems / AI⟯ to get ⟮meaningful information / understanding⟯ from ⟮digital images/videos/whatever⟯.
 
-#### depth
+### depth
 
 ⟮Stereopsis}/{{c2::stereo(scopic) vision⟯ is ⟮the ability to percieve depth⟯ from ⟮only two eyes/optical sensors⟯.
 binocular disparity is the difference between the images that the optical sensors involved in stereopsis recieve due to them being positioned somewhat apart.
@@ -16894,14 +16165,14 @@ After stereo matching, one can calculate the distance via trangulation.
 stereo matching is more difficult (esp. for computer sensors) if the thing is featureless (since it then has a harder time matching the relevant pixels)
 To improve stereo matching on featureless things, a device intended for depth calculation via stereopsis often will project a IR dot pattern, which is a pseudorandom but known pattern of dots in the infrared spectrum, which it then can use as the things to match.
 
-#### triangulation
+### triangulation
 
 ⟮Triangulation⟯ in surveying / computer vision / etc. is ⟮determining the location⟯ of ⟮a point C⟯ from ⟮two points A and B⟯ by ⟮forming a triangle⟯.
 By knowing the ⟮distance between A and B⟯ as well as ⟮the angles at A and B⟯, we can ⟮reconstruct the distance.⟯
 
-### safety
+## safety
 
-#### technological singularity
+### technological singularity
 
 The technological singularity is a hypothetical point at which technological progress reaches critical mass and becomes uncontrollable, causing severe but unpredictable changes.
 Most commonly, the technological singularity is cashed out in terms of a intelligence explosion.
@@ -16912,19 +16183,19 @@ An intelligence explosion posits that there willl be a runaway reaction of self-
 Software engineering is term where the definition is often fought over.
 Software engineering (roughly) is different from software development/programming in that it emphasizes a more holistic view including tools and processes used for development, and temporally not just the time writing code, but the time before and after too.
 
-## software design
+# software design
 
-### decomposition
+## decomposition
 
 Decomposition is breaking down the problem into smaller parts.
 
-### software architecture
+## software architecture
 
 Software architecture refers to the fundamental structures of software/development and creating those structures.
 
-#### properties
+### properties
 
-##### coupling ＆ cohesion
+#### coupling ＆ cohesion
 
 https://upload.wikimedia.org/wikipedia/commons/0/09/CouplingVsCohesion.svg
 cohesion is the degree to which the elements inside a module belong together.
@@ -16935,7 +16206,7 @@ high coupling generally implies loose cohesion and v.v.
 A god object is an object that violates the single-responsibility principle by knowing too much or doing too much.
 The single-responsibility priinciple states that (the implementation of) a thing should only change for one reason.
 
-#### solution stack
+### solution stack
 
 A software/solution stack is the set of technologies that are layered/combined to run something (most often an application)
 A developer than can work with all layers in a solution stack is a full-stack developer
@@ -16945,9 +16216,9 @@ MEAN includes Angular
 MERN includes React
 MEVN includes Vue.js
 
-#### design patterns
+### design patterns
 
-##### MVC
+#### MVC
 
 MVC = Model View Controller
 
@@ -16966,27 +16237,27 @@ MVC = Model View Controller
        └──►│ User ├───┘
            └──────┘
 
-## development practices
+# development practices
 
 Rubber-duck debugging is problem-solving by explaining it out loud to an object or naive human.
 functional requirement|function (relation between input and output)|system must do x
 non-functional requirement|criteria of judgement, not specific behavior|system shall be x
 
-### development paradigms
+## development paradigms
 
-#### Agile
+### Agile
 
-##### lean
+#### lean
 
-###### kanban
+##### kanban
 
 Kanban board tools: trello, github projects
 
-#### Scrum
+### Scrum
 
-### CI/CD2
+## CI/CD2
 
-#### CI
+### CI
 
 CI|Continuous Integration
 
@@ -16996,7 +16267,7 @@ The two main goals of CI are to reduce the pain of any integration, and to be ab
 
 If a build failure happens in CI, the build should be fixed before work continues.
 
-#### CD2
+### CD2
 
 CD|Continuous delivery OR deployment
 
@@ -17005,19 +16276,19 @@ continuous deployment|software is deployed on any commit
 ⟮Continous deployment⟯ ⟮relies on⟯ ⟮continous delivery⟯
 A nightly build is one that is built every night, generally automatically
 
-#### pipelines
+### pipelines
 
 CI/CD requires certain steps such as testing to happen on any integration.
 A CI/CD pipeline specifies the set of steps to happen on each integration.
 The most common tools to implement a CD/CI pipeline are Jenkins, CircleCI, Travis CI or github actions.
 
-##### GH Actions
+#### GH Actions
 
-###### filess
+##### filess
 
 stuff for github actions is stored in a .github directory.
 
-###### basic structure
+##### basic structure
 
 A workflow is triggered by an event.
 A workflow consists of one or more jobs.
@@ -17028,31 +16299,31 @@ A job consists of one or more steps.
 Steps either run a script or an action.
 An action is a reusable building block.
 
-####### workflows
+###### workflows
 
 A workflow is defined by a YAML file.
 Your repository can have as many workflows as you like.
 
-####### events
+###### events
 
 Events are certain actins taken on the repo.
 Besides by events in the narrow sense, workflows can also run on a schedule, by POSTing to a REST API, or manually.
 
-####### jobs
+###### jobs
 
 You can share data between steps of a job.
 
-####### actions
+###### actions
 
 The repository for actions is the github marketplace.
 
-####### runners
+###### runners
 
 A runner is a VM.
 You can use runners provided by GH, or host your own runners.
 Github provides ubuntu, windows and macos runners.
 
-####### artifacts
+###### artifacts
 
 artifacts are files or collection of files.
 artifacts allow persisting of data after a job has finished, either for use in a different job or as workflow output.
@@ -17062,14 +16333,14 @@ artifacts are referred to for the purpose of using them via downloaders or as wo
 artifacts are uploaded by specifying their `path`
 once artifacts have been downloaded by using their `name`, they are used by referring to their path.
 
-####### expressions
+###### expressions
 
 Expressions are a mini-programming language within workflow files.
 expressions must generally be surrounded in ${{}} unless in an if-key
 Expressions use a syntax reminiscent of JS.
 Expression tend to use functions, and not methods.
 
-######## contexts
+####### contexts
 
 contexts contain information about something related to the repo or github actions.
 Each context is an object with certain properties.
@@ -17077,20 +16348,20 @@ Pretty much any ＊thing＊ (e.g. job, step, runner, etc.) in the actionverse ha
 you refer to contexts as expressions.
 many context properties also exist as corresponding environment variables.
 
-###### workflow YAML syntax
+##### workflow YAML syntax
 
-####### toplevel
+###### toplevel
 
 `name` specifies what to call the workflow
 `on` takes a sequence of triggers for a workflow
 `jobs` takes a mapping of jobs.
 
-####### jobs
+###### jobs
 
 `run-on` specifies the runner you want
 `steps` takes a sequence of steps.
 
-####### if
+###### if
 
 a step may take the `if` key, which takes an expression to only conditionally execute this step.
 
@@ -17098,11 +16369,11 @@ success()|Returns true when none of the previous steps have failed or been cance
 cancelled()|Returns true if the workflow was canceled.
 failure()|Returns true when any previous step of a job fails.
 
-####### steps
+###### steps
 
-######## actions
+####### actions
 
-######### uses
+######## uses
 
 `uses` is used to specify an action to run for a step.
 If the action is defined in the same repo, `uses` can take the path of the action.
@@ -17111,30 +16382,30 @@ If the action is defined in a container published on the docker hub, `uses` take
 
 the @‹ref› part of referring to gh actions may be a tag, a commit SHA, or a branch.
 
-######### with
+######## with
 
 the `with` key is used to provide arguments to the action.
 
-######## CLI
+####### CLI
 
 `run` is used to specify a command to run for a step.
 `run` can take a multiline string, of which it will then run all lines as commands sequentially
 when using `run` for a step, `shell` specifies which shell to use (e.g. bash)
 
-####### env
+###### env
 
 an `env` key contains key-value pairs that will be provided to the script as environment variables.
 You can specify `env` on a workflow, job or step.
 
-###### actions YAML syntax
+##### actions YAML syntax
 
 the actions YAML file has the toplevel keys `inputs` and `outputs`, both taking mappings, to define the inputs and outputs.
 
-###### GUI
+##### GUI
 
 You can view GH actions in the `actions` tab of the repository.
 
-### code writing enviroments
+## code writing enviroments
 
 Integrated development environment   IDE
 An IDE is a software development tool that aims to include everything relevant to progragramming in a ceratin language.
@@ -17143,13 +16414,13 @@ The ⟮standard length⟯ of ⟮a line of code⟯ is ⟮80 characters⟯.
 ⟮The standard length of a line of code being 80 characters⟯ originated ⟮with IBM punch cards⟯ in ⟮1928⟯, and later was ⟮the standard width of a terminal⟯ 
 The default size in many cases for ⟮terminals⟯ is ⟮80 characters⟯ wide, and ⟮24/25 lines⟯ high
 
-#### code editor
+### code editor
 
 A (source-)code editor is a text editor designed for writing source code.
 
-##### keyboard shortcuts
+#### keyboard shortcuts
 
-###### vscode
+##### vscode
 
 rename a symbol|⟦f2⟧
 see code actions (available refactorings and quick fixes)|⟦⌘⟧⟦.⟧
@@ -17162,7 +16433,7 @@ Action|Shortcut
 ⟮Open IntelliSense⟯|⟮⟦⌃⟧ ⟦␣⟧⟯
 
 
-######## lines
+####### lines
 
 Shortcut|Action
 ⟮⟦⌃⟧ ⟦j⟧⟯|⟮join lines⟯
@@ -17181,11 +16452,11 @@ move line up/down|⟦⌥⟧ ⟦up/down⟧
 indent/outent a line|⟦⌘⟧ ⟦]⟧/⟦[⟧
 
 
-##### UI 
+#### UI 
 
-###### vscode elements
+##### vscode elements
 
-####### workspace
+###### workspace
 
 most of the time, a vscode window contains one vscode workspace.
 A vscode workspace contains one (or more, with multi-root workspaces) open root directory(or -ies).
@@ -17193,13 +16464,13 @@ per-workspace items are placed in the root directory's .vscode directory
 Opening a directory in vscode spawns a workspace with this directory as the root directory.
 By default, UI state persists on a per-workspace basis.
 
-######## multi-root workspaces
+####### multi-root workspaces
 
 Multi-root workspaces are opened by opening a .code-workspace file.
 A .code-workspace file is a JSON file that lists the folders of the workspace.
 
 
-####### groups
+###### groups
 
 In vscode, a editor group is a group of one or more open editors
 
@@ -17208,7 +16479,7 @@ switch to left/right editor group|⟦⌘⟧ ⟦k⟧ ⟦←/→⟧
 move editor group left/right/up/down|⟦⌘⟧ ⟦k⟧ ⟦←/→/↑/↓⟧
 close editor group|⟦⌘⟧ ⟦k⟧ ⟦w⟧
 
-####### tabs
+###### tabs
 
 In vscode, by default a tab contains one editor.
 
@@ -17217,9 +16488,9 @@ switch to left/right tab|⟦⌘⟧ ⟦⌥⟧ ⟦←/→⟧
 cycle through tabs|⟦⌃⟧ ⟦tab⟧
 close all editors = tabs|⟦⌘⟧ ⟦k⟧ ⟦⌘⟧ ⟦w⟧
 
-####### single editor
+###### single editor
 
-######## navigation
+####### navigation
 
 symbol chooser popup (shorter version for mode of command palette)|⟦⌘⟧ ⟦T⟧
 go to line (shorter version for mode of command palette)|⟦⌃⟧ ⟦g⟧
@@ -17227,7 +16498,7 @@ go to symbol  (shorter version for mode of command palette)|⟦⌘⟧ ⟦⇧⟧ 
 go back in location history|⟦⌃⟧ ⟦-⟧
 go forward in location history|⟦⌃⟧ ⟦⇧⟧ ⟦-⟧
 
-######## region
+####### region
 
 in vscode, a region is a block of code you can collapse or expand (e.g. defined by a {} in curly brace languages)
 
@@ -17236,62 +16507,62 @@ fold/unfold current regions recursively|⟦⌘⟧ ⟦k⟧ ⟦⌘⟧ ⟦[/]⟧
 fold all regions|⟦⌘⟧ ⟦k⟧ ⟦⌘⟧ ⟦O⟧
 unfold all regions|⟦⌘⟧ ⟦k⟧ ⟦⌘⟧ ⟦J⟧
 
-######## editing a file
+####### editing a file
 
 autoformat file|⟦⌘⟧ ⟦⌥⟧ ⟦f⟧
 
-######### bookmarks
+######## bookmarks
 
 The vscode extension Numbered Bookmarks adds numbered bookmarks for lines which can be navigated to and from via keyboard shortcut
 
 set numbered bookmark ‹n›|⟦⌘⟧ ⟦‹n›⟧
 navigate to shift bookmark ‹n›|⟦⌘⟧ ⟦⇧⟧ ⟦‹n›⟧
 
-######## search
+####### search
 
-######### search UI (box)
+######## search UI (box)
 
 In vscode, one can resize the search widget by dragging its left edge.
 
-######### modifying search behavior
+######## modifying search behavior
 
-########## limiting search to selection
+######### limiting search to selection
 
 ⟦⌘⟧ ⟦⌥⟧ ⟦l⟧ creates an area search is limited to from the current selections.
 a second press of ⟦⌘⟧ ⟦⌥⟧ ⟦l⟧ does not re-select, instead toggling off. One must first toggle it off, then select a new area, then toggle it back on to get a new selection.
 
-######### aquiring ＆ navigating
+######## aquiring ＆ navigating
 
-########## aquiring
+######### aquiring
 
-########## navigating 
+######### navigating 
 
-########## hybrid
+######### hybrid
 
 ⟦⌘⟧ ⟦f3⟧ and ⟦⌘⟧ ⟦⇧⟧ ⟦f3⟧ set the word under the cursor as the search value.
 ⟦⌘⟧ ⟦f3⟧ and ⟦⌘⟧ ⟦⇧⟧ ⟦f3⟧ cycle forward/backward through the occurences of the word once it's been aquired
 ⟦⌘⟧ ⟦d⟧ uses the search widget to search for the word under the cursor, and adds a cursor for the first find match. every subsequent press adds a cursor to the next find match.
 ⟦⌘⟧ ⟦k⟧ ⟦⌘⟧ ⟦d⟧ is just like ⟦⌘⟧ ⟦d⟧, except that it doesn't add more than one cursor
 
-######### converting search to other things (e.g. selection)
+######## converting search to other things (e.g. selection)
 
-########## converting search results to cursors
+######### converting search results to cursors
 
 add cursors to all search results (if search field focused)|⟦⌥⟧ ⟦enter⟧
 
-######## selection
+####### selection
 
-######### aquiring/enlarging selections
+######## aquiring/enlarging selections
 
-########## by line
+######### by line
 
 ⟦⌘⟧ ⟦l⟧|select a line (multiple presses select more)
 
-########## expand/contract
+######### expand/contract
 
 ⟦⌘⟧ ⟦⇧⟧ ⟦⌃⟧ ⟦←/→⟧ will shrink/expand a selection by the next larger unit (word ↔ line ↔ region ↔ larger region ...)
 
-########## selection anchors
+######### selection anchors
 
 a selection anchor is a cursor you set, which then can act as one side (anchor) of a selection later, or can be used to return to that position.
 set selecton anchor at current position|⟦⌘⟧ ⟦k⟧ ⟦⌘⟧ ⟦b⟧
@@ -17299,38 +16570,38 @@ select from selection anchor to current position (deletes selection anchor)|⟦�
 go to selection anchor|⟦⌘⟧ ⟦k⟧ ⟦b⟧
 cancel selection anchor|⟦esc⟧
 
-########## column/box
+######### column/box
 
 ⟦⇧⟧ ⟦⌥⟧ ⟦drag⟧ starts selecting a rectangular area just like visual block mode, adding a cursor to the beginning/end.
 
 
-######### using selections
+######## using selections
 
 autoformat selection|⟦⌘⟧ ⟦k⟧ ⟦⌘⟧ ⟦f⟧
 
-######## comments
+####### comments
 
 ⟮add line comment⟯|⟮⟦⌘⟧ ⟦k⟧⟦⌘⟧ ⟦c⟧⟯
 ⟮toggle line comment⟯|⟮⟦⌘⟧ ⟦/⟧⟯
 ⟮toggle block comment⟯|⟮⟦⇧⟧ ⟦⌥⟧ ⟦a⟧⟯
 
-######## vscode jupyter
+####### vscode jupyter
 
 ⟮⟦f10⟧⟯|⟮execute next line of code⟯
 ⟮⟦⌃⟧ ⟦enter⟧⟯|⟮finish editing a cell/run a code block⟯
 
 
-####### bars and panels
+###### bars and panels
 
 show/hide side panel|⟦⌘⟧ ⟦b⟧
 
-######## bottom panel
+####### bottom panel
 
 show problems|⟦⌘⟧ ⟦⇧⟧ ⟦M⟧
 open new terminal if terminal tab is focused|⟦⌃⟧ ⟦⇧⟧ ⟦5⟧
 split terminal right|⟦⌘⟧ ⟦\⟧
 
-###### increment/decrement via arrow keys
+##### increment/decrement via arrow keys
 
 Arrow up/down plus..|Increments by... (assumes base 10)
 ⟮alt⟯|⟮0.1⟯
@@ -17338,20 +16609,20 @@ Arrow up/down plus..|Increments by... (assumes base 10)
 ⟮shift⟯|⟮10⟯
 ⟮command/ctrl⟯|⟮100+⟯
 
-##### settings
+#### settings
 
-###### scope
+##### scope
 
 vscode settings can either be per-workspace or per-user (i.e. global).
 The settings.json file lives in a plattform-dependent global location for per-user = global settings.
 The settings.json lives in .vscode for per-workspace settings.
 
-###### settings.json
+##### settings.json
 
 vscode settings are set in a settings.json file.
 vscode offers a GUI to set your settings, but this is just an interface for the settings.json.
 
-####### syntax
+###### syntax
 
 Within the settings.json, settings that apply to all languages are toplevel keys.
 For each language, there may be one "\[‹language-name›\]" toplevel key, which itself contains an object of settings for that language.
@@ -17364,18 +16635,18 @@ For each language, there may be one "\[‹language-name›\]" toplevel key, whic
 Generally, if you set the same key twice, the latter will be used, however objects will instead be merged.
 While not nested, often keys are dotted to scope their settings, e.g. "workbench.colorTheme" or "redhat.telemetry.enable"
 
-##### extensions
+#### extensions
 
 Extensions allow changing the functionality of a code editor.
 In vscode, you can activate extensions globally or only for a workspace.
 
-###### formatters
+##### formatters
 
 In vscode, code formatters are implemented as extensions.
 In vscode, code formatters hook into existing apis which allow configuring of formatting.
 To set the default formatter for any language, set the "editor.defaultFormatter" key within that language's settings object within the settings.json.
 
-##### code snippets
+#### code snippets
 
 code snippets feature in many different code editors 
 code snippets are templates that are triggered by selecting it from code completion or typing the name and then tabbing.
@@ -17408,18 +16679,18 @@ complex-specifier ::= (:(‹snippet-tabstop-specifier›|‹string›)|‹transf
 ```
 you can jump between tabstops with tabs.
 
-## QA
+# QA
 
 QA = Quality assurance
 QA are the activities done to make sure that the product meets certain standards.
 
 ⟮wave a dead chicken (over it)⟯: To perform a ritual over ⟮crashed software or hardware⟯ which one ⟮believes to be futile⟯ but is ⟮nonetheless obligatory so that others may be satisfied that an appropriate degree of effort has been expended.⟯
 
-### debugging
+## debugging
 
-#### devtools (webkit)
+### devtools (webkit)
 
-##### elements tab
+#### elements tab
 
 ⟮press del⟯ in the dom view of devtools to ⟮delete the node⟯ 
 ⟮⟦⌘⟧ ⟦⌥⟧ ⟦click⟧⟯ one of those ⟮triangle arrows⟯ in devtools to ⟮expand/collapse all children⟯ 
@@ -17432,7 +16703,7 @@ to have an ⟮element that you select in your devtools be visible in your browse
 flex-container:✫FBb3y3CzDXA5P0sNEuyd.png✫
 
 
-##### styles tab
+#### styles tab
 
 ⟮navigate through⟯ ⟮style declarations⟯ and ⟮selectors⟯ in the styles panel with ⟮tab/shift-tab⟯ 
 ⟮control-clicking⟯ a ⟮style declaration (e.g. margin: 0.5em⟯) in the styles panel devtools ⟮goes to the line where it was declared⟯ 
@@ -17440,56 +16711,56 @@ flex-container:✫FBb3y3CzDXA5P0sNEuyd.png✫
 flex-container:✫sm_2021-09-16--17-43-33-screenshot.jpg✫
 
 
-##### elements+styles tab
+#### elements+styles tab
 
 You can ⟮force element state (such as hover, focus⟯) either by ⟮c+;right-clicking the DOM node › force state⟯ and then choosing the state, or by ⟮clicking the :hov button⟯ in the ⟮styles panel⟯ and choosing the state 
 
-###### box model
+##### box model
 
 flex-container:⟮h∞;✫sm_2021-09-16--18-04-22-screenshot.jpg✫✫sm_2021-09-16--18-03-06-screenshot.jpg✫⟯
 Hovering over ⟮a part of the box model⟯ in the styles tab will ⟮higlight that relevant thing in the page⟯ 
 Besides by normal CSS declaration, you can ⟮change any part⟯ of the CSS box model in devtools by ⟮clicking on the relevant number and setting it⟯ 
 
-##### console
+#### console
 
 You can access ⟮the currently selected node in the elements inspector⟯ as ⟮$0⟯ in the console in devtools. 
 If you ⟮c+;right-click › store as global variable⟯, the DOM element becomes available ⟮as temp1, temp2, etc.⟯ ⟮in the console⟯ 
 
-##### other tabs/panels
+#### other tabs/panels
 
 Use the ⟮Media⟯ Panel in Chrome DevTools to view information and debug the ⟮media players⟯ per browser tab. 
 The ⟮Issues⟯ tab in Chrome DevTools moves the ⟮issues messages⟯ that used to ⟮appear in the console⟯ into their own tab 
 The ⟮Coverage⟯ tab in Chrome DevTools can ⟮help you find unused JavaScript and CSS code⟯. 
 to use the ⟮Coverage⟯ / ⟮Network⟯ tab, click ⟮the record button⟯, then ⟮reload (or otherwise make network requests⟯) 
 
-##### tab management
+#### tab management
 
 to ⟮close a tab⟯ ⟮within⟯ e.g.  the ⟮sources⟯ tab, use ⟮alt+w⟯ 
 next to the ⟮styles⟯ tab in devtools, there are other tabs, showing you (in order) the elements ⟮event listeners registered⟯, ⟮DOM Breakpoints⟯,  ⟮JS properties⟯, and ⟮accessibility information⟯ 
 Besides the DevTools tabs ⟮active by default⟯, there are ⟮a bunch more⟯ tabs, which you can ⟮show⟯ via ⟮the command palette⟯, or via ⟮the overflow menu⟯ 
 
-##### global features
+#### global features
 
 Whenever you get a ⟮function⟯ in devtools, you can ⟮go to the place where it's defined⟯ with ⟮c+;right click › show function definition⟯ 
 
-### code review
+## code review
 
 Code review may be by any other peer or by some authority related to the project (depending on the purpose)
 Code review is when another agent analyzes  the source code for bugs/errors/code quality
 Code review may be performed by human agents or automated code review tools
 
-### bugs
+## bugs
 
 A regression is something that used to work no longer working.
 
-### solutions
+## solutions
 
 Bodge ≈ kludge
 A bodge/kludge is a solution to a problem that is quick to implement but inelegant and hard to maintain.
 
-### testing
+## testing
 
-#### TDD ＆ self-testing code
+### TDD ＆ self-testing code
 
 TDD|Test-driven development
 
@@ -17507,7 +16778,7 @@ TDD core loop:
 4. Test should now succeed
 5. Refactor
 
-#### things used
+### things used
 
 A test double is a thing that replaces a production thing in testing
 Types of test doubles: dummys, fakes, sutbs, mocks
@@ -17517,7 +16788,7 @@ fakes|working implementations but use some shortcut (e.g. database in memory)|fa
 stubs|provide predefined answers/return values (instead of figuring them out)|similar to method stubs
 mocks|make sure the method was called on it properly|ock the method that was called on them till it behaves properly (no, I've got no idea here)
 
-#### types of tests
+### types of tests
 
 Unit tests test a unit of code (where that might be a module, function or record).
 Unit tests are generally quite fast.
@@ -17528,15 +16799,15 @@ End to end testing tests that with a given input, the program will flow correctl
 Integration test can refer to testing only very few modules, the whole system in isolation, or the whole system incl externals, making it very confusing.
 Unit tests may be narrowly defined as testing one unit only with test doubles, or more broadly as testing a few units, thus overlapping with the narrow definition of integration tests
 
-#### structure
+### structure
 
 ./tests|Rust
 
-#### running tests
+### running tests
 
 most build tools (cargo, ) or language CLIs feature a subcommand `test` to run tests
 
-## principles
+# principles
 
 GIGO   Garbage In, Garbage Out
 Garbage in, garbage out claims that if the input data is somehow bad ⟮the output data will be too⟯
@@ -17550,33 +16821,33 @@ DRY   Don't repeat yourself
 KISS   Keep it simple stupid
 "⟮a camel is a horse designed/made by committee⟯" is a ⟮criticism of creating something by comittee⟯, since ⟮the camel symbolises incorporating too many conflicting elements⟯ 
 
-### mech pol
+## mech pol
 
 the mechanism   what can be done
 the policy   what should be done
 separation of mechanism and policy.
 
-## documentation
+# documentation
 
-### self-documenting code
+## self-documenting code
 
 Self-documenting code is code that uses names of identifiers and strucutre (rather than comments) in such a way that it is easy for a human to understand what it is doing.
 In self-documenting code, identifiers indicate what the thing they are identifying is/does.
 
-### Comments
+## Comments
 
 Comments in programming are (generally) ignored by compilers/interpreters.
 But: Conditional comments are conditional statements interpreted by Microsoft Internet Explorer versions 5 through 9 in HTML source code. They can be used to provide and hide code to and from these versions of Internet Explorer. 
 Comments are written primarily for humans
 Generally, single line comments go to the end of the line
 
-#### comment syntaxes
+### comment syntaxes
 
-##### single line 
+#### single line 
 
 While comment syntaxes diverge, most commonly single line comments are begun by `#`.
 
-###### that are not the default `#`
+##### that are not the default `#`
 
 --|lua
 //|C#|Java|JS|Rust|SCSS/sass ('silent', will not end up compiling to CSS)
@@ -17585,7 +16856,7 @@ While comment syntaxes diverge, most commonly single line comments are begun by 
 (?#foo)|Regex
 (* foo *)|ENBF
 
-##### multi-line
+#### multi-line
 
 --\[\[foo]]|lua
 /\*foo\*/|CSS|C#|Fountain|Java|JS|Rust
@@ -17593,22 +16864,22 @@ While comment syntaxes diverge, most commonly single line comments are begun by 
 =begin foo =end|Ruby
 {% comment %} ... {% endcomment %}|Liquid
 
-#### peculiarities
+### peculiarities
 
 Besides comments, fountain has the notion of a note, delimited [[foo]]
 
-### Documentation generators
+## Documentation generators
 
-#### basics
+### basics
 
 A documentation generator is a tool that generates documentation from source code, most commonly taking into consideration the actual source code as well as a special documentation syntax.
 Documentation generator syntax is often in the form of a special kind of comment.
 Generally, you can build documentation using a documentation generator using its name as a CLI command.
 Generally, documentation generators generate HTML websites, often using a certain template as a basis.
 
-#### various ones
+### various ones
 
-##### mapping
+#### mapping
 
 Rustdoc is the built-in documentation generator syntax for Rust.
 Javadoc is a documentation generator syntax for Java.
@@ -17616,38 +16887,38 @@ JSDoc is a documentation generator syntax based off of and very similar to JS.
 ESDoc is a variant of jsdoc that tries to guess more from existing source code.
 Assume whatever is true for JSDoc is probably also true for javadoc.
 
-##### commands
+#### commands
 
 For rustdoc, you can also use the cargo subcommand doc to generate documentation.
 
-##### config
+#### config
 
 name|CLI|Config file
 jsdoc|y|y
 
-##### plugnins
+#### plugnins
 
 Of the documentation generators, jsdoc also supports a plugin ecosystem.
 
-##### comment syntax
+#### comment syntax
 
 for the following thing|///|Rust
 for the following thing|/**...*/|Java (Javadoc)
 for the thing we are in right now|//!|Rust
 for the thing we are in right now|"""foo"""|Python (docstring, must be first line in function, technically not a comment but performs similar function)
 
-###### syntax within comments
+##### syntax within comments
 
 By default, jsdoc supports HTML in its annotation, with the markdown plugin it instead supports markdown.
 Rust documentation comments accept formatting in markdown. Code in code blocks there is executed as tests.
 
-#### specific ones
+### specific ones
 
-##### JSDoc
+#### JSDoc
 
 JSDOc supports inline tags for annotating things within a thing, however most jsdoc tags are block tags.
 
-###### basic syntax
+##### basic syntax
 
 jsdoc-comment ::= /** ‹jsdoc-comment-contents› */
 jsdoc-comment-contents ::= ([‹jsdoc-description›] {‹jsdoc-block-tag›})|‹jsdoc-inline-tag›
@@ -17659,7 +16930,7 @@ jsdoc-line-start ::= * # notice the space
 
 jsdoc-inline-tag ::= {‹jsdoc-tag›}
 
-###### namepaths
+##### namepaths
 
 In JSDoc, to refer to things that are not in the thing being documented, to prevent ambiguity, namepaths are used.
 jsdoc-namepath ::= ‹entity›{(#|.|-)‹entity›}
@@ -17667,26 +16938,26 @@ jsdoc-namepath ::= ‹entity›{(#|.|-)‹entity›}
 .|static member
 ~|inner member (member within an inner scope of something)
 
-###### tags
+##### tags
 
 @author ‹name› [\‹‹email›\›]|identifies the author
 
-### book/webiste
+## book/webiste
 
 mdBook is a rust crate and command-line tool that produces books from markdown.
 mdBook produces books similar to the rust book.
 mdBook and docusaurus can easily be deployed to github pages.
 docosaurus is a react-based solution for writing documentation via markdown
 
-## requirements engineering
+# requirements engineering
 
-### expectations
+## expectations
 
 Hofstadter's Law: It always takes longer than you expect, even when you take into account Hofstadter's Law.
 
-### time and importance
+## time and importance
 
-#### parkinson's law
+### parkinson's law
 
 Parkinson's Law: Work expands to fill the available time.
 The law of triviality was originally developed as a corollary to parkinsons law.
@@ -17694,31 +16965,31 @@ Law of triviality: people within an organization/community/project typically giv
 Most common example of the law of triviality: the choice of materials for a bike shed taking up a disproportionate time during the construction of a nuclear power plant.
 Bike-shedding is discussion that conforms to the law of triviality: Disproportionate discussion about relatively irrellevant issues.
 
-### user stories
+## user stories
 
 A ⟮user story⟯ is the ⟮explanation of a feature⟯ ⟮from the perspective of the user⟯.
 
-### code quality
+## code quality
 
 Code quality tools such as linters and code formatters often have a CLI but are more commonly used as an extension in IDEs or as some sort of hook/CI pipeline step.
 
-#### linting
+### linting
 
-##### definition
+#### definition
 
 A linter flags logic errors, suspicious constructs and violated conventions.
 A linter often also includes a code formatter.
 
-##### various linters
+#### various linters
 
 yaml|yamllint
 css|stylelint
 js|ESLint
 shell (bash/csh/ksh etc.)|shellcheck
 
-##### linters in detail
+#### linters in detail
 
-###### eslint
+##### eslint
 
 ESLint takes its config from a .eslintrc.js/yaml/json/cjs or from the eslintConfig field in your package.json
 in ESlint, to ⟮inherit configs from other files⟯, specify the ⟮extends⟯ key
@@ -17728,51 +16999,51 @@ To ⟮extend⟯ ESLint, use ⟮plugins⟯
 
 To prevent eslint or stylelint conflicting with prettier, install eslint-config-prettier or stylelint-config-prettier, respectively
 
-##### as part of other things
+#### as part of other things
 
 the subcommand lint runs the relevant linter on the project (Nextjs: eslint)
 
-#### code style
+### code style
 
-##### definitions
+#### definitions
 
 Generally, each project has a certain code style.
 A code style is a set of rules for how to format source code.
 
-##### code formatter
+#### code formatter
 
-###### definitions
+##### definitions
 
 A code formatter is a program that imposes certain stylistic conventions on the code by formatting it automatically.
 A code formatter can be used together with a linter, however the code formatting functionality of a linter must typically be disabled.
 
-###### prettier
+##### prettier
 
 Prettier is a code formatter that doesn't allow config, instead imposing opinonated but mostly uncontroversial defaults, thus allowing you to move on with your life.
 Prettier works for most languages relevant for web development.
 
-##### misc
+#### misc
 
 nit = short for nitpick
 
-##### style guides
+#### style guides
 
 PEP 8|Python
 
-## Modelling
+# Modelling
 
-### UML
+## UML
 
 UML  Unified Modeling Language
 UML is a general modelling language most commonly used in the field of software engineering.
 
-#### class
+### class
 
 An UML class diagram generally consists of three parts, a class name on top, member variables in the middle, and member methods at the bottom.
 
 flex-container:✫sm_220px-BankAccount1.svg.jpg✫
 
-#### sequence
+### sequence
 
 flex-container:✫sm_paste-d8abaabcb6ec43ff8294b3567cb96b4fe4aa48f2.jpg✫
 
@@ -17788,22 +17059,22 @@ request messages   solid line arrows
 Answer messages   dashed arrows
 
 
-#### object
+### object
 
 
 flex-container:✫sm_paste-7a55c6f447e4be8da11b84f2d660fe36fa529dc8.jpg✫
 Objects in UML object diagrams at least contain a top field with the object name, the class name or both, often they also contain a field below that for instance varaibles
 
-## automation
+# automation
 
-### misc
+## misc
 
 The Amazon Mechanical Turk is a service that allows crowdsourcing menial tasks.
 The Amazon Mechanical Turk pays way below the minimum wage.
 The Amazon Mechanical Turk is sometimes used for study subjects.
 
 
-## toolchains
+# toolchains
 
 In general, a toolchain is a set of software tools used to do something.
 In software development, a toolchain is a set of tools used in combination to develop and deploy software.
@@ -17815,11 +17086,11 @@ expo's bare workflow allows you to pick and choose whichc parts of expo to use
 to test an app using expo on a phone, you need to install the expo client app on your device
 If you want to use the bare React Native workflow, you will have to set up your target's devtools
 
-### language installation ＆ setup
+## language installation ＆ setup
 
 rustup is the rust installer
 
-### package manifest ＆ language config file
+## package manifest ＆ language config file
 
 A package manifest (though different languages call it different things) specifies metadata and config for your package/project as well as dependencies.
 A language config file specifies config (e.g. compiler options) for the current programming language.
@@ -17847,13 +17118,13 @@ Most of the config for frameworks is done in a global config file, which is plac
 _config.yml/.toml|Jekyll
 
 
-#### dependencies
+### dependencies
 
 A dependency is a piece of software another piece of software relies on.
 The syntax for dependencies in most package manifests is as key-value pairs, where the value is a semver version.
 In rust, instead of the value of a key-value dependency pair being a version, it may also be a table with version as its one of keys, and other optional keys.
 
-##### auto-adding
+#### auto-adding
 
 Some package managers (e.g. npm) will add a package as a dependency if you install/update it, while others will instead install dependencies listed in the package manifest automatically (e.g. cargo), some will do both, and some will do neither.
 npms save dependency to package manifest automatically behavior can be disabled with --no-save
@@ -17861,83 +17132,83 @@ Some package managers separate dependencies (for running) and dev-dependencies (
 Dev dependencies are usually their own area in the package manifest.
 npm allows --save-dev direct installation to dev dependencies via --save-dev
 
-#### rust
+### rust
 
 specifying features of packages
 package-with-features ::= ‹package-name› = \{ version = "‹semver-version-specifier›", features = \["‹string›{, "‹string›"}\]\}
 
-### packages ＆ package managers
+## packages ＆ package managers
 
 Package management is managing packages, i.e. handles installing, uninstalling, updating...
 some package managers support suffixing an @version to address a specific version
 
-#### package managers
+### package managers
 
 A package manager is a program that does package management.
 A package manager typically can manage packages from many different developers.
 
-##### vs installers
+#### vs installers
 
 Package managers are contrasted with installers, which usually install one piece of software only, and do not keep it updated.
 
-#### package format
+### package format
 
 A package is a file in a package format.
 A package format usually is made up of an archive (format) of some kind and some metadata.
 
-#### local and global
+### local and global
 
 Package managers mainly for programming languages tend to do their package management for the local project by default, and only globally for the whole system if explicityly instructed with -g or --global.
 Package managers mainly for OS's typically install their packages for the whole system by default, though some have the option for installation in the home directory only, e.g. by using --user.
 Most languages only allow you to import local pacakges.
 
-#### directory structure
+### directory structure
 
 ./node_modules|directory for installed packages|npm
 
-#### (un)installation
+### (un)installation
 
 install PACKAGE|install a package|apt|brew|npm|DIFFERENT MEANING: bundler
 install|install all dependencies in package manifest|bundler|gem
 uninstall PACKAGE|uninstall a package|brew|npm
 remove PACKAGE|uninstall a package|apt
 
-#### updating
+### updating
 
 update|update the package index|apt|brew|DIFFERENT MEANING: bundler, npm
 update|update all dependencies/installed packages|bundler|npm
 upgrade|installs all available updates|apt|brew
 refresh|update all installed packages|snap
 
-#### browsing
+### browsing
 
 show FOO|shows information about a package foo (npm); shows path to gem foo (bundle)
 show FOO version|show latest version of package foo|npm
 ls/list|list installed packages|brew|npm
 outdated|show a list of outdated packages|brew|npm|bundler
 
-#### publishing
+### publishing
 
 pack|create a tarball of a project/package|npm
 publish|publish to offical pagckage hub/repository|cargo|npm
 
-#### eject to editor
+### eject to editor
 
 edit[ ‹name›]|open ‹name› in code editor, or default if none is provided|espanso
 
-#### repositories
+### repositories
 
 A repository is anything that stores software.
 Often, a repository either stores the code of a VCS, or packages of a certain type.
 
-### project structure
+## project structure
 
-#### new empty
+### new empty
 
 new foo|creates a new project in new directory foo|cargo, jekyll
 init|set up a new project/package, incl pacakge manifest in current directory|bundler|cargo|npm
 
-#### boilerplate
+### boilerplate
 
 Boilerplate code is repetitive code that is reused often, often also implying that it is unneccessary and would be better if it just wasn't necessary.
 
@@ -17950,14 +17221,14 @@ expo init creates a project using expo's managed workflow
 cargo-generate is a crate that allows using a pre-existing git repository as a template.
 the npm package create-wasm-app adds the command npm init wasm-app which allows us to set up an js app which consumes our rust-generated wasm
 
-#### rust
+### rust
 
 ./examples
 ./benches
 
-### building
+## building
 
-#### build tools
+### build tools
 
 Build tools are the tools that create an executable application from various parts.
 To build something, a build tool starts at an entry point.
@@ -17966,11 +17237,11 @@ From an entry point, a build tool assembles a dependency graph.
 From a dependency graph, a build tool builds it's output file(s).
 Code splitting is the splitting of code into various bundles or components which can then be loaded on demand or in parallel.
 
-##### processors
+#### processors
 
 a CSS preprocessor is a transpiler from a language that is not css (though typically a superset) to css.
 
-###### postCSS
+##### postCSS
 
 PostCSS is a CSS processor (CSS → CSS), that does nothing by default, but can be hooked into by plugins (written in JS).
 To use PostCSS you need to have added it to your build tool and have a `postcss.config.js`.
@@ -17985,26 +17256,26 @@ module.exports = {
 }
 ```
 
-####### autoprefixer 
+###### autoprefixer 
 
 Autoprefixer is a tool to add vendor prefixes to CSS properties automatically, implemented as a PostCSS plugin.
 
-##### compilers
+#### compilers
 
 A compiler is a type of build tool.
 
-###### compiler options
+##### compiler options
 
 A compiler option is a setting that changes what a compiler does.
 Compiler options may be set via pragmas, via a config file, via CLI options, or via a combination.
 TS|config, CLI
 
-####### TS
+###### TS
 
 compiler option|function
 strict|activate a bunch of other options, amongst others noImplicitAny and strictNullChecks
 
-####### Rust
+###### Rust
 
 rust has a set of compiler options that allow the conditional compilation of code.
 In rust, a compile-time feature flag is a compiler option that allows conditional inclusion or exclusion of code.
@@ -18023,14 +17294,14 @@ cfg-logic-function ::= (all|any)\(‹cfg-predicate-list›\)
 cfg-not ::= not\(‹cfg-predicate›\)
 cfg-predicate-list ::= ‹cfg-predicate›{, ‹cfg-predicate›}
 
-###### specific compilers/transpilers
+##### specific compilers/transpilers
 
-####### babel
+###### babel
 
 Babel is a transpiler that mainly transpiles ⟮newer JS (e.g. ES 2017, ES 2020) to older JS (e.g. ES5)⟯, but can also transpile other things.
 You can add babel to webpack by adding `babel-loader`.
 
-######## config
+####### config
 
 Babel is configured with a `babel.config.json`.
 Plugins and presets are specified in the arrays defined by the `presets` and `plugins` keys.
@@ -18053,13 +17324,13 @@ module: {
 }
 ```
 
-######## modules
+####### modules
 
 Various babel modules are published at `@babel/whatever`.
 Core babel functionality is at `@babel/core`.
 `@babel/cli` containts babel's cli functionality
 
-######## plugins
+####### plugins
 
 Babel plugins are the things that tell babel how to transpile your code.
 For example, @babel/plugin-transform-arrow-function is what babel uses to transpile arrow functions
@@ -18067,7 +17338,7 @@ A preset is a predetermined set of plugins.
 `@babel/preset-env` is the preset for transpiling to older js, choosing what is necessary automatically.
 While `@babel/preset-env` allows you to set your target browsers manually by setting the `target` key within the object in `presets` array of the config, by default it will just conform to your `browserslist` config.
 
-######## core-js
+####### core-js
 
 `core-js` is a set of polyfills for various JS features.
 `core-js` is not part of babel, but they are often used together since babel no longer offers its own polyfills.
@@ -18079,13 +17350,13 @@ core-js/stable|stable ES features
 core-js/(feature|actual|stable)/‹feature-name›|import only a specific feature
 for example: `import "core-js/actual/set";`
 
-######## regenerator
+####### regenerator
 
 `regenerator` is a polyfill for ES6 generators.
 `regenerator` is not part of `core-js` since it contains a runtime component.
 to import the regeneraotr runtime, just import `regenerator-runtime/runtime` at your entry point
 
-##### module bundlers
+#### module bundlers
 
 A module bundler is a type of build tool that merges together all your JavaScript code and its dependencies into one or more bundles.
 A bundle is a single file.
@@ -18093,7 +17364,7 @@ Most commonly module bundlers generate only a single file, most commonly called 
 A module bundler is often also just called a bundler
 There are more JS build tools than you can shake a stick at. The most common is webpack.
 
-###### webpack
+##### webpack
 
 A module is a independent thing you use from another file.
 A module can be a code file, stylesheet, data, assets (image, videos), ...
@@ -18104,7 +17375,7 @@ In webpack, (only) json and JS are natively supported.
 
 #######
 
-####### loaders
+###### loaders
 
 Loaders are defined (in the config file) by a JS object.
 The `test` key of a loader is used to match files to process with this loader via a regex.
@@ -18114,23 +17385,23 @@ The `use` key of a loader is used to specify which loader to use.
 ```
 While transforming a file into a module, a loader may also transform them.
 
-######## various loaders
+####### various loaders
 
-######### data
+######## data
 
 By default, loaders for data files (tsv, xml etc.) will parse to JSON
 
-####### CLI
+###### CLI
 
 webpack-cli is the command for administering webpack.
 
-####### config
+###### config
 
 Webpack can run without a config file, nevertheless it is sensible to have a config file.
 Webpack's config is a normal js file.
 You specify settings in the webpack config file on module.exports.
 
-####### plugins
+###### plugins
 
 Plugins extend webpack functionality.
 Plugins are specified in the array `module.exports.plugins`.
@@ -18142,20 +17413,20 @@ module.exports = {
 ```
 Classes for webpack plugins have a method `apply` which recieve an argument of the compiler to hook into.
 
-####### The runtime
+###### The runtime
 
 The manifest is webpack's internal map of modules.
 Webpack's glue code used to connect different modules at runtime is the runtime.
 In webpack's runtime, all import statements become `__webpack_require__` calls.
 the runtime uses the manifest.
 
-##### CLI
+#### CLI
 
 ‹tool› build builds a production build in cargo, jekyll, next
 
-#### conditional building
+### conditional building
 
-##### release profiles
+#### release profiles
 
 Release profiles are sets of compiler options for certain scenarios.
 The most common profiles are one for development and one for production.
@@ -18178,42 +17449,42 @@ production|Rust
 
 Rust allows customization of its release profiles via the Cargo.toml [profile.*] headers
 
-##### targets
+#### targets
 
 A target is the platform/environment a build tool is building for.
 Browserslist is a tool to define target browsers.
 Browserslist is specified in a package.json key, which accepts an array of specifiers, or the keyword "default" for a sensible default.
 
-#### hot reloading
+### hot reloading
 
 Hot reloading reloads a thing as you change the code etc.
 serve (for jekyll and webpack) and dev (for nextjs) serve your build with hot reloading 
 nextjs serves your app at port 3000 by default
 You can run a build you created with build (for nextjs) with start (for nextjs)
 
-#### structure
+### structure
 
 for most build tools, code lives in a src directory.
 
 
-##### Entry point
+#### Entry point
 
 In computer programming, an entry point is a point in a program where the execution of a program begins, and where the program has access to command line arguments. 
 
-###### file
+##### file
 
-####### default
+###### default
 
 ./src/index.‹suffix›|webpack
 ./src/main.‹suffix›|rust
 
-###### function
+##### function
 
 The entry point of many programming languages is the main function:
 public static void main(String[] args)|Java
 main()|rust
 
-###### config
+##### config
 
 `module.exports.entry` specifies the entry point.
 `module.exports.entry` may take a string (of URLs) for a single entry point, or an array (of URLs) or object for multiple entry points.
@@ -18234,57 +17505,57 @@ table:module.exports.entry.sometrypoint.|does
 import|path of entry point as would have been specified directly before
 publicPath|associate an output `publicPath` with this entry point
 
-##### Output
+#### Output
 
 Output code goes in (by default)
 ./dist|webpack
 For module bundlers, the output directory contains the bundle(s)
 
-###### cleaning
+##### cleaning
 
 clean remove generated files in cargo, jekyll
 
-### task runners
+## task runners
 
 A task runner is used to run predefined tasks, which would otherwise be tedious or impossible.
 Typically, task runners run shell scripts.
 
-#### npm scripts
+### npm scripts
 
 npm scripts works as a task runner for JS.
 npm scripts are defined as object fields in the scripts object of your package.json
 besides custom npm scripts, npm also has lifecycle scripts, which run at particular, predefined times
 
-##### CLI
+#### CLI
 
 to run your npm scripts, you use npm run/run-script
 npm run = npm run-script
 
-##### env
+#### env
 
 within npm scripts, we can access all our dependencies binaries without specifying the full path (without having to use npx)
 a package.json key ‹key› is available in npm scripts as the variable $npm_package_‹key›
 Certain config values are available in npm scripts as the variable $npm_config_‹name›
 
-##### naming
+#### naming
 
 npm scripts names are often written foo:bar (this is only a convention, however)
 
-###### pre/post
+##### pre/post
 
 npm scripts `pre‹name›` and `post‹name›` will automatically run before/after npm script `‹name›`
 
-###### lifecycle scripts
+##### lifecycle scripts
 
 npm lifecycle scripts (non-deprecated): prepare, prepublishOnly, prepack, postpack
 
-###### aliases
+##### aliases
 
 A set of predefined npm scripts have aliases where you can run `npm ‹name›` instead of `npm run ‹name›`
 Among those: npm build, start, stop, test.
 `npm test` can further be abbreviated `npm t`
 
-#### vscode tasks
+### vscode tasks
 
 Vscode tasks are used to integrate external task runners, build tools, and pretty much anything else you can run in a CLI into vscode.
 Vscode tries to auto-detect tasks, but you can also define custom ones.
@@ -18292,20 +17563,20 @@ VS Code currently auto-detects tasks for the following systems: Gulp, Grunt, Jak
 Custom tasks are defined in a `tasks.json`.
 Tasks can either be user or workspace level.
 
-##### running tasks
+#### running tasks
 
 ⟦⇧⟧ ⟦⌘⟧ ⟦b⟧ opens a picker for running a build task, or runs the default one if it is specified.
 entering the `task` keyword into quick open will also show a list of tasks to run.
 
-##### task groups
+#### task groups
 
-##### custom tasks
+#### custom tasks
 
 various commands allow you to create a tasks.json with a default template.
 
 Running `configure task` from the command palette or as an option of the build task picker will create a workspace task.
 
-###### tasks.json
+##### tasks.json
 
 Within `tasks.json`, the `tasks` array contains a sequence of task objects.
 
@@ -18343,23 +17614,23 @@ weak|quote with quotes allowing evaluation (`"` on *nix)
 }
 ```
 
-####### composing tasks
+###### composing tasks
 
 You can compose tasks out of simpler tasks with the `dependsOn` property.
 the `dependsOn` property takes an array of other tasks to run.
 `dependsOrder` allows specifying how the order of tasks in the `dependsOn` array will run.
 
-####### output behavior
+###### output behavior
 
 https://code.visualstudio.com/docs/editor/tasks
 
-### mapping
+## mapping
 
 different tools may perform one or more roles within a toolchain.
 
 Most commonly, the CLI for a framework will also be a build tool.
 
-#### dpkg / apt
+### dpkg / apt
 
 apt is the package manager for Ubuntu.
 In the past, one would have used apt-get as a way to interface with apt (but now deprecated).
@@ -18380,45 +17651,45 @@ apt-cache can be used to query apt's package cache (the local record of packages
 dpkg is a package manager for .deb packages, but does not have a package repository, instead requiring you to download your packages yourself.
 apt uses dpkg in the background.
 
-#### rust
+### rust
 
 cargo is the package manager and build tool for rust.
 the official package repository for cargo is crates.io
 There is no official task runner for rust, but one commonly used is cargo-make.
 
-#### JS
+### JS
 
 npm is the most common package manager for JS, followed by yarn. 
 The official package hub for npm is the npm Registry.
 
-#### python
+### python
 
 pip is the package manager for python.
 The official package hub for pip is PyPI.
 The package format for python format .whl ('wheel')
 
-#### anaconda
+### anaconda
 
 Anaconda is a batteries-included distribution of Python and R and a bunch of associated packages for scientific computing.
 conda is the package manager for the anaconda software distribution.
 
-#### react antive
+### react antive
 
 metro is the bundler for React Native.
 
-#### Latex
+### Latex
 
 In latex the package manager is part of the tex distribution
 The two most common latex distributions are ⟮TeX Live⟯ and ⟮MiKTeX⟯
 tlmgr is the package manager for tex if you are using the TeX Live distro.
 The official package hub for tex is CTAN.
 
-#### espanso
+### espanso
 
 for espanso, its package manager is under `espanso package`
 for espanso, `espanso package install` and `espanso package uninstall` may be abbreviated `espanso install` and `espanso uninstall`
 
-#### snap
+### snap
 
 snap is the package manager for snaps.
 snaps are mainly used in Ubuntu, but can be used on many *nixlikes.
@@ -18433,7 +17704,7 @@ snaps variable data (such as log files) are stored in /var/snap
 snap has a second linux file system in /snap/core, which it mounts in specific places at runtime.
 snaps are pacakged by snapcraft.
 
-#### homebrew
+### homebrew
 
 homebrew (command: brew) and macports (command: port) are package managers for macos.
 homebrew can also be used on linux, and is written in ruby.
@@ -18465,7 +17736,7 @@ homebrew prefixes
 ⟮Where homebrew has its prefixes⟯ mean you ⟮don't need to sudo anything with brew⟯, which is also ⟮highly discouraged.⟯ 
 If necessary, ⟮homebrewbrew⟯ ⟮links things⟯ ⟮from its prefix⟯ ⟮into directories such as /usr/local/bin, /usr/local/lib⟯ 
 
-#### ruby
+### ruby
 
 ruby has two package managers, bundler, which mostly does dependency management, and RubyGems with the command gem which mostly does installation.
 In ruby, packages are called gems.
@@ -18478,20 +17749,20 @@ In a gemfile, the first thing is a call to source, which establishes the global 
 source is also a method which takes an url as the first and a block as the second argument if you want to establish additional sources
 within the gemfile, gem dependencies are defined by `gem ‹name›, ‹version›`
 
-#### tools to interact with framewokrs
+### tools to interact with framewokrs
 
 interact with nextjs|next
 interact with jekyll|jekyll
 
-#### Mobile development
+### Mobile development
 
 Mobile development is centered around a core IDE, Android Studio for android and XCode for iOs
 
-## deployment
+# deployment
 
-### preventing undesirable experiences
+## preventing undesirable experiences
 
-#### canary
+### canary
 
 Canary release/deployment is showing an early build of an application to only a small subset of users
 In canary releases/deployemnt, the users who get the early build are monitered for feedback or bugs.
@@ -18499,14 +17770,14 @@ In canary realeases/deployment, after we've verified that everything's all right
 Sometimes, the distinction is made between a canary release, which is a dedicated version of a program that users could choose to use (e.g. Chrome Canary), and a canary deployment, which is where it is just deployed to a group of people without their input, however, this distinction is often not made.
 canary releases/deployements get their name from the canary in the coalmine metaphor
 
-#### blue-green deployment
+### blue-green deployment
 
 In a blue-green deployment, there are two environments/servers, blue and green.
 blue|existing production environment
 green|new version
 In a blue-green deployment, initially all users are routed to the blue env. Once the green env is deployed, it undergoes a heavy set of tests. After these pass, the users are instead routed to the green env. The blue env remains on standby, and if there is a problem with the green env, users can get pushed back to the blue env.
 
-#### feature flags 
+### feature flags 
 
 feature flags (/toggles/switches) are options that allow you to turn functionality on and off without deploying new code, in DevOps contexts generally during runtime.
 Feature flags can be used for hiding stuff for cd/ci (the way rust does experimental features), canary releases or user targeting (and thus A/B testing)
@@ -18519,12 +17790,12 @@ hot whatever|doing whatever while the system is still running
 cold whatever|doing whatever while the system is not running
 hot swapping may be of components, or of software
 
-## resource leak
+# resource leak
 
 A ⟮resource leak⟯ occurs when a program ⟮does not release resources⟯ when ⟮it no longer nees them⟯. 
 A ⟮memory leak⟯ is ⟮a resource leak⟯ involving ⟮memory⟯. 
 
-## Indexing
+# Indexing
 
 Most langauges I know start linear collection indices at 0, however lua starts them at 1
 In most languages, providing negative indices counts from the back, with -1 being the last element.
@@ -18559,7 +17830,7 @@ A lua table can be accessed via dot and square bracket notation. (Perhaps move t
 assoc array access []|Python|Ruby|
 {}|Perl
 
-## Project Jupyter
+# Project Jupyter
 
 ⟮Jupyter Notebooks⟯ used to be called ⟮IPython Notebooks⟯
 Jupyter notebooks are multimedia documents.
@@ -18579,18 +17850,18 @@ jupyter supports magic commands starting with % that do a variety of things
 %system or ! executes shell commands from jupyter
 
 
-## misc
+# misc
 
 https://en.wikipedia.org/wiki/Type_theory#History
 
 Associative arrays: names, literals, other construction methods, etc.
 
-### Computer Ergonomics
+## Computer Ergonomics
 
 Ideally, your ⟮arm (elbow⟯) should have an angle of ⟮90°⟯ while ⟮touch typing⟯ 
 Ideally, ⟮your wrist⟯ should be ⟮hovering⟯ while ⟮touch typing⟯ 
 
-## server directory structure
+# server directory structure
 
 Jekyll ＆ common
 
@@ -18598,7 +17869,7 @@ Jekyll ＆ common
 ./assets/css|css files
 ./assets/js|js files
 
-## Metacharacters ＆ escapes 
+# Metacharacters ＆ escapes 
 
 A metacharacter is a character that has a special meaning to a computer program, such as a interpreter/compiler or a regular expression (regex) engine.
 A reserved character is a character that cannot be used in a certain context because it is a metacharacter and thus must be replaced with an escape sequence or a different character, or not used entirely.
@@ -18653,9 +17924,9 @@ Character entity reference / Numeric character reference|Displays as / creates?
 ⟮c+;＆#8203;⟯|⟮A zero-width space that allows the browser to break there, when necessary⟯
 
 
-## text encoding
+# text encoding
 
-### theory
+## theory
 
 A character is the fundamental unit of text in computing contexts.
 In practice, a character is 'anything that has an unicode code point'
@@ -18666,23 +17937,23 @@ Unicode is a character encoding that maps characters to an abstract unit known a
 Once a computer has determined which character a byte or set of bytes represents, it pulls the relevant glyph from (simplified view) a font to display it.
 If your computer does not have a glyph for a character in any font its willing to use in this situation, it will display something like a box or question mark.
 
-#### font
+### font
 
 a computer font is a file containing a set of glyphs for certain characters.
 There are two main types of computer fonts, based on how they store characters: bitmap and vector/outline, with the advantages and disadvatages you would expect.
 
-### encodings
+## encodings
 
 character encodings (simplified): Morse -(end of the 19th century)→ Baudot-Murray -(1960s)→ ASCII -2000ish→ Unicode
 
-#### Morse
+### Morse
 
-##### genealogy
+#### genealogy
 
 The original morse code was meant for english speakers. 
 The morse code used today is an overhauled version of the original morse code called international/continental morse code.
 
-##### encoding
+#### encoding
 
 Morse code varies signal length to produce different units.
 In morse code, a space is signal absence.
@@ -18694,13 +17965,13 @@ A space (between words)|seven dots
 A space (between characters)|three dots
 A space (between dots/dashes)|one dot
 
-##### syntax
+#### syntax
 
 morse-code-sentence ::= ‹morse-code-word›{‹word-space›‹morse-code-word›}
 morse-code-word ::= ‹morse-code-character›{‹character-space›‹morse-code-character›}
 morse-code-character ::= (‹dot›|‹dash›)‹dd-space›
 
-##### common words
+#### common words
 
 SOS is `. . . - - - . . .`
 Notably, SOS does not have character spaces between characters, instead only the one-long necessary space.
@@ -18708,13 +17979,13 @@ SOS = `. . . - - - . . .` indicates that loss of life or major loss of property 
 SOS was chosen because it is easy to recognize.
 SOS is widely believed to stand for Save Our Souls, but this is a backronym.
 
-#### baudot
+### baudot
 
 the baudot(-murray) code was a 5-bit binary encoding.
 the baudot(-murray) code was later extended to 6-bit (ish) via a FIGS (figure shift character).
 With the baudot murray code came the change to punched tape.
 
-#### ASCII
+### ASCII
 
 Control characters are also called non-printing characters.
 ASCII (no extension) takes up 7 bit.
@@ -18760,17 +18031,17 @@ CR|older macs
 
 The bell character is sometimes used in command-line utilities for a notiification sound
 
-#### ISO/IEC 8859
+### ISO/IEC 8859
 
 The ISO/IEC 8859 encodings are based on ASCII but take up 8 bits instead of 7, with the extra 128 characters occupied by code pages for different languages
 
 Garbled text due to character encoding errors is called 　文字化（もじば）け, which was common in japanese due to a number of incompatible encodings existing.
 
-#### Unicode
+### Unicode
 
 Unicode is goverened by the unicode consortium.
 
-##### Codepoint subdivision 
+#### Codepoint subdivision 
 
 While in encodings such as ASCII, a character is equivalent to a series of bits, in Unicode a codepoint is an abstract unit that can be realized in different encodings.
 The fundamental unit in unicode is a codepoint.
@@ -18785,7 +18056,7 @@ Unicode blocks always sized in multiples of 16, therefore the first hex digit in
 Unicode blocks are always contiguous and disjoint with each other.
 In general, an unicode block should be united by a common purpose in some way.
 
-###### plane table
+##### plane table
 
 0|Basic Multilingual Plane|contains the most common unicode characters, such as most writing systems ＆ symbols
 1|Supplementary Multilingual Plane|assortment of different characters and emoji
@@ -18798,7 +18069,7 @@ In general, an unicode block should be united by a common purpose in some way.
 All planes beside the basic multilingual plane are supplementary.
 Unicode code points outside of the basic multilingual plane are sometimes called astral
 
-##### multiple characters
+#### multiple characters
 
 A 'character' may consist of one or more (encoded) unicode code points.
 Some characters can be created both by combining a character with a combining character/mark, or by using an one-codepoint precomposed version.
@@ -18814,7 +18085,7 @@ two unicode characters are canonically equivalent if they display the same and h
 Two canonically equivalent characters should be treated in the same way by (pretty much) every program.
 Unicode normalization takes two texts that are canonically equivalent or compatible and reduces them to the same sequence of codepoints.
 
-##### directionality
+#### directionality
 
 In unicode, strongly typed characters have an associated direction (LTR or RTL)
 In unicode, characters are strongly typed, or are neutral/weak.
@@ -18826,12 +18097,12 @@ neutral characters between two strongly typed characters of opposite directions 
 ‹bdi› is for wrapping text whose directionality you can't predict, but which you don't want to absorb neutral characters on other sides.
 If one knows the directionality in advance, one doesn't need ‹bdi› to isolate an element from the bidi algorithm all, one can just add a span or whater with a dir attribute to force the directionality and isolate at the same time.
 
-##### policy
+#### policy
 
 Unicode follows a number of policies
 Unicode encoding stability policy|Once a character is encoded, it will not be moved or removed
 
-##### encodings
+#### encodings
 
 UTF|Unicode Translation Formats
 There are three main unicode encodings: UTF-32, UTF-16 and UTF-8
@@ -18840,7 +18111,7 @@ UTF-8 may take 1-4 bytes to encode a cahracter.
 
 Today, most things default to UTF-8, however a few things such as JS and Java default to UTF-16.
 
-###### UTF-16
+##### UTF-16
 
 UTF-16 consists of 16-bit code units.
 An unicode code point encoded with UTF-16 may consist of one or two code units
@@ -18849,7 +18120,7 @@ if UTF-16 needs ⟮two code units⟯, these ⟮two code units⟯ are called ⟮a
 In surrogate pairs (UTF-16) the code unit that should come ⟮first⟯ is called the ⟮high surrogate⟯, the code unit that should come ⟮second⟯ is called the ⟮low surrogate⟯
 ⟮High-surrogate⟯ code units have a hex value ⟮0xD800-0xDBFF⟯
 
-###### UTF-8
+##### UTF-8
 
 UTF-8 guaranteees that there would never be 8 subsequent zeroes, as that could be interpreted as 0x00, which would end an null-terminated string (and thus could produce bugs or even allow injection attacks)
 UTF-8 encodes the 128 ASCII characters the same way as ASCII, but with a leading zero (since 8 not 7 bit)
@@ -18866,7 +18137,7 @@ To encode a character in UTF-8, first we determine how many bit the character re
 17-21|4
 
 
-###### Percent
+##### Percent
 
 (near) synonyms: ⟮Percent encoding⟯, ⟮URL/I encoding⟯
 
@@ -18887,13 +18158,13 @@ Examples for a cross-cutting concern might be logging.
 Case-preservation is whether something ⟮stores or disregards case information⟯
 Case-sensitivity is whether something ⟮differentiates based on case⟯
 
-## more misc
+# more misc
 
 A bricked device is one that no longer can function at all (has become as useful as a brick)
 SKU|Stock Keeping Unit
 An instance is something that has been created on some sort of model.
 
-## placeholder images
+# placeholder images
 
 Placeholder images using kittens|placekitten.com
 Placeholder images using boring boxes|via.placeholder.com
@@ -18901,7 +18172,7 @@ Placeholder images using boring boxes|via.placeholder.com
 via.placeholder.com/⟮width⟯[⟮x⟯⟮height⟯]
 placekitten.com/⟮width⟯⟮/⟯⟮height⟯
 
-## some internet/js stuff
+# some internet/js stuff
 
 {{c1::web app manifests}} are usually called {{c2::manifest}}.{{c3::webmanifest}}/.{{c3::json}}
 {{c1::Progressive web app}} is not {{c2::an official term}}, but refers to creating {{c3::a flexible, adaptable app}} using {{c4::web technologies}} (though {{c5:: there have been a few technologies that have become very intertwined with it (service workers, web app manifests, etc.)}})
@@ -19351,7 +18622,7 @@ How do we react to the service worker being created?
 
 ((h:all;::<img src="8mkBdT3O0FZLo0PUppvv.png">))within a web app manifest,&nbsp; the <code>{{c1::theme_color}}</code> property manages {{c2::the color of the bars/notification shade, etc.}}
 
-## various
+# various
 
 {{c3::&lt;template&gt;}} contains HTML that won't {{c1::be rendered immediately}}, but {{c2::can be used from JS (often multiple times)}}
 <div class="c2-f">
@@ -19727,9 +18998,9 @@ more on ASTs, parse trees
 9|commit
 
 
-### bitwise 
+## bitwise 
 
-#### basic operations
+### basic operations
 
 operation|a|b|result
 AND|0|0|0
@@ -19745,7 +19016,7 @@ XOR|0|1|1
 XOR|1|0|1
 XOR|1|1|0
 
-#### bitmasking
+### bitmasking
 
 a bitmask is using bitwise operations to get the value of certain bits
 a bitmask using bitwise AND gets a subset of bits
