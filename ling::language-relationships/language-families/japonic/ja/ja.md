@@ -116,6 +116,9 @@ https://japanese.stackexchange.com/questions/82922/%e3%82%80-verbs-and-correspon
 
 明日へのな (shingeki no bahamut: genesis ep. 5) - seems to be particle + nominalizing の, which is weird, I wouldn't have thought that's possible
 
+わけ(では・じゃ)ない = slightly different from わけがない ('one can not conclude from the evidence' vs 'there is no conclusion from the evidence')
+paper on japanese evidentials
+
 ### history, culture, etc
 
 

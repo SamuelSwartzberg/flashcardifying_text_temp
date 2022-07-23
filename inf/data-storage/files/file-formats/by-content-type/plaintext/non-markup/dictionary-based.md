@@ -11,6 +11,13 @@ to create ⟮an array of⟯ ⟮standard tables,⟯ you ⟮surround the header wi
 TOML also supports ⟮JSON style tables⟯, (though ⟮they use = instead of :⟯), but only if ⟮they do not contain a newline⟯. 
 TOML: ⟮fruit.apple.color = "red"⟯ produces ⟮a table named fruit that has a table named apple that has a key color with the value red⟯ 
 
+### toml xdg systemd
+
+INI files inspired XDG desktop files.
+XDG desktop files inspired systemd unit files.
+TOML was inspired by INI, XDG and systemd unit files.
+TOML|Tom's obvious, minimal language
+
 ## YAML
 
 YAML|YAML Ain't Markup Language
