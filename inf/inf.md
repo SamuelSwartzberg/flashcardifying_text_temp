@@ -3543,55 +3543,6 @@ RAID 1|data is mirrored on all drives|reliability ＆ some read performance
 
 `df` shows memory device storage usage
 
-## partitions
-
-A secondary memory device is divided into n partitions.
-How partitions are layed out on a secondary memory device is described by the partition table.
-in the past, the MBR would have also included a partition table.
-the MBR partition table was limited to 64 byte, which allowed for up to four partitions.
-Today, partition tables are generally GPT, since MBR was limited to addressing 2 TiB drives.
-GPT  GUID Partition Table
-GUID in GUID Partition Table  globally unique identifier
-
-gparted and gnome-disks are GUIs for partition/disk management
-
-mac
-
-On mac, ⟮drutil⟯ is the ⟮CLI⟯ utility for ⟮interacting with burnable media⟯. 
-On mac, ⟮diskutil⟯ is the ⟮CLI⟯ utility for ⟮interacting with harddrives.⟯ 
-
-Verb|Function|Which of drutil/diskutil?
-⟮list⟯|⟮list attached devices⟯|⟮drutil, diskutil⟯
-⟮eject⟯|⟮ejecting a device⟯|⟮drutil, diskutil⟯
-
-
-
-## file system
-
-The file system is the method/system/whatever that controls/specifies how ⟮data is organized within a partition⟯
-A flat file system is a file system with no ⟮subdirectories⟯
-Most *nix file systems are case-sensitive, but the apple ones (AFS/HFS+) are not; furthermore, windows is not case-sensitive.
-Even non-case-sensitive file systems are almost always case-preserving.
-fsck checks/repairs a linux filesystem.
-FUSE = Filesystem in userspace
-FUSE  is system that allows users to create their own filesystems without editing kernel code
-FUSE was originally developed for linux, but has been ported to other OSs such as win or mac
-fuse is configured in /etc/fuse.conf
-
-### mounting
-
-mouting is associating a device with a location in the directory tree.
-/etc/fstab allows specifying default moun points for certain devices/partitions.
-/etc/fstab ensures that the same device will always be mounted inn the same way.
-mount and unmount are the commands to mount/unmount things in linux using sudo.
-mount may take both a device and a mountpoint.
-mount may take just a device or mountpoint, in which case it will try to mount this in the way specified in /etc/fstab.
-in contrast to mount, pmount allows one to mount a device without being root, but only if one conforms to a certain set of rules (its policy)
-
-### file info
-
-stat|info about file
-file|get file type and related info
 
 ## directory structure
 
