@@ -26,3 +26,58 @@ The ‹param› HTML element defines parameters for an ‹object› element.
 The ‹embed› HTML element embeds external content at the specified point in the document. This content is provided by an external application or other source of interactive content such as a browser plug-in.
 
 ‹math› and ‹svg› embed content in HTML from MathML and SVG respectively
+
+## replaced elements
+
+In CSS, a replaced element is an element whose representation is outside the scope of CSS; they're external objects whose representation is independent of the CSS formatting model.
+Typical replaced elements are:
+‹iframe›
+‹video›
+‹embed›
+flex-container:‹img›
+
+Some elements are treated as replaced elements only in specific cases:
+
+‹option›
+‹audio›
+‹canvas›
+‹object›
+‹applet›
+
+Objects inserted using the content property are anonymous replaced elements.
+
+The only way CSS can style replaced elements is by controlling the positioning of the element's content within its box.
+for object-* to be relevant, the box of the replaced element must be of a different size than the replaced element
+
+The object-whatever properties target replaced elements.
+
+object-position takes a ‹position› value, and controls where the replaced element goes in its box
+
+object-fit|aspect-ratio|clipping/letterboxing/framing/none
+cover|preserve|letterboxing
+contain|preserve|clipping
+fill|stretch|none
+none|preserve|either clipping or framing (not resized at all)
+scale-down|perserve|letterbox or framing (contain or none, whichever is smaller)
+
+#### images
+
+image-rendering controls how an image upscales. 
+image-rendering: pixelated - image will seem to be composed of large pixels
+image-rendering: crisp-edges - preserve edges
+image-rendering: auto - browser-defined algorithm
+
+#### frames
+
+A ⟮frame⟯ is ⟮a part of a webpage⟯ which ⟮displays a different webpage (or a part thereof⟯) within. 
+A ⟮frame⟯ has ⟮state⟯ ⟮independent of its parent webpage⟯. 
+The ⟮two types of frames⟯ that HTML has/had are ⟮‹frame›⟯ and ⟮‹iframe›⟯ 
+Both ⟮‹frame›⟯ and ⟮‹iframe›⟯ need(ed) a ⟮src⟯ to be useful. 
+⟮‹frame›s⟯ would have been ⟮placed within⟯ a ⟮‹frameset›⟯. 
+⟮‹frameset›⟯ would have ⟮replaced⟯ ⟮body⟯. 
+A site using ⟮‹frameset›⟯ was basically ⟮made up of⟯ ⟮many different HTML documents⟯. 
+A site using ⟮‹frameset›⟯  would have had the advantage tha⟮t only a part of the site (e.g. the main content, but not headers and footers⟯) would ⟮have to be fetched when navigating⟯. 
+The ⟮‹noframes›⟯ was provided for browsers that ⟮did not support frames⟯. 
+As of ⟮HTML5⟯, ⟮‹frame› and ‹frameset›⟯ are ⟮deprecated⟯, but ⟮iframe⟯ is not. 
+⟮‹frame›s⟯ were ⟮deprecated⟯ because  ⟮their intraction with the same-origin policy could be a nightmare⟯, because ⟮copyright infringemenet was easy⟯, and because ⟮of accesibility/usability problems⟯. 
+⟮iframe⟯ is short for ⟮inline frame⟯ 
