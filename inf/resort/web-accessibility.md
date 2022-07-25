@@ -1,7 +1,6 @@
 
-# Accessibility
+# web accessibility
 
-⟮Accessibility⟯ is ⟮designing things⟯ ⟮so as to be usable by people with disabilities (with a variety of bodies⟯)
 Accessibility improvements often do not merely benefit the disabled, but also non-human users (e.g. web crawlers and thus SEO), users with different input methods (such as the keyboard)
 For accessibility purposes, audio/video should have captions, and lighthouse will chide you if it doesn't
 
