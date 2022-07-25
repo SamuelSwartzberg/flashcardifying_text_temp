@@ -1,79 +1,5 @@
 # general UI elements for some reason
 
-## aside
-
-An aside (there is no agreed-upon term, so I'm using the term that HTML uses) is a part of the main content thats only partially related to the main content, and often placed outside of the main flow. 
-A pull quote is an aside that is a quote from the article.
-
-## figure
-
-In general, figures are images/diagrams/similar with a caption.
-In general, figures float (in the general sense).
-In HTML, the ‹figure› element specifies its caption with ‹figcaption›
-
-## float
-
-a float is across styling languages a thing that exists outside of the normal flow of text.
-
-float places an element at one side of the container or next to another floating element, allowing text/inline elements to wrap around it.
-float: left/right makes the element go to the left/right side of the container/the next float respectively.
-A floating element is where the (computed) value of float is not none.
-Float implies display: block, and converts it if required.
-The clear CSS property sets whether an element must be moved below (cleared) floating elements that precede it. 
-the clear property applies to clearing all floats if set to both, or to only clearing left/right floats if set to left or right.
-If element contains only floated elements, its height will collapse to nothing.
-To prevent and element containing only floated elements height collapsing to nothing, a technique called a clearfix is used.
-The most common clearfix technique might be: ::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
-In contrast to ⟮CSS⟯, in ⟮Latex⟯ ⟮floats⟯ merely ⟮move vertically and not horizontally⟯. 
-If possible, latex places ⟮floats⟯ ⟮close to where they appear in the source text⟯. 
-⟮Floats⟯ are relevant for ⟮things that cannot be broken over a page (images, tables⟯). 
-To ⟮uniquely identify⟯ ⟮floats⟯ no ⟮matter where they end up⟯, they are ⟮numbered⟯ by latex. 
-By default, ⟮table⟯ and ⟮figure⟯ are the two ⟮environments⟯ that are ⟮floats⟯. 
-The ⟮table environment⟯ is ⟮functionally equivalent to⟯ the ⟮figure environment⟯, but ⟮has a separate index of numbering⟯. 
-
-The ⟮[option]⟯ for ⟮table, figure⟯ says ⟮where roughly you would like the table/figure to float.⟯ 
-⟮the option for controlling where a floating element⟯ goes consists of ⟮a list⟯ of specifiers, which are ⟮single chars⟯ ⟮one after the other⟯ without ⟮separators⟯, indicating ⟮relative preference⟯ 
-⟮h⟯|⟮place where it appeared in the source text as much asp possible⟯
-⟮H⟯|⟮force place where it appears (basically turn it into a nonfloat⟯)
-⟮p⟯|⟮special page for floats only⟯
-⟮t/b⟯|⟮place at top / bottom of page (respectively⟯)
-
-
-the ⟮float⟯ package ⟮improves⟯ ⟮float handling⟯ and ⟮defines⟯ ⟮the float specifier H⟯ 
-
-If you have ⟮a table (tabular⟯) where you want to make sure it ⟮flows well and does not cause awkward page breaks⟯, you should ⟮float it (surround it in a table env) ⟯, but if ⟮you care exactly where it appears in relation to the source text⟯, you should ⟮not float it (not surround it in a table env⟯) 
-
-⟮\caption{foo⟯} is there to ⟮add a caption foo⟯ to ⟮floating environments⟯. 
-⟮the optional argument []⟯ to ⟮\caption⟯ takes ⟮a short title⟯ for use ⟮in the listoftables/figures⟯ 
-to ⟮\label⟯ a ⟮table/figure⟯, the ⟮\label⟯ must go ⟮directly after \caption⟯ 
-
-## Lists
-
-In HTML and Latex, ordered and unordered lists are surrounded with something different, but use the same list items.
-Latex uses the same list items for description lists also, while HTML uses different elements for those.
-by default, latex only allows the nesting of lists to a depth of four
-
-ordered list|enumerate environment|‹ol›
-unordered list|itemize environment|‹ul›
-description list|description environment|‹dl›
-list item|\item|‹li›
-Term in a description list with title foo and description/explanation bar|\iten[foo]bar|‹dt›foo‹/dt›‹dd›bar‹/dd›
-
-In markdown ⟮Lists items⟯ are each ⟮started by⟯ ⟮one or more symbols⟯, while lists themselves are delimited by nothing more than any block-level item.. 
-⟮ordered list items⟯ are started by ⟮‹n›. (e.g. 1. or 7.⟯). 
-it does not matter ⟮with which digit you number list items with (e.g. even if you do `21. foo\n2. bar)`⟯ they will ⟮always start one and go from there (or whatever you then change it to via css⟯). 
-⟮unordered list items⟯ are started by ⟮-⟯, ⟮*⟯ or ⟮+⟯, which can be ⟮mixed and matched⟯. 
-
-
-## data
-
-‹data› represents things that have a machine-readable translation
-‹time› represents a time/date/duration.
 
 #### CSSStyleDeclaration
 
@@ -772,10 +698,6 @@ A check digit is one or more digits or characters (but generally a small amount)
 
 # HCI
 
-HCI = Human Computer Interaction/Interfaces
-The set of ways a human can interact with a computer   Interaction styles
-WYSIWYG   What you see is what you get
-the problem with the term 'intuitive' in HCI is that to a certain extent, everything is learned.
 
 
 

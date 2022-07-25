@@ -1,3 +1,10 @@
+
+HCI =short for=> Human Computer Interaction/Interfaces
+HCI is the 
+The set of ways a human can interact with a computer   Interaction styles
+WYSIWYG   What you see is what you get
+the problem with the term 'intuitive' in HCI is that to a certain extent, everything is learned.
+
 # curb cut effect
 
 flex-container:⟮h∞;✫sm_paste-2ab6d6b8ccffb953b18c192a791aa3c2cbba86e5.jpg✫✫sm_paste-b6739c18073b7652f19b772187e5a52c68d24aa9.jpg✫✫sm_paste-c77343d19ee4958e246f56f5e234d8f9682731c2.jpg✫⟯

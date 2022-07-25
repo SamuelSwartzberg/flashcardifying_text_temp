@@ -119,6 +119,9 @@ https://japanese.stackexchange.com/questions/82922/%e3%82%80-verbs-and-correspon
 わけ(では・じゃ)ない = slightly different from わけがない ('one can not conclude from the evidence' vs 'there is no conclusion from the evidence')
 paper on japanese evidentials
 
+って感じ
+というnoun
+
 ### history, culture, etc
 
 
