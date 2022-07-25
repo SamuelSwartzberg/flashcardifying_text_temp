@@ -1,4 +1,7 @@
-# platforms
+## viewport
+
+⟮ha;✫sm_220px-Webdesign_Viewport_Window_Screen.svg.png✫⟯
+The viewport is the area (often rectangular) of a given thing that is currenty visible
 
 flex-container:✫view_demonstrator.svg✫
 
