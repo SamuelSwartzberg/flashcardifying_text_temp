@@ -118,3 +118,8 @@ candles|1500-2000K
 ⟮c5,19;split complementary (is a form ⟯|⟮c+;h15:21;A color and the colors adjacent to its complementary ⟯|⟮c+;h8:14;✫sm_paste-da8b825ba5b95610f8a2dae2a17a63c508bec3d5.jpg✫⟯
 ⟮c6,20;tetradic (more specif. square⟯)|⟮c+;h15:21;Four colors equally spaced on the color wheel⟯|⟮c+;h8:14;✫sm_paste-fd4b5126038c4864c0345df2e6fb8f52cb12541f.jpg✫⟯
 ⟮c7,21;triadic ⟯|⟮c+;h15:21;Three colors equally spaced on the color wheel⟯|⟮c+;h8:14;✫sm_paste-002328be373e9ab91dcae451d436c067fa5a2718.jpg✫⟯
+
+
+Material design pioneered describing lightness of colors on the same 100 (or sometimes 50) to 900 scale as font weights.
+Describing colors on a 100 to 900 scale has been adopted by other things such as bootstrap, chakra.
+color-on-weight-scale ::= ‹hue›-‹weight›

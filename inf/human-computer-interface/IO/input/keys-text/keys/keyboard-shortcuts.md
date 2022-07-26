@@ -1,9 +1,16 @@
-# key combinations ＆ actions
+# keyboard shortcuts
 
 A keyboard shortcut some key input that performs an action different from its literal value.
-A key combination is the pressing of a key and one or more modifier keys to perform an action
-A key chord are two or more key combinations or key presses sequentially to perform an action.
-e.g. cmd k then m to select the document language in VSCode
+
+## key combination sequence
+
+A key combination sequence is a sequence of one or more key combinations as a keyboard shortcut.
+A simple key combination/key chord is a key combination sequence of 1/2+ key combinations.
+
+### key combination
+
+A key combination is the pressing of a key and one or more modifier keys at the same time.
+a key combination modifier ingredient is a modifier key used in a key combination.
 
 ## keyboard shortcuts
 

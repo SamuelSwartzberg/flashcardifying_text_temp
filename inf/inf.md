@@ -58,82 +58,12 @@ scales|CSS Properties
 `zIndices`|`z-index`
 `transitions`|`transition`
 
-
-#### nested rules
-
-In SCSS/Sass and other CSS preprocessors, to achieve ⟮nested selectors⟯, you can ⟮nest entire rules⟯. 
-```
-nav {
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  li { display: inline-block; }
-
-  a {
-    display: block;
-    padding: 6px 12px;
-    text-decoration: none;
-  }
-}
-```
-
-In ⟮nested rules⟯'s selectors, ⟮c+;＆⟯ refers to ⟮the parent selector⟯. 
-In nested rules's selectors, ⟮c+;＆⟯ is useful if ⟮you want to combine selectors in complex ways⟯ 
-In ⟮nested rules⟯'s selectors, ⟮@at-root⟯ ⟮goes back up to the nesting tree.⟯ 
-
-```
-.parent {
-  .child {
-    ⟮c+;＆ div ＆ ＆ › a⟯ {}
-  }
-}
-```
-compiles to `⟮c+;.parent .child div .parent .child .parent .child › a {⟯}`
-
-```
-.grand-parent {
-  .parent {
-    @at-root .child {}
-  }
-}
-```
-compiles to `⟮.child {}⟯`
-
-```
-.button {
-  ＆:visited { }
-  ＆:hover { }
-  ＆:active { }
-}
-``` compiles to `⟮.button:visited { } .button:hover { } .button:active { } ⟯`
-
-```
-.btn {
-  ＆-primary {}
-  ＆-secondary {}
-}
-``` compiles to `⟮.btn-primary {} .btn-secondary {} ⟯`
-
 #### colors
 
 ##### theme-color
 
 some styling frameworks (e.g. bootstrap) use a system of semantic names for colors such as primary, secondary, success, danger, warning, info, light, dark...
 In bootstrap the system of semantic colors is called theme-colors.
-
-##### color schemes
-
-Material design pioneered describing lightness of colors on the same 100 (or sometimes 50) to 900 scale as font weights.
-Describing colors on a 100 to 900 scale has been adopted by other things such as bootstrap, chakra.
-color-on-weight-scale ::= ‹hue›-‹weight›
-
-#### misc scales
-
-Many CSS frameworks, e.g. bootstrap have adopted a scale from 1-5 where 3 is a middle value for things that require an arbitrary scale.
-Things that fall on the 1-5 scale in bootstrap are `order`, spacers.
 
 #### components
 
@@ -143,46 +73,6 @@ Pretty much any styling framework features pre-existing components and/or allows
 
 Many style frameworks have lg and sm version of some components.
 
-#### layout
-
-##### bootstrap grid system
-
-Bootstrap pioneered the bootstrap grid system.
-The bootstrap grid system consists of containers, rows, and columns.
-The boostrap grid system has been adopted by other systems such as ionic.
-A container (or something else) contains n rows.
-A row contains 12 template columns.
-Actual columns can be 12 or more template columns wide.
-Having a row with elements adding up to more than 12 template columns will force wrapping.
-Offsets are specified in template columns and are used to take up column space without filling it with content.
-Bootstrap grid systems feature gutters both between rows and columns, which you can customize.
-The bootstrap grid system is built with flexbox.
-Since the bootstrap grid system is built with flexbox, you can change the behavior of the grid system by using flexbox-related utilites.
-
-containers are mainly for adding padding.
-Containers are, depending on the exact class, either 100% of the page, or 100% with some spacing left and right
-
-###### implementation
-
-in bootstrap, columns are specified .col-‹meas-col›
-in bootstrap, a row consisting of columns with n measurement columns width is specified as .row-cols-‹meas-col›
-
-#### breakpoint
-
-Pretty much all styling frameworks have chosent the concept of breakpoints to abstract over width-based media queries.
-A breakpoint corresponds to a range of widths
-Common breakpoint names:
-Extra small|no name (default)|Tailwind, Chakra, Bootstrap
-Small|sm|Tailwind, Chakra, Bootstrap
-Medium|md|Tailwind, Chakra, Bootstrap
-Large|lg|Tailwind, Chakra, Bootstrap
-Extra large|xl|Tailwind, Chakra, Bootstrap
-Extra extra large|2xl|Tailwind, Chakra
-Extra extra large|xxl|Bootstrap.
-For pretty much all frameworks, breakpoints select this size and up.
-The reason breakpoints generally select this size and up in most frameworks is that they are mobile first.
-Since breakpoints generally select this size and up, you need to overwrite breakpoints for larger sizes if you want it to only apply to one size.
-Since breakpoints select this size and up, one typically writes the style for the smallest size first and then layers  styles for larger form factors on top.
 
 #### z-indices
 
@@ -375,8 +265,6 @@ It is important to keep in mind that a BEM entity is not a part of the name, rat
 
 ### types of frameworks
 
-»Styling frameworks« are frameworks for front-end design.
-»CSS frameworks« are styling frameworks that do most of their thing in CSS.
 
 #### bootstrap
 
