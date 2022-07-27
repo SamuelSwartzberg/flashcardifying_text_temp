@@ -1,3 +1,5 @@
+move to the internet dir, I think
+
 # email
 
 Fundamentallly, all emails in an email account (generally associated with a single email address, but not necessarily) are stored in an an (email) mailbox

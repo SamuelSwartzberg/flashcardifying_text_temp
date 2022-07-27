@@ -158,18 +158,34 @@ toggle deafen|disc: ⟮⟦⌘⟧ ⟦⇧⟧ ⟦D⟧⟯; others: doesn't exist
 
 #### WYSIWYG editors
 
-Keyboard shortcut|action|programs
-⟮S⟯|⟮Select tool⟯|⟮Inkscape, SVG-Edit⟯
-⟮G⟯|⟮group/ungroup⟯|⟮SVG-Edit⟯
-⟮W⟯|⟮Wireframe mode⟯|⟮SVG-Edit⟯
-⟮A⟯|⟮Select everything⟯|⟮SVG-Edit⟯
-⟮D⟯|⟮Duplicate⟯|⟮SVG-Edit⟯
-⟮alt-drag⟯|⟮drag a duplicated shape (duplicate and then move⟯)|⟮SVG-Edit⟯
-⟮cmd-drag⟯|⟮drag a duplicated shape (duplicate and then move⟯)|⟮Affinity designer⟯
-⟮tap spacebar while dragging⟯|⟮drop a duplicate of the current shape at position⟯|⟮Inkscape⟯
-⟮shift+click⟯|⟮select multiple objects⟯|⟮Inkscape, SVG-Edit, Affinity Designer⟯
-⟮F⟯|⟮center canvas in frame⟯|⟮SVG-Edit⟯
+##### tools
 
+###### basic
+
+table:action|shortcuts
+select tool|S
+rectangle tool|R
+ellipse tool|E
+text tool|T
+
+##### view
+
+###### divergent
+
+table:action|shortcuts
+wireframe view|svg-edit: f
+
+##### elements
+
+select all|⟦⌘⟧ ⟦a⟧
+select multiple (mouse)|⟦⇧⟧ ⟦click⟧
+
+###### divergent
+
+group/ungroup|SVG-Edit: G; Inkscape: ⟦⌘⟧ ⟦⇧⟧ ⟦u⟧ & ⟦⌘⟧ ⟦⇧⟧ ⟦g⟧
+select all|svg-edit: a
+drop a duplicate of the current shape at position|inkscape: tap spacebar while dragging
+drag a duplicated shape (duplicate and then move)|svg-edit: ⟦⌥⟧ ⟦drag⟧; affinity: ⟦⌘⟧ ⟦drag⟧
 
 ### platform-specific
 
@@ -190,49 +206,17 @@ table:action|shortcut
 ⟮zoom out⟯|⟮⟦⌘⟧ ⟦⌥⟧ ⟦-⟧⟯
 ⟮zoom in⟯|⟮⟦⌘⟧ ⟦⌥⟧ ⟦0⟧⟯
 
-### application-specific
+#### misc mac
 
-#### Anki
-
-Action|Shortcut
-⟮Add new card⟯|⟮⟦⌘⟧ ⟦n⟧⟯
-⟮Bury card⟯|⟮⟦⌘⟧ ⟦-⟧⟯
-⟮Bury note⟯|⟮⟦⌥⟧ ⟦-⟧⟯
-⟮Edit html⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦x⟧⟯
-⟮Mark note (both browser and reviewer), mark parent element w/ textmarker (browser, custom⟯)|⟮⟦⌥⟧ ⟦k⟧⟯
-⟮Show deck options menu⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦,⟧⟯
-⟮Study⟯|⟮⟦L⟧⟯
-⟮Subscript⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦⌥⟧ ⟦2⟧⟯
-⟮Superscript⟯|⟮⟦⌥⟧ ⟦⌘⟧ ⟦2⟧⟯
-⟮Suspend card⟯|⟮⟦⌘⟧ ⟦j⟧⟯
-⟮Suspend note⟯|⟮⟦⌥⟧ ⟦j⟧⟯
-⟮add tag⟯|⟮⟦⌘⟧ ⟦t⟧⟯
-⟮remove tag⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦t⟧⟯
-⟮reposition⟯|⟮⟦⌘⟧ ⟦y⟧⟯
-⟮reschedule⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦y⟧⟯
-⟮add cloze (don't increment number⟯)|⟮⟦⌘⟧ ⟦⇧⟧ ⟦⌥⟧ ⟦c⟧⟯
-⟮add cloze (increment number⟯)|⟮⟦⌘⟧ ⟦⇧⟧ ⟦c⟧⟯
-⟮submit something/new line⟯|⟮⟦⌘⟧ ⟦enter⟧⟯
-⟮Browse screen⟯|⟮⟦B⟧⟯
-⟮X⟯|⟮Deck home screen⟯
-
-
-
-
-
-
-### weird mac
-
-Action|Shortcut
+table:action|shortcut
 ⟮Get info on item⟯|⟮⟦⌘⟧ ⟦i⟧⟯
 ⟮Preferences⟯|⟮⟦⌘⟧ ⟦,⟧⟯
 ⟮Switch focus between windows of the same program⟯|⟮⟦⌘⟧ ⟦`⟧⟯
 ⟮Show hidden files⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦.⟧⟯
-⟮rename current item⟯|⟮{{c2::⟦enter⟧}⟯
-⟮Minimize (not windows)⟯|⟮⟦⌘⟧ ⟦m⟧⟯
-⟮Minimize (windows)⟯|⟮⟦⊞⟧ ⟦↓⟧⟯
+⟮rename current item⟯|⟮⟦enter⟧⟯
+⟮Minimize⟯|⟮⟦⌘⟧ ⟦m⟧⟯
 ⟮Fullscreen⟯|⟮⟦⌘⟧ ⟦⌃⟧ ⟦f⟧⟯
-⟮⟦⌥⟧ ⟦space⟧⟯|⟮non-breaking space (on keyboard⟯)
+⟮non-breaking space (on keyboard⟯)|⟮⟦⌥⟧ ⟦space⟧⟯
 
 
 
