@@ -6,10 +6,16 @@ A ⟮FOUC (Flash of unstyled content)⟯ is when a ⟮page (or some content)⟯ 
 
 ## refresh rates
 
-⟮FPS⟯ (computing context) is short for ⟮frames per second⟯ 
-The most common ⟮display refresh rate⟯ as of 2020 is ⟮60fps/hz⟯ 
+### basics
+
+The refresh rate/frame rate is how often per second a display displays an image/a process generates an image.
+The refresh rate/frame rate is measured in Hz/FPS, which are identical.
+
+### various frame rates
+
 Traditionally, it is said that ⟮20-30 fps⟯ is ⟮the minimum⟯ to see ⟮smooth movement and not just a series of images⟯. 
-⟮1⟯ FPS = ⟮1⟯ Hz 
-medium|FPS
+
+
+table:medium|FPS
 ⟮video (traditional⟯)|⟮30fps⟯
 ⟮film⟯|⟮24fps⟯
