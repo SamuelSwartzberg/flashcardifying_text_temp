@@ -14,37 +14,42 @@ a key combination modifier ingredient is a modifier key used in a key combinatio
 
 ## keyboard shortcuts
 
-### OS
-
-
 ### generalizable
 
 #### file-related
 
-⟮Export⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦E⟧⟯
-⟮Import⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦i⟧⟯
-⟮Save as⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦s⟧⟯
-⟮Save⟯|⟮⟦⌘⟧ ⟦s⟧⟯
-⟮New thingy⟯|⟮⟦⌘⟧ ⟦n⟧⟯
-⟮New alternative thing (window, folder, etc.⟯)|⟮⟦⌘⟧ ⟦⇧⟧ ⟦n⟧⟯
-⟮Open⟯|⟮⟦⌘⟧ ⟦o⟧⟯
-⟮Duplicate current item⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦D⟧⟯
-⟮Print⟯|⟮⟦⌘⟧ ⟦p⟧⟯
+table:action|shortcut
+⟮export/⟮import⟯⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦e/i⟧⟯
+⟮save/save as⟯|⟮⟦⌘⟧ ⟦s⟧/⟦⌘⟧ ⟦⇧⟧ ⟦s⟧⟯
+⟮new thingy/new alternative thing⟯|⟮⟦⌘⟧ ⟦n⟧/⟦⌘⟧ ⟦⇧⟧ ⟦n⟧⟯
+⟮open⟯|⟮⟦⌘⟧ ⟦o⟧⟯
+⟮duplicate current item⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦D⟧⟯
+⟮print⟯|⟮⟦⌘⟧ ⟦p⟧⟯
 ⟮delete thingy (if file, move to bin⟯)|⟮⟦⌘⟧ ⟦⌫⟧⟯
 
+#### window/application
 
-##### view
+##### size
 
+table:action|shortcut
 ⟮Reset zoom level (most often⟯)|⟮⟦⌘⟧ ⟦0⟧⟯
 ⟮Zoom out⟯|⟮⟦⌘⟧ ⟦-⟧⟯
 ⟮Zoom in⟯|⟮⟦⌘⟧ ⟦=⟧⟯
 
+##### open/close
+
+table:action|shortcut
+⟮close tab/window⟯|⟮⟦⌘⟧ ⟦w⟧⟯
+⟮new tab⟯|⟮⟦⌘⟧ ⟦t⟧⟯
+⟮Switch to tab &lt;n&gt;⟯|⟮⟦⌘⟧ ⟦&lt;n&gt;⟧⟯
+⟮restore tab (editor in VS code⟯)|⟮⟦⌘⟧ ⟦⇧⟧ ⟦t⟧⟯
+⟮quit app (mac)⟯|⟮⟦⌘⟧ ⟦q⟧⟯
 
 #### content editing 
 
 ##### clipboard
 
-table:shortcut|action
+table:action|shortcut
 ⟮copy⟯|⟮⟦⌘⟧ ⟦c⟧⟯
 ⟮cut⟯|⟮⟦⌘⟧ ⟦x⟧⟯
 ⟮paste⟯|⟮⟦⌘⟧ ⟦v⟧⟯
@@ -52,91 +57,142 @@ table:shortcut|action
 
 ##### text editing
 
-⟮⟦⌘⟧ ⟦b/i/u⟧⟯|⟮bold/italic/underlined text⟯
-
-Shortcut|Action
-⟮Select all⟯|⟮⟦⌘⟧ ⟦a⟧⟯
-
-⟮⟦⌃⟧ ⟦l⟧⟯|⟮Insert hyperlink⟯
-
-⟮⟦⇧⟧ ⟦tab⟧⟯|⟮unindent⟯
-⟮⟦tab⟧⟯|⟮Indent⟯
+table:action|shortcut
+⟮bold/italic/underlined text⟯|⟮⟦⌘⟧ ⟦b/i/u⟧⟯
+⟮select all⟯|⟮⟦⌘⟧ ⟦a⟧⟯
+⟮insert hyperlink⟯|⟮⟦⌃⟧ ⟦l⟧⟯
+⟮indent/unident⟯|⟮⟦tab⟧/⟦⇧⟧ ⟦tab⟧⟯
 
 ##### edit history
 
+table:action|shortcut
 ⟮undo⟯|⟮⟦⌘⟧ ⟦z⟧⟯
 ⟮redo⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦z⟧⟯
 
-### basic OS
+#### video
 
-Action|Shortcut
-⟮Close tab/window⟯|⟮⟦⌘⟧ ⟦w⟧⟯
-⟮New tab⟯|⟮⟦⌘⟧ ⟦t⟧⟯
-⟮Quit app⟯|⟮⟦⌘⟧ ⟦q⟧⟯
-⟮Restore tab (editor in VS code⟯)|⟮⟦⌘⟧ ⟦⇧⟧ ⟦t⟧⟯
+##### navigation
 
+table:action|shortcut
+⟮one frame back/forwards⟯|⟮,/.⟯
+⟮pause⟯|⟮space⟯
 
+##### viewing modes
 
+table:action|shortcut
+⟮⟦f⟧⟯|⟮go fullscreen⟯
+⟮esc⟯|⟮Exit fullscreen⟯
 
+#### navigatable
 
-### browser shortcuts
+##### reload
 
-Action|Shortcut
-⟮Switch to tab n⟯|⟮⟦⌘⟧ ⟦n⟧⟯
-⟮Focus address bar⟯|⟮⟦⌘⟧⟦L⟧⟯
+Force/Hard Reload|⟦⌘⟧ ⟦⇧⟧ ⟦r⟧
+Reload|⟦⌘⟧ ⟦r⟧
+
+##### browser 
+
+table:action|shortcut
+⟮focus address bar⟯|⟮⟦⌘⟧⟦l⟧⟯
 ⟮open link in new tab⟯|⟮⟦⌘⟧ ⟦click⟧⟯
 ⟮download link target⟯|⟮⟦⌥⟧ ⟦click⟧⟯
 
-### search 
+#### search 
 
-Action|Shortcut
-⟮Find in project/ other larger scope⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦F⟧⟯
-⟮Find next⟯|⟮⟦⌘⟧ ⟦g⟧⟯
-⟮Find previous⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦g⟧⟯
-⟮Open search in window/smaller scope⟯|⟮⟦⌘⟧ ⟦F⟧⟯
-⟮Open search in project/other large scope/advanced search⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦F⟧⟯
-Fill search buffer|⟦⌘⟧ ⟦e⟧
+##### basic
 
-On mac, in many apps ⟦⌘⟧ ⟦e⟧ fills a global search buffer, which you then can instantly use to search in a different app (or in the same one of course).
+table:action|shortcut
+⟮go to next/previous⟯⟯|⟮⟦⌘⟧ ⟦g⟧/⟦⌘⟧ ⟦⇧⟧ ⟦g⟧⟯
+⟮Open search in smaller scope・larger scope⟯|⟮⟦⌘⟧ ⟦f⟧・⟦⌘⟧ ⟦⇧⟧ ⟦f⟧
+
+##### filling search
+
+In many apps, opening the search with ⟦⌘⟧ ⟦f⟧・⟦⌘⟧ ⟦⇧⟧ ⟦f⟧ with text highlighted fills the search buffer.
+On mac and some cross-plattform apps, ⟦⌘⟧ ⟦e⟧ fills a global search buffer.
 Within the same app, the difference between ⟦⌘⟧ ⟦e⟧ and ⟦⌘⟧ ⟦f⟧ on a selection is that ⟦⌘⟧ ⟦e⟧ only adds it to the buffer, while ⟦⌘⟧ ⟦f⟧ also focuses the search field.
 
+#### form navigation
 
-### form navigation
+table:action|shortcut
+⟮⟦tab⟧/⟦⇧⟧ ⟦tab⟧⟯|⟮field forward/back⟯
 
-⟮⟦tab⟧⟯|⟮field forward⟯
-⟮⟦⇧⟧ ⟦tab⟧⟯|⟮field back⟯
+#### messengers
+
+##### between threads
+
+###### basic
+
+table:action|shortcuts
+⟮navigate between threads⟯|⟮⟦⌥⟧ ⟦↑/↓⟧⟯
+⟮navigate between unread threads⟯|⟮⟦⌥⟧ ⟦⇧⟧ ⟦↑/↓⟧⟯
+⟮toggle quickswitcher⟯|⟮⟦⌘⟧ ⟦k⟧⟯
+
+###### divergent
+
+table:action|shortcuts
+⟮Navigate between larger scope⟯|disc: ⟮⟦⌘⟧ ⟦⌥⟧ ⟦↑/↓⟧⟯; others: doesn't exist
+
+##### within threads
+
+###### basic
+
+previous/next message|⟦↑/↓⟧⟯
+⟮reply⟯|⟮⟦r⟧⟯
+⟮edit message⟯|⟮⟦e⟧⟯
+upload file|⟮⟦⌘⟧ ⟦u⟧⟯
+
+###### divergent
+
+table:action|shortcuts
+upload file|disc: ⟮⟦⌘⟧ ⟦⇧⟧ ⟦U⟧⟯
+
+##### calls
+
+###### divergent
+
+table:action|shortcuts
+toggle audio/video|disc: ⟮⟦⌘⟧ ⟦⇧⟧ ⟦m⟧/ø⟯; signal: ⟦⇧⟧ ⟦m⟧/⟦⇧⟧ ⟦v⟧; slack: ⟦m⟧/⟦v⟧; zoom: ⟦⌘⟧ ⟦⇧⟧ ⟦a⟧/⟦⌘⟧ ⟦⇧⟧ ⟦v⟧
+toggle deafen|disc: ⟮⟦⌘⟧ ⟦⇧⟧ ⟦D⟧⟯; others: doesn't exist
+⟮start/accept call⟯|disc: ⟮⟦⌃⟧ ⟦enter⟧⟯; others: doesn't exist
+⟮decline incoming call⟯|⟮⟦esc⟧⟯
+
+#### WYSIWYG editors
+
+Keyboard shortcut|action|programs
+⟮S⟯|⟮Select tool⟯|⟮Inkscape, SVG-Edit⟯
+⟮G⟯|⟮group/ungroup⟯|⟮SVG-Edit⟯
+⟮W⟯|⟮Wireframe mode⟯|⟮SVG-Edit⟯
+⟮A⟯|⟮Select everything⟯|⟮SVG-Edit⟯
+⟮D⟯|⟮Duplicate⟯|⟮SVG-Edit⟯
+⟮alt-drag⟯|⟮drag a duplicated shape (duplicate and then move⟯)|⟮SVG-Edit⟯
+⟮cmd-drag⟯|⟮drag a duplicated shape (duplicate and then move⟯)|⟮Affinity designer⟯
+⟮tap spacebar while dragging⟯|⟮drop a duplicate of the current shape at position⟯|⟮Inkscape⟯
+⟮shift+click⟯|⟮select multiple objects⟯|⟮Inkscape, SVG-Edit, Affinity Designer⟯
+⟮F⟯|⟮center canvas in frame⟯|⟮SVG-Edit⟯
 
 
+### platform-specific
 
-### weird mac
+#### dialogs
 
-Action|Shortcut
-⟮Get info on item⟯|⟮⟦⌘⟧ ⟦i⟧⟯
-⟮Preferences⟯|⟮⟦⌘⟧ ⟦,⟧⟯
-⟮Switch focus between windows of the same program⟯|⟮⟦⌘⟧ ⟦`⟧⟯
-⟮Show hidden files⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦.⟧⟯
-⟮rename current item⟯|⟮{{c2::⟦enter⟧}⟯
-⟮Minimize (not windows)⟯|⟮⟦⌘⟧ ⟦m⟧⟯
-⟮Minimize (windows)⟯|⟮⟦⊞⟧ ⟦↓⟧⟯
-⟮Fullscreen⟯|⟮⟦⌘⟧ ⟦⌃⟧ ⟦f⟧⟯
-⟮⟦⌥⟧ ⟦space⟧⟯|⟮non-breaking space (on keyboard⟯)
-⟮del key⟯|⟮⟦fn⟧ ⟦⌫⟧⟯
+##### mac
 
-
-span=2;macOs Dialogs
-Action|Shortcut
+table:action|shortcut
 ⟮cancel⟯|⟮⟦esc⟧⟯
 ⟮don't save⟯|⟮⟦⌘⟧ ⟦⌫⟧⟯
 
+#### magnifying glass
 
-span=2;Magnifying glass
-Action|Shortcut
+##### mac
+
+table:action|shortcut
 ⟮toggle⟯|⟮⟦⌘⟧ ⟦⌥⟧ ⟦8⟧⟯
 ⟮zoom out⟯|⟮⟦⌘⟧ ⟦⌥⟧ ⟦-⟧⟯
 ⟮zoom in⟯|⟮⟦⌘⟧ ⟦⌥⟧ ⟦0⟧⟯
 
+### application-specific
 
-### Anki
+#### Anki
 
 Action|Shortcut
 ⟮Add new card⟯|⟮⟦⌘⟧ ⟦n⟧⟯
@@ -165,53 +221,27 @@ Action|Shortcut
 
 
 
-#### video
+### weird mac
 
-Shortcut|Action
-⟮,⟯|⟮one frame back⟯
-⟮.⟯|⟮one frame forwards⟯
-⟮ ⟦f⟧⟯|⟮go fullscreen⟯
-⟮esc⟯|⟮Exit fullscreen⟯
-⟮space⟯|⟮pause⟯
-
-
-#### discord
-
-
-        Shortcut
-      |Action
-⟮⟦⌘⟧ ⟦⇧⟧ ⟦D⟧⟯|⟮Toggle deafen⟯
-⟮⟦⌘⟧ ⟦⇧⟧ ⟦U⟧⟯|⟮Upload file⟯
-⟮⟦⌘⟧ ⟦⌥⟧ ⟦↑/↓⟧⟯|⟮Navigate between servers⟯
-⟮⟦⌥⟧ ⟦↑/↓⟧⟯|⟮navigate between channels (incl private messages⟯)
-⟮⟦⌘⟧ ⟦K⟧⟯|⟮toggle quickswitcher⟯
-⟮⟦⌃⟧ ⟦Ä⟧⟯|⟮start/accept call⟯
-⟮⟦e⟧⟯|⟮edit message⟯
-⟮⟦r⟧⟯|⟮reply⟯
-⟮⟦esc⟧⟯|⟮decline incoming call⟯
-⟮⟦⌘⟧ ⟦⇧⟧ ⟦M⟧⟯|⟮toggle mute⟯
+Action|Shortcut
+⟮Get info on item⟯|⟮⟦⌘⟧ ⟦i⟧⟯
+⟮Preferences⟯|⟮⟦⌘⟧ ⟦,⟧⟯
+⟮Switch focus between windows of the same program⟯|⟮⟦⌘⟧ ⟦`⟧⟯
+⟮Show hidden files⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦.⟧⟯
+⟮rename current item⟯|⟮{{c2::⟦enter⟧}⟯
+⟮Minimize (not windows)⟯|⟮⟦⌘⟧ ⟦m⟧⟯
+⟮Minimize (windows)⟯|⟮⟦⊞⟧ ⟦↓⟧⟯
+⟮Fullscreen⟯|⟮⟦⌘⟧ ⟦⌃⟧ ⟦f⟧⟯
+⟮⟦⌥⟧ ⟦space⟧⟯|⟮non-breaking space (on keyboard⟯)
 
 
-#### vector editor
-
-Keyboard shortcut|action|programs
-⟮S⟯|⟮Select tool⟯|⟮Inkscape, SVG-Edit⟯
-⟮G⟯|⟮group/ungroup⟯|⟮SVG-Edit⟯
-⟮W⟯|⟮Wireframe mode⟯|⟮SVG-Edit⟯
-⟮A⟯|⟮Select everything⟯|⟮SVG-Edit⟯
-⟮D⟯|⟮Duplicate⟯|⟮SVG-Edit⟯
-⟮alt-drag⟯|⟮drag a duplicated shape (duplicate and then move⟯)|⟮SVG-Edit⟯
-⟮cmd-drag⟯|⟮drag a duplicated shape (duplicate and then move⟯)|⟮Affinity designer⟯
-⟮tap spacebar while dragging⟯|⟮drop a duplicate of the current shape at position⟯|⟮Inkscape⟯
-⟮shift+click⟯|⟮select multiple objects⟯|⟮Inkscape, SVG-Edit, Affinity Designer⟯
-⟮F⟯|⟮center canvas in frame⟯|⟮SVG-Edit⟯
 
 
-#### navigatable
 
-Force/Hard Reload|⟦⌘⟧ ⟦⇧⟧ ⟦r⟧
-Reload|⟦⌘⟧ ⟦r⟧
 
-#### zoomable
 
-Zoom in|⟦⌘⟧ ⟦+⟧
+
+
+
+
+
