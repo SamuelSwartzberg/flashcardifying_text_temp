@@ -33,33 +33,66 @@ high color|15-16/5
 true color|24/8
 deep color|30/10
 
-#### in detail
-
 ## color model
 
 ### basics
 
-A color model is a model of how a set of channels make up a color. 
+A color model is a n-tuple of primary channels, and their relationships.
 A color space is a color model associated with how the results are to be interpreted (viewing conditions etc.) 
 A gamut⎵wide/medium/narrow/color space⎵ is a complete subset of a colors that ø/are contained in something/can be produced or represented by something/can be produced or represented by a color space.
+A color model graphical representation is a representation of a color model as a shape in n-dimensional space.
 
-### additive/subtractive
+### primary, secondary
 
-#### basics
+A primary channel is a fundamental channel of a color model.
+A secondary channel is a channel created from the combination of two primary channels.
+An n-ary (n>1) channel is a channel created of the combination of two adjacent n-1-ary channels.
+A primary/secondary/n-ary color is a primary/secondary/n-ary channel that is a color.
 
-An additive/subtractive color model is one where colors added together produce progressively lighter/darker colors.
+### representation
+
+A color from a color model is typically represented as an color n-tuple, or as a color hexadecimal representation.
+color-n-tuple ::= &lt;color-model-name&gt;(&lt;component-value&gt;{, &lt;component-value&gt;})
+color-hexadecimal-representation ::= #{&lt;component-hex-value&gt;}
+
+### derivatives
+
+An alpha/depth color model (my term) is a different color model with an alpha/depth channel added.
+The alpha/depth color model name is the color model name + A/-D.
+
+### types
+
+#### additive/subtractive
+
+##### basics
+
+An additive/subtractive color model is one where the channels added together produce progressively lighter/darker colors.
 Light emission/absorption follows an additive/subtractive color model.
 An additive/subtractive color model is mostly used for displays/printing and other places where light is emitted/absorbed.
-The RGB/CMY(K) color model is the most
 
+##### RGB/CMY
 
-In the RGB color model a thingy has the three channels red, green and blue. 
-In the CMY color model a thingy has the three channels cyan, magenta and yellow. 
-The CMYK color model adds a channel of key (= black). 
+###### basics
+
+The RGB/CMY(K) color model is the most common additive/subtractive color model, in part because it corresponds/is the inverse of the model that corresponds roughly to human trichromatic color vision.
+The RGB/CMY color models consists of the three channels red, green, blue/cyan, magenta, yellow.
+
+###### relationship
+
+C+R = 1
+M+G = 1
+Y+B = 1
+
+###### CMYK
+
+The CMYK color model adds a channel of key (= black) to the CMY color model.
 The key channel is generally added to CMYK because black ink is cheaper, and producing black by mixing cyan, magenta and yellow is in practice quite hard. 
-The CMY and RGB color models are the most common color models in use today, in part because they correspond roughly to human tricromatic color vision. 
+K = min(C, M, Y) 
+channel⎵CMYK⎵ = (channel⎵CMY⎵ - K) / (1 - K)
 
-RYB is an alternative subtractive color model still used in the arts. It can however not create black. 
+##### others
+
+RYB is an alternative subtractive color model still used in the arts, which however cannot create black. 
 
 Color depth is more rarely also called bit depth. 
 Today, the most common color depth is 8 bit per channel. 
@@ -69,81 +102,71 @@ Most colors are specified by specifying the color model and then the components 
 RGB colors are also often displayed as a hex triplet, which is generally prefixed by a # character. 
 In certain places, e.g. HTML/CSS, hex colors with reduplicated digits only (e.g. 663399) can be shortened to three-digit variants (e.g. 639) 
 
+#### hue-based
 
-A primary color is a member of a set of colors (all defined to be primary) that can be combined in varying amounts to create a gamut of colors. 
+##### hue
 
-CMY and RGB are complementary in such a way that C+R, M+G, and Y+B are all 100% (255 with an 8 bit color depth). To get one channel, the other is subtracted from 100%. 
-To get the K channel from CMY: K = min(C, M, Y) 
-After getting the K channel, to convert CMY to CMYK: Channel_new = Channel - K/1 - K
+Hue is what most languages consider primary about color.
+^so e.g. hue is the head in NP/APs describing color: light green, pastel purple.
+RGB-based hue is hue generated/mapped from RGB, which is the most common scale for hue.
+RGB-based hue is conceputally a circle and thus is specified in degrees.
+R/G/B are 0=360/120/240deg of RGB-based hue.
+Y/C/M are 60/180/300 of RGB-based hue.
 
-Hue is what we might call ＊color＊ color. 
-Hue is what most languages consider primary about color, with other attributes such as light/dark/muddy/vivid/pastel attached later. 
 Hue is often generated from RGB, e.g. for c+;use in HSL ＆ HSV/HSB. 
 If Hue is generated from RGB for HSL/HSV, it is specified in a degree from 0 to 360 deg 
 
-
-if Hue is specified in a degree measurement
-degree|color
-0deg/360deg|red
-120deg|green
-240deg|blue
-
-
-Commonly, saturation ≈ chroma refers to the distance of a color from the white-gray-black spectrum. 
-
-Lighntess attempts to model adding white/black paint to make the color white/black. 
-100% lightness is white for any saturation/hue. 
-50% lightness allows for fully saturated colors. 
-0% lightness is black for any saturation/hue 
-Value/brightness attempts to model how shining more/less light on a thing will change the color. 
-100% value/brightness allows for fully saturated colors. 
-0% lightness is black for any saturation/hue. 
-tint|mixture of a color with white
-tone|mixture of a color with gray
-shade|mixture of a color with black
-
-
-HSL = hue, saturation, lightness. 
-HSV = hue, saturation, value is the same as HSB = hue, saturation, brightness. 
-HSL and HSV/HSB are alternate color models, which are both variants of/generated from the RGB color model. 
-HSL and HSV were created because they are more natural to how we as humans understand color. 
-sa;While RGB and CMY are most naturally represented as cubes, sb;HSL and HSV/HSB are commonly represented as cylinders. 
-Since the top and bottom of c+;a s202;HSL cylinder all approach the same color (white and black respectively), sb;HSL may also be represented as a bicone. 
-Since the bottom of a HSV/HSB cylinder approaches the same color (black), sb;HSV/HSB may more naturally be represented as a cone. 
-HSL and HSV/HSB both have s211:212;hue as the degree, and s209:210;saturation as the radius. 
-HSL has lightness as the height. 
-HSV/HSB has value/brightness as the height.  
-both HSL and HSV/B have the problem that changing the saturation and to a certain extent the hue will change the percieved lightness/brightness, even when they are supposed to be independent. 
+##### hue-based color model
 
 flex-container:h∞;✫sm_hsl_cylinder.png✫✫sm_hsv_cylinder.png✫
+
+
 flex-container:h∞;✫sm_hsl_cone.png✫✫sm_hsv_cone.png✫
 
-For any given color model, to specify transparency, you add another channel, which is called the alpha channel.
-For a color hex, you specify the alpha channel by adding another two-digit hex to the end.
-‹color-model›-D is just that color model with an additional depth channel. 
+###### basics
 
-RGB 3-tuple notation|color
-Rgb(0, 0, 0)|✫sm_Screenshot%202020-02-25%20at%2017.42.47.png✫
-Rgb(0, 0, 255)|✫sm_Screenshot%202020-02-25%20at%2017.43.44.png✫
-Rgb(0, 255, 0)|✫sm_Screenshot%202020-02-25%20at%2017.43.16.png✫
-Rgb(0, 255, 255)|✫sm_Screenshot%202020-02-25%20at%2017.44.39.png✫
-Rgb(255, 0, 0)|✫sm_Screenshot%202020-02-25%20at%2017.42.26.png✫
-Rgb(255, 0, 255)?|✫sm_Screenshot%202020-02-25%20at%2017.41.37.png✫
-Rgb(255, 255, 0)|✫sm_Screenshot%202020-02-25%20at%2017.45.11.png✫
-Rgb(255, 255, 255)?|✫sm_Screenshot%202020-02-25%20at%2017.41.09.png✫
-#f2f12f|c+;<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #f2f12f 0%, #f2f12f 100%);">
-#e6281f|c+;<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #e6281f 0%, #e6281f 100%);">
-#e2e|c+;<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #e2e 0%, #e2e 100%);">
-#daefe4|c+;<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #daefe4 0%, #daefe4 100%);">
-#867d7e|c+;<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #867d7e 0%, #867d7e 100%);">
-#17F099|c+;<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #17F099 0%, #17F099 100%);">
-#132133|c+;<img style="width: 5ch; min-height: 1em; background-image: linear-gradient(to right, #132133 0%, #132133 100%);">
+A hue-based color model is a color model that contains a hue channel.
+hue represents the angular distance of a hue-based color model's color model graphical representation.
 
+###### lightness & value
 
-Color temperature is measured in Kelvin.
-incandescent lights|~2500K
-daylight|6000K+
-candles|1500-2000K
+Lightness/value =symb=> L/V.
+Lightness/value represents the height of the hue-based color model's color model graphical representation cylinder・bicone/cone.
+Lightness/value allows for the greatest range of color at 0.5/1.
+Despite the name, lightness/value are not the only things that influenced percieved brightness in hue-based color models.
+
+####### value
+
+Intuitively, value is how adding shining more or less light on a non-black thing will change its color.
+Thus, at 0 value (no light) all colors are black.
+Thus, at 1 value (max light) all colors besides black can exist.
+
+####### lightness
+
+Intuitively, lightness models how mixing black (0-0.5) or white (0.5-1) will change its color.
+Thus at 0/1 lightness all colors are white/black.
+
+###### saturation and chroma
+
+Chroma is the distance of a color from being grayscale.
+Chroma has different intervals (smaller than [0, 1]) depending on the lightness/value.
+Saturation is chroma stretched to always be a value in the interval [0, 1]
+Using chroma, a hue-based color model's color model graphical representation using lightness/value is a bicone/cone.
+Using saturation, a hue-based color model's color model graphical representation is always a cylinder.
+Chroma/saturation represents the radius of a hue-based color model's color model graphical representation.
+
+###### HSL, HSV
+
+HS/CL・HS/CV is the color model using RGB-based hue consisting of hue, saturation/chroma, lightness・value.
+HS/CV is the exact same as HS/CB.
+
+## non-model-terminology
+
+### mixtures
+
+A tint/tone/shade is a mixture of a color with white/gray/black.
+
+## groupings
 
 ### color schemes
 
@@ -155,7 +178,13 @@ c5,19;split complementary (is a form |c+;h15:21;A color and the colors adjacent 
 c6,20;tetradic (more specif. square)|c+;h15:21;Four colors equally spaced on the color wheel|c+;h8:14;✫sm_paste-fd4b5126038c4864c0345df2e6fb8f52cb12541f.jpg✫
 c7,21;triadic |c+;h15:21;Three colors equally spaced on the color wheel|c+;h8:14;✫sm_paste-002328be373e9ab91dcae451d436c067fa5a2718.jpg✫
 
+### systematizations
 
-Material design pioneered describing lightness of colors on the same 100 (or sometimes 50) to 900 scale as font weights.
-Describing colors on a 100 to 900 scale has been adopted by other things such as bootstrap, chakra.
-color-on-weight-scale ::= ‹hue›-‹weight›
+A color systematization (my term) is a systematization of colors within or independent of color models.
+
+#### material
+
+The material color systematization describes colors by a combination of material hue and material weight.
+A material hue is a name of a color (e.g. orange) roughly equivalent to its hue.
+A material weight is a variant of a material hue roughly similar to lightness, measured on a 1k weight scale.
+material-color ::= ‹material-hue›-‹material-weight›

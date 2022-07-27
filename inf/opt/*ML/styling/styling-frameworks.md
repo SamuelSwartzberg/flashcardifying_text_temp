@@ -84,3 +84,5 @@ Containers are, depending on the exact class, either 100% of the page, or 100% w
 
 in bootstrap, columns are specified .col-‹meas-col›
 in bootstrap, a row consisting of columns with n measurement columns width is specified as .row-cols-‹meas-col›
+
+material color representation
