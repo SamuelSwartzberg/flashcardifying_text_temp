@@ -45,7 +45,7 @@ The shift/altgr alternate character is the character produced by shift/altgr
 ##### lock keys
 
 toggle key =syn= lock key
-Typical lock keys are {caps lock, shift lock, num lock, insert}.
+Typical lock keys are {caps lock, shift lock, num lock, insert, compose, various dead keys}.
 
 ###### insert
 
@@ -55,6 +55,12 @@ In overtype mode, typing replaces characters to the right
 In insert mode, typing moves the characters in the right further to the right.
 
 When in overtype/insert mode, the cursor is reasonably wide/narrow
+
+###### compose & dead
+
+An auto-exiting lock key (my term) is a lock key that exits the mode after some other action(s) is/are taken.
+A compose/dead key is an auto-exiting lock key that enters a mode where the following one/two or more visible character key(s) will produce an alternate character, often via merging.
+^e.g. ⟦compose⟧ + ⟦~⟧ + ⟦n⟧ = ñ / acute accent key
 
 ###### caps & shift lock
 
@@ -116,7 +122,7 @@ On laptops, fn + up/down arrow simulates pg up/pg down.
 
 ###### letter keys
 
-A letter key is a visible character key that produces a letter
+A letter key is a visible character key that produces a letter.
 
 ##### delete/backspace
 
@@ -125,48 +131,39 @@ The delete/backspace key deletes characters forwards (to the right)/backwards (t
 ##### navigation keys 
 
 navigation keys are keys that move the content within the viewport andor the cursor.
-A viewport/cursor/viewport&cursor navigation key is a navigation key that can move the content within the viewport/the cursor/both.
+A view/cursor/view&cursor navigation key is a navigation key that can move the content within the viewport/the cursor/both.
 a real/simulated navigation key is a real navigation key on the keyboard (or at least on some keyboards)/the functionality of navigation keys simulated by a keyboard shortuct.
 
-###### pgupdown home end
+###### real navigation keys
 
-The ⟮end, home and pgup/pgdown⟯ keys ⟮move the cursor⟯ when ⟮text-editing⟯, ⟮and the view⟯ when ⟮not⟯.
-  span=2;Text-editing context
-Key|Action
-⟮Home key⟯|⟮Move the cursor to beginning of line⟯
-⟮End key⟯|⟮Move the cursor to end of line⟯
-⟮Pg Up / Pg down⟯|⟮Go up/down a page⟯
+The real navigation keys are the arrow keys and the large navigation keys.
+The arrow keys/large navigation keys (my term) are the real navigation keys that move a little/a lot.
 
-  span=2;Non-text-editing context
-Key|Action
-⟮Home key⟯|⟮Go to beginning of document⟯
-⟮End key⟯|⟮Go to end of document⟯
-⟮Pg Up / Pg down⟯|⟮Go up/down a page⟯
+####### large navigation keys
 
+The large navigation keys are {home, end, pgup, pgdn}.
+On windows & vscode even on mac/mac, the large navigation keys are cursor navigation keys when text-editing and view navigation keys when not/always view navigation keys.
 
+######## functionality
 
+As cursor navigation keys, home/end moves the cursor to the beginning/end of the line.
+As cursor navigation keys, pgup/pgdn moves the cursor up/down a page.
+As view navigation keys, home/end goes to the beginning/end of document.
+As view navigation keys, pgup/pgdn goes up/down a page.
 
-on ⟮macOS⟯ ⟮home, end, pgup, pgdown⟯ only ever ⟮move the view.⟯‹/p›
+###### simulated navigation key 
 
-mac, instead of home, end, pgup, pgdown
-Key|does
+####### general
+
+The simulated navigation key for going to beginning/end of word on mac・win&linux is ⟦⌥⟧・⟦⌃⟧ ⟦←/→⟧.
+The simulated navigation key for deleting to beginning/end of word on mac・win&linux is ⟦⌥⟧・⟦⌃⟧ ⟦backspace/delete⟧  
+
+####### only on mac
+
+table:simulated navigation key|does
 ⟮cmd + left/right⟯|⟮moves the cursor to the beginning/end of the line⟯
 ⟮cmd + up/down⟯|⟮oves the cursor to the beginning/end of the document⟯
-
-
-###### navigation key combinations
-
-Platform specific
-Key|does
-⟮alt + left/right⟯|⟮go to beginning/end of word (mac⟯)
-⟮ctrl + up/down⟯|⟮go to beginning/end of word (win/linux⟯)
-⟮alt + backspace/delete⟯|⟮delete to beginning/end of word (mac⟯)
-⟮ctrl + backspace/delete⟯|⟮delete to beginning/end of word (win/linux⟯)
 ⟮cmd + backspace⟯|⟮delete to beginning of line (mac⟯)
-
-##### dead keys
-
-
 
 ## cursor
 

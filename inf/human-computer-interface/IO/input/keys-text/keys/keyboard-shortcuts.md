@@ -14,6 +14,59 @@ a key combination modifier ingredient is a modifier key used in a key combinatio
 
 ## keyboard shortcuts
 
+### OS
+
+
+### generalizable
+
+#### file-related
+
+⟮Export⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦E⟧⟯
+⟮Import⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦i⟧⟯
+⟮Save as⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦s⟧⟯
+⟮Save⟯|⟮⟦⌘⟧ ⟦s⟧⟯
+⟮New thingy⟯|⟮⟦⌘⟧ ⟦n⟧⟯
+⟮New alternative thing (window, folder, etc.⟯)|⟮⟦⌘⟧ ⟦⇧⟧ ⟦n⟧⟯
+⟮Open⟯|⟮⟦⌘⟧ ⟦o⟧⟯
+⟮Duplicate current item⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦D⟧⟯
+⟮Print⟯|⟮⟦⌘⟧ ⟦p⟧⟯
+⟮delete thingy (if file, move to bin⟯)|⟮⟦⌘⟧ ⟦⌫⟧⟯
+
+
+##### view
+
+⟮Reset zoom level (most often⟯)|⟮⟦⌘⟧ ⟦0⟧⟯
+⟮Zoom out⟯|⟮⟦⌘⟧ ⟦-⟧⟯
+⟮Zoom in⟯|⟮⟦⌘⟧ ⟦=⟧⟯
+
+
+#### content editing 
+
+##### clipboard
+
+table:shortcut|action
+⟮copy⟯|⟮⟦⌘⟧ ⟦c⟧⟯
+⟮cut⟯|⟮⟦⌘⟧ ⟦x⟧⟯
+⟮paste⟯|⟮⟦⌘⟧ ⟦v⟧⟯
+⟮paste as plain text⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦v⟧⟯
+
+##### text editing
+
+⟮⟦⌘⟧ ⟦b/i/u⟧⟯|⟮bold/italic/underlined text⟯
+
+Shortcut|Action
+⟮Select all⟯|⟮⟦⌘⟧ ⟦a⟧⟯
+
+⟮⟦⌃⟧ ⟦l⟧⟯|⟮Insert hyperlink⟯
+
+⟮⟦⇧⟧ ⟦tab⟧⟯|⟮unindent⟯
+⟮⟦tab⟧⟯|⟮Indent⟯
+
+##### edit history
+
+⟮undo⟯|⟮⟦⌘⟧ ⟦z⟧⟯
+⟮redo⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦z⟧⟯
+
 ### basic OS
 
 Action|Shortcut
@@ -23,9 +76,7 @@ Action|Shortcut
 ⟮Restore tab (editor in VS code⟯)|⟮⟦⌘⟧ ⟦⇧⟧ ⟦t⟧⟯
 
 
-### edit history
-⟮undo⟯|⟮⟦⌘⟧ ⟦z⟧⟯
-⟮redo⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦z⟧⟯
+
 
 
 ### browser shortcuts
@@ -110,39 +161,7 @@ Action|Shortcut
 ⟮X⟯|⟮Deck home screen⟯
 
 
-### file-related
-⟮Export⟯|⟮⟦⇧⟧⟦⌘⟧ ⟦E⟧⟯
-⟮Import⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦i⟧⟯
-⟮Save as⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦s⟧⟯
-⟮Save⟯|⟮⟦⌘⟧ ⟦s⟧⟯
-⟮New thingy⟯|⟮⟦⌘⟧ ⟦n⟧⟯
-⟮New alternative thing (window, folder, etc.⟯)|⟮⟦⌘⟧ ⟦⇧⟧ ⟦n⟧⟯
-⟮Open⟯|⟮⟦⌘⟧ ⟦o⟧⟯
-⟮Duplicate current item⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦D⟧⟯
-⟮Print⟯|⟮⟦⌘⟧ ⟦p⟧⟯
-⟮delete thingy (if file, move to bin⟯)|⟮⟦⌘⟧ ⟦⌫⟧⟯
 
-
-### view
-⟮Reset zoom level (most often⟯)|⟮⟦⌘⟧ ⟦0⟧⟯
-⟮Zoom out⟯|⟮⟦⌘⟧ ⟦-⟧⟯
-⟮Zoom in⟯|⟮⟦⌘⟧ ⟦=⟧⟯
-
-
-### text editing 
-
-Shortcut|Action
-⟮Paste as plain text⟯|⟮⟦⌘⟧ ⟦⇧⟧ ⟦v⟧⟯
-⟮Select all⟯|⟮⟦⌘⟧ ⟦a⟧⟯
-⟮copy⟯|⟮⟦⌘⟧ ⟦c⟧⟯
-⟮cut⟯|⟮⟦⌘⟧ ⟦x⟧⟯
-⟮paste⟯|⟮⟦⌘⟧ ⟦v⟧⟯
-⟮⟦⌃⟧ ⟦L⟧⟯|⟮Insert hyperlink⟯
-⟮⟦⌘⟧ ⟦b⟧⟯|⟮Bold text⟯
-⟮⟦⌘⟧ ⟦i⟧⟯|⟮Italic text⟯
-⟮⟦⌘⟧ ⟦u⟧⟯|⟮underlined text⟯
-⟮⟦⇧⟧ ⟦tab⟧⟯|⟮unindent⟯
-⟮⟦tab⟧⟯|⟮Indent⟯
 
 
 
