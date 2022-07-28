@@ -1440,14 +1440,6 @@ macOs|launchd
 flex-container:✫300px-Replay_attack_on_hash.svg.png✫
 Nonce (short for number once) is a number (generally random) that can only be used once in a cryptographic communication, to make sure an attacker can't repeat a data transmition (called a replay attack)ground
 
-# crypt
-
-## random numbers
-
-C(S)PRNG  Cryptographically (secure) pseudorandom number generator
-PRNG  pseudorandom number generator
-RNG  random number generator
-
 # attacks
 
 #### key exchange
