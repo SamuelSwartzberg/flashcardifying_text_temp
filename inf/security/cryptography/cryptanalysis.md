@@ -9,12 +9,20 @@ A cryptographic algorithm/side-channel attack is a cryptanalytic attack that exp
 
 ### communication attack
 
+A communication attack (my term) is a side-channel attack on the communicatioon between two agents.
+
 #### MitM attack
 
 flex-container:✫sm_mitm_illus.svg✫
 
 
-A  ⟮man-in-the-middle⟯ attack is when an attacker ⟮inserts themseves⟯ into the ⟮communication⟯ between ⟮two parties⟯ believing ⟮to be talking to each other directly⟯.
+A ⟮adversary/man/monster/machine/monkey/meddler/person-in-the-middle⟯ attack is when an attacker secretly relays and possibly alters the communication between two parties believing to be interacting with each other.
+
+##### replay attack
+
+A replay attack is a adversary-in-the-middle attack where the attacker intercepts the message, and then does something with it at a later time.
+A delay/repeat replay attack is a replay attack where the attacker sends the original message, but at a later time/sends the original message, and then resends it at a later time.
+Replay attacks are often used on authentication messages.
 
 ## guessing attack
 

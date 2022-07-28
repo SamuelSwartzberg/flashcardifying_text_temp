@@ -40,8 +40,28 @@ Identity verification is ascertaining the truth of personal identification.
 ###### basics
 
 Human verification is identity verification that one is in fact a human.
+Human verification needs to be designed such that computers cannot pass it, but can grade it.
 
 ###### captcha
+
+CAPTCHA is the human verfication process "completely automated public turing test (to tell) computers (and) humans apart"
+
+####### ReCAPTCHA
+
+ReCAPTCHA is the CAPTCHA implementation bought by google.
+
+######## v1 
+
+ReCAPTCHA v1 was based on OCR.
+ReCAPTCHA v1 had two groups of words: known words and unknown words.
+ReCAPTCHA v1 would show users one known word and one unknown word.
+ReCAPTCHA v1 would consider the captcha solved if the known word was correct, and the unknown word got a vote of confidence for the value entered for it.
+In ReCAPTCHA v1, eventually an unknown word would be added as a known word, or discarded if too uncertain.
+
+######## v2 & v3
+
+ReCAPTCHA v2 displays only a single checkbox, and uses behavioral analysis to check the risk of a bot. If high risk, an image captcha is displayed.
+ReCAPTCHA v3 displays nothing at all, and uses behavioral analysis to return the chance of someone being human on a scale from 0 (bot) to 1 (human), allowing web administrators to take further action.
 
 ### authentication
 
@@ -82,3 +102,4 @@ A physical/behavioral biometric is a type 3 authentication factor where it is wh
 
 Challenge-response authentication is an additional step sometimes used in authentication where the subject is sent a challenge and is expected to provide a response.
 In challenge-response authentication, the challenge is some data, and the response is expected to be a unique response every time.
+Challenge-response authentication is a defense against replay attacks.

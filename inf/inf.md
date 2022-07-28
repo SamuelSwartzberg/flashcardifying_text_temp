@@ -1435,39 +1435,10 @@ macOs|launchd
 
 # authentication
 
-Authentication is proving one's identity.
-
 ## nonce
 
 flex-container:✫300px-Replay_attack_on_hash.svg.png✫
-Nonce (short for number once) is a number (generally random) that can only be used once in a cryptographic communication, to make sure an attacker can't repeat a data transmition (called a replay attack)
-
-## challenge-response
-
-challenge–response authentication is a family of protocols in which one party presents a question ("challenge") and another party must provide a valid answer ("response") to be authenticated.
-
-### passwords
-
-#### pass
-
-- pass backup
-- pass anki-main
-
-### CAPTCHA
-
-Captcha is short for "completely automated public turing test (to tell) computers (and) humans apart"
-A CAPTCHA is a challenge-response test to prove that the user is a human.
-The requirement for a captcha is that computers should not be able to pass it, but should be able to grade it
-Captchas were invented around 2000
-The original generation of captchas used text
-Originally, the text of captchas was generated and distorted, later (e.g. in recaptha) hard-to-read text from scanning books was used
-Google's implementation of captcha is known as reCaptcha
-The first (v1) generation of ReCAPTCHA would show users one word that was known, and one word that was difficult to automatically OCR.
-in ReCAPTCHA v1 of the two words, if the known word was correct, the unknown one would be labelled as probably correct too
-ReCAPTCHA v1 was fed off of and used to scan books.
-reCAPTCHA v2 displays only a single checkbox, and uses behavioral analysis to check the risk of a bot. If high risk, an image captcha is displayed.
-ReCAPTCHA v2 is being used to train the image recognition of google's AI
-reCAPTCHA v3 checks if you are a bot purely based giving you a score in the background
+Nonce (short for number once) is a number (generally random) that can only be used once in a cryptographic communication, to make sure an attacker can't repeat a data transmition (called a replay attack)ground
 
 # crypt
 
