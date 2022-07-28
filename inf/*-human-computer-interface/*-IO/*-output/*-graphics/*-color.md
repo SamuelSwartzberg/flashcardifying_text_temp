@@ -170,13 +170,31 @@ A tint/tone/shade is a mixture of a color with white/gray/black.
 
 ### color schemes
 
-c1,15;analogous |c+;h15:21;Two or more colors that are all next to each other on the color wheel|c+;h8:14;✫sm_paste-1533923cee269fdd130a526f947f61f8c9c1a07a.jpg✫
-c2,16;complementary |c+;h15:21;Two opposite colors on the color wheel|c+;h8:14;✫sm_paste-03f4e18bda3e8ee3b4153d5f2ef646224461c7d2.jpg✫
-c3,17;monochromatic |c+;h15:21;A single color|c+;h8:14;✫sm_paste-6e50d848ef05e96cfe3f0542e368e14cf6ae37b3.jpg✫
-c4,18;tetradic (more specif: double complementary) |c+;h15:21;two pairs of complementary colors |c+;h8:14;✫sm_paste-76f4cf2d889e4aed755d6cc033dbeac563d0deee.jpg✫
-c5,19;split complementary (is a form |c+;h15:21;A color and the colors adjacent to its complementary |c+;h8:14;✫sm_paste-da8b825ba5b95610f8a2dae2a17a63c508bec3d5.jpg✫
-c6,20;tetradic (more specif. square)|c+;h15:21;Four colors equally spaced on the color wheel|c+;h8:14;✫sm_paste-fd4b5126038c4864c0345df2e6fb8f52cb12541f.jpg✫
-c7,21;triadic |c+;h15:21;Three colors equally spaced on the color wheel|c+;h8:14;✫sm_paste-002328be373e9ab91dcae451d436c067fa5a2718.jpg✫
+A color scheme is a subset of colors used for a specific purpose.
+
+#### hue scheme
+
+##### basics
+
+A hue scheme is a set of hues used for a specific purpose, and is typically based on a color wheel.
+
+##### types
+
+###### basics
+
+A n-hue hue scheme is a hue scheme consisting of n hues.
+A dyadic/triadic/tetradic/... hue scheme⎵wide⎵ =syndef= 2/3/4/...-hue hue scheme.
+A monochromatic/non-monochromatic hue scheme is a 1/2+-hue hue scheme.
+
+###### non-monochromatic
+
+An analoguous hue scheme is a non-monochromatic hue scheme consisting of an arbitrary amount of adjacent hues.
+A complementary hue scheme is a 2-hue hue scheme where the hues are spaced 180deg apart.
+A split-complementary hue scheme is a 3-hue hue scheme which is based on a complementary hue scheme, but one hue is split in two, with the two new hues offset by +/- some degrees (typically 30deg)
+A triadic hue scheme⎵narrow⎵ is a 3-hue hue scheme where the hues are spaced 120deg apart.
+A double-complementary hue scheme is a 4-hue hue scheme consisting of two complimentary hue schemes.
+A square hue scheme is a 4-hue hue scheme where the hues are spaced 90deg apart.
+A rectangle hue scheme is a 4-hue hue scheme where the hues are spaced 60-120-120-60deg.
 
 ### systematizations
 
