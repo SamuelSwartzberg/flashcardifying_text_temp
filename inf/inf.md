@@ -1471,34 +1471,6 @@ reCAPTCHA v3 checks if you are a bot purely based giving you a score in the back
 
 # crypt
 
-## ciphers
-
-⟮a cipher⟯ is an algorithm for performing encryption/decryption
-Ciphertext is the text that is the result of ⟮using a cipher⟯
-A substitution cipher is a cipher where an unit of plaintext is replaced by an unit of cipher text
-The caesar cipher is a kind of substitution cipher where the replacement is done by rotating the entire alphabet by some number.
-
-## keys (symmetric and assymetric)
-
-Today's cryptosystems (such as TLS, Secure Shell) use both symmetric encryption and asymmetric encryption, often by using asymmetric encryption to securely exchange a secret key which is then used for symmetric encryption. 
-
-
-flex-container:✫sm_tmp51mx5j9z.png✫
-⟮Symmetric key encryption⟯ is ⟮where both parties have the same key⟯. 
-⟮In symmetric key encryption⟯, ⟮one party encrypts the data⟯, ⟮sends the cyphertext along⟯, and then the other party ⟮decrypts the data using the same key⟯. 
-The difficulty of ⟮symmetric key encryption⟯ is that ⟮you need to exchange the key securely, which is difficult.⟯ 
-
-
-flex-container:✫sm_tmp424stpwy.png✫
-⟮In public key cryptography⟯ aka ⟮asymmetric cryptography⟯, ⟮both parties⟯ have ⟮two keys⟯, ⟮a public⟯ and ⟮a private key⟯. 
-In ⟮public key cryptography⟯, ⟮you publish⟯ ⟮your public key⟯ ⟮widely⟯, and ⟮keep⟯ ⟮your private key⟯ ⟮secret⟯. 
-If you want to ⟮encrypt a message⟯ in ⟮public key cryptogrpahy⟯, you ⟮apply your targets public key to it⟯. 
-If you want to ⟮decrypt a message⟯ sent to you ⟮via public key cryptography⟯ (which we assume ⟮has been encrypted with your public key⟯), you ⟮apply your private key to it.⟯ 
-
-
-flex-container:✫1200px-Private_key_signing.svg.png✫
-For ⟮digital signing⟯, ⟮you⟯ ⟮encrypt it with your private key⟯. ⟮The recipient⟯ ⟮decrypts it with your public key.⟯ This proves ⟮that the message is from you⟯, since only ⟮your public key can decrypt things encrypted with your private key⟯. 
-
 ## random numbers
 
 C(S)PRNG  Cryptographically (secure) pseudorandom number generator
@@ -1506,32 +1478,6 @@ PRNG  pseudorandom number generator
 RNG  random number generator
 
 # attacks
-
-## brute-force
-
-A brute-force attack is an attack of something such as a password ⟮By trying until successful⟯
-
-
-## buffer overflow
-
-Buffer overflow is when a buffer of a specific size is written to with data larger than that buffer, thus writing to a different memory location.
-In a buffer overflow attack, a buffer overflow is intentionally produced (e.g. by entering too-long user input), with executable code in the overflown part (ergo a code injection attack), which may then be executed as normal code.
-C and C++ are well-known to be vulnerable to buffer overflow.
-
-
-## Injection
-
-Code injection is an attack vector where malicious code is injected due to some flaw.
-Code injection can often be prevented by sanitizing user input.
-Delimiter/terminater-based code injection uses delimiters, e.g. of strings or similar, to escape from string interpretation to code interpretation.
-
-## network 
-
-### MITM
-
-
-flex-container:✫sm_mitm_illus.svg✫
-A  ⟮man-in-the-middle⟯ attack is when an attacker ⟮inserts themseves⟯ into the ⟮communication⟯ between ⟮two parties⟯ believing ⟮to be talking to each other directly⟯.
 
 #### key exchange
 
@@ -1556,32 +1502,7 @@ A  ⟮man-in-the-middle⟯ attack is when an attacker ⟮inserts themseves⟯ in
 XSS  Cross-site scripting
 Cross-site scripting (XSS) is a code-inejction attack where malicious client-side scripts are injected into web pages being viewed by users
 
-### DOS
 
-DoS = denial of service
-DDoS = distributed denial of service
-In a DoS, the goal is to make a network resource unavailable.
-In general, DoS succeed in making the network resource unavailable by taking up all its resources.
-DoS may be performed by flooding the target with requests, or with some more sophisticated techniques.
-A DDoS attack is a DoS performed from many different sources.
-
-#### Low and Slow
-
-##### Slow Loris
-
-A ⟮slowloris/slow loris⟯ is a type of ⟮DoS (Denial of service)⟯ attack, more specifically a type of ⟮Low and Slow⟯ attack.
-A slow loris takes advantage of the fact that the http (1.1.) header section ends CRLF (last header) CRLF (blank line).
-A slow loris works by opening as many connections to the server as possible, and sending a little bit of the header section every few seconds or so, so it doesn't time out, but never ending it.
-If the server e.g. creates a new thread for each incoming request and only kills it once it has sent the response, under a slow loris it quickly reaches its thread limit, and can no longer serve new (legitimate connections)
-A slow loris is easy to pull off, because it needs very little bandwith and only a normal computer.
-
-# privacy
-
-## device fingerprinting
-
-A device/browser fingerprint is the set of information about the device/browser that together renders it uniquely identifiable.
-since fingerprinting exists, a user can generally be tracked even without a cookie (or similar)
-Having social media buttons on your page generally enables the providers to track you (whether via fingerprint/cookies/whatever). Sometimes, a toggle button is added to prevent this.
 
 # OSs
 
