@@ -73,7 +73,6 @@ any HTML element has a JS interface that is called HTMLSomeelementnameElement.
 
 #### types of attribute
 
-An IDL (Interface Description Language) is a generic language used to specified objects' interfaces apart from any specific programming language.
 In XMLHTML, most attributes have two faces: the content attribute and the IDL attribute.
 
 The content attribute is the attribute as you set it from the content (the HTML code) and you can set it or get it via element.setAttribute() or element.getAttribute(). The content attribute is always a string even when the expected value should be of a different type.
