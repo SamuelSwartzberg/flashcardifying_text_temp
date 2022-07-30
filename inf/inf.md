@@ -2998,6 +2998,21 @@ The robustness principle is often said to be ⟮good design⟯, but also ⟮crea
 At its most general interface is a shared boundary across which information flows.
 An interface specifies specific channels (endpoints, methods, ...) for the access of information.
 
+## IDL 
+
+interface description/definition language =short=> IDL
+An IDL is a language to define an interface in a language-independent way.
+
+### ASN.1
+
+ASN.1 is an IDL for data structures that can be serialized and deserialized, mainly used in networking.
+
+#### X.690
+
+X.690 is a standard that specifies the BER, CER and DER encoding formats for ASN.1
+Basic/Canonical/Distinguished Encoding Rules =short=> BER/CER/DER
+CER and DER are subsets of BER.
+
 ## API
 
 API = application programming interface
