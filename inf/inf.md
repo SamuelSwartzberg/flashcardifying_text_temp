@@ -1442,24 +1442,6 @@ Nonce (short for number once) is a number (generally random) that can only be us
 
 # attacks
 
-#### key exchange
-
-⟮MitM attack⟯
-
-⟮h∞;uh1;✫sm_MitM1.jpg✫⟯
-⟮c+;h∞;uh2;✫sm_MitM2.jpg✫⟯
-⟮c+;h∞;uh3;✫sm_MitM3.jpg✫⟯
-⟮c+;h∞;uh4;✫sm_MitM4.jpg✫⟯
-⟮c+;h∞;✫sm_MitM5.jpg✫⟯
-
-⟮uh∞;After the MitM for public key encryption has been set up...⟯
-⟮the server⟯ and ⟮client⟯ ⁑actually⁑ have ⟮the MitMs public key⟯ 
-⟮the server⟯ and ⟮client⟯ ⁑think⁑ they have ⟮each other's public key⟯ 
-⟮the MitM⟯ looks like ⟮the server⟯ to ⟮the client⟯ 
-⟮the MitM⟯ looks like ⟮the client⟯ to ⟮the server⟯ 
-
-⟮public key⟯ ⟮mitm attacks⟯ are countered with ⟮certificate authorities⟯ 
-
 ### XSS
 
 XSS  Cross-site scripting

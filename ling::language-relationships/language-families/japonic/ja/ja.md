@@ -122,6 +122,13 @@ paper on japanese evidentials
 って感じ
 というnoun
 
+Quick translation note: Page 9 had some Japanese puns that I thought were just untranslatable, so I did my best to sub in other puns, to mediocre results.
+The bun on the right is actually a steamed bun filled with red bean, called an あんまん (anman). まん (man) also happens to mean “pussy,” such as in the word 手マン (teman), “finger-banging.”
+
+The car on the left is a Ferrari, which in Japanese is spelled フェラーリ (ferāri). This coincidentally contains the word for “fellatio,” フェラ (fera).
+
+
+
 ### history, culture, etc
 
 

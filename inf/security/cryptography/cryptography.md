@@ -25,8 +25,6 @@ In a cryptosystem E/D is the encryption/decryption function.
 #### keys
 
 For cryptography to be secure, the key must not be known.
-Key generation is the process of generating keys
-Key exchange is how all parties get to have the relevant key.
 Key size is the number of bits in the key.
 
 #### ciphers
@@ -62,9 +60,67 @@ In public-key authentication, the message is encrypted with the sender's private
 ^this proves the authenticity since only the sender should have their private key, and something encrypted with the sender's private key should only be able to be decrypted with the sender's public key.
 Digital signing =syndef= public-key authentication.
 
-### hybrid
+## process
 
+### key generation
+
+Key generation is the process of generating keys.
+
+### key exchange
+
+#### basics
+
+Key exchange is how all parties get to have the relevant key.
+
+#### the key exchange problem
+
+##### basics
+
+The key exchange problem is the question of how to get the right key from/to the right people.
+The key exchange problem may be split into the which key key exchange problem and the which person key exchange problem.
+
+##### which key key exchange problem
+
+###### hybrid cryptosystem
+
+In practice, using public-key security for every message is too slow, so a hybrid cryptosystem is used.
 A hybrid cryptosystem uses asymmetric cryptography for key exchange for a subsequently used symmetric cryptography.
-^nearly uniersal today (e.g. TLS, SSH)
-The key exchange problem is the difficulty of transmitting a 
-A hybrid cryptosystem solves the key exchange problem.
+
+###### basics
+
+The which key key exchange problem (my term) is the problem of how to securely acquire the shared symmetric key in a hybrid cryptosystem.
+
+###### key-agreement
+
+A key-agreement protocol is a protocol where key exchange is implemented by getting two parties agree on a key.
+A key-agreement protocol that solves the which key key exchange problem is one where both participants influence the outcome, and that does not allow eavesdroppers conclude the key from the transmitted information.
+
+###### diffie-hellman
+
+####### mechanism
+
+Diffie-hellman key exchange/agreement is a key-agreement protocol that solves the which key key exchange problem where 
+1. two participants each choose a secret component 
+2. both participants agree on an arbitrary public component
+3. each participant combines their secret component with the public component, each arriving at their mixture component
+4. the participants exchange their mixture components
+5. the participants combine their secret component with the other's mixture component
+6. thus, the participants arrive at their shared secret
+
+####### modulo
+
+The diffie-helman modulo algorithm is the easiest and original implementation which uses the modulo operation and is based theoretically on modular arithmetic.
+For the diffie-helman modulo algorithm, the public component public_modulus must be a prime number, and the public component public_base must be a primitive root modulo public_modulus.
+
+######## diffie-hellman modulo algorithm
+
+1. public components: public_modulus and public_base
+2. secret components: arbitrary_integer⎵1/2⎵
+3. mixture component⎵1/2⎵ = public_base⎴arbitrary_integer⎵1/2⎵⎴ mod public_modulus
+4. the participants exchange their mixture components
+5. secret component⎵1/2⎵ =  mixture component⎵2/1⎵⎴arbitrary_integer⎵1/2⎵⎴ mod public_modulus
+6. secret component⎵1⎵ = secret component⎵2⎵
+
+##### which person key exchange problem
+
+The which person key exchange problem is the problem that in key exchange, the party one is communicating with is not guaranteed to be the intended recipient, such as in a AitM attack.
