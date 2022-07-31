@@ -5154,45 +5154,6 @@ Since boxed data will be stored on the heap, it is not necessary for it to have 
 
 Rust's construct for boxing is Box‹T›.
 
-# Pragmas
-
-In computer programming, a directive or pragma (from "pragmatic") is a language construct that specifies how a compiler (or other translator) should process its input
-Perls pragmas have the syntax use ‹name›;
-Perls pragma use warnings; causes the perl program to display warnings in certain circumstances.
-
-## Strict mode
-
-Both perl and JS have a strict mode pragma.
-Strict mode pragmas cause programs to fail in certain cases.
-Start strict mode in JS: "use strict";
-in JS, non-strict mode code is called sloppy mode
-In JS, modules and classes are strict by default
-In JS, strict mode applies to the whole file if it's the first statement if the file, and to the whole function if it's the first statement in the function
-
-Strict mode in JS:
-- reserves certain keywords (for future proofing)
-
-## shebangs
-
-An interpreter directive is a type of pragma that specifies which interpreter to use for a thing.
-On a unix-like OS, if a script starts with the shebang, followed by a path, this is an interpreter directive, and specifies with which binary to execute the script.
-The shebang consists of the characters #!.
-
-## attributes
-
-Attributes are pragmas (mostly) for rust.
-attribute begins|applies to
-#!|whole crate
-#|next item
-
-attributes have four forms for taking arguments (or none)
-ø|no arg
-= "‹value›"|one arg
-\(‹value›{, ‹value›}\)|one or more unnamed args
-\(‹key› = "‹value›"{, ‹key› = "‹value›"}\)|one or more named args
-
-rust-attribute ::= #[!]\[‹rust-attribute-name›‹rust-attribute-arguments›\]
-rust-attribute-arguments ::= ø|(= "‹value›")|(\(‹value›{, ‹value›}\))|\(‹key› = "‹value›"{, ‹key› = "‹value›"}\)
 
 # modules
 
@@ -6821,65 +6782,23 @@ simple|md|remarkjs
 simple|own markdown syntax|pandoc|5 html-based formats incl. reveal.js, latex beamer, ms powerpoint, pdf
 
 
-# programming language categorization ＆ history
-
-## names
-
-Name|Prononciation
-⟮C#⟯|⟮C sharp⟯
-
-
-thing|slang
-⟮Rust users⟯|⟮rustaceans⟯
-
-
-## Programming paradigms
-
-Functional programming languages: {Haskell}
-
-## Programming languages I don't know
-
-COBOL is a programming language introduced in 1959 with an englisy-like syntax that is as of 2021 mainly used on ⟮legacy mainframe computers⟯
-C was created in 1972.
-*nix OSs are famously written in C.
-tcl is a programming language where everything is a command.
-tcl has a well-known widgeting toolkit known as tk.
-wish is a tcl interpreter including its widgeting toolkit tk.
-
-## programming language relationships
-
-### versions over time
-
-Python ⟮2⟯ and ⟮3⟯ have ⟮some syntactic differences.⟯ 
-ES2015|ES6
-The rust development cycle has the three release channels ⟮Nightly⟯, ⟮Beta⟯ and ⟮Stable::S...⟯. ⟮sb;⟮Every six weeks⟯ ( = ⟮1 cycle⟯), ⟮c+; a release moves up one (beta → stable, nightly → beta) ⟯. ⟯ 
-Therefore, ⟮s10:12;⟮what is beta now⟯ will be ⟮stable⟯ in ⟮a maximum of 6 weeks⟯⟯, and ⟮s7:9;⟮what is nightly now⟯ will be ⟮stable⟯ in ⟮at most 12 weeks⟯.⟯ 
-⟮Breaking changes (such as reserving new features⟯) can only happen on ⟮the highest rust versioning level⟯, which are ⟮editions⟯. ⟮sb;these are released ⟮about every three years⟯, with the ones in existence as of writing being ⟮2015, 2018, and 2021⟯⟯ 
-
-### dialects, influence, etc.
-
-#### ECMA
-
-JS = Javascript
-ES = ECMAScript
-JavaScript is a dialect/language that coforms to of the ECMAScript standard
-others languages that conform to the ECMAScript standard are ActionScript / JScript. 
-However, this distincition is often not made, and JavaScript and ECMAScript are often treated as synonyms. 
-CoffeeScript is similar to and compiles down to JavaScript, but has more syntactic sugar/cleaner syntax.
-TypeScript is a superset of javascript.
-
-## Things programming languages do especially well
-
-performance|rust
-
-## language governance
-
-After being dropped by mozilla, the rust foundation has taken over the governance of Rust (as of 2021)
-The rust foundation is made up of major industry players like microsoft, google, huawei, mozilla.
-
 # CompSci
 
-# abstraction
+
+
+
+
+
+
+
+
+## document start/end indicators
+
+--- the file ... |YAML (but optional, merely allow multiple documents per file)
+
+# software design
+
+## abstraction
 
 abstraction is hiding implementation details in favor of a clear, semantic and elegant interface.
 A high-level programming language is a programming language with high levels of abstraction.
@@ -6887,358 +6806,6 @@ A low-level programming language is a programming language with low levels of ab
 Often, abstraction has runtime overhead/costs.
 Zero-cost abstractions are abstractions that have no runtime, only compile-time overhead.
 Rust touts that it has many zero-cost abstractions.
-
-# concurrency
-
-Concurrency is executing multiple things at the same time.
-
-## multithreading
-
-A thread is the smallest sequence of instructions that can be independently managed by a scheduler.
-Threads can be divided into kernel and green/virtual/user threads.
-green thread = virtual thread = user thread.
-kernel threads are those managed by the kernel to be scheduled for some CPU time.
-user threads are those threads managed by a user process.
-N:1 Threading   all threads of the program map onto one kernel thread
-M:N Threading   some amount of threads of the program corresponds to some amount of threads of the os/kernel 
-1:1 Threading   1 thread of the program corresponds to 1 thread of the os/kernel
-
-### thread pools
-
-A thread pool is a group of pre-instantiated, idle threads which stand ready to be given work. These are preferred over instantiating new threads for each task when there is a large number of short tasks to be done rather than a small number of long ones. This prevents having to incur the overhead of creating a thread a large number of times.
-A thread pool typically processes a queue of tasks waiting for processing.
-
-### workers
-
-Web Workers are threadlike things in JS.
-Web Workers come in two flavors, dedicated workers and shared workers.
-While a ⟮dedicated worker⟯ is accessible from ⟮a single script only⟯, a ⟮shared worker⟯ is accessible from ⟮multiple scripts⟯, even if ⟮within different windows or frames⟯
-Because many JS APIs are not ⟮threadsafe⟯, ⟮Web Workers⟯ have access to ⟮ only a limited subset⟯
-
-Web Workers are created by using the Worker/SharedWorker constructor taking the JS file that implements the worker.
-Web Workers as well as the main thread communicate via message passing.
-For Web Workers, messages are sent by using the method postMessage and recieved via the message event.
-For Web Workers, messages always send a copy of the data.
-To handle events in Web Workers, use the error event.
-To stop a Web Worker, call the terminate() method on it.
-
-### thread-safety
-
-Thread-safe code is code that will work even if many Threads are executing it simultaneously. 
-
-## concurrency control
-
-concurrency control ensures that correct results for concurrent operations are generated.
-Mutual exclusion is the requirement in concurrency control that no thing may access the critical section while another thing is already accessing the critical section.
-lock = mutex
-A lock or mutex is a thing that enforces mutual exclusion.
-
-## classic problems
-
-### race condition
-
-A race condition is the condition of a system where the behavior of a system depends on the sequence/timing of uncontrollable events.
-A race condition is often a flaw that may cause bugs.
-
-### deadlock
-
-flex-container:✫1280px-Process_deadlock.svg.png✫✫220px-Gridlock.svg.png✫
-A ⟮deadlock⟯ is a situation where ⟮each member of  a group⟯ is ⟮waiting on another member to do something⟯, and therefore ⟮the system is stuck⟯
-⟮Gridlock⟯ is a specific type of ⟮deadlock⟯ that occurs ⟮in a street network⟯
-
-# metaprogramming
-
-metapgrogramming is programming that operates on other programs
-An eval is a keyword/function/which executes a passed string as if it had been an expression in the language.
-Using eval with data from an untrusted source is a huge security risk.
-eval is a function in bash, JS, Perl, Python, Ruby. a similar function load is availabe in lua
-
-## reflexion
-
-reflective programming is metaprogramming where the program operates on itself
-reflective programming is sometimes shortened to reflexion.
-
-## macros
-
-a macro is something that maps a input to a replacement output.
-Rust supports macros as its main form of metaprogramming.
-Rust macros end in an !.
-
-
-# Programming language implementation
-
-A programming language implementation is a system for executing computer programs written in a given programming language (s). 
-There are two general approaches to programming language implementation: interpretation and compilation
-While we might talk about ⟮programming languages⟯ being ⟮compiled or interpreted⟯, but actually it's ⟮the relevant implementation⟯ that is ⟮a compiler or an interpreter⟯.
-A ⟮reference implementation⟯ is an ⟮implementation⟯ of a ⟮specification⟯ generally written by ⟮the creators⟯ of ⟮the API/programming language/whatever⟯ to be ⟮an example for other implementations⟯
-
-TS compiles to JS via the compiler, interfaced with the cli tsc.
-
-$Something that happens during execution   runtime $something
-$Something that happens during compiling   compile-time $something
-
-## Types
-
-A compiler translates one programming language into another in one step before execution.
-Most commonly, a compiler translates a programming language into machine code/assembler.
-An interpreter translates the code into another language (most commonly machine code/assembler) as it goes along.
-JIT = Just in time (compilation)
-frequently when using JIT as a first step the code is compiled to bytecode
-when using JIT, the code(/bytecode) is initially executed by an interpreter, but there is a monitor/profiler that constantly analyizes the code being executed and identifies parts of the code where the speedup gained from compilation or recompilation would outweigh the overhead of compiling that code, and then compiles this on the fly.
-
-### Transpiling
-
-Source-to-source translator/compiler    trans(com)piler
-A transpiler compiles one (programming) language into another (programming) language, though the target language is generally not assemly.
-A preprocessor most typically takes some input and transforms it into some output, often for further use of compilers.
-While preprocessors generally don't transform the language, sometimes transpilers are called preprocessors, e.g. in the case of sass.
-
-### compilers
-
-Object code is the code that the compiler produces, generally machine code.
-The object file is the file containing object code.
-
-
-## Steps involved
-
-1. lexical analiysis/tokenization/lexing
-2. sytax analysis = parsing
-3. semantic analysis
-
-### lexical analysis
-
-lexical analiysis = tokenization = lexing
-Terminology around tokenization/lexical analysis is not always consistent.
-Lexical analysis is converting a sequence of characteres into a sequence of lexical tokens.
-Lexical tokens have some kind of meaning, relative to the language.
-Lexical token is often shortened to just token
-Tokens are lexical units/items in linguistic terms.
-Tokens have a certain value (a string), and a certain type.
-Token types that are common across programming languages are identifier, keywords, operator, literal ...
-The analogue of token type in linguistics might be word class/syntactic category/part of speech
-Compilers/interpeters store all the identifiers/symbols and info about them in the symbol table.
-In the context of compiling/interpreting, identifier/name is a synonym for symbol.
-
-### syntax analysis
-
-### semantic analysis
-
-### compiler optimizations
-
-A compiler optmization is a feature of a compiler that tries to minimize or maximize some attributes of an executable computer program.
-Optimization levels are compiler options specifying how much compiler optimizations to apply.
-In the GCC C compiler and in Rust, there are four optimization levels, 0-3.
-In rust, optimization levels are set via `opt-level'.
-
-#### dead code
-
-Dead code is code which is never or not usefully used.
-Unreachable code is dead code which is dead because there is no control flow path that would lead to it.
-Dead code elimination is a compiler optimization involving the removal of dead code.
-In js, dead code elimination is kown as tree shaking.
-unused variables are a type of dead code.
-compilers and linters will typically warn about unused variables.
-unused variables may be a code smell in that they are mistakenly not used.
-in rust, to turn off warnings about unused variables for a certain variable, prefix it with a _.
-
-#### call sites
-
-A call site is the place where a callable unit is called.
-Inlining is a compiler optimization that replaces a function call site with the body of the called function.
-
-## interfaces for implementation
-
-### Language CLI
-
-most languages have a CLI tool to interface with them, esp. with implementations
-
-interpreters/hybrid
-
-lua|lua
-node|JS (using node)
-python, python3|python
-perl|perl
-
-compilers
-
-sass|sass/scss
-rustc|rust
-tsc|ts
-
--c STRING|read program from string|python
--e STRING|read program from string|perl
-
-by default, TS will ⟮compile⟯ even ⟮if there are compiler errors⟯, since it assumes ⟮you might have a good reason⟯, use --noEmitOnError to disable this.
-by default, TS compiles down to ⟮ES3⟯, but you can change that with the ⟮--target⟯ flag
-
-#### REPL
-
-REPL is short for read-eval-print loop
-⟮REPLs⟯ are also called ⟮interactive toplevel⟯ or ⟮language shell⟯
-
-For most languages, invoking their CLI tool without arguments will open a REPL, if not
-irb|ruby
-tss-node|TS
-is none|perl
-jshell|java
-csharp|C# (provided by mono)
-
-Python calls being in the repl interactive mode
-the value of the last expression
-_|Python
-
-### Shebangs
-
-env (/usr/bin/env) can be passed a comand, in which case it will populate the environment variables (including PATH) and then run command with this environment. 
-Using env in the shebang is to get the relevant executable on the path
-so in general, you can specify the language of a script by doing 
-#!/usr/bin/env language-command
-
-## specific languages
-
-### Python
-
-CPython is the most common and reference implementation for Python.
-CPython implicitly compiles Python to bytecode, and then runs the bytecode via an interpeter.
-Python bytecode files produced by CPython are .pyc files.
-
-### JS
-
-JavaScript is run by a JavaScript engine (e.g. V8, SpiderMonkey), which may differ by browser.chromium|v8
-firefox|spidermonkey
-d8 is the developer shell for v8
-
-## document start/end indicators
-
---- the file ... |YAML (but optional, merely allow multiple documents per file)
-
-# algorithms
-
-⟮An algorithm⟯ is a ⟮finite⟯ ⟮sequence⟯ (in the math sense) of ⟮steps⟯ that ⟮precisely defines an operation⟯. 
-
-## pseudocode
-
-⟮pseudocode⟯ is ⟮a plain-language description⟯ of ⟮an algorithm⟯. 
-⟮Pseudocode⟯ generally ⟮uses (structural) conventions of⟯ ⟮programming languages⟯, but not ⟮specific syntax⟯. 
-
-```lang=text;
-When a button is pressed:
-  Get some memory, which will be used to remember the floor number
-  Put the floor number into the memory
-  Are we already on the target floor?
-    If so, we have nothing to do: finished
-    Otherwise:
-      Wait until the lift is idle
-      Go to the required floor
-      Release the memory we used to remember the floor number
-```
-
-## properties
-
-### determinism
-
-a deterministic algorithim/callable unit will, given a particular input ⟮always produce the same output⟯
-
-## for
-
-### search
-
-#### binary
-
-
-flex-container:✫sm_1280px-Binary_Search_Depiction.svg.png✫
-⟮Binary search⟯ 
-```
-⟮take middle element⟯ 
-⟮if equal, done⟯ 
-⟮else take relevant half and repeat⟯ 
-``` 
-⟮binary search⟯ has a ⟮worst-case time complexity⟯ of ⟮O(log n⟯) 
-⟮Binary⟯ search can only be done on something that is ⟮sorted⟯. 
-
-### sorting
-
-A sorting algorithm is an algorithm that sorts a linear collection.
-
-#### bubble
-
-
-flex-container:✫sm_Bubble-sort-example-300px.gif✫
-Bubble sort is called that because the largest elements will bubble to the right in a single pass.
-while true:
-  for all elements in the list: 
-    if currentElement › nextElement, swap them
-  if no swap occurred in the loop, stop.
-
-## complexity
-
-Computational complexity is the amount of resources necessary to run an algorithm.
-Computational complexity assumes the amount of resources to perform each operation are similar / average out.
-there are two types of computational complexity commonly used, depending on the case: worst-case and average-case.
-In general, if we only say 'complexity', worst case complexity is assumed.
-there are two types of computational complexity commonly used, depending on the resource: time and space
-Computational complexity is generally specified in Big O notation.
-Computational complexity is generally specified as a function of the input size n.
-Computational complexity/Big O notation only indicates orders of magnitude.
-
-O(1)   constant complexity/time|Accessing an element in an array
-O(n)   linear complexity/time|Iteratering over a one-dimensional array
-O(log n)   logarithmic time
-O(n⎴2⎴)   quadratic time
-
-## static program analysis
-
-static program analysis is reasoning about/analyzing the behavior of computer programs without actually running them
-Linting is probably the most common form of static program analysis.
-
-# information theory
-
-## symbol rate
-
-baud   Bd
-baud   symbol rate (AKA baud rate, modulation rate)
-symbol rate   symbol changes per second
-
-# coding theory
-
-The Hamming weight of a string is the number of symbols that are different from the zero-symbol (of the alphabet used).
-This means that the hammming weight of a binary number is its digit sum. 
-The hamming weight of 11101 is 4, the hamming weight of 60801 is 3
-
-# AI
-
-## Computer vision
-
-⟮Computer vision (CV)⟯ is a field of study that aims to get ⟮artificial systems / AI⟯ to get ⟮meaningful information / understanding⟯ from ⟮digital images/videos/whatever⟯.
-
-### depth
-
-⟮Stereopsis}/{{c2::stereo(scopic) vision⟯ is ⟮the ability to percieve depth⟯ from ⟮only two eyes/optical sensors⟯.
-binocular disparity is the difference between the images that the optical sensors involved in stereopsis recieve due to them being positioned somewhat apart.
-stereo matching is matching the two images produced by stereopsis.
-After stereo matching, one can calculate the distance via trangulation.
-stereo matching is more difficult (esp. for computer sensors) if the thing is featureless (since it then has a harder time matching the relevant pixels)
-To improve stereo matching on featureless things, a device intended for depth calculation via stereopsis often will project a IR dot pattern, which is a pseudorandom but known pattern of dots in the infrared spectrum, which it then can use as the things to match.
-
-### triangulation
-
-⟮Triangulation⟯ in surveying / computer vision / etc. is ⟮determining the location⟯ of ⟮a point C⟯ from ⟮two points A and B⟯ by ⟮forming a triangle⟯.
-By knowing the ⟮distance between A and B⟯ as well as ⟮the angles at A and B⟯, we can ⟮reconstruct the distance.⟯
-
-## safety
-
-### technological singularity
-
-The technological singularity is a hypothetical point at which technological progress reaches critical mass and becomes uncontrollable, causing severe but unpredictable changes.
-Most commonly, the technological singularity is cashed out in terms of a intelligence explosion.
-An intelligence explosion posits that there willl be a runaway reaction of self-improvement cycles of an AI, thereby bringing about the technological singularity.
-
-# software engineering
-
-Software engineering is term where the definition is often fought over.
-Software engineering (roughly) is different from software development/programming in that it emphasizes a more holistic view including tools and processes used for development, and temporally not just the time writing code, but the time before and after too.
-
-# software design
 
 ## decomposition
 
@@ -7862,6 +7429,68 @@ Unit tests may be narrowly defined as testing one unit only with test doubles, o
 
 most build tools (cargo, ) or language CLIs feature a subcommand `test` to run tests
 
+
+## code quality
+
+Code quality tools such as linters and code formatters often have a CLI but are more commonly used as an extension in IDEs or as some sort of hook/CI pipeline step.
+
+### linting
+
+#### definition
+
+A linter flags logic errors, suspicious constructs and violated conventions.
+A linter often also includes a code formatter.
+
+#### various linters
+
+yaml|yamllint
+css|stylelint
+js|ESLint
+shell (bash/csh/ksh etc.)|shellcheck
+
+#### linters in detail
+
+##### eslint
+
+ESLint takes its config from a .eslintrc.js/yaml/json/cjs or from the eslintConfig field in your package.json
+in ESlint, to ⟮inherit configs from other files⟯, specify the ⟮extends⟯ key
+in ESlint, to use ⟮the default rules⟯, use ⟮extends: eslint:recommended⟯
+in ESlint, the things stored in the ⟮settings⟯ key are ⟮global to all ESLint rules⟯
+To ⟮extend⟯ ESLint, use ⟮plugins⟯
+
+To prevent eslint or stylelint conflicting with prettier, install eslint-config-prettier or stylelint-config-prettier, respectively
+
+#### as part of other things
+
+the subcommand lint runs the relevant linter on the project (Nextjs: eslint)
+
+### code style
+
+#### definitions
+
+Generally, each project has a certain code style.
+A code style is a set of rules for how to format source code.
+
+#### code formatter
+
+##### definitions
+
+A code formatter is a program that imposes certain stylistic conventions on the code by formatting it automatically.
+A code formatter can be used together with a linter, however the code formatting functionality of a linter must typically be disabled.
+
+##### prettier
+
+Prettier is a code formatter that doesn't allow config, instead imposing opinonated but mostly uncontroversial defaults, thus allowing you to move on with your life.
+Prettier works for most languages relevant for web development.
+
+#### misc
+
+nit = short for nitpick
+
+#### style guides
+
+PEP 8|Python
+
 # principles
 
 GIGO   Garbage In, Garbage Out
@@ -8023,67 +7652,6 @@ Bike-shedding is discussion that conforms to the law of triviality: Disproportio
 ## user stories
 
 A ⟮user story⟯ is the ⟮explanation of a feature⟯ ⟮from the perspective of the user⟯.
-
-## code quality
-
-Code quality tools such as linters and code formatters often have a CLI but are more commonly used as an extension in IDEs or as some sort of hook/CI pipeline step.
-
-### linting
-
-#### definition
-
-A linter flags logic errors, suspicious constructs and violated conventions.
-A linter often also includes a code formatter.
-
-#### various linters
-
-yaml|yamllint
-css|stylelint
-js|ESLint
-shell (bash/csh/ksh etc.)|shellcheck
-
-#### linters in detail
-
-##### eslint
-
-ESLint takes its config from a .eslintrc.js/yaml/json/cjs or from the eslintConfig field in your package.json
-in ESlint, to ⟮inherit configs from other files⟯, specify the ⟮extends⟯ key
-in ESlint, to use ⟮the default rules⟯, use ⟮extends: eslint:recommended⟯
-in ESlint, the things stored in the ⟮settings⟯ key are ⟮global to all ESLint rules⟯
-To ⟮extend⟯ ESLint, use ⟮plugins⟯
-
-To prevent eslint or stylelint conflicting with prettier, install eslint-config-prettier or stylelint-config-prettier, respectively
-
-#### as part of other things
-
-the subcommand lint runs the relevant linter on the project (Nextjs: eslint)
-
-### code style
-
-#### definitions
-
-Generally, each project has a certain code style.
-A code style is a set of rules for how to format source code.
-
-#### code formatter
-
-##### definitions
-
-A code formatter is a program that imposes certain stylistic conventions on the code by formatting it automatically.
-A code formatter can be used together with a linter, however the code formatting functionality of a linter must typically be disabled.
-
-##### prettier
-
-Prettier is a code formatter that doesn't allow config, instead imposing opinonated but mostly uncontroversial defaults, thus allowing you to move on with your life.
-Prettier works for most languages relevant for web development.
-
-#### misc
-
-nit = short for nitpick
-
-#### style guides
-
-PEP 8|Python
 
 # modelling
 
