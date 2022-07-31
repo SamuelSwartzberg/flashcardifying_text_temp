@@ -43,5 +43,5 @@ For the diffie-helman modulo algorithm, the public component public_modulus must
 2. secret components: arbitrary_integer⎵1/2⎵
 3. mixture component⎵1/2⎵ = public_base⎴arbitrary_integer⎵1/2⎵⎴ mod public_modulus
 4. the participants exchange their mixture components
-5. secret component⎵1/2⎵ =  mixture component⎵2/1⎵⎴arbitrary_integer⎵1/2⎵⎴ mod public_modulus
-6. secret component⎵1⎵ = secret component⎵2⎵
+5. shared_secret⎵1/2⎵ =  mixture component⎵2/1⎵⎴arbitrary_integer⎵1/2⎵⎴ mod public_modulus
+6. shared_secret⎵1⎵ = shared_secret⎵2⎵
