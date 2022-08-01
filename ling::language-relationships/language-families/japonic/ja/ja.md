@@ -127,7 +127,7 @@ The bun on the right is actually a steamed bun filled with red bean, called an �
 
 The car on the left is a Ferrari, which in Japanese is spelled フェラーリ (ferāri). This coincidentally contains the word for “fellatio,” フェラ (fera).
 
-
+I just heard そうなんかもね, which is interesting since it shows that の+かも is legitimate, and so probably also かな etc
 
 ### history, culture, etc
 
