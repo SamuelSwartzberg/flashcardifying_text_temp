@@ -43,7 +43,7 @@ A data structure⎵data model⎵ type is a basic constraint for the actual data 
 ### flat
 
 A flat data structure⎵data model⎵ type is a data structure⎵data model⎵ type which has no relationships.
-A table data structure⎵data model⎵ type is a flat data structure⎵data model⎵ type consists of a table.
+A table data structure⎵data model⎵ type is a flat data structure⎵data model⎵ type that consists of a table.
 
 ### tree-based
 

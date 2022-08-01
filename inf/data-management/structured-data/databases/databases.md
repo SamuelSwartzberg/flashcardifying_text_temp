@@ -1,55 +1,57 @@
 
-## databases
+# databases
 
-A database is a dataset molded by a data model.
+A database is a dataset molded by a data model treated/implemented as a monolith.
 A database model is the implementation of a data model in a specific database.
 
-### DBMS
+## DBMS
 
 A DBMS (database management system) is the software used to manage a database.
 
-### database operations
+## database operations
 
-#### basics
+### basics
 
 A database operation is an action which can be performed on a database.
 
-#### database language
+### database language
 
-##### basics
+#### basics
 
 A database language is a language that allows you interact with a database.
 A database language may be a data control, definition, manipulation or query language as well as a translation control language.
 
-##### mapping
+#### mapping
 
 table:database language|does
 data control language|authorization control
 data definition language|interact with schemas
 data manipulation language|write database operation
 data query language|read⎵wide⎵ database operation
+transaction control language|controls database transactions
 
-## operations
+### types
 
 A read⎵wide⎵/write database operation is a read⎵wide⎵/write dataset operation performed on a database
-A read⎵wide⎵ dataset operation is sometimes divided into browse and read⎵narrow⎵ dataset operations.
-A write dataset operation may be a create, update or delete dataset operation.
-A create/update/delete dataset operation creates/updates/deletes one or more data/dataset things.
+A read⎵wide⎵ database operation is sometimes divided into browse and read⎵narrow⎵ database operations.
+A write database operation may be a create, update or delete database operation.
+A create/update/delete database operation creates/updates/deletes one or more data/database things.
 
-#### database transaction
 
-##### basics
+### database transaction
+
+#### basics
 
 A database transaction is a unit of work done against a database, and consists of n database language statements.
 
-##### ACID
+#### ACID
 
-###### basics
+##### basics
 
 ACID is a set of properties that a database transaction should ideally have to guarantee data validity.
 ACID consists of atomicity, consistency, isolation, durability
 
-###### in detail
+##### in detail
 
 Atomicity is that a database transaction will either succeed completely or fail completely.
 Consistency is that a database transaction will only result in valid database states (constraints etc.)
