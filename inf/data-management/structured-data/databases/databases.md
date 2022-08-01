@@ -44,8 +44,17 @@ A database transaction is a unit of work done against a database, and consists o
 
 ##### ACID
 
+###### basics
+
 ACID is a set of properties that a database transaction should ideally have to guarantee data validity.
 ACID consists of atomicity, consistency, isolation, durability
+
+###### in detail
+
+Atomicity is that a database transaction will either succeed completely or fail completely.
+Consistency is that a database transaction will only result in valid database states (constraints etc.)
+Isolation is that concurrent database transactions will leave the database in the same state as sequential database transactions would have.
+Durability is that a completed database transaction will remain even after a system failure.
 
 
 A database type is a database implementing a data model of a certain data model type.
