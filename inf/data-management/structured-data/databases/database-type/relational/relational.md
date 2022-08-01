@@ -1,14 +1,8 @@
 # relational data model itself
 
-https://upload.wikimedia.org/wikipedia/commons/7/7c/Relational_database_terms.svg
 
-in a relational data model, a tuple is an ordered set (lol) of attribute values
-in a relational data model, a relation is made up of a heading and body.
-in a relational data model, a heading is a set of attributes.
-The number of attributes constituting a heading is called the degree, which term also applies to tuples and relations. 
-in a relational data model, a body is a set of n-tuples of the length of the degree of the heading.
-The heading of the relation is also the heading of each of its tuples.
-in a relational data model, an attribute is an ordered pair of attribute name and type.
+
+
 relation|table
 tuple making up the body|collection of rows
 n-tuple|row

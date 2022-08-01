@@ -25,15 +25,31 @@ A database language may be a data control, definition, manipulation or query lan
 
 table:database language|does
 data control language|authorization control
-data definition language|
-data manipulation language|write data
-data query language|fetch data
+data definition language|interact with schemas
+data manipulation language|write database operation
+data query language|read⎵wide⎵ database operation
 
 ## operations
 
+A read⎵wide⎵/write database operation is a read⎵wide⎵/write dataset operation performed on a database
 A read⎵wide⎵ dataset operation is sometimes divided into browse and read⎵narrow⎵ dataset operations.
 A write dataset operation may be a create, update or delete dataset operation.
 A create/update/delete dataset operation creates/updates/deletes one or more data/dataset things.
 
+#### database transaction
+
+##### basics
+
+A database transaction is a unit of work done against a database, and consists of n database language statements.
+
+##### ACID
+
+ACID is a set of properties that a database transaction should ideally have to guarantee data validity.
+ACID consists of atomicity, consistency, isolation, durability
+
 
 A database type is a database implementing a data model of a certain data model type.
+
+
+
+A database schema is a schema for a database.
