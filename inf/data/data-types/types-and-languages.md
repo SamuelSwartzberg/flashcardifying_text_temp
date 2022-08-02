@@ -1,0 +1,78 @@
+# types and languages
+
+type system = ?
+A type identifier is an identifier for a certain data type.
+
+## typed and untyped
+
+### basics
+
+A typed/untyped language is a language where at least one of/none of variables and values have type.
+
+### languages
+
+All languages I know are typed except for sh, which is untyped, however bash is at least partially typed.
+
+## type checking
+
+### basics
+
+Type checking is the enforcement of the constraints of types.
+A type checker is something that does type-checking
+Static/dynamic type checking is type checking pre or at compile time/at runtime.
+
+### static
+
+#### when?
+
+pre-compile/compile time type checking is static type checking that happens before/at compile time.
+
+#### how?
+
+Type narrowing is static type checking which changes the type of a variable to a subtype of that type based on which types could exist in that context.
+A type guard is any check that does type narrowing.
+
+## what typed when how?
+
+### basics
+
+#### type checking when
+
+Dynamic/static typing is when a language uses dynamic/static type checking.
+
+#### what is typed?
+
+Value/variable-typing is when values/values and variables have type.
+
+#### type annotation
+
+A type annotation/hint is syntax indicating and requiring/but not requiring a type.
+A value・variable type annotation/hint is a type annotation/hint for a value・variable.
+A mandatory・optional type annotation/hint is a type annotation/hint that is mandatory・optional.
+^polysemy exists for some of these terms, e.g. Python uses type hint for type annotations
+
+### derived
+
+Hybrid &lt;whatever&gt; typing features &lt;whatever1&gt; typing in some cases and &lt;whatever2&gt; typing in other cases.
+Mainly &lt;whatever1&gt; typing features mainly &lt;whatever1&gt; typing but also some &lt;whatever2&gt; typing.
+
+### relationships
+
+explicit/implicit typing is variable-typing where variable type annotations are specified/not specified.
+manifest/latent typing =syndef= explicit/implicit typing
+Type inference is implicit typing especially in languages that generally use explict typing.
+
+
+### languages
+
+table:typing|languages
+Dynamic, value, no type annotations or hints|JavaScript, Lua, Ruby
+Mainly dynamic, mainly value, 
+Static typing|statically typed C-family language (this should be defined elsewhere, but of the ones I know, Java, C# and Rust), TS
+Hybrid typing|Perl (with regards to the scalar, array, hash distinction)
+
+
+
+The more statically and explicitly typed a language is, the more cumbersome but the more error-proof and debuggable the language is.
+declared/automatic type inference is type inference via a keyword/automatically.
+

@@ -164,9 +164,6 @@ In Perl there is a special variable $_. There are many places in programming lan
 
 # (data) types
 
-An abstract data type is defined in terms of its behavior or more specifically its semantics, instead of in terms of its syntax.
-If an abstract data type is a description of what something does, a data structure is how something does it.
-
 A null pointer/reference/type/value indicates that we're not referring to a valid thing
 Datatypes implemented in a programming language can either be scalar or compound/composite
 Bash is fun in that it does not have data types at all, in truth all values are strings
@@ -175,8 +172,6 @@ To clamp a value is to specify an upper and a lower bound, and keep the number w
 
 ## primitives and composites
 
-Primitive may refer to a data type that is provided in a programming language as a basic building block.
-Composite data types are built from primitive data types. 
 Primitive may also refer to a type that has built-in language support.
 
 #### primitive types in different languages
@@ -196,35 +191,15 @@ Python: integers, floats, complex numbers
 A (data) type consists of a set of values that something with that type can assume.
 In implementation, each value of a type has a unique (within the type) binary representation.
 Typing can also be understood as how to interpret a series of bits.
-A datatype T1 whose set of values is a subset of a datatype T2 is a subtype of T2.
-A datatype T1 whose set of values is a superset of a datatype T2 is a supertype of T2.
-A language may also be untyped: neither variables nor values have type.
-An example of an untyped language is bourne shell, which is completely untyped.
-Bash supports a very mediocre type of typing via builtins such as declare.
 
 ### dynamic vs static typing
 
-Dynamic typigng: type checking at runtime ≈ values have type
-Static typing: type checking at compile time ≈ variables have type
-
-Dynamically typed languages I know: JavaScript, Lua, Python, Ruby
-Statically typed languages I know: C#, Java, Perl (with regards to the scalar, array, hash distinction), Rust, TS
-TS makes the normally dynamically typed JS statically typed
-
 ### type inference/manifest
 
-Explicit/manifest typing is a feature of a type system where the type has to be explicitly declared.
-Implicit/latent typing is a feature of a type system where the type is not explicitly declared.
-Implicit/latent typing  ↔ Explicit/manifest typing 
-Type inference is a rough synonym for implict/latent typing, but is often used in contexts where the language is otherwise generally explicitly/manifestly typed.
-Only statically typed languages can usefully be explicitly/manifestly typed
 Type inference in C#: var 
 in TS and Rust, often type inference is possible automatically 
 Type inference in TS/Rust is more likely to work for anonymous functions
 In languages with manifest typing, variable declarations require typea annotation.
-
-On the negative side, manifestly and statically typed languages can be more effort to write. 
-On the positive side, manifestly and statically typed languages 1) dramatically lower the chance of bugs, especially type errors (logic type), 2) provide better linting 3) provide better IDE code completion and similar.
 
 (literal) type widening is the fact that TS will infer a primitive type and not a literal type for literal values.
 
@@ -256,7 +231,7 @@ In effect, using a type predicate acts as a custom type guard.
 
 Specifying the type of a thing (esp. a variable/constant) by writing the type into the code is known as type annotation.
 Languages with manifest typing generally require type annotation for variable/constant declarations, parameters as well as return types.
-In most (esp. C-family) languages, type annotation goes before the variable/constant.
+In most (esp. C-family) languages, type annotation goes before the identifier.
 In Python, Rust and TS, type annotation looks like so `: type`
 Python supports type annotation since Python 3.5
 
