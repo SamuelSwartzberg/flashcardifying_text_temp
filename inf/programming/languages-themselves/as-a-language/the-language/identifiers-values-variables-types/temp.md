@@ -172,25 +172,11 @@ To clamp a value is to specify an upper and a lower bound, and keep the number w
 
 ## primitives and composites
 
-Primitive may also refer to a type that has built-in language support.
 
-#### primitive types in different languages
-
-C#: int, float, bool, string, char, double
-Java: byte, short, int, long, float, double, char, String, boolean
-JS: Number, boolean, null, undefined, string, object, array
-Rust: 
-  scalar: integer, floating-point numbers, booleans, chars
-  nonscalar: tuple, array
-Python: integers, floats, complex numbers
 
 
 
 ## type Systems
-
-A (data) type consists of a set of values that something with that type can assume.
-In implementation, each value of a type has a unique (within the type) binary representation.
-Typing can also be understood as how to interpret a series of bits.
 
 ### dynamic vs static typing
 
@@ -220,8 +206,6 @@ Specifically, const assertions make three things happen:
 Type narrowing is a form of implicity type change where the type of a thing is made more precise based on which types could possibly exist in that context.
 In TS, pretty much anything that could be reasonably assumed to narrow does.
 Assigning to a variable with something of a more loose type undoes the narrowing performed that is narrower than that loose type.
-Narrowing can produce the never type if the thing was narrowed to impossibility
-A type guard is any check that narrows the type of a thing.
 In TS, type guards for basic types uses typeof.
 in TS, a type predicate is a function that returns a boolean value. The boolean value determines if the thing is the specified type.
 A type predicate is specified by adding ` is ‹type›` to the end of the return type.
@@ -277,13 +261,11 @@ Double-precision floating-point numbers|double|C#, Java
 
 #### conversion
 
-Type conversion is explicitly using a function or the like to change the datatype of something.
 All pythons types, called as a function, convert to that type (e.g. list(), bool(), int())
 Ruby has a set of methods that have the syntax foo.to_‹char› that convert to that type (e.g. to_i, to_f, to_s, to_sym)
 
 #### coercion
 
-Type coercion is implicitly forcing a value to be treated as of a different datatype.
 JS will coerce extensively in the case of operations w/ mismatched types.
 Concatenation of non-string w/ string|coerces non-string to string
 use of booleans w/ math operators|coerce to 0/1
@@ -291,14 +273,10 @@ In contrast, pythons operators rarely coerce.
 
 #### casting
 
-Type casting is asking the programming language implementation to treat a value as a certain datatype temporarily.
-Casting will go wrong if the vlaue cannot be treated as teh casted type.
-
 !!type value|YAML
 (type) value|C#|Java
 
-Type assertions in TS are the equivalent of type casting in other languages.
-In TS, if ⟮you know something about a type that TS doesn't⟯, you can use ⟮type assertions⟯
+TS type assertions are type annotations for type casting.
 TS type assertion syntax: prepending ⟮‹some_type›⟯ or appending ⟮as some_type⟯
 
 
@@ -309,145 +287,10 @@ typical features of entities that are first-class in a certain language are e.g.
 An entity that is first-class is called a first-class citizen.
 Lua: all values
 
-## bottom type
-
-A bottom type is the subtype of every other type.
-A variable with bottom type can take no value. (there is no value that can be assigned to a variable with the bottom type.)
-A thing with bottom type can be assigned to anything at all.
-
-A bottom type is used to indicate noncomputability.
-
-no bottom type|most languages
-! (called the never type)|Rust
-never|TS
-
-## unit type
-
-A unit type is a type that only allows a single value.
-A variable with unit type only ever takes things of the unit type or the bottom type.
-A thing with unit type is only assignable to other things with unit type or the top type.
-
-()|Rust
-
-Rust's () for the unit type is abstracted from the idea of a tuple with no elements.
-In Rust, things without a return value implicitly return ()
-In rust, a struct without fields is also an unit type, called the unit-like strct.
-
-in TS, there are three unit-like types: `null`, `undefined` and `void`
-in TS, `null` is the only proper unit type: only things of type `null` plus `never` and `any` (of course) are assignable assignable to `null`, and `null` can only be assinged to `null` plus `unknown` and `any`.
-in TS, `undefined` is only unit-like, since besides the proper relationships one may also assing things of type `undefined` to variables of type `void`.
-in TS `void` is only unit-like, since besides the proper relationships things of type `undefined` are assignable to variables of type `void`.
-in TS, if `strictNullChecks` is enabled (which is not the default behavior, but my default assumption otherwise the type system becomes a mess) `null`, `undefined` and `void` act like unit types, such that nullable types need to be literally declared as option types.
-in TS, if `strictNullChecks` are disabled, all types are nullable.
-
-### literal types
-
-A literal type is unit type whose value is specified via the literal of another type (e.g. 4 or true or "ara ara")
-in TS, the types of constants are a literal type of thier value.
-
-## combination of other types
-
-### intersection types
-
-An intersection type specifies a type which must satisfy all constraints that individual types satisfy.
-While it would be technically possible to create intersection types of primitive types, it is pointless: There is no value that could possibly satisfy the constraints e.g. 'is a string' and 'is a number' at the same time, since they are disjoint.
-intersection-type ::= ‹type› ＆ ‹type›
-
-### union type
-
-#### definition
-
-A union type specifies a number of types that anything with the union type as type may take.
-A union type can hold a value that could take on several different but fixed types.
-A union type can be thought of as a type that has several "cases", each of which should be handled correctly when that type is manipulated.
-In type theory, a union type is a sum type.
-
-#### use
-
-with ⟮union⟯ types, you can only use things that ⟮all of the relevent types can do⟯, unless you ⟮narrow them down⟯
-
-#### in various languages
-
-Common syntax: type1 | type2 ...
-Syntax for creating arbitrary union types exist in Python, TS and graphQL
-
-#### tagged unions
-
-A tagged union type is a union type where each of the types has a tag, which is used to determine which type is currently in used.
-What rust calls enums is more properly a tagged union.
-in TS, a thing similar to tagged unions is called a discriminated union.
-in TS, discriminated unions are implemented by a union type of other types with a shared field.
-In a discriminated union, TS can narrow based on checking a shared field.
-
-##### rust
-
-in rust, tagged unions implements the tag by means of the name of the enum.
-in rust, tagged union variants may be tuples, structs, or unit-like
-
-###### strum
-
-strum|enum ‹-› string manipulation
-
-to make enums ready for use with strum, one needs to derive the relevant trait onto it, and also use attributes on the enum or the variants.
-Strum attributes use strum()
-
-Enum → str|derive strum_macros::ToString
-Enum → str message|derive strum::EnumMessage|Enum.get_message() ＆ Enum.get_detailed_message() (return options)
-str → Enum|derive strum::EnumString|Enum::from_str()
-
-##### types with two possible states
-
-###### option type
-
-An option type is a type that represents an optional value.
-An option type can generally take on a state representing it is empty, or a state representing it is full, and wrapping around another value.
 In rust, the option type is its alternative for null, which it does not have.
-In rust, the option type is implemented as an enum.
-In rust, the option type is 
-pub enum Option‹T› {
-  None,
-  Some(T),
-}
-
 In general, either option types or nullable types will be used to represent the absence of a value in a given language, but no both.
 
-###### result type 
 
-A result type is a type which can be either of two variants/states, a success type holding the result, or an error type holding the error message.
-in rust, the result type is `Result`, looking like enum Result‹T, E› { Ok(T), Err(E)}
-
-###### commonalities
-
-####### logic with methods
-
-|if None|if Some
-‹OptionOrResult›.and(‹AnotherOptionOrResult›)|None/Err|‹AnotherOptionOrResult›
-‹OptionOrResult›.and_then(‹callback›)|None/Err|‹callback›(‹OptionOrResult›)
-‹OptionOrResult›.or(‹AnotherOptionOrResult›)|‹AnotherOptionOrResult›|None/Err
-‹OptionOrResult›.or_else(‹callback›)|‹callback›|None/Err
-‹OptionOrResult›.map(‹callback›)|None|call callback with contained value and return option with returned value
-‹OptionOrResult›.map_or(‹default›, ‹callback›)|‹default›|call callback with contained value and return option with returned value
-
-####### cloning and copying
-
-the cloned/copied methods of Options/Results takes an Option‹＆T› or ‹＆mut T› or a Result‹＆T, E› or ‹＆mut T, E› and returns an Option‹T› or Result‹T, E› by cloning/copying
-
-####### conversion
-
-Result‹T, E›.ok() → Option‹T›
-
-####### ? operator
-
-In rust, the ? operator takes a `Result` or `Option`
-In rust, the ? makes a `Result` evaluate to the value inside the `Ok` if `Ok` or exit out of the nearest function, returning an `Err`.
-In rust, the ? makes a `Option` evaluate to the value inside the `Some` if `Some` or exit out of the nearest function, returning a `None`.
-The ? is implemented via the trait std::ops::Try
-
-####### unwrap ＆ expect
-
-unwrap and expect can be called on options and results.
-unwrap and expect are similar that they return the value if the type is Ok/Some, and panic otherwise.
-the difference between unwrap and expect is that expect allows us to choose our error message.
 
 #### nullable types
 
