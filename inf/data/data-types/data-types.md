@@ -15,3 +15,4 @@ An primitive/composite abstract・concrete data type⎵compositionality⎵ is a 
 ## subsets
 
 A supertype/subtype is a data type whose possible values are a superset/subset of those of another data type.
+The top/bottom type is the supertype/subtype of all other types, accepting all/no values.

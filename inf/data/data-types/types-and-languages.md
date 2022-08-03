@@ -19,7 +19,11 @@ All languages I know are typed except for sh, which is untyped, however bash is 
 
 Type checking is the enforcement of the constraints of types.
 A type checker is something that does type-checking
-Static/dynamic type checking is type checking pre or at compile time/at runtime.
+Static/dynamic/hybrid type checking is type checking pre or at compile time/at runtime/both.
+
+### any
+
+A primitive type check is a type check that tests for correspondence with a primitive⎵built-in⎵ type.
 
 ### static
 
@@ -29,8 +33,18 @@ pre-compile/compile time type checking is static type checking that happens befo
 
 #### how?
 
+##### type narroing
+
 Type narrowing is static type checking which changes the type of a variable to a subtype of that type based on which types could exist in that context.
-A type guard is any check that does type narrowing.
+A type guard is any type check that does type narrowing.
+Bottom type narrowing (my term) is type narrowing to produce the bottom type, which happens if type checks require an impossible combination of types. 
+
+### hybrid
+
+#### type predicates
+
+
+
 
 ## what typed when how?
 
@@ -60,7 +74,7 @@ Mainly &lt;whatever1&gt; typing features mainly &lt;whatever1&gt; typing but als
 
 explicit/implicit typing is variable-typing where variable type annotations are specified/not specified.
 manifest/latent typing =syndef= explicit/implicit typing
-Type inference is implicit typing especially in languages that generally use explict typing.
+Type inference⎵wide/narrow⎵ is implicit typing ø/in languages that generally use explict typing.
 
 
 ### languages
@@ -76,3 +90,4 @@ Hybrid typing|Perl (with regards to the scalar, array, hash distinction)
 The more statically and explicitly typed a language is, the more cumbersome but the more error-proof and debuggable the language is.
 declared/automatic type inference is type inference via a keyword/automatically.
 
+## primitive vs ??? (built-in language support)
